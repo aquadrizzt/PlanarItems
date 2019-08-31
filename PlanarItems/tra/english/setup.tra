@@ -1,0 +1,3119 @@
+@0= ~Existing Items~ 
+
+@1000 = ~Ascension~ 
+@1001 = ~ASCENSION
+Damage: 2-9 Slashing
+Enchanted: +1
+Special:
+  +1 to Charisma
+  Immunity to normal weapons
+THAC0: +1
+Speed: 8
+Weight: 4
+Proficiency: Axes
+Usable only by Fighters
+Usable only by Godsmen
+
+"Ascension" is one of the finest weapons created at the Great Foundry, the home of the Believers of the Source. It is one of three weapons called the "Triad of Tests," including the hammer "Reason" and the dagger "Enlightenment." The symbol of the faction is engraved on the axe head, and the edges of the blades are so sharp they could split a hair lengthwise. You are the first to bear this weapon.~
+
+@1002 = ~Motley Axe~ 
+@1003 = ~Axe of the Jester~ 
+@1004 = ~MOTLEY AXE
+Damage: 3-10 Slashing
+Speed: 8
+Weight: 2
+Proficiency: Axes
+Usable only by Fighters
+
+This odd axe is so garishly painted and unwieldy that it couldn't possibly be used in combat. The blades of the axe seemed to have been purposely filed down and made blunt possibly to keep the wielder from hurting himself and those around him. More than likely this axe was created for ceremony or better yet as an accouterment for some fools costume.~
+
+@1005 = ~AXE OF THE JESTER
+Damage: 3-10 Slashing
+Enchanted: +2
+Special:
+  +1d4 Damage of Two Random Elements
+THAC0: +2
+Speed: 8
+Weight: 4
+Proficiency: Axes
+Usable only by Fighters
+
+The person who created this axe must have been mad or a genius. Only the most skilled of smiths could have forged a weapon using Chaos Matter, the most unstable and unpredictable element in all the planes.
+
+Stories of this particular axe have been told and retold across the planes. Heroic deeds of men defeating creatures of immense power simply by touching the axe to the creature... and of these same men dying horrible deaths while doing simple everyday tasks.
+
+Zaknar the Simple - Defeated a devourer with a single swipe of this axe. Crushed to death by a falling boulder in the vast plains of Tabor.
+
+Garkon the Righteous - Struck by a mysterious discharge of energy while fighting a cranium rat.
+
+Kannas - Tradesman by profession. Buried alive as the stone wall the axe was mounted on collapsed on him.
+
+Kvry Matterson - A child of only nine seasons, was not only able to ward off a group of marauding fire bats, he even managed to kill 2 of them!
+
+The list of tragedies and deeds goes on and on.~
+
+@1006 = ~Polished Battle Axe~ 
+@1007 = ~Blindsider~
+@1008 = ~POLISHED BATTLE AXE
+Damage: 2-9 Slashing
+Speed: 8
+Weight: 4
+Proficiency: Axes
+Usable only by Fighters
+
+The blade of this axe has been remarkably polished so that its surface is as reflective as a mirror. The weight of the axe is unusually light, almost as if it were intended more for ornamentation than actual combat.~
+@1009 = ~BLINDSIDER
+Damage: 2-9 Slashing
+Enchanted: +1
+Special:
+   20% Chance to Blind (12 seconds)
+   Immunity to Blindness
+THAC0: +1
+Speed: 8
+Weight: 4
+Proficiency: Axes
+Usable only by Fighters
+
+This magnificent axe, known as "Blindsider," is truly one of a kind. It is rumored that it was the creation of one Akyzum Yar, chief metallurgist of an ancient empire on the Prime Material Plane. The Emperor whom Yar served, a vain and wicked man, commissioned the creation of "a weapon of unsurpassed beauty." After years of toiling, Yar succeeded and presented the Emperor with "Blindsider," whereupon he was promptly put to death so that his work could never be reproduced. 
+
+The various ores and enchantments employed in the forging of this weapon yielded a new type of metal that is lightweight, durable, and highly reflective. The axe earned its name from its tendency to reflect light into the eyes of its opponent, temporarily blinding the target so that its wielder can easily cut him down. Additionally, its wielder is granted immunity to blinding attacks as a magical byproduct of its reflective nature.~
+
+@1010 = ~Meat Cleaver~ 
+@1011 = ~Butcherer of Innocents~ 
+@1012 = ~MEAT CLEAVER
+Damage: 3-10 Slashing
+Speed: 8
+Weight: 4
+Proficiency: Axes
+Usable only by Evil Fighters
+
+This massive meat cleaver appears to have seen more than its share of butchery. Its wide, flat blade has more notches than most battleaxes you've seen and there are traces of blood permanently stained into its wooden handle.~
+@1013 = ~BUTCHERER OF INNOCENTS
+Damage: 3-10 Slashing
+Enchanted: +2
+Special:
+   Transfers 1d4 Hit Points from Target to Wielder
+   On Kill, +1 to THAC0 and Damage (30 seconds)
+THAC0: +2
+Speed: 8
+Weight: 4
+Proficiency: Axes
+Usable only by Evil Fighters
+
+This giant, axe-like cleaver earned its nickname while in the hands of Oswell Breck, a butcher who once serviced the Clerk's Ward of Sigil. The chant is that one day this affable and well-respected citizen suddenly went on a murderous and bloody rampage that lasted ten days and ten nights. Cleaver in hand, Oswell stalked the streets of the ward, brutally hacking down every man, woman, and child unlucky enough to cross his path until the Lady herself intervened. It is rumored that he suffered from a strange disease that slowly caused his body to waste away, and it was this disease that eroded his sanity and prompted the murder spree.
+
+The origin of this instrument of carnage is shrouded in mystery. However, the various wizards and scholars who examined the discarded weapon after Oswell's mazing have catalogued the nature of its enchantment. The cleaver seems to feed upon its victims, sucking the very life force from them and bestowing a portion of it upon its wielder.~
+
+@1014 = ~Edgeless Axe~ 
+@1015 = ~Edge of Oblivion~ 
+@1016 = ~EDGELESS AXE
+Damage: None(??)
+Speed: 8
+Weight: 10
+Proficiency: Axes
+Usable only by Fighters
+
+The edge of this axe is night-black, and it reflects none of the light around it. There is something very off-putting about the axe, and you feel uncomfortable if you look at the edge too long.~
+@1017 = ~EDGE OF OBLIVION
+Damage: 4-32 Magic 
+Enchanted: +3
+Special:
+   Ignores Damage Resistance
+   No Strength Bonus to Damage
+THAC0: +3
+Speed: 8
+Weight: 10
+Proficiency: Axes
+Usable only by Fighters
+
+When its powers are awakened and its name known, "Edge of Oblivion" becomes entirely black... where once just the edges were ebony, now the blackness has spread across the entire blade. The unease the blade radiates has increased ten-fold, so much so that it is uncomfortable to hold it for too long.
+
+"Edge of Oblivion" does disintegration damage every time it strikes an opponent... for every wound it causes, it also disintegrates the flesh around the target area, simultaneously cauterizing the wound as it strikes. 
+
+There is some speculation that a Sphere of Annihilation has somehow been encaged within the axe itself, but again this is only speculation. Given that the planes are infinite, anything is possible.~
+
+@1018 = ~Bizarre Blood-red Axe~ 
+@1019 = ~Hatred's Gift~ 
+@1020 = ~BIZARRE BLOOD-RED AXE
+Damage: 3-10 Slashing
+Speed: 8
+Weight: 7
+Proficiency: Axes
+Usable only by Fighters
+Not usable by Lawful characters
+
+This huge axe makes you uncomfortable. Bones have been embedded into its surface, and a light sheen of red, possibly blood seem to have mortared the skulls into the shaft of the axe. The blade itself looks to be a mish mash of sharpened teeth pried from the jaws of some huge creature. ~
+
+@1021 = ~HATRED'S GIFT
+*CURSED* 
+Damage: 3-10 Slashing
+Enchanted: +2 
+Special:
+   Berserk in Combat
+   +1 Attack per Round
+   +2d3 Crushing Damage
+THAC0: +2
+Speed: 8
+Weight: 7
+Proficiency: Axes
+Usable only by Fighters
+Not usable by Lawful characters
+
+It is not exactly clear in the annals of known planar history when "Hatred's Gift" was created, but by the bloody trail it has left across the planes seems to have finally reached you. 
+
+The axe exists to inspire hatred in one's enemies and fill its wielder with a berserker rage. When entering combat, the skulls along the shaft come alive, chittering their teeth, and the teeth (remnants of fiendish victims absorbed into the axe blade) extend outwards, biting and tearing into opponents with each strike. 
+
+Once equipped, "Hatred's Gift" cannot be dropped unless its curse is removed.~
+
+@1022 = ~Weak Battle Axe~ 
+@1023 = ~Heartgrinder~ 
+@1024 = ~WEAK BATTLE AXE 
+Damage: 2-9 Slashing
+Speed: 8
+Weight: 4
+Proficiency: Axes
+Usable only by Fighters
+
+The edge of this axe is dull, and it looks as if it hasn't been sharpened in years. A light layer of rust has formed where the blade meets the axe handle.~
+
+@1025 = ~HEARTGRINDER
+Damage: 2-9 Slashing
+Enchanted: +3 
+Special:
+   +1 Constitution 
+   +2 THAC0 against Living Creatures
+   +8 Damage against Living Creatures
+THAC0: +1
+Speed: 8
+Weight: 4
+Proficiency: Axes
+Usable only by Fighters
+
+
+A single teardrop of the wielder's blood, applied at the border where the axe meets the handle, is sufficient to awaken "Heartgrinder." Once applied, the drop of blood freckles across the blade and handle, giving it a dull red radiance. The glow from Heartgrinder pulses, matching the heartbeat of its wielder.
+
+No matter what the target, Heartgrinder is a powerful weapon, capable of tearing through nearly any defenses. Against targets with blood running in their veins (whether their own or another's - vampires beware), Heartgrinder inflicts additional damage, as every stroke also smashes the target's heart, no matter what location the axe struck.~
+
+@1100 = ~Pricky Club~
+@1101 = ~Club of Nettles~ 
+@1102 = ~PRICKY CLUB 
+
+Damage: 2-7 Crushing
+Speed: 4
+Weight: 3
+Proficiency: Clubs
+Not usable by Mages
+
+This club seems to be made from sort of prickly plant. Small thorns adorn the head of the club and can easily be broken off.~ 
+
+@1103 = ~CLUB OF NETTLES
+Damage: 2-7 Slashing
+Enchanted: +1
+Special:
+   Confusion (12 seconds; save vs. death negates)
+THAC0: +1
+Speed: 4
+Weight: 4
+Proficiency: Clubs
+Not usable by Mages
+
+This club seems to be made from some sort of prickly plant. Small thorns adorn the head of the club and can easily be broken off.
+
+This particular club is one of the more favored weapons of thieves. Upon making a successful hit on an opponent, tiny barbed thorns lodge into the skin and cause the victim to become disoriented for a brief period of time. This allows the thief time to safely rob and escape the victim.~
+
+@1104 = ~Spiked Club~
+@1105 = ~Club of Piercing~ 
+@1106 = ~SPIKED CLUB
+Damage: 2-7 Crushing
+Speed: 4
+Weight: 12
+Proficiency: Clubs
+Not usable by Mages
+
+This is a heavy wooden club that is covered with sharp spikes.~
+
+@1107 = ~Club of Piercing
+Damage: 2-7 Crushing
+Enchanted: +1
+Special:
+   +1d6 Piercing Damage
+THAC0: +1
+Speed: 4
+Weight: 4
+Proficiency: Clubs
+Not usable by Mages
+
+This is a heavy wooden club that is covered with enchanted spikes.~ 
+
+@1108 = ~Bone Club~ 
+@1109 = ~Fiend Femur~ 
+@1110 = ~BONE CLUB
+Damage: 2-7 Crushing
+Speed: 4
+Weight: 4
+Proficiency: Clubs
+Not usable by Mages
+
+This strange leg bone looks faintly metallic. There is the slight smell of sulfur and acid about it, but it radiates a slight chill.~
+
+@1111 = ~FIEND FEMUR 
+Damage: 2-7 Crushing
+Enchanted: +3
+Special:
+   +2 THAC0 against Fiends
+   +8 Damage against Fiends
+THAC0: +1
+Speed: 4
+Weight: 4
+Proficiency: Clubs
+Not usable by Mages
+
+This tanar'ri femur carries the last traces of a balor's essence within its marrow. Disgraced in battle and torn apart by its fellow fiends in a ceremonial execution, the bone has since carried with it a vengeful spite towards all of its kind. 
+
+When the femur strikes any tanar'ri or baatezu, serrated teeth bristle up and down the length of the bone and cause tremendous damage to any tanar'ri or baatezu.~
+
+@1112 = ~Crutch~
+@1113 = ~Pharod's Crutch~ 
+@1114 = ~CRUTCH 
+Damage: 3-8 Crushing
+Speed: 4
+Weight: 4
+Proficiency: Clubs
+Not usable by Mages
+
+This rickety wooden staff has a crosspiece nailed across the top. The crosspiece is wrapped in rags, presumably to keep the damn thing from jamming too sharply into the user's armpit when they lean on it. The crutch, not surprisingly, smells terrible, and every inch of it is covered in dirt, sewage, and various unidentifiable stains.~
+
+@1115 = ~PHAROD'S CRUTCH 
+Damage: 3-8 Crushing
+Enchanted: +2
+Special:
+   Immunity to disease and poison
+THAC0: +2
+Speed: 4
+Weight: 4
+Proficiency: Clubs
+Not usable by Mages
+
+This rickety wooden staff has a crosspiece nailed across the top. The crosspiece is wrapped in rags, presumably to keep the damn thing from jamming too sharply into Pharod's armpit when he leans on it. The crutch, not surprisingly, smells terrible, and every inch of it is covered in dirt, sewage and various unidentifiable stains. 
+
+Something about this crutch makes you wonder - despite its fragile appearance, it has held up rather well; you even test it with your weight and it holds you up without so much as creaking. Considering Pharod's scavenging nature, the crutch may have had some value beyond its surface appearance for him. It might even be usable as a weapon.~ 
+
+@1116 = ~Severed Arm~
+@1117 = ~Severed Arm (Yours)~ 
+@1118 = ~SEVERED ARM 
+Damage: 2-7 Crushing
+Speed: 4
+Weight: 5
+Proficiency: Clubs
+Not usable by Mages
+
+This severed arm is as hard as a wooden club. It looks like it was severed cleanly at the shoulder (most likely by a scythe blade), and even though it looks many decades old, it is more petrified than rotted. It has an unhealthy gray pallor and is covered with scars. Intricate tattoos decorate its surface, spiraling up from the wrist all the way to the remains of the shoulder. ~ 
+
+@1119 = ~SEVERED ARM (YOURS) 
+Damage: 2-7 Crushing
+Enchanted: +1
+Special:
+   New Tattoos 
+THAC0: +1
+Speed: 4
+Weight: 5
+Proficiency: Clubs
+Not usable by Mages
+
+This severed arm is as hard as a wooden club. It looks like it was severed cleanly at the shoulder (most likely by a scythe blade), and even though it looks many decades old, it is more petrified than rotted. It has an unhealthy gray pallor and is covered with scars. Intricate tattoos decorate its surface, spiraling up from the wrist all the way to the remains of the shoulder. 
+
+Upon closer inspection, you know for a fact that this arm is yours. How long it has been lying around waiting for you is anyone's guess. You can't explain why, but you feel like you should take this arm to a tattoo artist and have it examined... the tattoos might tell something of what happened to your previous incarnation when this arm was still attached to him.~ 
+
+@1120 = ~Weird Club~ 
+@1121 = ~Vrock Club~
+@1122 = ~WEIRD CLUB 
+Damage: 4-9 Crushing
+Speed: 4
+Weight: 4
+Proficiency: Clubs
+Not usable by Mages
+
+A crude club fashioned from the spine and head of a large bird.~
+@1123 = ~VROCK CLUB 
+Damage: 4-9 Crushing
+Enchanted: +3
+Special:
+   Poisons (1 damage every 2 seconds; 30 seconds; save vs. death negates)
+THAC0: +3
+Speed: 4
+Weight: 4
+Proficiency: Clubs
+Not usable by Mages
+
+Created from the bones of a Vrock, this club makes a formidable weapon. The toxic spores of the vrock deal substantial poison damage to any target unlucky enough to be struck by this foul weapon.~ 
+
+@1200 = ~Strange Dagger~ 
+@1201 = ~Adahn's Dagger~ 
+@1202 = ~STRANGE DAGGER 
+Damage: 2-5 Slashing/Piercing
+Speed: 1
+Weight: 0
+Proficiency: Edged
+Not usable by Priests
+
+This is a featureless metal dagger with a solid silver hilt. It is difficult to get a feel for its balance, as it is almost weightless. The dagger blade itself is made of some strange metal that shifts as you watch it, changing from silver, to bronze, to gold.~
+
+@1203 = ~ADAHN'S DAGGER 
+Damage: 2-5 Slashing/Piercing
+Enchanted: +1 
+Special:
+   +2 Damage against non-Chaotic Creatures
+   +4 Damage against Lawful Creatures
+THAC0: +1
+Speed: 1
+Weight: 0
+Proficiency: Edged
+Not usable by Priests
+
+This is a gift you received from Adahn when you bid him farewell in the Smoldering Corpse Bar. It's a featureless metal dagger with a gold plated hilt. It is difficult to get a feel for its balance, as it is almost weightless. The dagger blade itself is made of some strange metal that shifts as you watch it, changing from silver, to bronze, to gold.~
+
+@1204 = ~Sharp Dagger~
+@1205 = ~Backbiter~
+@1206 = ~SHARP DAGGER 
+Damage: 2-5 Slashing/Piercing
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Usable only by Thieves
+
+This slender dagger is short and lightweight, making it perfect for concealment in either the sleeve or boot.
+~
+
+@1207 = ~BACKBITER 
+Damage: 2-5 Slashing/Piercing
+Enchanted: +1 
+Special:
+   +1x Backstab Multiplier
+   +20% Stealth
+THAC0: +1
+Speed: 1
+Weight: 0
+Proficiency: Edged
+Usable only by Thieves
+
+Crafted specifically with the adept cross-trader in mind, this magical blade masks the approach of the wielder by muffling any sounds he or she might make in passing, thus improving his or her chances of approaching a target by stealth before executing a deadly backstab.~
+
+@1208 = ~Enlightenment~ 
+@1209 = ~ENLIGHTENMENT 
+Damage: 2-5 Slashing/Piercing
+Enchanted: +1 
+Special:
+   +1 Wisdom
+   +10% Experience Gained
+THAC0: +1
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Usable only by Godsmen
+Not usable by Priests
+
+The second weapon of the Godsmen's "Triad of Tests" - "Ascension" and "Reason" are the other two weapons in the triad - this dagger is slim, perfectly balanced, and light as a feather. The symbol of the Godsmen is engraved along the blade, and the entire weapon seems to shiver as if in anticipation. You are the first to bear this weapon.~
+
+@1210 = ~Curved Knife~
+@1211 = ~Kaarlac's Knife~
+@1212 = ~CURVED KNIFE 
+Damage: 3-6 Slashing/Piercing
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Usable only by Mages
+
+This knife is of outstanding quality and craftsmanship. It is well balanced and its curved blade seems capable of slashing through flesh with very little effort.~ 
+@1213 = ~KAARLAC'S KNIFE 
+Damage: 3-6 Slashing/Piercing
+Enchanted: +2 
+Special:
+   Doubles all 1st Level Mage Spells
+THAC0: +2
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Usable only by Mages
+
+The final achievement of one Kaarlac Cragenmoor, this enchanted knife is a boon to those who practice the mystic arts. Kaarlac, ever one to aspire to greatness, sought to create a magic item that could retain an imprint of a portion of his memory - particularly the short term memory that contained his considerable spell repertoire. He theorized that, if successful, he could effectively double the amount of spell knowledge he could retain at any given time. Unfortunately, the enchantment was beyond his capability and in the midst of his fervent casting, Kaarlac went mad and plunged the knife into his own chest. His sacrifice, however, was not in vain, for the knife possesses enough of the intended enchantment to bestow upon its wielder the ability to memorize twice the number of first level spells.~
+
+@1214 = ~Stone Splinter~
+@1215 = ~Mad Splinter~
+@1216 = ~STONE SPLINTER 
+Damage: 2-5 Slashing/Piercing
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This is a dagger-shaped fragment of stone taken from the statue of Gangroighydon.~
+
+@1217 = ~MAD SPLINTER 
+Damage: 2-5 Slashing/Piercing
+Enchanted: +1 
+Special:
+   Curses (-2 penalty to hit, damage and saves; 60 seconds; save vs. spell negates)
+THAC0: +1
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This is a dagger-shaped fragment of stone taken from the statue of Gangroighydon. It bears a powerful enchantment - each time someone is stabbed by the splinter, they have a chance of being Cursed. It is most likely that the fell curse trapped upon Gangroighydon's lips has soaked into the very stone of his petrified form, and hinders those the splinter stabs with his malicious magic.~
+
+@1218 = ~Ravel's Fingernail~ 
+@1219 = ~RAVEL's FINGERNAIL 
+Damage: 4-7 Slashing/Piercing
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This twisted fingernail of extruded night hag skin has got to be one of the ugliest things you have ever seen. Its mottled green, red, and black surface is almost a foot long, and it seems like it was used alternately as a scratching aid, nose-picking tool, and gardening trowel. Looking at it makes you wish that Ravel did chew her nails. Or at least had a nail file with her in the maze.~
+
+@1220 = ~RAVEL'S FINGERNAIL 
+Damage: 4-7 Slashing/Piercing
+Enchanted: +3
+Special:
+   20% chance to cast Black-barbed Curses (4d4 piercing damage) 
+   Disease (1 damage every 3 seconds; 30 seconds; save vs. death negates)
+THAC0: +3
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This twisted fingernail of extruded night hag skin has got to be one of the ugliest things you have ever seen. Its mottled green, red, and black surface is almost a foot long, and it seems like it was used alternately as a scratching aid, nose-picking tool, and gardening trowel. Looking at it makes you wish that Ravel did chew her nails. Or at least had a nail file with her in the maze.~
+
+@1221 = ~Runed Dagger~
+@1222 = ~Runeblade~ 
+@1223 = ~RUNED DAGGER 
+Damage: 2-5 Slashing/Piercing
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Usable only by Mages
+
+This dagger has an odd, curving handle that gives the weapon an awkward balance, making it difficult to wield. Tiny runes have been meticulously etched into both sides of the dagger's blade.~ 
+@1224 = ~RUNEBLADE 
+Damage: 2-5 Slashing/Piercing
+Enchanted: +1 
+Special:
+   +20% Magic and Elemental Damage
+THAC0: +1
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Usable only by Mages
+
+Created by a legendary guild of battle mages known as "the Scarlet Seers," these enchanted blades were specifically designed to aid in the channeling of destructive magic. Unfortunately, with its emphasis on magical power, the weapon's awkward design makes it rather ineffective in physical combat.~
+
+@1225 = ~Uhir's Knife~
+@1226 = ~UHIR'S KNIFE 
+Damage: 2-5 Slashing/Piercing
+Speed: 1
+Weight: 0
+Proficiency: Edged
+Not usable by Priests
+
+This unremarkable, dirt-caked dagger has the letters 'UHIR' carved into its handle. Despite its shoddy appearance, the blade is well-balanced.~
+@1227 = ~UHIR'S KNIFE 
+Damage: 2-5 Slashing/Piercing
+Enchanted: +1 
+Special:
+   +1 Luck
+THAC0: +1
+Speed: 1
+Weight: 0
+Proficiency: Edged
+Not usable by Priests
+
+This unremarkable, dirt-caked dagger has the letters 'UHIR' carved into its handle. Despite its shoddy appearance, the blade is well-balanced. As Uhir himself informed you, the blade provides the person who wields it with a bit of extra luck.~ 
+
+@1228 = ~Serrated Dagger~
+@1229 = ~Widowmaker~
+@1230 = ~SERRATED DAGGER 
+Damage: 3-6 Slashing/Piercing
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Usable only by Thieves
+
+This is a well-balanced dagger with a smooth black handle and serrated edges. The dagger looks much like any other you've seen, except for a curious purplish tint upon the surface of the blade.~
+@1231 = ~WIDOWMAKER 
+Damage: 3-6 Slashing/Piercing
+Enchanted: +2 
+Special:
+   Immunity to poison
+   Poisons (1 damage every second; 30 seconds; save vs. death negates)
+THAC0: +2
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Usable only by Thieves
+
+Tempered with the lethal venom of the dreaded hook spider, the magical properties of this blade, known simply as "Widowmaker," are much sought after by practicing assassins throughout the planes. The poison that has been magically and permanently infused into the dagger immediately infects those cut by it. Additionally, the wielder of "Widowmaker" immediately develops an improved resistance to poison simply from holding the blade.~
+
+@1232 = ~Blade of the Immortal~ 
+@1233 = ~BLADE OF THE IMMORTAL 
+Damage: 4-7 Slashing/Piercing
+Enchanted: +3 
+THAC0: +3
+Speed: 1
+Weight: 0
+Proficiency: Edged
+Usable by The Nameless One 
+
+This is the strange blade that the iron golem forged using a drop of your blood. It is an ugly looking weapon, shaped so it resembles one of the symbols on your left arm. Black veins worm their way across the surface of the metal, and the edge looks so dull that it couldn't even cut warm butter. It pulses slightly as you hold it, like a heart. The golem claimed this "blade" could slay even you - provided it was used in a place that was cut off from the rest of the planes.~ 
+
+@1300 = ~Clawed Knuckles~
+@1301 = ~Assassin's Knuckles~
+@1302 = ~CLAWED KNUCKLES 
+Damage: 3-5 Crushing
+Special:
+   +1 Attack per Round 
+Speed: 3
+Weight: 1
+Proficiency: Fist
+Usable by Fighters and Thieves
+
+A totally redesigned version of ordinary iron knuckles, these knuckles have long razor sharp blades attached to them. ~
+@1303 = ~ASSASSIN'S KNUCKLES 
+Damage: 3-5 Crushing
+Enchanted: +2 
+Special:
+   +1 Attack per Round 
+   +1d3 Slashing Damage 
+   Paralyzes (5 rounds; save vs. death negates) 
+THAC0: +2 
+Speed: 3
+Weight: 1
+Proficiency: Fist
+Usable by Fighters and Thieves
+
+A totally redesigned version of ordinary iron knuckles, these knuckles have long razor sharp blades attached to them. These blades are coated in a powerful paralytic toxin that prevents anyone unfortunate enough to be struck from moving from an extended period of time.~ 
+
+@1304 = ~Bone Gauntlets~
+@1305 = ~Gauntlets of Teeth~ 
+@1306 = ~BONE GAUNTLETS 
+Damage: 3-5 Crushing
+Special:
+   +1 Attack per Round 
+Speed: 3
+Weight: 1
+Proficiency: Fist
+
+These bone gauntlets look sturdier than leather, but they are uncomfortable to wear. The bone seems to bite into the skin when the gauntlets are worn, and the slight greenish shade of the bone makes it uncertain what kind of bones the gauntlets are fashioned from.~
+
+@1307 = ~GAUNTLETS OF TEETH 
+*CURSED* 
+Damage: 3-5 Crushing
+Enchanted: +2 
+Special:
+   +1 Attack per Round 
+   +1d3 Crushing Damage 
+   Devours (reduces target's maximum hit points by 2; 1 hour)
+   Hungering (reduce wielder's maximum hit points by 2; 1 hour; hitting a target negates for 60 seconds)
+THAC0: +2 
+Speed: 3
+Weight: 1
+Proficiency: Fist
+
+These gauntlets have had many names over the centuries. Some have termed the gauntlets the "Gauntlets of Hunger." Other terms have ranged from "Gloves of Greed," or, among the stupidest, "the Gnashing Gloves." The githzerai called them "they-which-devour," and believed them to be an artifact fashioned by the slaadi, the intelligent carnivorous frog-like beings that inhabit the plane of Limbo.
+
+The most common name for this item is the "Gauntlets of Teeth." The exact creature from which the bones originate from is unknown. Nonetheless, when the nature of the gloves is revealed, their power awakens as soon as they are used in combat. When the user punches an enemy, the bone exteriors of the gloves peel back to reveal several rows of teeth. These teeth sink greedily into the foe's body. These teeth are not jagged - they are mostly wide and blunt, but they clamp onto a target with the strength of a giant, doing additional crushing damage when punching an opponent.~ 
+
+@1308 = ~Shards of Fate~ 
+@1309 = ~SHARDS OF FATE 
+Damage: 4-6 Crushing
+Enchanted: +3 
+Special:
+   +1 Attack per Round 
+   Slays 
+   Breakable
+THAC0: +3 
+Speed: 3
+Weight: 5
+Proficiency: Fist
+
+These gauntlets have been created from special crystals found only on the planes of Baator. When struck by these gauntlets, the crystals will shatter into thousands of pieces, tearing into the flesh and bone of those unlucky enough to be struck, killing them instantly.~
+
+@1310 = ~Spiked Knuckles~ 
+@1311 = ~Siphon Knuckles~
+@1312 = ~SPIKED KNUCKLES 
+Damage: 2-4 Crushing
+Special:
+   +1 Attack per Round 
+Speed: 3
+Weight: 1
+Proficiency: Fist
+
+These knuckles have had large metal spikes added to it, so as to pierce armor as well as flesh.~ 
+
+@1313 = ~SIPHON KNUCKLES 
+Damage: 2-4 Crushing
+Enchanted: +1 
+Special:
+   +1 Attack per Round 
+   Transfers 1d4 Hit Points from Target to Wielder
+THAC0: +1
+Speed: 3
+Weight: 1
+Proficiency: Fist
+
+These knuckles have had large metal spikes added to it, so as to pierce armor as well as flesh. Used by the less savory inhabitants of Sigil, these knuckles have the ability to drain the life force of an opponent and at the same time is able to rejuvenate the wielder.~ 
+
+@1314 = ~Spiked Gauntlets~ 
+@1315 = ~Spiked Gauntlets of Ogre Power~ 
+@1316 = ~SPIKED GAUNTLETS 
+Damage: 3-5 Crushing/Piercing
+Special:
+   +1 Attack per Round 
+Speed: 3
+Weight: 2
+Proficiency: Fist
+
+A ridge of huge black spikes bristle along the knuckles of these metal gauntlets, allowing the wearer to perforate any target they punch. Clamps line the edges of the gauntlets to secure them in place once worn.~ 
+
+@1317 = ~SPIKED GAUNTLETS OF OGRE POWER 
+Damage: 3-5 Crushing/Piercing
+Enchanted: +2
+Special:
+   +1 Attack per Round 
+   +2 Strength 
+   +100 Exceptional Strength
+THAC0: +2
+Speed: 3
+Weight: 2
+Proficiency: Fist
+
+A ridge of huge black spikes bristle along the knuckles of these metal gauntlets, allowing the wearer to perforate any target they punch. Clamps line the edges of the gauntlets to secure them in place once worn. This gauntlets bear an enchantment that allows the user to strike opponents with the strength of ten men. The spikes along the knuckles simply add insult to injury.~
+
+@1400 = ~Warm Sledgehammer~
+@1401 = ~Brimstone Hammer~ 
+@1402 = ~WARM SLEDGEHAMMER 
+Damage: 2-9 Crushing
+Speed: 9
+Weight: 5
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+Primarily intended for heavy work, this huge hammer would make a formidable weapon. Both its head and haft are crafted from a strange, jet-black material that smells faintly of sulfur and leaves a curious ash-like residue upon everything it touches.~
+
+@1403 = ~BRIMSTONE HAMMER 
+Damage: 2-9 Crushing
+Enchanted: +1 
+Special:
+   +1d8 Fire Damage
+THAC0: +1 
+Speed: 9
+Weight: 5
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+This type of weapon, thought to be forged by the flames of the Elemental Plane of Fire, is extremely rare, even in Sigil. The elemental properties of the hammer grants its wielder an increased resistance to fire and fire-based attacks. In addition, when used in combat, the hammer deals out additional damage when it successfully connects, searing its target with crackling flames.~ 
+
+@1404 = ~Heavy-Headed Hammer~
+@1405 = ~Foolsmiter~
+@1406 = ~HEAVY-HEADED HAMMER 
+Damage: 2-9 Crushing
+Speed: 9
+Weight: 15
+Proficiency: Hammers
+Usable by Fighters and Priests 
+Requires: 16 Intelligence
+
+This war hammer has a huge stone head in the shape of a rectangular block. Faint traces of gore and blood are on all sides of the hammer's head. The shaft is of a thick wood that looks too weak to support the hammer head's weight.~ 
+
+@1407 = ~FOOLSMITER 
+Damage: 2-9 Crushing
+Enchanted: +3 
+Special:
+   +8 Damage against Creatures with less than 10 Intelligence
+THAC0: +1 
+Speed: 9
+Weight: 5
+Proficiency: Hammers
+Usable by Fighters and Priests 
+Requires: 16 Intelligence
+
+This war hammer has a huge stone head in the shape of a rectangular block. Faint traces of gore and blood are on all sides of the hammer's head. The shaft is of a thick wood that looks too weak to support the hammer head's weight.
+
+This enchanted hammer was used as a tool by the Athar at one time during their religious persecution phase of their faction history. The magical war-hammer "Foolsmiter" was constructed so that it did additional damage against opponents who were particularly stupid. When it was crafted, however, the enchantment was twisted such that if the user was less intelligent than the target struck by the hammer, the wielder would take damage as well. For many years, the hammer became a test rite between rival members of the Athar as a primitive (and lethal) IQ test. It was stolen from their headquarters in the Shattered Temple many years ago and has resurfaced once or twice across the planes.
+
+It is believed that the Intelligence vs. Intelligence contest the hammer once inflicted on the wielder and his enemies has dissipated from the hammer over time, but no one has been confident enough to put it to the test.~
+
+@1408 = ~Cracked Sledgehammer~ 
+@1409 = ~Hammer of Comminution~
+@1410 = ~CRACKED SLEDGEHAMMER 
+Damage: 3-10 Crushing
+Speed: 9
+Weight: 10
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+Primarily intended for heavy work, this huge hammer would make a formidable weapon. Unlike some of the other sledgehammers you've seen, however, this one has a round head, and the metal surface looks brand new. Closer inspection of the head of the hammer reveals a tracery of cracks along its surface, but the head itself does not seem to be weak or fragile. Curious.~ 
+
+@1411 = ~HAMMER OF COMMINUTION 
+Damage: 3-10 Crushing
+Enchanted: +2 
+Special:
+   +1d4 Crushing Damage
+   50% chance to Fracture Armor (-1 Armor Class; 60 seconds) 
+THAC0: +2
+Speed: 9
+Weight: 10
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+Research reveals that this is a formidable weapon indeed. Far superior to a normal sledgehammer, this war hammer (also called "The Hammer of Comminution") delivers a devastating strike that not only inflicts crushing damage, but also fractures any surface it contacts, whether bone, metal, or wood, inflicting extra damage... and if the victim survives, it also "softens" him up for the next attack. 
+
+The Hammer of Comminution was used extensively by Enote, a Doomguard priest, in 14 E.U. A philosopher who was prone to violent mood swings while debating theology, he was known to espouse the virtues of the hammer as a means of furthering the decay of dead matter. Whether or not what he struck with the hammer was dead or alive before the blow is open to debate.~
+
+@1412 = ~Reason~
+@1413 = ~REASON 
+Damage: 2-9 Crushing
+Enchanted: +1 
+Special:
+   +1 Intelligence
+   Immunity to charm and fear 
+THAC0: +1
+Speed: 9
+Weight: 5
+Proficiency: Hammers
+Usable by Fighters and Priests 
+Usable only by Godsmen 
+
+This enormous hammer is the third weapon in the Godsmen's "Triad of Tests." The other two are the axe "Ascension" and the dagger "Enlightenment." Its head is covered with mystic runes and engraved with the symbol of the Godsmen. It thrums in your hands. You are the first to bear this weapon.~
+
+@1500 = ~Practice Mace~
+@1501 = ~Blind Terror~
+@1502 = ~PRACTICE MACE 
+Damage: 3-8 Crushing/Piercing
+Speed: 5
+Weight: 4
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+This mace has a soft almost spongy feel to it. More than likely this is used as a practice weapon.~ 
+
+@1503 = ~BLIND TERROR 
+Damage: 3-8 Crushing/Piercing
+Enchanted: +2 
+Special:
+   +1d6 Acid Damage
+   20% Chance to Blind (12 seconds)
+THAC0: +2
+Speed: 5
+Weight: 4
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+When an opponent is struck with sufficient force, acid is released thru the spongy surface of the mace. From the resulting spray of acid, the adversary can become temporarily blinded making him easier to hit.~ 
+
+@1504 = ~Death of Desire~
+@1505 = ~DEATH OF DESIRE 
+Damage: 2-7 Crushing/Piercing
+Enchanted: +1 
+Special:
+   Stuns (6 seconds; save vs. spell negates) 
+THAC0: +1
+Speed: 5
+Weight: 11
+Proficiency: Hammers
+Usable by Fighters and Priests 
+Usable only by Dustmen
+
+This mace is used by the Dustmen to remove all desires from the living.~ 
+
+@1506 = ~Heaven and Earth~ 
+@1507 = ~HEAVEN AND EARTH 
+Damage: 4-9 Crushing/Piercing
+Enchanted: +3 
+Special:
+   +2 Damage against non-Good Creatures 
+   +4 Damage against Evil Creatures 
+   Affects Nearby Allies 
+THAC0: +3
+Speed: 5
+Weight: 10
+Proficiency: Hammers
+Usable by Fighters and Priests 
+Usable only by Good 
+
+A fearsome aura of power emanates from this massive weapon. Sharp, powerful lines adorn the shaft of this mace, which streak directly to a perfect sphere that serves as this weapon's contact point. Perfectly curved spikes emanate from the perfectly-shaped sphere, yielding an image that is at once both arresting, yet awe-inspiring. A vibrant, royal purple hue surrounds this weapon of power.
+
+Upon holding the weapon it is instantly apparent that only those that are pure of heart can truly wield it. ~ 
+
+@1600 = ~Strange Object~ 
+@1601 = ~Mark of the Savant~ 
+@1602 = ~STRANGE OBJECT 
+Damage: 3-5 Piercing
+Special:
+   +1 Attack per Round 
+Speed: 3
+Weight: 3
+Proficiency: Fist
+
+This is a small metallic object consisting of tiny intricate gears and levers. Obviously a highly crafted precision instrument used for extracting corks from bottles. The parts of this object seem to be made of strange and exotic metals.~ 
+
+@1603 = ~MARK OF THE SAVANT 
+Damage: 3-5 Piercing
+Enchanted: +2
+Special:
+   +1 Attack per Round 
+   +1 Dexterity
+   +25% Open Locks 
+   +25% Detect Traps 
+THAC0: +2
+Speed: 3
+Weight: 3
+Proficiency: Fist
+Usable only by Thieves
+
+Cleverly designed, this object splits into two pieces to form punch daggers. When properly used they are deadly in combat. The easily accessible levers and gears shoot out and twist various blades almost as if they were extensions of the hand. Although excellent as a combat weapon, those same mechanisms used to shred the flesh of an enemy can also be used for the delicate procedures of opening locks and disarming traps.
+
+Only the most gifted of thieves possess items such as this. As it takes a keen mind and skilled hands to properly operate.~ 
+
+@1604 = ~Punch Daggers of Moorin~ 
+@1605 = ~PUNCH DAGGERS OF MOORIN 
+Damage: 2-4 Piercing
+Enchanted: +1
+Special:
+   +1 Attack per Round 
+   +1 Luck 
+THAC0: +1
+Speed: 3
+Weight: 2
+Proficiency: Fist
+Usable by Fighters and Thieves
+
+These daggers were once wielded by Moorin, the jinxed. Moorin was a hapless young woman who became a thief through a series of disasters. Each of these "accidents" resulted in the death of the trainer for whatever profession she chose. Out of desperation Moorin trained herself in the art of Thievery with laughable results.
+
+Moorin's thieving career was filled with numerous mishaps that involved her in combat situations. Each such combat often ended with Moorin being seriously wounded and thrown into prison. When it became obvious that Moorin was not long for this world her father, Arch-mage Xoorcon, created these magical blades for her use.
+
+With the luck provided by her new blades Moorin was actually able to successfully strike an opponent in combat (which came as a shock to her). While her opponent was busy bleeding, Moorin would make good her escape. Unfortunately, during one such escape, Moorin tripped, fell on her dagger and died before she could staunch the bleeding from her wounds.~ 
+
+@1606 = ~Punch Daggers of Shar~
+@1607 = ~PUNCH DAGGERS OF SHAR 
+Damage: 2-4 Piercing
+Enchanted: +3
+Special:
+   +1 Attack per Round 
+   +2 THAC0 against Mages 
+   +8 Damage against Mages
+   Silences (12 seconds; save vs. spell)
+THAC0: +1
+Speed: 3
+Weight: 2
+Proficiency: Fist
+Usable by Fighters and Thieves
+
+These daggers were once wielded by Shar, the Mage-slayer. Shar was an assassin of some merit who decided to specialize in the 'removal' of mages for large sums of gold. To further her goal she commissioned the creation of these blades by the mage Thex Voorton. With her new weapons in hand she was quite successful at her craft. 
+
+Shar met her demise when she was hired to assassinate the very mage who created the daggers. Much to her surprise the weapons failed to harm their creator, Thex, nor did they grant Shar protection against his spells...~ 
+
+@1608 = ~Punch Daggers of True Death~
+@1609 = ~PUNCH DAGGERS OF TRUE DEATH 
+Damage: 2-4 Piercing
+Enchanted: +1
+Special:
+   +1 Attack per Round 
+   Executes (kills targets with less than one quarter of maximum Hit Points; no save) 
+THAC0: +1
+Speed: 3
+Weight: 2
+Proficiency: Fist
+Usable by Fighters and Thieves
+Usable only by Dustmen
+
+To ensure that the recipient reaches the "True Death", these daggers have been enchanted with minor magic to cull those that are close to death.~ 
+
+@1610 = ~Punch Daggers of Zar 'Anun~
+@1611 = ~PUNCH DAGGERS OF ZAR 'ANUN
+Damage: 2-4 Piercing
+Enchanted: +1
+Special:
+   +1 Attack per Round 
+   +1x Backstab Multiplier
+THAC0: +1
+Speed: 3
+Weight: 2
+Proficiency: Fist
+Usable only by Thieves
+
+This infamous weapon is said to have once been wielded by the assassin Zar 'Anun. At first nothing more than a little known thief, Zar 'Anun soon rose high in the ranks of his guild by assassinating everyone who got in his way. His career came to an end when one of his "possibly next" victims noticed that the upcoming thief was never without his daggers, keeping them with him even while bathing. When the daggers mysteriously disappeared, so did Zar 'Anun.~ 
+
+@1612 = ~Umei Kaihen~ 
+@1613 = ~UMEI KAIHEN 
+Damage: 4-6 Piercing
+Enchanted: +3
+Special:
+   +1 Attack per Round 
+   +2 to Armor Class
+   +2 to All Saves 
+   +2 to THAC0
+THAC0: +3
+Speed: 3
+Weight: 0
+Proficiency: Fist
+Usable by Fighters and Thieves 
+
+These punch daggers seems to almost slip from your grasp as you hold it, yet at the same time, it invokes a strange sensation as you wield it, as if fate itself was changing in your favor. As a dagger-type weapon, it is massive and fearsome, with sharp serrated edges along both sides. It is bathed in a vibrant, royal purple hue. Along the hilt is carved the word: "Hii 'toh 'mi." ~ 
+
+@1700 = ~Celestial Fire~ 
+@1701 = ~CELESTIAL FIRE 
+Damage: 4-11 Slashing
+Enchanted: +3
+Special:
+   +1d6 Fire Damage
+   +2 Damage against non-Good Creatures
+   +4 Damage against Evil Creatures
+THAC0: +3
+Speed: 5
+Weight: 5
+Proficiency: Edged
+Usable only by Lawful Good characters 
+
+"Celestial Fire" is the only object that Trias has left to remind him of the Upper Planes. This heavy blade is warm to the touch, and flames have been carved across the surface of the blade. The intricacy of the carvings is breathtaking; they are done with such skill that the sword seems to be burning with metallic flames... someone must have spent several centuries rendering them. The metal of the blade is unfamiliar... it is heavy, but it shines like silver.
+
+The sword looks several millennia old. A faint hum can be felt within it, and the vibration becomes stronger when it touches human flesh. Not surprisingly, "Celestial Fire" can be wielded only by those with sufficient strength and purity of heart. When used in combat, "Celestial Fire" bursts into a holy radiance that burns any evil creature it strikes in combat. 
+
+^NNOTE: Celestial Fire can be transformed into a weapon type (axe, club, dagger, gauntlets, hammer) of your choosing via interaction. Be aware that this choice is permanent.^-
+~ 
+
+@1702 = ~CELESTIAL FIRE 
+Damage: 4-11 Slashing
+Enchanted: +3
+Special:
+   +1d6 Fire Damage
+   +2 Damage against non-Good Creatures
+   +4 Damage against Evil Creatures
+THAC0: +3
+Speed: 8
+Weight: 5
+Proficiency: Axes
+Usable only by Lawful Good Fighters  
+
+"Celestial Fire" is the only object that Trias has left to remind him of the Upper Planes. The blade became an axe in your hands. It is warm to the touch, and flames have been carved across the surface of the head. The intricacy of the carvings is breathtaking; they are done with such skill that the axe seems to be burning with metallic flames... someone must have spent several centuries rendering them. The metal of the axe is unfamiliar... it is heavy, but it shines like silver.
+
+The axe looks several millennia old. A faint hum can be felt within it, and the vibration becomes stronger when it touches human flesh. Not surprisingly, "Celestial Fire" can be wielded only by those with sufficient strength and purity of heart. When used in combat, "Celestial Fire" bursts into a holy radiance that burns any evil creature it strikes in combat.~
+
+@1703 = ~CELESTIAL FIRE 
+Damage: 4-9 Crushing
+Enchanted: +3
+Special:
+   +1d6 Fire Damage
+   +2 Damage against non-Good Creatures
+   +4 Damage against Evil Creatures
+THAC0: +3
+Speed: 4
+Weight: 5
+Proficiency: Clubs
+Usable only by Lawful Good characters
+Not usable by Mages 
+
+"Celestial Fire" is the only object that Trias has left to remind him of the Upper Planes. The blade became a club in your hands. It is warm to the touch, and flames have been carved all along the length of the weapon. The intricacy of the carvings is breathtaking; they are done with such skill that the club seems to be burning with metallic flames... someone must have spent several centuries rendering them. The metal of the hammer is unfamiliar... it is heavy, but it shines like silver.
+
+The club looks several millennia old. A faint hum can be felt within it, and the vibration becomes stronger when it touches human flesh. Not surprisingly, "Celestial Fire" can be wielded only by those with sufficient strength and purity of heart. When used in combat, "Celestial Fire" bursts into a holy radiance that burns any evil creature it strikes in combat.~
+
+@1704 = ~CELESTIAL FIRE 
+Damage: 4-7 Piercing/Slashing
+Enchanted: +3
+Special:
+   +1d6 Fire Damage
+   +2 Damage against non-Good Creatures
+   +4 Damage against Evil Creatures
+THAC0: +3
+Speed: 1
+Weight: 5
+Proficiency: Edged
+Usable only by Lawful Good characters
+Not usable by Priests 
+
+The blade became a dagger in your hands. It is warm to the touch, and flames have been carved across the surface of the blade. The intricacy of the carvings is breathtaking; they are done with such skill that the dagger seems to be burning with metallic flames... someone must have spent several centuries rendering them. The metal of the dagger is unfamiliar... it is heavy, but it shines like silver.
+
+The dagger looks several millennia old. A faint hum can be felt within it, and the vibration becomes stronger when it touches human flesh. Not surprisingly, "Celestial Fire" can be wielded only by those with sufficient strength and purity of heart. When used in combat, "Celestial Fire" bursts into a holy radiance that burns any evil creature it strikes in combat.~ 
+
+@1705 = ~CELESTIAL FIRE 
+Damage: 4-6 Crushing
+Enchanted: +3
+Special:
+   +1 Attack per Round 
+   +1d6 Fire Damage
+   +2 Damage against non-Good Creatures
+   +4 Damage against Evil Creatures
+THAC0: +3
+Speed: 3
+Weight: 5
+Proficiency: Fists
+Usable only by Lawful Good characters
+
+The blade became a pair of gauntlets in your hands. They is warm to the touch, and flames have been carved across the knuckles of the gloves. The intricacy of the carvings is breathtaking; they are done with such skill that the gauntlets seem to be burning with metallic flames... someone must have spent several centuries rendering them. The metal of the gauntlets is unfamiliar... it is heavy, but it shines like silver.
+
+The gauntlets look several millennia old. A faint hum can be felt within them, and the vibration becomes stronger when they touch human flesh. Not surprisingly, the "Gauntlets of Celestial Fire" can be wielded only by those with sufficient strength and purity of heart. When used in combat, the "Gauntlets of Celestial Fire" burst into a holy radiance that burns any evil creature they strike in combat.~ 
+
+@1706 = ~CELESTIAL FIRE 
+Damage: 4-11 Crushing
+Enchanted: +3
+Special:
+   +1d6 Fire Damage
+   +2 Damage against non-Good Creatures
+   +4 Damage against Evil Creatures
+THAC0: +3
+Speed: 9
+Weight: 5
+Proficiency: Hammers
+Usable by Lawful Good Fighters and Priests
+
+"Celestial Fire" is the only object that Trias had left to remind him of the Upper Planes. The blade became a hammer in your hands. It is warm to the touch, and flames have been carved across the surface of the head. The intricacy of the carvings is breathtaking; they are done with such skill that the hammer seems to be burning with metallic flames... someone must have spent several centuries rendering them. The metal of the hammer is unfamiliar... it is heavy, but it shines like silver.
+
+The hammer looks several millennia old. A faint hum can be felt within it, and the vibration becomes stronger when it touches human flesh. Not surprisingly, "Celestial Fire" can be wielded only by those with sufficient strength and purity of heart. When used in combat, "Celestial Fire" bursts into a holy radiance that burns any evil creature it strikes in combat.~ 
+
+@1800 = ~Skull-Tipped Mace~
+@1801 = ~Devil's Due~ 
+@1802 = ~SKULL-TIPPED MACE  
+Damage: 3-8 Crushing/Piercing
+Speed: 5
+Weight: 4
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+This weapon has a black metal handle that seems to have grown into the narrow skull that is affixed to its top. The metal looks as if it has grown out from the skull, and spikes pierce through the eye sockets, jaw, and from the skull cap itself.  
+
+The skull is not human. For one thing, it has stubs where horns used to be (and looked as if they were gnawn off - teeth marks are visible around the edges) and second of all, the ridges of needle-like teeth that are part of the jaw don't belong to any human you have ever seen. If you were to hazard a guess, the entire skull looks faintly reptilian.~ 
+@1803 = ~DEVIL'S DUE 
+*CURSED* 
+Damage: 3-8 Crushing/Piercing
+Enchanted: +2 
+Special: 
+   +1d6 Acid Damage 
+   +1d6 Piercing Damage 
+   Wielder takes 1d6 Acid Damage per Hit 
+THAC0: +2
+Speed: 5
+Weight: 4
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+This weapon has a black metal handle that seems to have grown into the narrow skull that is affixed to its top. The metal looks as if it has grown out from the skull, and spikes pierce through the eye sockets, jaw, and from the skull cap itself.  
+
+The "metal" is not metal at all, but the remnants of a creature's forearm that punched through the base of the fiendish skull that now bedecks the head of this weapon. The spikes that have pierced through the skull actually appear to be some sort of quills from the creature's forearm.
+
+When this weapon is used in combat and the spikes of the club penetrate a creature's skin, acid oozes from the quills into the target, doing additional damage. This acid also burns the hands of the user, doing some damage to the wielder every time he strikes someone else.
+
+The common name of this weapon is "Devil's Due." To who or what event it refers to is unknown, but it was obviously a painful experience for the two parties involved.~ 
+
+@1804 = ~Strange Feather~
+@1805 = ~Chaos Feather~ 
+@1806 = ~STRANGE FEATHER 
+Damage: 3-6 Piercing/Slashing
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This feather is ash-gray, fading to black around the edges. It is much larger than a bird feather, and it creates an unpleasant tingling sensation when held for more than a minute.~ 
+
+@1807 = ~CHAOS FEATHER 
+Damage: 3-6 Piercing/Slashing
+Enchanted: +2 
+Special: 
+   Confuses (30 seconds; save vs. spell negates) 
+THAC0: +2 
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This feather is ash-gray, fading to black around the edges. It is much larger than a bird feather, and it creates an unpleasant tingling sensation when held for more than a minute.
+
+Examination of the feather reveals that is the feather from a Vrock, one of the many races of tanar'ri that fill the Abyss. The Vrock resemble huge vultures, and they are often used as scouts for the tanar'ri forces in the Blood War.
+
+This particular feather is believed to have been taken from a Vrock shaman, who is reported to have died by simply disbelieving himself. Possessed of a certain mental imbalance and with an odious habit of devouring his followers to gain strength, this barmy Vrock was rumored to be capable of causing others of his flock to behave erratically - much more so than for a normal tanar'ri. He convinced many of his flock to tear off their wings and take up burrowing in the ground. Other times, he preached the virtues of honesty as being more evil and destructive than any lie. When he disintegrated, only the feather was left behind as testament to his fevered existence. Some of the shaman's residue is believed to reside in this "Chaos Feather."
+
+The Chaos Feather, when used in combat as a dagger, inflicts a minor amount of damage (about the same as a conventional dagger) and has the power to confuse any target it strikes. Creatures struck by the feather may be stunned, run away, or attack their allies.
+
+Most tanar'ri consider the feather to be a sacred object. Vrocks will kill anyone possessing it in order to retrieve it.~ 
+
+@1808 = ~Wicked Dagger~ 
+@1809 = ~Last Resort~ 
+@1810 = ~WICKED DAGGER 
+Damage: 4-7 Piercing/Slashing
+Speed: 1 
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This small dagger looks fragile, but a series of jagged teeth line the edge of the blade. The hilt itself is covered with dried blood.~ 
+@1811 = ~LAST RESORT 
+*CURSED*
+Damage: 4-7 Piercing/Slashing
+Enchanted: +3 
+Special: 
+   Cannot miss 
+THAC0: +3
+Speed: 1 
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This small dagger looks fragile, but a series of jagged teeth line the edge of the blade. The hilt itself is covered with dried blood, most likely the blood of the users who held the weapon and were unable to release their grip.
+
+Research indicates that this cursed dagger has had many names, the most prominent of which was "Last Resort." When equipped, the user cannot release the grip until death, or until the curse is lifted by spell or divine intervention. The dagger is rumored to be able to hurt almost any creature it strikes, no matter what the creature's plane of origin or its defenses. One planewalker who had freed herself from its curse actually chose to travel with it, figuring that in any instance where she *had* to use it couldn't be worsened by having it in her possession.~ 
+
+@1812 = ~Leather Gauntlets~ 
+@1813 = ~Gauntlets of Rending~ 
+@1814 = ~LEATHER GAUNTLETS 
+Damage: 3-5 Crushing
+Speed: 3
+Weight: 1
+Proficiency: Fists
+Not usable by Priests
+
+These are a pair of stiff leather gloves. The leather around the edges of the fingers is scuffed and cracked.~ 
+
+@1815 = ~GAUNTLETS OF RENDING 
+Damage: 3-5 Crushing
+Enchanted: +2
+Special: 
+   +1 Attack per Round 
+   On hit, +2d6 Slashing Damage (3 seconds) 
+Speed: 3
+Weight: 1
+Proficiency: Fists
+
+These leather gloves give the user the ability to use his hands like claws. When the wearer attacks a foe with his hands, long black talons lance forth from the fingers of the gauntlets and allow the user to rake an opponent for additional slashing damage. When the wearer is not attacking, the talons recede back into the gauntlets... although they seem to do so reluctantly. When the talons are not extended, the gauntlets appear to be nothing more than stiff leather gloves.~ 
+
+@2000 = ~Battle Axe~ 
+@2001 = ~BATTLE AXE
+Damage: 1-8 Slashing
+Speed: 8
+Weight: 7
+Proficiency: Axes
+Usable only by Fighters
+
+This huge axe is a double-bladed weapon topped with a spike. The edges are razor-sharp, and the long handle allows the wielder to put considerable force into the swing.~
+
+@2002 = ~Crescent Hatchet~ 
+@2003 = ~CRESCENT HATCHET 
+CRESCENT HATCHET
+Damage: 0-7 Slashing
+THAC0: -1
+Speed: 8
+Weight: 10
+Proficiency: Axes
+Usable only by Fighters
+
+This huge hatchet has a crescent-shaped head. Although an intimidating weapon, it looks more decorative than functional: not only is it extremely heavy, but the balance is poor and the edge is dull and pitted. Despite the difficulty in using the hatchet in combat, the long handle allows the wielder to put considerable force into the swing.~
+
+@2004 = ~Enchanted Battle Axe~
+@2005 = ~BATTLE AXE
+Damage: 2-9 Slashing
+Speed: 8
+Weight: 4
+Proficiency: Axes
+Usable only by Fighters
+
+This double-bladed axe feels especially light, though otherwise it appears unremarkable. It is possible that the blade is made of some light-weight metal.~
+@2006 = ~ENCHANTED BATTLE AXE
+Damage: 2-9 Slashing
+Enchanted: +1 
+THAC0: +1
+Speed: 8
+Weight: 4
+Proficiency: Axes
+Usable only by Fighters
+
+Closer examination of the weapon reveals a strange symbol, very faint, on the surface of the axe head. Tracing it with your finger, there is a sudden charge, and the axe head changes before your eyes into a silvery-looking metal.
+
+The edge is incredibly sharp, so much so it looks like it could hack through stone if necessary. The symbol you traced on the weapon is now glowing brilliantly, and if anything, the axe has become even lighter than before, so much so that you can almost wield it one-handed.~
+@2007 = ~Battle Axe of Quality~
+@2008 = ~BATTLE AXE OF QUALITY
+Damage: 2-9 Slashing
+Speed: 8
+Weight: 8
+Proficiency: Axes
+Usable only by Fighters
+
+Intricate runes are etched on the shaft and the blades of this axe. The edges of the axe are razor-sharp; it looks like it would be possible to shave with it, though that's not something that you would try until you had consumed several tankards of ale. The handle itself is made of ironwood, and leather is wrapped tightly around the handle to help secure the user's grip.~
+
+@2009 = ~Hollow Axe~ 
+@2010 = ~HOLLOW AXE 
+Damage: 1-8 Slashing
+Speed: 4
+Weight: 8
+Proficiency: Axes
+Usable only by Fighters
+
+This huge axe is a double-bladed weapon topped with a spike. The edges are razor-sharp, and the long handle allows the wielder to put considerable force into the swing.
+
+This axe is of a different alloy than normal steel - it's *light* and easy to swing. It causes the same amount of damage as an ordinary axe, but it strikes much more quickly.~ 
+
+@2011 = ~Antler Axe~ 
+@2012 = ~ANTLER AXE 
+Damage: 0-7 Slashing
+Speed: 8
+Weight: 8
+Proficiency: Axes
+Usable only by Fighters
+
+Primitive cultures often times used parts of animals as weapons. This appears to be the horns of some creature that have been made into a crude battle axe of sorts.~ 
+
+@2013 = ~Left Arm #985~ 
+@2014 = ~LEFT ARM #985
+Damage: 1-6 Crushing
+Speed: 4
+Weight: 3
+Proficiency: Clubs
+Not usable by Mages
+
+This arm snapped clean off corpse #985 when it, uh, accidentally toppled. As much as the corpse's knee was rotted clean through, it looks like the combination of thick applications of embalming fluid and rigor mortis has made this arm almost as hard as wood. If you needed to, you could either use it to shake someone's hand from a distance or use it to bash their skull in.~
+@2015 = ~Iron Prybar~
+@2016 = ~IRON PRYBAR
+Damage: 1-6 Crushing
+Speed: 4
+Weight: 3
+Proficiency: Clubs
+Not usable by Mages
+
+This iron prybar can be used to pry open doors, chests, and even the occasional reluctant rib cage. It also makes a good bludgeoning weapon when there's no time for subtlety.
+
+^NNOTE: To use the prybar to force a locked door or chest, select it as a weapon then "attack" the container or door you wish to pry open. Although the prybar is specifically intended for such use, you can attempt to bash open a container or door with *any* weapon, including your fists.^-~
+
+@2017 = ~Leg Bone Club~ 
+@2018 = ~LEG BONE CLUB
+Damage: 1-6 Crushing
+Special: 
+   Fragile (breaks after 20 uses)
+Speed: 4
+Weight: 2
+Proficiency: Clubs
+Not usable by Mages
+
+This leg bone is heavy enough to be used as a club. It's not the height of fashion, but it sure makes a satisfying sound when you strike someone. 
+
+Although an effective weapon, this leg bone is fragile and has a chance of breaking if used repeatedly.~
+
+@2019 = ~Wooden Club~
+@2020 = ~WOODEN CLUB
+Damage: 1-6 Crushing
+Speed: 4
+Weight: 3
+Proficiency: Clubs
+Not usable by Mages
+
+This crude wooden club has seen better days, but it still looks sturdy enough to be used as a weapon.~
+
+@2021 = ~Dagger~ 
+@2022 = ~Bone Dagger~ 
+@2023 = ~DAGGER
+Damage: 2-5 Piercing/Slashing
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This looks to be a very well made dagger. It has a nice balance and very sharp blade.~
+@2024 = ~BONE DAGGER 
+Damage: 2-5 Piercing/Slashing
+Enchanted: +1
+THAC0: +1
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+The blade of this dagger seems to be made from the bone of some creature. The edge of this blade is extremely sharp.~
+
+@2025 = ~Green Steel Dagger~ 
+@2026 = ~GREEN STEEL DAGGER 
+Damage: 2-5 Piercing/Slashing
+Enchanted: +1
+THAC0: +1
+Speed: 1
+Weight: 0
+Proficiency: Edged
+Not usable by Priests
+
+This slim dagger has been forged out of the famed Baatorian green steel. Found only in the wastelands of Avernus, this peculiar green ore can be tempered into metal much lighter than normal steel. In addition, green steel weapons tend to retain their remarkably fine edges and are capable of dealing out more damage than their standard counterparts.~ 
+
+@2027 = ~Green Steel Knife~ 
+@2028 = ~GREEN STEEL KNIFE 
+Damage: 2-5 Piercing/Slashing
+Enchanted: +1
+THAC0: +1
+Speed: 1
+Weight: 0
+Proficiency: Edged
+Not usable by Priests
+
+This razor sharp knife has been forged out of the famed Baatorian green steel. Found only in the wastelands of Avernus, this peculiar green ore can be tempered into metal much lighter than normal steel. In addition, green steel weapons tend to retain their remarkably fine edges and are capable of dealing out more damage than their standard counterparts.~
+
+@2029 = ~High Quality Stilleto~ 
+@2030 = ~HIGH QUALITY STILETTO
+Damage: 2-5 Piercing
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This slim dagger is a beauty among its kind. It is a one-handed thrusting weapon.~
+
+@2031 = ~Iron Spike~
+@2032 = ~IRON SPIKE 
+Damage: 0-3 Piercing/Slashing
+THAC0: -1
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This is a crude iron spike, covered with rust. If necessary, you could use it as a dagger.~ 
+
+@2033 = ~Jagged Knife~
+@2034 = ~JAGGED KNIFE 
+Damage: 2-5 Piercing/Slashing
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This hooked knife has a thick double-edged blade and a curved wooden handle. Judging from the shape of the blade, it looks like this knife is used primarily as a surgical tool.~ 
+
+@2035 = ~Knife~
+@2036 = ~KNIFE 
+Damage: 1-4 Piercing/Slashing
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This knife has a four-inch blade, with a plain handle of bone.~ 
+
+@2037 = ~Notched Dagger~
+@2038 = ~DAGGER 
+Damage: 3-6 Piercing/Slashing
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This looks to be a very well made dagger. It has a nice balance and very sharp blade.~ 
+
+@2058 = ~NOTCHED DAGGER 
+Damage: 3-6 Piercing/Slashing
+Enchanted: +2
+THAC0: +2
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This dagger has various notches strategically placed about the blade. When used correctly, this dagger has the ability to catch incoming blows from bladed weapons.~ 
+
+@2039 = ~Phantom Dagger~ 
+@2040 = ~DAGGER 
+Damage: 4-7 Piercing/Slashing
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This dagger has seen better days. Constant neglect and misuse have warped the blade to a misshapen mess.~ 
+@2041 = ~PHANTOM DAGGER 
+Damage: 4-7 Piercing/Slashing
+Enchanted: +3
+THAC0: +3
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+As if of its own volition, this dagger seems to reach out to its enemies, instinctively finding the most vulnerable spots on any creature.~ 
+
+@2042 = ~Poor Quality Stiletto~ 
+@2043 = ~POOR QUALITY STILETTO 
+Damage: 0-3 Piercing
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This squat dagger, while ideally a thrusting weapon, looks like it would be better used as a paperweight. It is not sharp or well-balanced, and might actually hinder you in combat.~ 
+
+@2044 = ~Rusty Dagger~ 
+@2045 = ~RUSTY DAGGER 
+Damage: 0-3 Piercing/Slashing
+Special:
+   Fragile (breaks after 20 attacks)
+THAC0: -1
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This is a small rusty dagger. Its blade is chipped and the hilt is loose; it doesn't look like it will stand up to repeated use without breaking.~ 
+
+@2046 = ~Scalpel~ 
+@2047 = ~SCALPEL 
+Damage: 0-3 Piercing/Slashing
+Speed: 1
+Weight: 0
+Proficiency: Edged
+Not usable by Priests
+
+This simple surgical cutting tool looks like it's seen a lot of use.
+
+^NNOTE: <SCALPELTALK>^-~ 
+
+@2048 = ~Silver Fork~ 
+@2049 = ~SILVER FORK 
+Damage: 0-3 Piercing
+THAC0: -1
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This is a silver dining fork. Its tines are especially sharp. Upon further consideration, it might be able to be used as a dagger, though it most likely wouldn't do any more damage than a conventional dagger. It might prove useful against creatures damaged only by silver weapons.~ 
+
+@2050 = ~Silver Hairpin~ 
+@2051 = ~SILVER HAIRPIN
+Damage: 1 Piercing
+Speed: 1
+Weight: 0
+Proficiency: Edged
+Not usable by Priests
+
+This is a thin silver hair pin. The tip is extremely sharp.~ 
+
+@2052 = ~Small Steel Fork~
+@2053 = ~SMALL STEEL FORK 
+Damage: 0-3 Piercing
+THAC0: -1
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This fork is definitely no prize piece of cutlery. Its steel finish is scratched and slightly bent and its tines are crusted with dirt.~ 
+
+@2054 = ~Steak Knife~ 
+@2055 = ~STEAK KNIFE 
+Damage: 0-3 Piercing/Slashing
+Speed: 1
+Weight: 0
+Proficiency: Edged
+Not usable by Priests
+
+This is a common steak knife. You're sure if this dagger could talk, it would have many long-winded stories about cooking and carving large haunches of meat.~ 
+
+@2056 = ~Stiletto~ 
+@2057 = ~STILETTO 
+Damage: 1-4 Piercing
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This is a short dagger with a slender blade.~ 
+
+@2101 = ~Fist Irons~
+@2059 = ~FIST IRONS 
+Damage: 1-3 Crushing
+Special:
+   +1 Attack per Round 
+Speed: 3
+Weight: 1
+Proficiency: Fist
+
+This crude iron bar is designed to slip over the fist, with the thick portion resting in the palm and the iron ring facing outwards, over the knuckles. While wearing these fist irons, a single punch can shatter someone's jaw.
+
+^NNOTE: Many weapons in Torment do similar amounts of damage... but the *type* of damage each weapon does varies. Some creatures are more vulnerable to certain types of damage than others; if your current weapon isn't doing much damage against a creature, chances are it is resistant to it. Switch off weapons and see which one works best.^-~ 
+
+@2060 = ~Iron Knuckles~
+@2061 = ~IRON KNUCKLES 
+Damage: 1-3 Crushing
+Special:
+   +1 Attack per Round 
+Speed: 3
+Weight: 1
+Proficiency: Fist
+
+Iron knuckles that slip over the fingers, giving your fists the extra "oomph" they need to deliver bone-crushing punches.~ 
+
+@2062 = ~Punch Daggers~
+@2063 = ~Magic Punch Daggers~ 
+@2064 = ~PUNCH DAGGERS 
+Damage: 2-4 Piercing
+Special:
+   +1 Attack per Round 
+Speed: 3
+Weight: 2
+Proficiency: Fist
+Usable only by Fighters and Thieves
+
+This weapon is a pair of jagged dagger blades mounted on iron knuckles. The blades have jagged edges to allow them to dish out additional piercing damage when the wearer strikes an opponent.~ 
+
+@2065 = ~MAGIC PUNCH DAGGERS 
+Damage: 2-4 Piercing
+Enchanted: +1
+Special:
+   +1 Attack per Round 
+THAC0: +1 
+Speed: 3
+Weight: 2
+Proficiency: Fist
+Usable only by Fighters and Thieves
+
+This weapon is a pair of jagged dagger blades mounted on iron knuckles. The blades have jagged edges to allow them to dish out additional piercing damage when the wearer strikes an opponent. In addition, the blades have been magically enhanced to increase the damage incurred.~ 
+
+@2066 = ~PUNCH DAGGERS 
+Damage: 1-3 Piercing
+Special:
+   +1 Attack per Round 
+Speed: 3
+Weight: 2
+Proficiency: Fist
+Usable by Fighters and Thieves
+
+This weapon is a pair of jagged dagger blades mounted on iron knuckles. The blades have jagged edges to allow them to dish out additional piercing damage when the wearer strikes an opponent.~ 
+
+@2067 = ~Spiked Gauntlets~ 
+@2068 = ~SPIKED GAUNTLETS 
+Damage: 1-3 Crushing/Piercing
+Special:
+   +1 Attack per Round 
+Speed: 3
+Weight: 2
+Proficiency: Fist
+
+A ridge of spikes bristle along the knuckles of these gauntlets, allowing the wearer to perforate any 
+target they punch.~ 
+
+@2069 = ~Iron Knuckles~
+@2070 = ~Spiked Knuckles~ 
+@2071 = ~IRON KNUCKLES 
+Damage: 2-4 Crushing/Piercing
+Special:
+   +1 Attack per Round 
+Speed: 3
+Weight: 1
+Proficiency: Fist
+
+These are iron knuckles that have had small spikes welded to them so as to do extra damage.~ 
+
+@2072 = ~SPIKED KNUCKLES 
+Damage: 2-4 Crushing/Piercing
+Enchanted: +1
+Special:
+   +1 Attack per Round 
+THAC0: +1 
+Speed: 3
+Weight: 1
+Proficiency: Fist
+
+These iron knuckles have been improved upon by the addition of tiny spikes. In addition, a minor enchantment has been placed on them making them lighter and stronger than ordinary iron.~ 
+
+@2073 = ~Sledgehammer~
+@2074 = ~Enchanted Hammer~ 
+@2075 = ~SLEDGEHAMMER 
+Damage: 2-9 Crushing
+Speed: 9 
+Weight: 5
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+Primarily intended for heavy work, this huge hammer would make a formidable weapon. Its head is of black iron, and the haft is almost as long as a man's arm.~ 
+
+@2076 = ~ENCHANTED HAMMER 
+Damage: 2-9 Crushing
+Enchanted: +1
+THAC0: +1 
+Speed: 9 
+Weight: 5
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+This hammer bears a wounding enchantment and is much lighter than a normal hammer, allowing it to be swung faster and do more damage in combat. Any history or legends concerning this hammer have been eclipsed by other, more famous weapons in the Encyclopedia Magica. Nonetheless, this sledgehammer carries itself with a quiet dignity.~ 
+
+@2077 = ~Work Hammer~
+@2078 = ~WORK HAMMER  
+Damage: 1-8 Crushing
+Speed: 9 
+Weight: 6
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+This is a heavy work hammer. It has a long handle and a metal head that looks like it could shape steel and crush skulls with ease.~ 
+
+@2079 = ~Hammer of Quality~ 
+@2080 = ~HAMMER OF QUALITY 
+Damage: 2-9 Crushing
+Speed: 9 
+Weight: 6
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+This is a finely crafted war hammer. Godsman etchings and symbology decorate the head of the weapon and work their way down the shaft. Despite its heavy appearance, it feels much lighter than it looks.~ 
+
+@2081 = ~High Quality Sledgehammer~ 
+@2082 = ~HIGH QUALITY SLEDGEHAMMER 
+Damage: 2-9 Crushing
+Speed: 9 
+Weight: 9
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+This is a well-crafted hammer, well-balanced and pleasing to the eye. Don't be fooled by its appearance - this weapon is dangerous. It requires two hands and the desire to inflict crushing damage on your enemies.~ 
+
+@2083 = ~Maul~ 
+@2084 = ~MAUL 
+Damage: 1-8 Crushing
+Speed: 9 
+Weight: 6
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+Essentially a variation of the standard sledgehammer, the maul has a wedge-shaped head used for splitting wood. Although it can be used as a weapon, it is unwieldy and difficult to swing in combat.~ 
+
+@2085 = ~Poor Quality Sledgehammer~ 
+@2086 = ~POOR QUALITY SLEDGEHAMMER 
+Damage: 0-7 Crushing
+Speed: 9 
+Weight: 10
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+This hammer is little more than a heavy lump of metal on the end of a stout stick. It's powerful, yes, but the balance is poor and it's entirely ungraceful.~ 
+
+@2087 = ~Silver-Headed Hammer~ 
+@2088 = ~SILVER-HEADED HAMMER 
+Damage: 0-7 Crushing
+THAC0: -1 
+Speed: 9 
+Weight: 6
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+This is a small war hammer. The head of the hammer is decorated with a thin layer of silver that is dented and scratched in many places. Perhaps the hammer was once used for ceremonial purposes.~ 
+
+@2089 = ~Sledgehammer~ 
+@2090 = ~SLEDGEHAMMER 
+Damage: 1-8 Crushing
+Speed: 9 
+Weight: 10
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+Primarily intended for heavy work, this huge hammer would make a formidable weapon. Its head is of black iron, and the haft is almost as long as a man's arm. Enchanted hammers aside, the sledgehammer is the most damaging of all hammers.~ 
+
+@2091 = ~War Hammer~
+@2092 = ~WAR HAMMER 
+Damage: 1-6 Crushing
+Speed: 5
+Weight: 7
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+This is a heavy war hammer. It has a long handle and a metal head that looks like it could shape steel and crush skulls with ease.~ 
+
+@2093 = ~Mace~ 
+@2094 = ~Baatezu Mace~ 
+@2095 = ~MACE 
+Damage: 2-7 Crushing/Piercing
+Speed: 5
+Weight: 10
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+Standard mace design. Quite effective in delivering crushing blows to your enemy.~ 
+
+@2096 = ~BAATEZU MACE 
+Damage: 2-7 Crushing/Piercing
+Enchanted: +1 
+THAC0: +1 
+Speed: 5
+Weight: 10
+Proficiency: Hammers
+Usable by Fighters and Priests
+
+Made from ore found only in the wastelands of Avernus. Baatezu have created a metal called Baatorian green steel. Weapons produced from this metal are lighter and stronger than those forged of ordinary steel and tend to inflict greater damage. Although produced in great quantities for the Blood Wars, weapons such as these are rarely found outside of Baator.~ 
+
+@2097 = ~Mace~ 
+@2098 = ~MACE 
+Damage: 1-6 Crushing/Piercing
+Speed: 5
+Weight: 12
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+This seems to be a standard variety mace. Used properly, this weapon can deliver a crushing blow to an opponent.~ 
+
+@2099 = ~Poor Quality Mace~ 
+@2100 = ~POOR QUALITY MACE 
+Damage: 0-5 Crushing/Piercing
+Speed: 5
+Weight: 13
+Proficiency: Hammers
+Usable by Fighters and Priests 
+
+This mace seems to be of very poor construction. The balance and weight lend itself to an awkward and almost erratic swing. Most likely this was constructed by an apprentice blacksmith.~ 
+
+@2102 = ~Fist~ 
+@2103 = ~FIST 
+Damage: 1-3 Crushing
+Special:
+   +1 Attack per Round 
+Speed: 3
+Weight: 0
+Proficiency: Fists
+
+^NNOTE: Your fist is your default attack. Although the amount of damage you can do with your fists is relatively small, you can attack quickly and the damage you do *is* affected by your Strength.^-
+
+Your punches are lethal; you CAN kill with repeated blows. As long as you have not filled up all your quick weapon slots, you can always select "fist" as your current weapon.~ 
+
+
+@3000 = ~Aegis of Torment~ 
+@3001 = ~AEGIS OF TORMENT 
+Special: 
+   +3 to Armor Class vs. Crushing 
+   +3 to Armor Class vs. Piercing 
+   +3 to Armor Class vs. Slashing 
+   Deals 2d6 Cold Damage to Attackers when Hit 
+Weight: 0
+
+Rows and rows of minute skulls line the outer edge of this bracelet. It is crowned by an over-sized skull with fire-red gems that serves as its eyes. This bracelet is the physical manifestation of the suffering of the tormented slaves of Dahnthur. It was their ultimate wish to gain protection from their oppressors, and with this magical bracelet, their wish was finally realized. Even with the fiery red gems, a royal purple hue continually emanates outward.~ 
+
+@3002 = ~Spiked Bracelet~ 
+@3003 = ~Dread Bond~ 
+@3004 = ~SPIKED BRACELET 
+Weight: 3
+Usable only by Fighters
+Not usable by Vhailor 
+
+This item is constructed out of long strings of black iron interwoven together to form a bracelet of sorts. Sharp spikes protrude along the outside as well as the inside of the band. It would seem the person wearing this would be subjected to excruciating amounts of pain.~ 
+
+@3005 = ~DREAD BOND 
+Special: 
+   Immunity to fear and panic
+   +1 Strength
+   +1 Dexterity
+Weight: 3
+Usable only by Fighters
+Not usable by Vhailor 
+
+Legend has it that this bracelet was created by Nacek the Sadistic. Tiny razor sharp spikes cover the entire surface of this item injecting small amounts of rare reagents into the blood stream of the user. The effect of these chemicals causes the user to feel a constant adrenaline rush of strength.~ 
+
+@3006 = ~Treated Intestines~ 
+@3007 = ~Intestinal Phylactery~ 
+@3008 = ~TREATED INTESTINES 
+Weight: 2
+Usable only by The Nameless One
+
+This ropy mass of bloody intestines is yours; Ravel pulled them quickly and painlessly out of your body when she reverted to Marta during your conversation in the Black-Barbed Maze. The fluids surrounding these intestines have congealed into a slick resin, and holding them is like holding a dry, rubbery cord. You have to admit it makes you uncomfortable to see them outside of your body.
+
+Ravel... Marta... WHOEVER that insane hag was... mentioned that these intestines would serve as a powerful charm, but you have no idea how they could be used.~ 
+
+@3009 = ~INTESTINAL PHYLACTERY 
+Special: 
+   +1 Constitution
+   Regeneration (1 hit point every 6 seconds) 
+   -2 Charisma 
+Weight: 2
+Usable only by The Nameless One
+
+This ropy mass of bloody intestines is yours; Ravel pulled them quickly and painlessly out of your body when she reverted to "Marta" during your conversation in the Black-Barbed Maze. The fluids surrounding these intestines have congealed into a slick resin, and holding them is like holding a dry, rubbery cord. You have to admit it makes you uncomfortable to see them outside of your body.
+
+Ravel... Marta... WHOEVER that insane hag was... mentioned that these intestines would serve as a powerful charm; it looks like when they are wrapped around one's wrist like a phylactery, they give the wearer a portion of your immortal endurance, increasing the person's endurance and granting them a supernatural healing rate. 
+
+You have to confess, however, no matter what blessing these intestines bestow, they look pretty damn gross when worn as a bracelet.~ 
+
+@3010 = ~Silver Bracelet~ 
+@3011 = ~Magus Guard~ 
+@3012 = ~SILVER BRACELET 
+Weight: 2
+
+This bracelet looks to be made of silver and has a semi-precious gem mounted to the top of it.~ 
+
+@3013 = ~MAGUS GUARD 
+Special: 
+   +1 to Armor Class vs. Crushing 
+   +1 to Armor Class vs. Piercing 
+   +1 to Armor Class vs. Slashing 
+   Immunity to backstabs
+Weight: 2
+
+Considered standard equipment for any adventuring mage, bracelets such as these can be found across the planes. Judging by the markings on this particular bracelet it appears to have been made in a style quite common to Sigil. Various glyphs of warding are meticulously carved along the surface producing an almost hypnotic effect when looked at. When worn this bracelet protects the wearer from normal attacks as if they were wearing scale armor.~ 
+
+@3014 = ~Rat-tail Bracelet~ 
+@3015 = ~RAT-TAIL BRACELET 
+Weight: 0 
+Usable only by Xaositects 
+
+This strange charm of woven rat tails was made by Barking-Wilder, who described a variety of effects of wearing it around your wrist.~ 
+
+@3016 = ~RAT-TAIL BRACELET 
+Special: 
+   +10% Physical Resistance 
+   +1 Strength 
+   -2 Wisdom 
+Weight: 0 
+Usable only by Xaositects   
+
+This strange charm of woven rat tails was made by Barking-Wilder, and it has been infused with some of his chaotic spirit. When worn, it helps the wearer shrug off physical attacks and gives him an insane rush of strength and energy (but reduces the wearer's wisdom accordingly).~
+
+@3017 = ~Costume Jewelry~ 
+@3018 = ~Spider Bracelet~ 
+@3019 = ~COSTUME JEWELRY 
+Weight: 0
+Usable only by Thieves 
+
+This appears to be an exquisitely-made piece of costume jewelry made to resemble a spider of some sort. It almost appears as if the spider could get up and walk away at any minute.~ 
+@3020 = ~SPIDER BRACELET 
+Special:
+   +10% Stealth
+   Immunity to hold and paralyze 
+Weight: 0
+Usable only by Thieves
+
+In actuality this is a living spider not jewelry. When attached to ones wrist, the spider will sink its fangs into the users flesh and feed from the host, providing both beneficial and detrimental effects.~
+
+@3021 = ~Encrusted Bracelet~ 
+@3022 = ~Magus Shield~ 
+@3023 = ~ENCRUSTED BRACELET 
+Weight: 2
+
+This bracelet looks to be made of silver and has a semi-precious gem mounted to the top of it.~ 
+@3024 = ~MAGUS SHIELD 
+Special: 
+   +2 to Armor Class vs. Crushing 
+   +2 to Armor Class vs. Piercing 
+   +2 to Armor Class vs. Slashing 
+   Protection from Magic Missile
+   
+This bracelet is a variation of the Magus Guard. Essentially using the same spells and glyphs as its predecessor, the Magus Shield is better able to focus the energy of the enchantments placed upon it.~
+
+@3025 = ~Amber Earrings~ 
+@3026 = ~AMBER EARRINGS 
+Special: 
+   Memorize 2 Additional 1st Level Mage Spells
+Weight: 0
+Usable only by Mages
+Usable only by Nameless One
+
+These earrings are made from hardened sap of the razorvine. When properly prepared, items made from this substance can be enchanted with powerful spells of protection.~ 
+
+@3027 = ~Anarchist Earrings~ 
+@3028 = ~ANARCHIST EARRING
+Weight: 0
+Usable only by Anarchists 
+
+This set of earrings is fashioned to resemble the four symbols of the Revolutionary League. They are not the height of subtlety.~ 
+
+@3029 = ~ANARCHIST EARRINGS 
+Special: 
+   +1 to Charisma
+   Immunity to fear
+Weight: 0
+Usable only by Anarchists
+
+This set of earrings is fashioned to resemble the four symbols of the Revolutionary League. They are designed to aid the Anarchist in his pursuit of freedom for all. Note that these earrings, while useful, are not exactly subtle in declaring allegiance to the Revolutionary League. These particular earrings makes you more attractive, more persuasive, and better able to infiltrate the strongholds of the overweening power structure while also providing a clear mind against potentially terrifying situations.~ 
+
+@3030 = ~Crimson Sphere Earring~ 
+@3031 = ~CRIMSON SPHERE EARRING
+Weight: 0
+
+This thin earring has a small red gem set into its end. It glows slightly, as if a small fire burns inside it, but it is otherwise cold to the touch.~ 
+
+@3032 = ~CRIMSON SPHERE EARRING
+Special:
+   +25% Resistance to Fire
+   +25% Resistance to Magical Fire
+Weight: 0
+
+This small red gem set into this earring acts like a heat sponge, protecting the wearer from heat or flame attacks. Whenever the wearer is exposed to fire, the gem draws some of the heat into itself, shielding its wearer from part of the damage.
+
+It is rumored that each of these earrings holds a tiny fire mephit inside, and that they are so starved for heat that they will drink deep of any fire in the vicinity. This has never been proven, mostly because no one really cares to investigate the matter.~ 
+
+@3033 = ~Dustman Earring~ 
+@3034 = ~DUSTMAN EARRING
+Special:
+   +5% Physical Resistance
+   +5% Elemental Resistance
+Weight: 0
+Usable only by Dustmen
+
+This earring has the smell of ash and dust about it and is icy cold to the touch. When worn, the earring shields the wearer from temperature extremes, granting the wearer partial resistance to heat and cold. Furthermore, the earring also protects the wearer from mind-influencing magics and magics that attack the body, including paralyzation and death magic.
+
+The earring signifies the wearer's allegiance to the Dustmen and can only be worn by a member of the Dustman faction. According to rumor, this earring helps dull the Dustmen to the effects of the outside world.~ 
+
+@3035 = ~Indep Earring~ 
+@3036 = ~INDEP EARRING
+Special: 
+   +1 to All Saving Throws
+   Immunity to confusion
+Weight: 0
+Usable only by Indeps
+
+This barbed earring marks the wearer as a member of the Indep faction. This earring is the home of an independent spirit which accompanies the wearer and does its best to protect him from harm. Whenever possible, the spirit gives its wearer a mental nudge to get them out of harm's way... the tiny counseling spirit provides the user with +1 to all Saving Throws, and its mere presence gives the wearer an additional bonus to avoid spells and confusion effects.
+
+Many of these enchanted items were made in the bazaars of Sigil by a silversmith from Oerth, who had found a way of shaping metal in such a way that it attracted "free spirits" to the metal and caused them to take up residence there. The spirit is not bound to the earring by any means; from what scholars have determined, there is something about the earring that the spirits find "cozy."~ 
+
+@3037 = ~Lone Black Earring~ 
+@3038 = ~Obsidian Earring~ 
+@3039 = ~LONE BLACK EARRING 
+Weight: 0
+Usable only by Thieves
+
+This small earring is made from polished obsidian. Despite the smoothness of its surface, it reflects no light whatsoever.~ 
+@3040 = ~OBSIDIAN EARRING 
+Special: 
+   +25% Stealth 
+Weight: 0
+Usable only by Thieves
+
+This small earring is made from polished obsidian. Despite the smoothness of its surface, it reflects no light whatsoever.
+
+Commonly referred to as "a rogue's best friend," the black gem this earring is made from possesses magical properties that absorb light, making it easier for its wearer to move undetected in the shadows.~ 
+
+@3041 = ~Segmented Earring~
+@3042 = ~Stinger Earring~ 
+@3043 = ~SEGMENTED EARRING 
+Weight: 0
+
+This earring has been made from the hardened shell of a segmented, larva-like creature. Its shell has been treated with some sort of glazed finish that makes it look disturbingly alive. The wire that hooks to the ear looks like it is part of the larva itself, perhaps its stinger or antenna.~ 
+@3044 = ~STINGER EARRING 
+Special:
+   +2 to Armor Class vs. Piercing Attacks
+Weight: 0
+
+This earring has been made from the hardened shell of a segmented, larva-like creature. Its shell has been treated with some sort of glazed finish that makes it look disturbingly alive. The wire that hooks to the ear looks like it is part of the larva itself, perhaps its stinger or antenna.
+
+To activate the earring's power, the wearer must prick his thumb with the stinger, allowing it to bond with its new owner. When "awakened," this earring helps protect the wearer from attacks, giving the wearer's skin the same strength and durability of the larva's shell.~ 
+
+@3045 = ~Glass Eye~ 
+@3046 = ~Angle-Less Eye~ 
+@3047 = ~GLASS EYE
+Weight: 0
+
+This glass eye seems like a poor replacement for a real one.~ 
+@3048 = ~ANGLE-LESS EYE 
+Special:
+   +20% Slashing Resistance
+   +20% Piercing Resistance
+   -10% Crushing Resistance
+   -10% Missile Resistance
+Weight: 0
+
+At first glance, this glass eye seems a poor replacement for a real one. However, when inserted into an empty eye socket facing inwards, its power awakens. 
+
+Although the eye dulls the wearer to colors and sights, it also seems to soften his perception of angles and shapes, granting resistance to sharp and pointed weapons. Unfortunately for the wearer, this rounding of edges also causes them to take increased damage from blunt objects.~ 
+
+@3050 = ~Kaleidoscopic Gem~ 
+@3051 = ~Kaleidoscopic Eye~ 
+@3052 = ~KALEIDOSCOPIC GEM
+Weight: 0
+
+This shimmering jewel catches the light and reflects it in a spray of colors. It looks extremely valuable.~ 
+@3053 = ~KALEIDOSCOPIC EYE
+Special: 
+   Immunity to Chromatic Orb
+   +10% Elemental Resistance
+   +10% Magic Resistance
+Weight: 0
+Usable only by Good creatures
+
+This shimmering jewel is actually the corpse of a radiance spirit from the Upper Plane of Elysium. When these creatures pass away, they leave their shimmering husks behind. These husks are often mistaken for jewels or semi-precious stones. Their essence is still that of harmony and goodness, and they can only be employed by a creature whose heart is filled with good intentions.
+
+When placed in the owner's eye socket, the eye grafts itself to the wearer's skull and helps shield its new owner. It absorbs a portion of the energies from incoming attacks and provides proof against all manner of magical attacks.~
+
+@3054 = ~Fiendish Eye~ 
+@3055 = ~The Fiendish Eye of Kalem'Darr~ 
+@3056 = ~FIENDISH EYE
+Weight: 0
+
+This slitted red eyeball makes you uncomfortable just looking at it. It looks like it was taken from some huge reptile... and it's still moist, as if it was just taken from the unfortunate creature's socket.~
+
+@3057 = ~THE FIENDISH EYE OF KALEM'DARR
+(Minor Artifact)
+Special:
+   +1 Charisma
+   +1 Luck
+   -10% Experience Gained
+Weight: 0
+
+A well-known and respected fiend from the Lower Planes, Kalem'Darr was a member of the Fated faction in Sigil. His businesses were spread far and wide, and it was said he had a glittering touch, for every enterprise he undertook was successful. He planned carefully, took few risks, and prospered. Occasionally, he was forced to collect on debts - which could be bloody undertakings, but in the end, he always received his payments.
+
+One day, one of his debtors came to Kalem'Darr and told him he could not settle his debt with coin... but would provide something of greater worth, if the fiend was interested. The man was a hedge wizard of little power, but he claimed he knew the ways of blessing a businessman's eye so that no opportunity would ever escape his sight. Kalem'Darr, both greedy and intrigued, agreed to accept the enchantment as payment.
+
+It worked... too well, as perhaps the wizard had intended.
+
+Kalem'Darr's enchanted eye soon saw opportunities *everywhere.* Too many to be exploited, and many others the fiend did not know HOW to take advantage of. What his "blessed" eye saw, his hands made broken - every opportunity he tried to take advantage of, his ineptitude mangled. His businesses fell apart, his financial empire crumbled. He soon found himself in debt to his fellows, who had little sympathy for their former competitor.
+
+Kalem'Darr, unable to bear his reversal of fortune, finally plucked the offending eyeball from his socket and placed it within a cube of glass upon his mantle-piece. Then one day... the eye simply vanished.
+
+It is said the eyeball itself saw a better opportunity as a free agent, but this has never been proven.
+
+When placed within an empty eye socket, not only does the fiendish eye grant the wearer a trace of Kalem'Darr's fiendish immunities, it also grants the wearer a bonus to their dealings with others, allowing them to thread their way through a conversation and take what they need. Still, the blinding array of opportunities the eye presents to the wearer blinds him to the opportunities he does take, reducing how much he learns from his experiences.~ 
+
+@3058 = ~Adahn's Ring~ 
+@3059 = ~ADAHN'S RING 
+Special:
+   Immunity to hold and paralyze 
+Weight: 0
+Usable only by Chaotic creatures 
+
+This is a gift you received from Adahn when you bid him farewell in the Smoldering Corpse Bar. It's a featureless metal ring that looks extremely thick and heavy, but it is almost weightless. It shifts as you watch, changing from silver, to bronze, to gold.~ 
+
+@3060 = ~Lover's Band~ 
+@3061 = ~Displacer Ring~ 
+@3062 = ~LOVER'S BAND
+Weight: 0
+
+Rings such as these are usually used to signify one's undying love for another. Quite often these rings are exchanged between lovers when a long journey is undertaken as a reminder and a promise to return.~ 
+@3063 = ~DISPLACER RING 
+DISPLACER RING
+Special: 
+   +1 to Armor Class
+   +5% Physical Resistance 
+Weight: 0
+
+Created from the blood of a displacer beast, this ring is able to partially redirect the force of any ordinary weapon. This results in making the user harder to hit and when hit takes less damage than normal.~ 
+
+@3064 = ~Simple Silver Ring~ 
+@3065 = ~Gehraise's Ring~ 
+@3066 = ~SIMPLE SILVER RING
+Weight: 0
+
+This small silver ring looks like it belongs on a woman's finger. It feels slightly warm to the touch but seems to have no other special properties.~ 
+@3067 = ~GEHRAISE'S RING 
+Special: 
+   Immunity to poison and disease 
+Weight: 0
+
+This small silver ring looks like it belongs on a woman's finger. It feels slightly warm to the touch and it has the power to offset poison that has entered the wearer's bloodstream.~ 
+
+@3068 = ~Jagged Ring~ 
+@3069 = ~Mempa's Biting Ring~ 
+@3070 = ~JAGGED RING
+Weight: 0
+
+This glittering, silvery ring is sculpted with dozens of tiny, ornate flanges and decorative protrusions. It looks as if it might be slightly uncomfortable to wear, as a careless bearer might cut themselves upon its jagged edges while placing or removing the ring.~ 
+@3071 = ~MEMPA'S BITING RING
+*CURSED*
+Special: 
+   +1 to Armor Class
+   +10 Maximum Hit Points 
+Weight: 0
+
+Mempa was a mage obsessed with the possibility of having her magic items lost or burgled while she was asleep or otherwise incapacitated. While the vast majority of her carried possessions were inseparable from her corpse and thus buried with her, some of her weaker items - early experiments, perhaps - were left behind and remain in the world of the living.
+
+Mempa's Biting Ring, whose powerful aura protects its bearer from bodily harm, is one such item. However, once placed upon one's finger, the ring bites down and holds on so tenaciously that it is nigh impossible to remove it from the 'bitten' digit.~ 
+
+@3072 = ~Negative Token~ 
+@3073 = ~NEGATIVE TOKEN 
+Special:
+   +2 to Armor Class and Saves against Shadows 
+
+This is a "negative token": a flat, black disk that appears to have no substance to it at all. Turning it over reveals that it has no third dimension - there is no thickness to this item at all. This ring provides protection against the shadows that stalk you, making it more difficult for them to harm you.~ 
+
+@3074 = ~Yevrah's Ring of Almost Invisibility~ 
+@3075 = ~YEVRAH'S RING OF ALMOST INVISIBILITY 
+Special: 
+   +1 to Armor Class
+Weight: 0
+
+The ring makes its wearer invisible - almost. Sometimes, for brief periods, the wearer becomes really, *really* close to being invisible - an event which is often disconcerting to an attacker - and is thus more difficult to strike in combat.~ 
+
+@3076 = ~Gaudy Ring~ 
+@3077 = ~Ring of the Traveler~ 
+@3078 = ~GAUDY RING 
+Weight: 0
+
+This appears to be a silver ring with a large stone of some kind mounted to it, maybe an engagement ring of some sort.~ 
+@3079 = ~RING OF THE TRAVELER 
+Special: 
+   +1 to Armor Class
+Weight: 0
+
+These rings are quite common across the planes. Simple to make and in great demand, Mages usually create these items as a way to raise quick money. This particular ring has a minor enchantment on it that protects the wearer from harm.~ 
+
+@3080 = ~Ring of Thex~ 
+@3081 = ~RING OF THEX 
+Special: 
+   +15 Maximum Hit Points
+   +2 to Armor Class
+   Memorize 1 Fewer 1st Level Mage Spell
+   Memorize 1 Fewer 2nd Level Mage Spell
+   Memorize 1 Fewer 3rd Level Mage Spell
+   Memorize 1 Fewer 4th Level Mage Spell
+   Memorize 1 Fewer 5th Level Mage Spell
+   Memorize 1 Fewer 6th Level Mage Spell
+   Memorize 1 Fewer 7th Level Mage Spell
+   Memorize 1 Fewer 8th Level Mage Spell
+   Memorize 1 Fewer 9th Level Mage Spell 
+THAC0: +5 
+Weight: 0
+Usable only by Mages
+
+This ornate silver ring is set with a single red stone of an unknown type. The ring is believed to have been created by an adventuring mage named Thex. Thex claimed she was tired of sitting back and flinging spells at enemies while the rest of her adventuring party was able to get into the thick of battle. She felt that the ring would allow her to become what she chose to call a Battlemage. The Ring of Thex was the crowning achievement of her short career.~ 
+
+@3082 = ~Ring Zero~ 
+@3083 = ~RING ZERO 
+Special:
+   Memorize 1 Additional 1st Level Mage Spell
+   Memorize 1 Additional 2nd Level Mage Spell
+   Memorize 1 Additional 3rd Level Mage Spell
+   Memorize 1 Additional 4th Level Mage Spell
+   Memorize 1 Additional 5th Level Mage Spell
+   Memorize 1 Additional 6th Level Mage Spell
+   Memorize 1 Additional 7th Level Mage Spell
+   Memorize 1 Additional 8th Level Mage Spell
+   Memorize 1 Additional 9th Level Mage Spell
+Weight: 0
+Usable only by Mages
+
+From a Hero of ancient times during the Year of Gii 'on, AC195, this exquisite ring is smartly carved, with spiked edges. The ring is made of a metal that is unidentifiable, with a center stone that is ice cold to the touch. It emanates a strange, royal purple glow.~ 
+
+@3084 = ~Festival Prize~ 
+@3085 = ~Serpent Ring~ 
+@3086 = ~FESTIVAL PRIZE
+Weight: 0
+
+A toy ring shaped like a serpent. Rings like these are often given out at festivals as booby prizes.~ 
+@3087 = ~SERPENT RING
+Special:
+   +15% Magic Resistance
+Weight: 0
+Usable only by Thieves
+
+This appears to be a baby serpent of some sort that has been frozen into the shape of a ring. Its eyes glitter and swirl like jewels and even appear to move occasionally.~ 
+
+@3088 = ~Twisted Ring~ 
+@3089 = ~TWISTED RING 
+Special: 
+   +1 to Armor Class
+Weight: 0
+
+This ring looks like three rings that have been wrapped around each other. Just looking at it makes you dizzy.~ 
+
+@4000 = ~Annah's Vest~ 
+@4001 = ~ANNAH'S VEST 
+Armor Class: 8
+Special:
+   Immunity to hold and paralyze 
+Weight: 10
+Usable only by Annah
+
+Annah's vest is similar to leather armor, but it seems more flexible and allows her greater freedom of movement. You're not certain what creature's hide (if any) was used to make the vest, but it seems durable enough. Three straps help secure the front, and a staggered series of bracers run down the left arm. If necessary, Annah can slip her punch daggers into the bracers to conceal them.~ 
+
+@4002 = ~Annah's Punch Daggers~ 
+@4003 = ~ANNAH'S PUNCH DAGGERS 
+Damage: 2-4 Piercing
+Enchanted: +1
+Special: 
+   +1 Attack per Round
+   +5% Critical Hit Chance
+THAC0: +1 
+Speed: 3
+Weight: 2
+Proficiency: Fists
+Usable only by Annah
+
+Annah's common weapons are a pair of jagged dagger blades mounted on iron knuckles. The blades are well-oiled and razor-sharp; in addition, their relatively small size allows them to be concealed quickly when a guard patrol makes a sudden appearance.~ 
+
+@4004 = ~Chained-teeth Earrings~ 
+@4005 = ~CHAINED-TEETH EARRINGS
+Special: 
+   +25% to Open Locks 
+Weight: 0
+Usable only by Annah
+
+Perhaps the idea that Annah would wear anything solely for ornamental value makes you suspicious of these earrings. Upon closer examination, you discover these thin metal earrings are actually a series of well-crafted lockpicks. If need be, you can unhook them and use them to pick open stubborn locks. 
+
+^NNOTE: These earrings will only add to your Open Locks skill when they are equipped.^-~ 
+
+@4006 = ~Jerkin of the Brazen Rogue~ 
+@4007 = ~JERKIN OF THE BRAZEN ROGUE
+Armor Class: 5
+Special:
+   +2 Proficiency with Fists
+Weight: 12
+Usable only by Annah
+
+This piece of sturdy leather armor was clearly fashioned for a woman. It is a piece of remarkably skillful craftsmanship; small metal plates and bands are carefully concealed here and there over the jerkin's surface, providing a great deal of protection without hampering mobility. The armor seems best suited for a 'flashy' fighter who would make the full use of the free movement it would afford them. The enchantments woven into it by Goncalves not only serve to protect such a combatant, but aid them in their balance and the striking of their foes, as well.~ 
+
+@4008 = ~Jerkin of the Flitting Shadow~
+@4009 = ~JERKIN OF THE FLITTING SHADOW
+Armor Class: 6
+Special:
+   +25% Stealth Skill Bonus
+   On critical hit, become invisible for 12 seconds
+Weight: 8
+Usable only by Annah
+
+This piece of light leather armor was clearly fashioned for a woman. Even at a glance one can tell it is of the highest quality; every part of it, from its supple leather banding to its quadruple-stitched seams and padded silk lining, speaks of impeccable craftsmanship. Goncalves wove a number of enchantments into the lining of the jerkin so that its wearer is more prone to blend into surrounding shadows, enabling them to setup advantageous positions before cutting down their foes.~ 
+
+@4010 = ~Lower Planes Vermin Armor~ 
+@4011 = ~LOWER PLANES VERMIN ARMOR 
+Armor Class: 6
+Special: 
+   +2 to Armor Class and Saves against Lawful creatures
+   +2 to Armor Class and Saves against Good creatures    
+Weight: 10
+Usable only by Annah
+
+This armor has been woven from the hides of various Abyssal vermin. The stitching thread appears to be a single white hair (though the type of creature is unknown). There are no metal fixtures, studs, or buckles anywhere on the armor... it is composed solely from the remains of living creatures.~  
+@4012 = ~Dak'kon's Zerth Armor~ 
+@4013 = ~DAK'KON'S ZERTH ARMOR
+Armor Class: 5
+Special:
+   Each round, negate the first hit against the wearer
+Weight: 25
+Usable only by Dak'kon
+
+Dak'kon's ceremonial *zerth* armor. It is fashioned of interlocking metal rings, formed of the same substance that Dak'kon's blade is made of. (Unlike the blade, however, it does not appear that the armor changes based on the mental state of the wielder.) The armor is worn over a padded red tunic, and spiked bracers and shoulder pads have been added to give greater protection to the arms and upper body.
+
+While Dak'kon's armor is similar to chain mail, it is lighter and more flexible, allowing him to wield his sword more effectively. Furthermore, it seems that when the sword and armor are used in tandem, the armor becomes even more fluid. Whether this is a unique property of *karach,* or whether this is some magical effect of the two items, is unknown.~ 
+
+@4014 = ~Chained Blade~ 
+@4015 = ~Streaming Blade~ 
+@4016 = ~Kinstealer~ 
+@4017 = ~CHAINED BLADE 
+Damage: 2-9 Slashing
+Enchanted: +1
+THAC0: +1
+Speed: 7
+Weight: 5
+Proficiency: Edged
+Usable only by Dak'kon
+
+On the githzerai's home plane of Limbo, solid matter is something of a rarity. Limbo itself is a soupy mass of elements, and only through force of will can the githzerai shape these elements into stable matter. 
+
+A substance called "karach" is a material that can be shaped with the mind. Dak'kon's blade is composed of this substance; through mental discipline alone, Dak'kon maintains the integrity of the blade. He can shape it slightly depending on his skill, adjusting its length, sharpness of the edge. Presumably as he gains levels, he may be able to manipulate the blade in new ways. 
+
+It is not known whether all githzerai *zerth* carry such weapons. Certainly a weapon that depends on the integrity of the wielder would be entrusted only to those who had learned to discipline themselves.
+
+This blade appears to have special religious significance for Dak'kon. Dak'kon has wound a series of parchments around the hilt of the blade. These appear to be mantras dedicated to Zerthimon.~ 
+
+@4018 = ~CHAINED BLADE 
+Damage: 3-10 Slashing
+Enchanted: +2
+Special: 
+   +1 Armor Class
+   +5% Critical Hit Chance
+THAC0: +2
+Speed: 7
+Weight: 5
+Proficiency: Edged
+Usable only by Dak'kon
+
+On the githzerai's home plane of Limbo, solid matter is something of a rarity. Limbo itself is a soupy mass of elements, and only through force of will can the githzerai shape these elements into stable matter. 
+
+A substance called "karach" is a material that can be shaped with the mind. Dak'kon's blade is composed of this substance; through mental discipline alone, Dak'kon maintains the integrity of the blade. He can shape it slightly depending on his skill, adjusting its length, sharpness of the edge. Presumably as he gains levels, he may be able to manipulate the blade in new ways. 
+
+It is not known whether all githzerai *zerth* carry such weapons. Certainly a weapon that depends on the integrity of the wielder would be entrusted only to those who had learned to discipline themselves.
+
+This blade appears to have special religious significance for Dak'kon. Dak'kon has wound a series of parchments around the hilt of the blade. These appear to be mantras dedicated to Zerthimon.~ 
+
+@4019 = ~CHAINED BLADE 
+Damage: 4-11 Slashing
+Enchanted: +3
+Special: 
+   +2 Armor Class
+   +5% Critical Hit Chance
+THAC0: +3
+Speed: 7
+Weight: 5
+Proficiency: Edged
+Usable only by Dak'kon
+
+On the githzerai's home plane of Limbo, solid matter is something of a rarity. Limbo itself is a soupy mass of elements, and only through force of will can the githzerai shape these elements into stable matter. 
+
+A substance called "karach" is a material that can be shaped with the mind. Dak'kon's blade is composed of this substance; through mental discipline alone, Dak'kon maintains the integrity of the blade. He can shape it slightly depending on his skill, adjusting its length, sharpness of the edge. Presumably as he gains levels, he may be able to manipulate the blade in new ways. 
+
+It is not known whether all githzerai *zerth* carry such weapons. Certainly a weapon that depends on the integrity of the wielder would be entrusted only to those who had learned to discipline themselves.
+
+This blade appears to have special religious significance for Dak'kon. Dak'kon has wound a series of parchments around the hilt of the blade. These appear to be mantras dedicated to Zerthimon.~ 
+
+@4020 = ~STREAMING BLADE 
+Damage: 2-9 Slashing
+Enchanted: +1
+Special: 
+   Memorize 1 Additional 1st Level Mage Spell
+THAC0: +1
+Speed: 7
+Weight: 5
+Proficiency: Edged
+Usable only by Dak'kon
+
+On the githzerai's home plane of Limbo, solid matter is something of a rarity. Limbo itself is a soupy mass of elements, and only through force of will can the githzerai shape these elements into stable matter.
+
+A substance called *karach* is a material that can be shaped with the mind. Dak'kon's blade is composed of this substance; through mental discipline alone, Dak'kon maintains the integrity of the blade. When the user's spirit is focused, his mind clear of doubts and devoted to a single purpose, the blade itself will react, mirroring the wielder's thoughts.
+
+If so, Dak'kon's mind must be clear, indeed, for his blade has become a brilliant silver. It seems as if the blade has become longer than when you first saw it, and there is no trace of the strange shimmering surface it once had. The edge of the blade tapers almost to a paper-thin line - despite its flimsy appearance, it looks like it could cut through chain armor with ease.
+
+This blade appears to have special religious significance for Dak'kon. Dak'kon has wound a series of parchments around the hilt of the blade. These appear to be mantras dedicated to Zerthimon.~ 
+
+@4021 = ~STREAMING BLADE 
+Damage: 3-10 Slashing
+Enchanted: +2
+Special: 
+   +1 Armor Class
+   +5% Critical Hit Chance
+   +1 Casting Speed 
+   Memorize 1 Additional 1st Level Mage Spell
+   Memorize 1 Additional 2nd Level Mage Spell
+THAC0: +2
+Speed: 7
+Weight: 5
+Proficiency: Edged
+Usable only by Dak'kon
+
+On the githzerai's home plane of Limbo, solid matter is something of a rarity. Limbo itself is a soupy mass of elements, and only through force of will can the githzerai shape these elements into stable matter.
+
+A substance called *karach* is a material that can be shaped with the mind. Dak'kon's blade is composed of this substance; through mental discipline alone, Dak'kon maintains the integrity of the blade. When the user's spirit is focused, his mind clear of doubts and devoted to a single purpose, the blade itself will react, mirroring the wielder's thoughts.
+
+If so, Dak'kon's mind must be clear, indeed, for his blade has become a brilliant silver. It seems as if the blade has become longer than when you first saw it, and there is no trace of the strange shimmering surface it once had. The edge of the blade tapers almost to a paper-thin line - despite its flimsy appearance, it looks like it could cut through chain armor with ease.
+
+This blade appears to have special religious significance for Dak'kon. Dak'kon has wound a series of parchments around the hilt of the blade. These appear to be mantras dedicated to Zerthimon.~ 
+
+@4022 = ~STREAMING BLADE 
+Damage: 4-11 Slashing
+Enchanted: +3
+Special: 
+   +2 Armor Class
+   +5% Critical Hit Chance
+   +2 Casting Speed 
+   Memorize 1 Additional 1st Level Mage Spell
+   Memorize 1 Additional 2nd Level Mage Spell
+   Memorize 1 Additional 3rd Level Mage Spell
+   On critical hit, refresh an expended spell slot
+THAC0: +3
+Speed: 7
+Weight: 5
+Proficiency: Edged
+Usable only by Dak'kon
+
+On the githzerai's home plane of Limbo, solid matter is something of a rarity. Limbo itself is a soupy mass of elements, and only through force of will can the githzerai shape these elements into stable matter.
+
+A substance called *karach* is a material that can be shaped with the mind. Dak'kon's blade is composed of this substance; through mental discipline alone, Dak'kon maintains the integrity of the blade. When the user's spirit is focused, his mind clear of doubts and devoted to a single purpose, the blade itself will react, mirroring the wielder's thoughts.
+
+If so, Dak'kon's mind must be clear, indeed, for his blade has become a brilliant silver. It seems as if the blade has become longer than when you first saw it, and there is no trace of the strange shimmering surface it once had. The edge of the blade tapers almost to a paper-thin line - despite its flimsy appearance, it looks like it could cut through chain armor with ease.
+
+This blade appears to have special religious significance for Dak'kon. Dak'kon has wound a series of parchments around the hilt of the blade. These appear to be mantras dedicated to Zerthimon.~ 
+
+@4023 = ~KINSTEALER 
+Damage: 2-9 Slashing
+Enchanted: +1
+Special: 
+   +1/2 Attack per Round
+THAC0: +1
+Speed: 7
+Weight: 5
+Proficiency: Edged
+Usable only by Dak'kon
+
+On the githzerai's home plane of Limbo, solid matter is something of a rarity. Limbo itself is a soupy mass of elements, and only through force of will can the githzerai shape these elements into stable matter. 
+
+A substance called *karach* is a material that can be shaped with the mind. Dak'kon's blade is composed of this substance; through mental discipline alone, Dak'kon maintains the integrity of the blade. When the spirit and discipline of the user begin to falter, the blade itself will react, mirroring the wielder's thoughts. 
+
+Dak'kon must be suffering indeed, for his *karach* blade has become a dead flat black, mirroring Dak'kon's eyes. It has become longer, sharper, and a series of subtle jags, like teeth, now line the edge of the blade.
+
+This blade appears to have special religious significance for Dak'kon. Dak'kon has wound a series of parchments around the hilt of the blade. These appear to be mantras dedicated to Zerthimon.~ 
+
+@4024 = ~KINSTEALER 
+Damage: 3-10 Slashing
+Enchanted: +2
+Special: 
+   +1 Armor Class
+   +10% Critical Hit Chance
+   +1/2 Attack per Round
+THAC0: +2
+Speed: 7
+Weight: 5
+Proficiency: Edged
+Usable only by Dak'kon
+
+On the githzerai's home plane of Limbo, solid matter is something of a rarity. Limbo itself is a soupy mass of elements, and only through force of will can the githzerai shape these elements into stable matter. 
+
+A substance called *karach* is a material that can be shaped with the mind. Dak'kon's blade is composed of this substance; through mental discipline alone, Dak'kon maintains the integrity of the blade. When the spirit and discipline of the user begin to falter, the blade itself will react, mirroring the wielder's thoughts. 
+
+Dak'kon must be suffering indeed, for his *karach* blade has become a dead flat black, mirroring Dak'kon's eyes. It has become longer, sharper, and a series of subtle jags, like teeth, now line the edge of the blade.
+
+This blade appears to have special religious significance for Dak'kon. Dak'kon has wound a series of parchments around the hilt of the blade. These appear to be mantras dedicated to Zerthimon.~ 
+
+@4025 = ~KINSTEALER 
+Damage: 4-11 Slashing
+Enchanted: +3
+Special:
+   +2 Armor Class
+   +10% Critical Hit Chance 
+   +1 Attack per Round
+   On critical hit, kill the target (save vs. death negates; -4 penalty)
+THAC0: +3
+Speed: 7
+Weight: 5
+Proficiency: Edged
+Usable only by Dak'kon
+
+On the githzerai's home plane of Limbo, solid matter is something of a rarity. Limbo itself is a soupy mass of elements, and only through force of will can the githzerai shape these elements into stable matter. 
+
+A substance called *karach* is a material that can be shaped with the mind. Dak'kon's blade is composed of this substance; through mental discipline alone, Dak'kon maintains the integrity of the blade. When the spirit and discipline of the user begin to falter, the blade itself will react, mirroring the wielder's thoughts. 
+
+Dak'kon must be suffering indeed, for his *karach* blade has become a dead flat black, mirroring Dak'kon's eyes. It has become longer, sharper, and a series of subtle jags, like teeth, now line the edge of the blade.
+
+This blade appears to have special religious significance for Dak'kon. Dak'kon has wound a series of parchments around the hilt of the blade. These appear to be mantras dedicated to Zerthimon.~ 
+
+@4026 = ~Bell's Shield~ 
+@4027 = ~BELL'S SHIELD
+Special:
+   +2 to Armor Class vs. Crushing 
+   +2 to Armor Class vs. Piercing 
+   +2 to Armor Class vs. Slashing 
+   Memorize 1 Additional 1st Level Priest Spell
+   Memorize 1 Additional 2nd Level Priest Spell
+   Memorize 1 Additional 3rd Level Priest Spell
+   Memorize 1 Additional 4th Level Priest Spell
+   Memorize 1 Additional 5th Level Priest Spell
+   Memorize 1 Additional 6th Level Priest Spell
+Weight: 0
+Usable only by Fall-from-Grace
+
+The engravings on this bracelet are nothing short of beautiful. The craftsmanship reflects the skilled work of the Meh 'gahmi Sah 'ma nomadic tribes. This bracelet was carved for their greatest warrior-priestess, Bell, who sought to bring peace to the greater southern plains region. The enthralling purple stones inset along the bracelet give off a soft, warm, royal purple glow.~ 
+
+@4028 = ~Bodice of the Godless Priest~ 
+@4029 = ~BODICE OF THE GODLESS PRIESTESS
+Special: 
+   +2 Armor Class 
+   +20% Damage 
+   +2 Casting Speed 
+Weight: 5
+Usable only by Fall-from-Grace
+
+This is a bodice much like the one Fall-from-Grace, Madame of the Brothel of Slating Intellectual Lusts, often wears. The enchantments woven into it by Goncalves allow Fall-from-Grace to memorize twice the number of 1st and 2nd level spells per day as she normally could.~ 
+
+@4030 = ~Bodice of the Perilous Quest~ 
+@4031 = ~BODICE OF THE PERILOUS QUEST
+Special: 
+   +3 Armor Class
+   +10 Maximum Hit Points
+   Regeneration (1 hit point every 6 seconds) 
+Weight: 6
+Usable only by Fall-from-Grace
+
+This is a bodice much like the one Fall-from-Grace, Madame of the Brothel of Slating Intellectual Lusts, often wears. Goncalves took great care in enchanting the weave of this particular piece of clothing; not only does it clean itself and repair minor tears in its fabric, its magic will slowly heal Fall-from-Grace, as well.~ 
+
+@4033 = ~Fall-from-Grace's Chastity Bodice~ 
+@4034 = ~FALL-FROM-GRACE'S CHASTITY BODICE
+Special: 
+   +2 Armor Class 
+Weight: 5
+Usable only by Fall-from-Grace
+
+Fall-from-Grace's bodice is made from the tanned hide of some creature. Despite its prim and proper appearance, it does little to detract from Grace's sensuality. The bodice possesses no known powers other than some minor enchantments that prevent it from becoming dirty and repairs minor tears in the fabric.~ 
+
+@4035 = ~Fall-from-Grace's Earrings~ 
+@4036 = ~FALL-FROM-GRACE'S EARRINGS
+Special:
+   +1 to All Saving Throws
+   +5% Resistance to Magic
+Weight: 0
+Usable only by Fall-from-Grace
+
+These are Fall-from-Grace's earrings. They give her a slight amount of protection from spells and other magic, and like almost everything else, they look really good on her.~ 
+
+@4037 = ~Fall-from-Grace's Touch~ 
+@4038 = ~FALL-FROM-GRACE'S TOUCH 
+Damage: 1-3 Magic 
+Enchanted: +1
+Special: 
+   +1 Attack per Round
+   No Strength Bonus to Damage
+THAC0: +1
+Speed: 3
+Weight: 0
+Proficiency: Fists
+Usable only by Fall-from-Grace
+
+This is Fall-from-Grace's basic attack.~ 
+
+@4039 = ~Ignus' Fireballs~ 
+@4040 = ~IGNUS' FIREBALLS 
+Damage: 1-3 Fire 
+Enchanted: +1
+Special: 
+   +1 Attack per Round
+   Cannot miss 
+   Subject to Magic Resistance
+Range: 30 ft 
+Speed: 3
+Weight: 0 
+Proficiency: None 
+Only usable by Ignus 
+
+This is Ignus' main attack, which is a barrage of magical fireballs that he launches at an opponent.~ 
+
+@4041 = ~Morte's Bite~ 
+@4042 = ~MORTE'S BITE 
+Damage: 1-3 Crushing/Piercing
+Speed: 1
+Weight: 0
+Proficiency: "Fists" (Don't ask.)
+
+Morte's bite is lethal, and he CAN masticate someone to death. As long as his quick weapon slots are not all filled, Morte can always select bite as his current weapon.
+
+^NNOTE: Morte's bite is his default attack. Although the amount of damage he can do with his bite is relatively small, it allows him to attack quickly, which can infuriate any mage who's trying to cast a spell.^-~ 
+
+@4043 = ~Unnatural Teeth~ 
+@4044 = ~Fiend's Teeth~ 
+@4045 = ~UNNATURAL TEETH 
+Damage: 3-5 Crushing/Piercing
+Speed: 1
+Weight: 1
+Proficiency: Fists
+Usable only by Morte
+
+These teeth are short, blunt, and radiate a feeling of unease.~ 
+@4046 = ~FIEND'S TEETH 
+Damage: 3-5 Crushing/Piercing
+Enchanted: +2 
+Special: 
+   +2 Damage against non-Evil creatures 
+   +4 Damage against Good Creatures
+THAC0: +2 
+Speed: 1
+Weight: 1
+Proficiency: Fists
+Usable only by Morte
+
+These teeth are short, dull and radiate a feeling of unease. They appear to have been taken from a fiend of the Lower Planes, but their exact origin is unknown. Using the teeth grants the wearer certain benefits normally possessed only by fiends.~ 
+
+@4047 = ~Charred Teeth~ 
+@4048 = ~Teeth of the Fire Drake~ 
+@4049 = ~CHARRED TEETH
+Damage: 3-5 Crushing/Piercing
+Speed: 1
+Weight: 1
+Proficiency: Fists
+Usable only by Morte
+
+These appear to be lumps of charred bone.~ 
+
+@4050 = ~TEETH OF THE FIRE DRAKE 
+Damage: 3-5 Crushing/Piercing
+Enchanted: +2 
+Special: 
+   +2d3 Fire Damage
+   Immunity to fire and magical fire 
+THAC0: +2 
+Speed: 1
+Weight: 1
+Proficiency: Fists
+Usable only by Morte
+
+These teeth look more like lumps of charred bones than actual teeth. Although their origin is unknown, it can be deduced that they were taken from some fire breathing creature. Using the teeth grants the wearer certain benefits normally possessed by such creatures.~ 
+
+@4051 = ~Fanged Teeth~ 
+@4052 = ~Teeth of the Viper~ 
+@4053 = ~FANGED TEETH 
+Damage: 2-4 Crushing/Piercing
+Speed: 1
+Weight: 1
+Proficiency: Fists
+Usable only by Morte
+
+These teeth appear to be a set of hollow fangs. The tips of the teeth are wet and drip a viscous fluid.~ 
+
+@4054 = ~TEETH OF THE VIPER 
+Damage: 2-4 Crushing/Piercing
+Enchanted: +1
+Special: 
+   Poisons (1 damage every second; 18 seconds; save vs. death negates)
+THAC0: +1 
+Speed: 1
+Weight: 1
+Proficiency: Fists
+Usable only by Morte
+
+These teeth appear to be a set of hollow fangs, much like those of a viper. Although long removed from their original host, the teeth still drip poison from their sharp tips.~ 
+
+@4055 = ~Final Judgment~ 
+@4056 = ~FINAL JUDGMENT 
+Damage: 3-12 Slashing
+Enchanted: +2 
+Special: 
+   +2 Damage against non-Lawful creatures 
+   +4 Damage against Chaotic Creatures
+THAC0: +2 
+Speed: 10
+Weight: 20
+Proficiency: Axes
+Usable only by Vhailor
+
+This archaic double-bladed battle-axe is reminiscent of an executioner's axe; the axe head has been forged into the symbol of the Mercykiller Faction (a red dragon with its wings outspread... the outstretched wings have been shaped into the blades of the axe). The axe itself is huge; even wielded two-handed, it would require tremendous strength to use effectively. For a spectral entity, Vhailor must be extremely strong.
+
+This axe is as much a part of Vhailor as his armor, and the axe itself carries part of Vhailor's essence within it. As a result, it is utterly devoted to justice and will not allow the user to rest while "judgments" are left to be delivered. The considerable damage it causes to an opponent is further increased if the axe strikes a guilty or chaotic creature. 
+
+The origin of this axe is unknown. If you were to hazard a guess, the axe gained its powers simply from Vhailor's belief. If he were to die a second death, you don't know what would happen to it.~ 
+
+@4057 = ~Vhailor's Mercykiller Armor~ 
+@4058 = ~VHAILOR'S MERCYKILLER ARMOR 
+Armor Class: 2
+Special: 
+   +2 to Armor Class and Saves against Chaotic creatures 
+Weight: 75
+Usable only by Vhailor
+
+This archaic suit of armor is animated by Vhailor's life force. It bears numerous minor dents and scratches, but otherwise, it seems to have withstood the test of time... at least better than Vhailor's physical body.
+
+Blades decorate the shoulders of this suit of armor, and the symbol of the Mercykiller faction (a red dragon with its wings outspread) is emblazoned on the chest piece.
+
+This suit of armor is part of Vhailor... destroying Vhailor (if such a thing were possible) would most likely result in the destruction of the armor.~ 
+
+@4059 = ~Nordom's Crossbows~ 
+@4060 = ~NORDOM'S CROSSBOWS 
+Damage: Depends
+Enchanted: +1 
+Special:
+   2 Attacks per Round 
+THAC0: +1 
+Speed: 10
+Range: 30 ft 
+Weight: 7
+Proficiency: Missle
+Usable only by Nordom 
+
+Nordom's home plane of Mechanus is driven by great clockwork gears. Tending these gears and making sure they run smoothly are given to creatures called "gear spirits." These gear spirits have the ability to turn themselves into almost any tool or common mechanical device... even crossbows. Nordom's crossbows are two such gear spirits, and they seem to have willingly fled with him from Mechanus. 
+
+Their duties are so essential to the smooth functioning of Mechanus that the modrons have officially assigned these spirits to the various gears. While the gear spirits love the gears they tend so much, their servitude to the modrons rankles them, making them somewhat disgruntled. As a result, there are tales of gear spirits that leave the great gears of Mechanus, leaving their duties for a while to sample the planes beyond their own. Most likely, Nordom's two crossbows caught this wanderlust, and they now piggyback along with him, peppering any hostile creature they see with crossbow bolts. The gear spirits can make endless supplies of these bolts, so there is never any need for Nordom to reload unless he wishes to fire new crossbow bolts.
+
+The crossbows occasionally make small clicking and rattling noises. They seem to be talking to each other, but their conversation is indecipherable. They're most likely discussing the finer points of crossbow mechanics.~ 
+
+@4061 = ~Nordom's Crossbow Bolts~ 
+@4062 = ~NORDOM'S CROSSBOW BOLTS 
+Damage: 2-5 Missile
+Enchanted: +1 
+Weight: 0
+Usable only by Nordom 
+
+Nordom's crossbow bolts are created by his gear spirit crossbows. The exact process they use to create them is unknown, but there does seem to be an infinite supply of them... the gear spirits seem to be able to make as many as needed on demand. Whenever the crossbow strings are pulled back, a new crossbow bolt is there and ready to be fired. The bolts vanish after they strike an object or once they reach their maximum range, then they disintegrate.~ 
+
+@4063 = ~Spherical Bolts~ 
+@4064 = ~Acidic Sponge Bolts~ 
+@4065 = ~SPHERICAL BOLTS
+Damage: 2-5 Missile
+Weight: 0
+Usable only by Nordom 
+
+These bolts have a soft, globe-shaped head, like putty. You can't imagine what they are used for.~  
+@4066 = ~ACIDIC SPONNG BOLTS 
+Damage: 2-5 Missile
+Special: 
+   +1d4 Acid Damage 
+Enchanted: +1 
+Weight: 0
+Usable only by Nordom 
+
+The putty-like globes on the heads of these crossbow bolts are actually dried-up aquatic sponges found in many of the great lakes of Bytopia. Seemingly unremarkable to most scholars, these tiny sponges were accidentally discovered to have the property of being able to absorb acids and store them in their bodies with no harm to themselves. 
+
+As a result, great masses of these creatures were gathered and bred for use as weapons against fiends in the Blood War. After being fed a steady diet of acid for a few days, the sponges are harvested, dried, and covered with a resin that keeps a soft bubble around the sponge. The sponge is then mounted on the head of an arrow or crossbow bolt and is ready for use. 
+
+When the tip of the bolt strikes a creature with sufficient force, the resin bubble bursts, the sponge flattens, and the target is doused with acid.~ 
+
+@4067 = ~Cubic Bolts~  
+@4068 = ~Bolts of Acheron~ 
+@4069 = ~CUBIC BOLTS 
+Damage: 3-6 Missile
+Weight: 0
+Usable only by Nordom
+
+These crossbow bolts have metallic, cube-shaped heads. They don't look like they'd be very effective in combat.~ 
+
+@4070 = ~BOLTS OF ACHERON 
+Damage: 3-6 Missile
+Special: 
+   Enrages (target attacks nearest creature; 18 seconds; save vs. spell negates) 
+Enchanted: +2 
+Weight: 0
+Usable only by Nordom 
+
+These enchanted bolts have been fashioned from one of the great cubes of Acheron. According to many planar scholars, Acheron is a plane in perpetual war with itself, where huge cubes the size of continents float through the ether and smash against each other. On the surface of these cubes, legions of soldiers wage war on each other, swarming from cube to cube and attacking whoever else they can find. The plane is filled with the ringing of steel and the great thundering impacts of the cubes striking each other.  
+
+These bolts carry a portion of Acheron's heart within them. When these bolts strike an opponent, they do so with so much force that the impact has the potential to enrage an opponent and cause them to attack recklessly for a period of time.~ 
+
+@4071 = ~Fanged Bolts~ 
+@4072 = ~Bolts of Kessek the Devourer~ 
+@4073 = ~FANGED BOLTS 
+Damage: 4-7 Missile
+Weight: 0
+Usable only by Nordom
+
+The heads of these enchanted bolts have two long fangs curving out from the center. They look menacing... and hungry.~ 
+@4074 = ~BOLTS OF KESSEK THE DEVOURER 
+Damage: 4-7 Missile
+Special: 
+   +1d4 Piercing Damage 
+   Staggers (halved movement speed and 1/2 attack per round; 18 seconds) 
+Enchanted: +3 
+Weight: 0
+Usable only by Nordom 
+
+Also called "Kessek's Teeth," the head of these enchanted bolts are made of bone and have two long fangs curving out from the center. When one of these bolts strikes an opponent, the fangs takes on a life of their own and begin eating their way slowly and painfully through the victim's body. 
+
+According to legend, Kessek was a bariaur chieftain on the Outlands who was forced to watch his people starve during a winter storm in the Cleft of Tears many centuries ago. Trapped in the Cleft because of heavy snows, he sent scouts from his tribe out to seek aid from his neighbors, the province of Ohinru. 
+
+Learning of the bariaurs' plight, the merchant princes of Ohinru saw an opportunity to wipe out the "nomadic pests" and claim their lands for their own. The bariaur scouts were executed and their heads mounted on the walls so that, "the vultures might feed while the bariaurs starved." 
+
+When the storms cleared and more than half of his tribe had died of starvation, Kessek finally learned what had happened to his scouts. Consumed with an insane fire, he fashioned a sheaf of bolts from the teeth and bones of his people who had starved to death. Once he had finished, he traveled to Ohinru in the night and fired his bolts blindly in the city streets, the name of each bariaur that had died whispered on his lips as he released each shaft. 
+
+Each bolt he fired twisted in flight, hungrily searching for a victim and each found one... then another, then another. The night was filled with the choked screams of the citizens of Ohinru as the devourers claimed their bodies. 
+
+When dawn touched the city, the vultures fed again. No trace of Kessek could be found.
+
+The bolts of Kessek the Devourer can still be found scattered across the planes. It is said that for each victim the bolts claim, that another bolt is born... with the same hunger as the first.~ 
+
+@4075 = ~Whistling Bolts~ 
+@4076 = ~Bolts of Whistling Doom~ 
+@4077 = ~WHISTLING BOLTS 
+Damage: 3-6 Missile
+Weight: 0
+Usable only by Nordom
+
+These crossbow bolts have heads with grooves cut into the sides. They constantly make a strange whistling noise that varies in pitch. It's not quite enough to be maddening, but it makes you uncomfortable. ~ 
+
+@4078 = ~BOLTS OF WHISTLING DOOM 
+Damage: 3-6 Missile
+Special: 
+   Buffets (target is knocked back 20 feet and takes 1d6 crushing damage; save vs. breath negates) 
+Enchanted: +2 
+Weight: 0
+Usable only by Nordom 
+
+These bolts have somehow captured the deadly harmonic of Pandemonium and then added insult to injury by imprisoning an enraged air elemental inside the head of the bolt. When one of these bolts strike an opponent, the head shatters, and the air elemental is released. The elemental will whip around the opponent in a frenzy, making one strike before it vanishes.~  
+
+@4079 = ~Splayed Bolts~ 
+@4080 = ~Bolts of Wincing~ 
+@4081 = ~SPLAYED BOLTS
+Damage: 2-5 Missile
+Weight: 0
+Usable only by Nordom
+
+The head of these bolts are shaped like a "U." The edges are razor sharp, and the shaft itself is made out of some alloy you do not recognize.~ 
+
+@4082 = ~BOLTS OF WINCING
+Damage: 2-5 Missile
+Special: 
+   +5% Critical Hit Chance
+   +2 to THAC0 against Men 
+   +2 to Damage against Men 
+Enchanted: +1 
+Weight: 0
+Usable only by Nordom
+
+These crotch-shaped bolts have been enchanted with one thing in mind: emasculation. When fired, they home in on the most vulnerable point on a victim's body, sink into the flesh, then the head of each bolt scissors outwards, making it nearly impossible to pull out and increasing the damage considerably. The name of the bolts comes from the reactions of spectators after the bolts are fired.~ 
+
+@4083 = ~Jagged Bolts~ 
+@4084 = ~JAGGED BOLTS 
+Damage: 2-5 Missile
+Special: 
+   +1d4 Slashing Damage
+Enchanted: +1 
+Weight: 0
+Usable only by Nordom
+
+These enchanted bolts have a series of jagged black runes traced along the shaft. When fired, the runes rise upwards like spines, forming an additional row of vicious edges that tear into a target.~ 
+
+@4085 = ~Winged Bolts~ 
+@4086 = ~WINGED BOLTS 
+Damage: 1-6 Missile
+Range: 60 ft 
+Weight: 0
+Usable only by Nordom
+
+The heads of these bolts have been carved to resemble a pair of feathered wings. The bolts are extremely light and look more like arrows than crossbow bolts. Although not magical, they have a longer range and do more damage when they strike an opponent than standard crossbow bolts.~ 
+
+@4087 = ~Zephyr Bolts~ 
+@4088 = ~ZEPHYR BOLTS 
+Damage: 2-5 Missile
+THAC0: +3
+Enchanted: +1 
+Weight: 0
+Usable only by Nordom
+
+These crossbow bolts have heads with grooves cut into the sides. They do no more damage than normal crossbow bolts, but they bear a minor enchantment that allows them to correct their path in flight, making them more likely to hit an opponent.~ 
+
+@4089 = ~Rule-of-Three Bolts~
+@4090 = ~RULE-OF-THREE BOLTS 
+Damage: 3-12 Missile
+Weight: 0
+Usable only by Nordom
+
+These crossbow bolts are the work of a twisted mechanical genius. Just beneath the head of each bolt is a small catch, that when pressed, unlocks the head of the bolt, allowing it to divide. From what you can tell, once the bolts are unlocked, the pyramid-shaped heads are carefully fashioned so that each one splits into three on impact. Each triangle-shaped fragment then tears a different route through the target's body, wreaking havoc on his internal organs.~ 
+@4091 = ~Nordom's Ocular~ 
+@4092 = ~NORDOM'S OCULAR 
+THAC0: +1
+Weight: 0
+Usable only by Nordom 
+
+This snap-on magnifying lens serves as a sighting scope for Nordom's crossbows. It improves his accuracy and looks really intimidating when he slides it down over his left eye.~  
+
+@4093 = ~Lens of Inherent Viciousness~ 
+@4094 = ~LENS OF INHERENT VICIOUSNESS 
+Special: 
+   Critical hits deal +2d4 missile damage. 
+Weight: 0
+Usable only by Nordom 
+
+This snap-on magnifying lens somehow seems inherently vicious to you. You can't really explain why this is... you have a strange feeling it's looking at you sometimes, sizing you up.~ 
+
+@4095 = ~Magnifying Lens~ 
+@4096 = ~MAGNIFYING LENS 
+Special:
+   +20 to Lore Skill
+   +1 Damage
+Weight: 0 
+Usable only by Nordom
+
+This snap-on lens is good for examining things up close, but makes for a poor sighting scope.~ 
+
+@4097 = ~Green Lens~ 
+@4098 = ~Lens of Confounding~ 
+@4099 = ~GREEN LENS
+Weight: 0
+Usable only by Nordom
+
+This scope has a dull green lens; it always looks like it needs to be polished, but no amount of shining cleans it.~
+@4100 = ~LENS OF CONFOUNDING 
+Special: 
+   +3 to Armor Class
+   +1 to All Saves
+Weight: 0
+Usable only by Nordom 
+
+This scope possesses a strange ability; it clouds the eyesight of anyone who intends to harm the wearer, making him seem blurry and indistinct to his enemies.~  
+
+@4101 = ~Retractable Scope~ 
+@4102 = ~RETRACTABLE SCOPE
+Special: 
+   +10% Critical Hit Chance
+Weight: 0
+Usable only by Nordom
+
+This intricately designed sighting scope folds up into itself when not in use. When activated, it clamps into place over the user's left eye and immediately begins tracking any targets in range with a series of low, threatening *clicks.* The tracking system gives the user greater accuracy with missile weapons.~  
+
+@4103 = ~Bubble-Shaped Twin Scope~ 
+@4104 = ~Lens of Seeing Double~ 
+@4105 = ~BUBBLE-SHAPED TWIN SCOPE 
+Weight: 0
+Usable only by Nordom
+
+This bizarre bubble shaped scope has two lenses mounted side by side. When looking through it, everything appears double, which makes it difficult to distinguish which target is the real one.~ 
+@4106 = ~LENS OF SEEING DOUBLE 
+Special: 
+   +100% Missile Damage 
+THAC0: -3 
+Weight: 0 
+Usable only by Nordom 
+
+This bizarre bubble shaped scope has two lenses mounted side by side. When looking through it, everything appears double, which makes it difficult to distinguish which target is the real one. 
+
+The benefit of the lens, however, is any projectile the user fires at a target IS doubled while he is wearing the lens. When equipped, any projectile fired by the lens-wearer splits into two, doubling its damage.~ 
+
+@4107 = ~Glittering Lens~ 
+@4108 = ~Lens of the Bat~ 
+@4109 = ~GLITTERING LENS
+Weight: 0
+Usable only by Nordom 
+
+This glittering lens looks like it's used as a sniper scope. Although you can't be sure, it looks as if there is a series of tiny eyeballs embedded in the lens itself.~ 
+
+@4110 = ~LENS OF THE BAT 
+*CURSED*
+Special: 
+   -4 Sight Radius 
+   Immunity to blind
+   Immunity to backstabs 
+   Can see Invisible creatures 
+Weight: 0
+Usably only by Nordom
+
+Whether a joke or the result of a bizarre experiment, some insane machinist dabbling in the Art has crafted a lens that "gifts" the user with the vision of a bat, forcing them to rely on echolocation and sound to locate enemies. The inventor must have wanted to force the user to appreciate the perspective, as the lens cannot be removed without a Remove Curse spell.~ 
+
+@4111 = ~Glittering Lens~ 
+@4112 = ~Lens of Perspicacity~ 
+@4113 = ~GLITTERING LENS
+Weight: 0
+
+This glittering lens looks like it's used as a sniper scope. It has a gold exterior with a lens of red glass in the center.~ 
+@4114 = ~LENS OF PERSPICACITY 
+Special: 
+   +10% Magic Resistance
+   +20 to Lore Skill
+Weight: 0
+Usable only by Nordom
+
+This powerful lens heightens the perceptions and the thoughts of the wearer when worn. It grants the wearer enhanced deduction abilities and the ability to resist magic.~ 
+
+@4115 = ~Scratched Lens~ 
+@4116 = ~Time's Eyepiece~ 
+@4117 = ~SCRATCHED LENS
+Weight: 0
+Usable only by Nordom
+
+This plain-looking lens looks like it's seen better days. Its surface is covered with scratches, and the lens looks ready to fall out of its setting.~ 
+@4118 = ~TIME'S EYEPIECE 
+Special:
+   +2 to Armor Class
+   +2 to Saves
+THAC0: +2 
+Weight: 0
+Usable only by Nordom
+
+This snap-on magnifying lens gives the wearer the ability to see a few seconds into the future, allowing them to anticipate where an opponent will be to line up shots or dodge incoming attacks.~
+
+@4119 = ~Blue Lens~ 
+@4120 = ~Lens of the Horizon~ 
+@4121 = ~BLUE LENS
+Weight: 0
+Usable only by Nordom
+
+This lens is made of blue glass that reminds you of a calm, cloudless sky.~ 
+@4122 = ~LENS OF THE HORIZON
+Special: 
+   +4 Sight Radius 
+THAC0: +3
+Weight: 0
+Usable only by Nordom
+
+The aquamarine lens of this scope is a drop of water of Oceanus. The water drop has been frozen with the reflection of the Elysium's skies on its surface, giving anyone who looks through it the ability to see objects at an incredible distance. It increases the wearer's chance to hit, but it reduces their ability to look closely at objects.~ 
+ 
+@4123 = ~Rusty Lens~ 
+@4124 = ~Optix~ 
+@4125 = ~RUSTY LENS
+Weight: 0
+Usable only by Nordom 
+
+This rusty lens looks like someone stepped on it a few times. Its gears are worn, and the lens itself has a deep scratch along its surface, making it useless.~ 
+
+@4126 = ~OPTIX 
+*CURSED*
+Special:
+   +2 Damage
+   Attacks are treated as +3 weapons 
+THAC0: +2 
+Weight: 0
+Usable only by Nordom 
+
+Nordom's Crossbows are not the only gear spirits to have fled from Mechanus - Optix, a somewhat older and more curmudgeonly gear spirit, has been living his last few centuries in an alchemy lab in Sigil. When the alchemist passed away, Optix moved on to various odd jobs, including keg taps, cuckoo clocks, metronomes, corkscrews, and so on, never settling very long in one place. His most recent form, that of a sniper scope, seems to content him for now.
+
+Although Optix is an irritating nag to the two younger crossbow gear spirits, he *has* studied the physiology of creatures throughout the planes. The two youngsters grudgingly admit (with reluctant, strained clicks) that his advice on how to aim for the eyes and other vital areas of creatures is quite valuable.
+
+Another unfortunate aspect of Optix's presence is that once he's "comfortable," he doesn't like to come off. A Remove Curse will be needed to pull him off of Nordom's head if he becomes too irritating.~
+
+@4127 = ~Stained Lens~ 
+@4128 = ~Beer Goggles~ 
+@4129 = ~STAINED LENS
+Weight: 0
+Usable only by Nordom 
+
+This scope looks like someone spilled beer on it... and it smells faintly of some horrible perfume.~ 
+
+@4130 = ~BEER GOGGLES 
+*CURSED*
+Special:
+   Intoxicates Wearer
+   Immunity to panic
+   +25% Maximum Hit Points
+   +25% Physical Resistance
+   +25% Elemental Resistance
+   -4 to Saves 
+   -20% to all Skills 
+THAC0: -4
+Weight: 0
+Usable only by Nordom
+
+Apparently, some modron once foolishly asked a wizard what it was like to be intoxicated, and these goggles were fashioned. When this lens is equipped, the wearer becomes "braver," "stronger," but can't see targets too well, reducing chances to hit and damage an enemy.~ 
+
+@4131 = ~Empty Scope~ 
+@4132 = ~Displacing Lens~
+@4133 = ~EMPTY SCOPE
+Weight: 0
+Usable only by Nordom 
+
+This scope looks like it's missing its lens.~ 
+@4134 = ~DISPLACING LENS 
+Special:
+   Attacks against Wearer has a 50% chance to miss 
+Weight: 0
+Usable only by Modrons
+
+This scope looks as if it's missing its lens, but in fact, the lens itself is displaced in space: if you use your peripheral vision, you can make it out a few feet to your left, just hanging in space. 
+
+When this scope is equipped, a portion of the wearer phases out, and he becomes EXTREMELY difficult to hit with any attack. Furthermore, the wearer is just hard to see, period; it's almost like he's not all there. Depending on who's wearing this lens, it may complement his personality just fine.~  
+
+@5000 = ~Arm of the Wretched Incarnation~ 
+@5001 = ~ARM OF THE WRETCHED INCARNATION
+Damage: 3-8 Crushing
+Enchanted: +2
+Special:
+   +1d6 Cold Damage
+   +30% to Pick Pockets
+   -15% to Find Traps   
+THAC0: +2
+Speed: 4
+Weight: 5
+Proficiency: Clubs
+Not usable by Mages
+
+This severed arm is as hard as a wooden club. It looks like it was severed cleanly at the shoulder (most likely by a scythe blade), and even though it looks many decades old, it is more petrified than rotted. It has an unhealthy gray pallor and is covered with scars. Intricate tattoos decorate its surface, spiraling up from the wrist all the way to the remains of the shoulder. 
+
+When you took your severed arm to Fell, he told you about the tattoos he inscribed upon it long ago. He described your old traveling companions, as well as the significance of the symbol etched into your left shoulder. In his examination, he also unlocked some of the latent power within the arm itself, which echoed the Wretched Incarnation's demise at the hands of a trap in the depths of the Weeping Stone Catacombs.~ 
+
+@5002 = ~Razorvine Earrings~
+@5003 = ~RAZORVINE EARRINGS 
+Special: 
+   Memorize 2 Additional 1st Level Mage Spells
+   +2 Armor Class
+Weight: 0
+Usable only by Mages
+Usable only by Nameless One
+
+These earrings are made from hardened sap of the razorvine. The original earrings were gifted to you by the midwife Mebbeth and then further enchanted by Ravel when you faced her in her maze.~ 
+
+@5004 = ~Eye of the Blind Sage~ 
+@5005 = ~EYE OF THE BLIND SAGE 
+Special: 
+   User is Blinded 
+   +2 Intelligence
+   +2 Wisdom 
+Weight: 0 
+Usable only by Mages and Priests
+Usable only by the Nameless One 
+
+This eye once belonged to a elderly sage wandering the Prime in search of enlightenment. How it came to end up in Vrischika's Shop of Curiosities is a question probably best left unasked.~ 
+
+@5006 = ~The Bull's Eye~ 
+@5007 = ~THE BULL'S EYE 
+Special: 
+   +3 to Melee Damage 
+THAC0: +1 
+Weight: 0 
+Usable only by Fighters 
+Usable only by the Nameless One 
+
+This eye seems to have been taken right from an actual bull. It is so large that you question whether it will even fit in your eye socket.~ 
+
+@5008 = ~Keen Eye~ 
+@5009 = ~KEEN EYE 
+Special:   
+   +5% Critical Strike Chance
+   Automatically Detects Traps 
+Weight: 0 
+Usable only by Thieves
+Usable only by the Nameless One 
+
+This eye is a boon to thieves everywhere (or at least those willing to poke out their own eye). When in use, it highlights critical areas of nearby creatures in red, allowing the thief to strike with greater precision. It also highlights nearby traps, allowing the user to deftly avoid them or disarm them.~ 
+   

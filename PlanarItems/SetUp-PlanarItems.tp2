@@ -1,0 +1,1441 @@
+BACKUP ~PlanarItems/backup~
+AUTHOR ~aquadrizzt@gmail.com~
+VERSION ~0.1~ 
+
+/* Language Settings */
+AUTO_TRA ~PlanarItems/tra/%s~
+LANGUAGE ~English~ ~english~ ~PlanarItems/tra/english/setup.tra~
+
+//---------------------------------------------
+//                                             
+//				EXISTING ITEMS                 
+//                                             
+//---------------------------------------------
+BEGIN @0 
+
+COPY_EXISTING ~aclue.itm~ ~override/qd_planar_items_core.qd~ //check file for this component 
+
+//---------------------------------------------
+//                                             
+//	  			   UNIQUE WEAPONS              
+//                                             
+//---------------------------------------------
+
+//Ascension
+COPY ~PlanarItems/items/axasc.itm~ ~override~ 
+	SAY NAME1 @1000 
+	SAY NAME2 @1000 
+	SAY UNIDENTIFIED_DESC @1001
+	SAY IDENTIFIED_DESC @1001 
+	
+//Axe of the Jester
+COPY ~PlanarItems/items/jester.itm~ ~override~ 
+	SAY NAME1 @1002 
+	SAY NAME2 @1003 
+	SAY UNIDENTIFIED_DESC @1004
+	SAY IDENTIFIED_DESC @1005 
+	
+//Blindsider 
+COPY ~PlanarItems/items/bsider.itm~ ~override~ 
+	SAY NAME1 @1006
+	SAY NAME2 @1007 
+	SAY UNIDENTIFIED_DESC @1008
+	SAY IDENTIFIED_DESC @1009 
+	
+//Butcher of Innocents 
+COPY ~PlanarItems/items/butcher.itm~ ~override~ 
+	SAY NAME1 @1010
+	SAY NAME2 @1011 
+	SAY UNIDENTIFIED_DESC @1012
+	SAY IDENTIFIED_DESC @1013
+
+//Edge of Oblivion
+COPY ~PlanarItems/items/oblivion.itm~ ~override~ 
+	SAY NAME1 @1014
+	SAY NAME2 @1015 
+	SAY UNIDENTIFIED_DESC @1016
+	SAY IDENTIFIED_DESC @1017
+
+//Hatred's Gift
+COPY ~PlanarItems/items/hategift.itm~ ~override~ 
+	SAY NAME1 @1018
+	SAY NAME2 @1019
+	SAY UNIDENTIFIED_DESC @1020
+	SAY IDENTIFIED_DESC @1021 
+	
+//Heartgrinder
+COPY ~PlanarItems/items/grinder.itm~ ~override~ 
+	SAY NAME1 @1022
+	SAY NAME2 @1023
+	SAY UNIDENTIFIED_DESC @1024
+	SAY IDENTIFIED_DESC @1025 
+	
+//Club of Nettles
+COPY ~PlanarItems/items/nettles.itm~ ~override~ 
+	SAY NAME1 @1100
+	SAY NAME2 @1101
+	SAY UNIDENTIFIED_DESC @1102
+	SAY IDENTIFIED_DESC @1103 
+	
+//Club of Piercing
+COPY ~PlanarItems/items/sclub.itm~ ~override~ 
+	SAY NAME1 @1104
+	SAY NAME2 @1105
+	SAY UNIDENTIFIED_DESC @1106
+	SAY IDENTIFIED_DESC @1107
+	
+//Fiend Femur
+COPY ~PlanarItems/items/femur.itm~ ~override~ 
+	SAY NAME1 @1108
+	SAY NAME2 @1109
+	SAY UNIDENTIFIED_DESC @1110
+	SAY IDENTIFIED_DESC @1111
+	
+//Pharod's Crutch
+COPY ~PlanarItems/items/crutch.itm~ ~override~ 
+	SAY NAME1 @1112
+	SAY NAME2 @1113
+	SAY UNIDENTIFIED_DESC @1114
+	SAY IDENTIFIED_DESC @1115
+	
+//Severed Arm (Yours)
+COPY ~PlanarItems/items/oldarm1.itm~ ~override~ 
+	SAY NAME1 @1116
+	SAY NAME2 @1117
+	SAY UNIDENTIFIED_DESC @1118
+	SAY IDENTIFIED_DESC @1119
+
+//Vrock Club 
+COPY ~PlanarItems/items/club2.itm~ ~override~ 
+	SAY NAME1 @1120
+	SAY NAME2 @1121
+	SAY UNIDENTIFIED_DESC @1122
+	SAY IDENTIFIED_DESC @1123
+	
+//Adahn's Dagger 
+COPY ~PlanarItems/items/addagger.itm~ ~override~ 
+	SAY NAME1 @1200
+	SAY NAME2 @1201
+	SAY UNIDENTIFIED_DESC @1202
+	SAY IDENTIFIED_DESC @1203
+	
+//Backbiter
+COPY ~PlanarItems/items/backbtr.itm~ ~override~ 
+	SAY NAME1 @1204
+	SAY NAME2 @1205
+	SAY UNIDENTIFIED_DESC @1206
+	SAY IDENTIFIED_DESC @1207
+	
+//Enlightenment
+COPY ~PlanarItems/items/enlight.itm~ ~override~ 
+	SAY NAME1 @1208
+	SAY NAME2 @1208
+	SAY UNIDENTIFIED_DESC @1209
+	SAY IDENTIFIED_DESC @1209
+	
+//Kaarlac's Knife
+COPY ~PlanarItems/items/kknife.itm~ ~override~ 
+	SAY NAME1 @1210
+	SAY NAME2 @1211
+	SAY UNIDENTIFIED_DESC @1212
+	SAY IDENTIFIED_DESC @1213
+	
+//Mad Splinter
+COPY ~PlanarItems/items/splinter.itm~ ~override~ 
+	SAY NAME1 @1214
+	SAY NAME2 @1215
+	SAY UNIDENTIFIED_DESC @1216
+	SAY IDENTIFIED_DESC @1217
+	
+//Ravel's Fingernail
+COPY ~PlanarItems/items/fingnail.itm~ ~override~ 
+	SAY NAME1 @1218
+	SAY NAME2 @1218
+	SAY UNIDENTIFIED_DESC @1219
+	SAY IDENTIFIED_DESC @1220 
+	
+//Runeblade
+COPY ~PlanarItems/items/rblade.itm~ ~override~ 
+	SAY NAME1 @1221
+	SAY NAME2 @1222
+	SAY UNIDENTIFIED_DESC @1223
+	SAY IDENTIFIED_DESC @1224 
+	
+//Uhir's Knife
+COPY ~PlanarItems/items/uhrknf.itm~ ~override~ 
+	SAY NAME1 @1225
+	SAY NAME2 @1225
+	SAY UNIDENTIFIED_DESC @1226
+	SAY IDENTIFIED_DESC @1227 
+	
+//Widowmaker
+COPY ~PlanarItems/items/widmkr.itm~ ~override~ 
+	SAY NAME1 @1228
+	SAY NAME2 @1229
+	SAY UNIDENTIFIED_DESC @1230
+	SAY IDENTIFIED_DESC @1231 
+	
+//Assassin's Knuckles
+COPY ~PlanarItems/items/iron3.itm~ ~override~ 
+	SAY NAME1 @1300
+	SAY NAME2 @1301
+	SAY UNIDENTIFIED_DESC @1302
+	SAY IDENTIFIED_DESC @1303 
+	
+//Gauntlets of Teeth 
+COPY ~PlanarItems/items/teeth.itm~ ~override~ 
+	SAY NAME1 @1304
+	SAY NAME2 @1305
+	SAY UNIDENTIFIED_DESC @1306
+	SAY IDENTIFIED_DESC @1307 
+	
+//Shards of Fate 
+COPY ~PlanarItems/items/shard.itm~ ~override~ 
+	SAY NAME1 @1308
+	SAY NAME2 @1308
+	SAY UNIDENTIFIED_DESC @1309
+	SAY IDENTIFIED_DESC @1309 
+	
+//Siphon Knuckles
+COPY ~PlanarItems/items/iron2.itm~ ~override~ 
+	SAY NAME1 @1310
+	SAY NAME2 @1311
+	SAY UNIDENTIFIED_DESC @1312
+	SAY IDENTIFIED_DESC @1313 
+	
+//Spiked Gauntlets of Ogre Power 
+COPY ~PlanarItems/items/ogrgaunt.itm~ ~override~ 
+	SAY NAME1 @1314
+	SAY NAME2 @1315
+	SAY UNIDENTIFIED_DESC @1316
+	SAY IDENTIFIED_DESC @1317 
+	
+//Brimstone Hammer
+COPY ~PlanarItems/items/brimham.itm~ ~override~ 
+	SAY NAME1 @1400
+	SAY NAME2 @1401
+	SAY UNIDENTIFIED_DESC @1402
+	SAY IDENTIFIED_DESC @1403 
+	
+//Foolsmiter
+COPY ~PlanarItems/items/foolsmtr.itm~ ~override~ 
+	SAY NAME1 @1404
+	SAY NAME2 @1405
+	SAY UNIDENTIFIED_DESC @1406
+	SAY IDENTIFIED_DESC @1407 
+	
+//Hammer of Comminution
+COPY ~PlanarItems/items/sledgecm.itm~ ~override~ 
+	SAY NAME1 @1408
+	SAY NAME2 @1409
+	SAY UNIDENTIFIED_DESC @1410
+	SAY IDENTIFIED_DESC @1411 
+	
+//Reason
+COPY ~PlanarItems/items/reason.itm~ ~override~ 
+	SAY NAME1 @1412
+	SAY NAME2 @1412
+	SAY UNIDENTIFIED_DESC @1413
+	SAY IDENTIFIED_DESC @1413 
+	
+//Blind Terror
+COPY ~PlanarItems/items/amace.itm~ ~override~ 
+	SAY NAME1 @1500
+	SAY NAME2 @1501
+	SAY UNIDENTIFIED_DESC @1502
+	SAY IDENTIFIED_DESC @1503 
+	
+//Death of Desire
+COPY ~PlanarItems/items/ddmace.itm~ ~override~ 
+	SAY NAME1 @1504
+	SAY NAME2 @1504
+	SAY UNIDENTIFIED_DESC @1505
+	SAY IDENTIFIED_DESC @1505 
+	
+//Heaven and Earth 
+COPY ~PlanarItems/items/heaven.itm~ ~override~ 
+	SAY NAME1 @1506
+	SAY NAME2 @1506
+	SAY UNIDENTIFIED_DESC @1507
+	SAY IDENTIFIED_DESC @1507 
+	
+//[To-Do: The Justifier]
+
+//Mark of the Savant
+COPY ~PlanarItems/items/savant.itm~ ~override~ 
+	SAY NAME1 @1600
+	SAY NAME2 @1601
+	SAY UNIDENTIFIED_DESC @1602
+	SAY IDENTIFIED_DESC @1603  
+	
+//Punch Daggers of Moorin 
+COPY ~PlanarItems/items/moopunch.itm~ ~override~ 
+	SAY NAME1 @1604
+	SAY NAME2 @1604
+	SAY UNIDENTIFIED_DESC @1605
+	SAY IDENTIFIED_DESC @1605 
+	
+//Punch Daggers of Shar 
+COPY ~PlanarItems/items/spunch.itm~ ~override~ 
+	SAY NAME1 @1606
+	SAY NAME2 @1606
+	SAY UNIDENTIFIED_DESC @1607
+	SAY IDENTIFIED_DESC @1607 
+	
+//Punch Daggers of True Death
+/*
+COPY ~PlanarItems/items/tpunch.itm~ ~override~ 
+	SAY NAME1 @1608
+	SAY NAME2 @1608
+	SAY UNIDENTIFIED_DESC @1609 
+	SAY IDENTIFIED_DESC @1609 
+*/
+
+//Punch Daggers of Zar 'Anun
+COPY ~PlanarItems/items/zpunch.itm~ ~override~ 
+	SAY NAME1 @1610
+	SAY NAME2 @1610
+	SAY UNIDENTIFIED_DESC @1611
+	SAY IDENTIFIED_DESC @1611 
+	
+//Umei Kaihen
+COPY ~PlanarItems/items/umei.itm~ ~override~ 
+	SAY NAME1 @1612
+	SAY NAME2 @1612
+	SAY UNIDENTIFIED_DESC @1613
+	SAY IDENTIFIED_DESC @1613
+	
+//Resources (SPL/EFF) for Items 
+COPY ~PlanarItems/resources/qdbutch.spl~ ~override~ //Butcherer of Innocents: +1 hit, +1 damage for 30s	
+	 ~PlanarItems/resources/qdfoolsm.spl~ ~override~ //Foolsmiter: +8 damage 
+	 ~PlanarItems/resources/qdheavn.spl~ ~override~ //Heaven and Earth: holy weapon aura 
+	 ~PlanarItems/resources/qdrvldis.spl~ ~override~ //Ravel's Fingernail: disease 
+	 ~PlanarItems/resources/qdrvlfng.spl~ ~override~ //Ravel's Fingernail: black barbed curse 
+	 ~PlanarItems/resources/qdsplntr.eff~ ~override~ //Mad Splinter: curse eff
+	 ~PlanarItems/resources/qdsplntr.spl~ ~override~ //Mad Splinter: curse spl
+	 ~PlanarItems/resources/qdteeth1.eff~ ~override~ //Gauntlets of Teeth: apply hunger 
+	 ~PlanarItems/resources/qdteeth2.spl~ ~override~ //Gauntlets of Teeth: -2 max HP 
+	 ~PlanarItems/resources/qdtpunch.eff~ ~override~ //PD of True Death: contingency eff 
+	 ~PlanarItems/resources/qdtpunch.spl~ ~override~ //PD of True Death: execute spell 
+	
+//Celestial Fire 
+COPY ~PlanarItems/items/celesti2.itm~ ~override~ 
+	SAY NAME1 @1700
+	SAY NAME2 @1700
+	SAY UNIDENTIFIED_DESC @1701
+	SAY IDENTIFIED_DESC @1701
+	
+COPY ~PlanarItems/items/cfaxe.itm~ ~override~ 
+	SAY NAME1 @1700
+	SAY NAME2 @1700
+	SAY UNIDENTIFIED_DESC @1702
+	SAY IDENTIFIED_DESC @1702
+	
+COPY ~PlanarItems/items/cfclub.itm~ ~override~ 
+	SAY NAME1 @1700
+	SAY NAME2 @1700
+	SAY UNIDENTIFIED_DESC @1703
+	SAY IDENTIFIED_DESC @1703
+	
+COPY ~PlanarItems/items/cfdagger.itm~ ~override~ 
+	SAY NAME1 @1700
+	SAY NAME2 @1700
+	SAY UNIDENTIFIED_DESC @1704
+	SAY IDENTIFIED_DESC @1704
+	
+COPY ~PlanarItems/items/cffist.itm~ ~override~ 
+	SAY NAME1 @1700
+	SAY NAME2 @1700
+	SAY UNIDENTIFIED_DESC @1705
+	SAY IDENTIFIED_DESC @1705
+	
+COPY ~PlanarItems/items/cfhammer.itm~ ~override~ 
+	SAY NAME1 @1700
+	SAY NAME2 @1700
+	SAY UNIDENTIFIED_DESC @1706
+	SAY IDENTIFIED_DESC @1706
+	
+//[To-Do: Entropic Blade]
+
+//Blade of the Immortal 
+COPY ~PlanarItems/items/bladeim.itm~ ~override~ 
+	SAY NAME1 @1232
+	SAY NAME2 @1232
+	SAY UNIDENTIFIED_DESC @1233
+	SAY IDENTIFIED_DESC @1233 
+	
+//---------------------------------------------
+//                                             
+//	  			 NON-UNIQUE WEAPONS            
+//                                             
+//---------------------------------------------
+
+//Enchanted Battle Axe 
+COPY ~PlanarItems/items/axmag.itm~ ~override~ 
+	SAY NAME1 @2000
+	SAY NAME2 @2004
+	SAY UNIDENTIFIED_DESC @2005
+	SAY IDENTIFIED_DESC @2006
+	
+//Bone Dagger
+COPY ~PlanarItems/items/dag1.itm~ ~override~ 
+	SAY NAME1 @2021
+	SAY NAME2 @2022
+	SAY UNIDENTIFIED_DESC @2023
+	SAY IDENTIFIED_DESC @2024	
+	
+//Notched Dagger
+COPY ~PlanarItems/items/dag2.itm~ ~override~ 
+	SAY NAME1 @2021
+	SAY NAME2 @2037
+	SAY UNIDENTIFIED_DESC @2038
+	SAY IDENTIFIED_DESC @2058
+	
+//Phantom Dagger
+COPY ~PlanarItems/items/dag3.itm~ ~override~ 
+	SAY NAME1 @2021
+	SAY NAME2 @2039
+	SAY UNIDENTIFIED_DESC @2040
+	SAY IDENTIFIED_DESC @2041 
+
+//Magic Punch Daggers 
+COPY ~PlanarItems/items/mpunch.itm~ ~override~ 
+	SAY NAME1 @2062
+	SAY NAME2 @2063
+	SAY UNIDENTIFIED_DESC @2064
+	SAY IDENTIFIED_DESC @2065 
+	
+//Spiked Knuckles
+COPY ~PlanarItems/items/iron1.itm~ ~override~ 
+	SAY NAME1 @2069
+	SAY NAME2 @2070
+	SAY UNIDENTIFIED_DESC @2071
+	SAY IDENTIFIED_DESC @2072
+
+//Enchanted Hammer
+COPY ~PlanarItems/items/sledgemg.itm~ ~override~ 
+	SAY NAME1 @2073
+	SAY NAME2 @2074
+	SAY UNIDENTIFIED_DESC @2075
+	SAY IDENTIFIED_DESC @2076 
+	
+//Baatezu Mace
+COPY ~PlanarItems/items/bmace.itm~ ~override~ 
+	SAY NAME1 @2093
+	SAY NAME2 @2094
+	SAY UNIDENTIFIED_DESC @2095
+	SAY IDENTIFIED_DESC @2096 
+	
+//---------------------------------------------
+//                                             
+//				NON-MAGICAL WEAPONS            
+//                                             
+//---------------------------------------------
+
+//Battle Axe
+COPY ~PlanarItems/items/ax.itm~ ~override~ 
+	SAY NAME1 @2000
+	SAY NAME2 @2000
+	SAY UNIDENTIFIED_DESC @2001
+	SAY IDENTIFIED_DESC @2001 
+	
+//Crescent Axe
+COPY ~PlanarItems/items/ax2.itm~ ~override~ 
+	SAY NAME1 @2002
+	SAY NAME2 @2002
+	SAY UNIDENTIFIED_DESC @2003
+	SAY IDENTIFIED_DESC @2003
+
+//Battle Axe of Quality 
+COPY ~PlanarItems/items/axqual.itm~ ~override~ 
+	SAY NAME1 @2007
+	SAY NAME2 @2007
+	SAY UNIDENTIFIED_DESC @2008
+	SAY IDENTIFIED_DESC @2008
+
+//Hollow Axe
+COPY ~PlanarItems/items/hax.itm~ ~override~ 
+	SAY NAME1 @2009
+	SAY NAME2 @2009
+	SAY UNIDENTIFIED_DESC @2010
+	SAY IDENTIFIED_DESC @2010
+
+//Antler Axe
+COPY ~PlanarItems/items/pax.itm~ ~override~ 
+	SAY NAME1 @2011
+	SAY NAME2 @2011
+	SAY UNIDENTIFIED_DESC @2012
+	SAY IDENTIFIED_DESC @2012
+	
+//Left Arm #985
+COPY ~PlanarItems/items/limb985.itm~ ~override~ 
+	SAY NAME1 @2013
+	SAY NAME2 @2013
+	SAY UNIDENTIFIED_DESC @2014
+	SAY IDENTIFIED_DESC @2014
+	
+//Iron Prybar
+COPY ~PlanarItems/items/prybar.itm~ ~override~ 
+	SAY NAME1 @2015
+	SAY NAME2 @2015
+	SAY UNIDENTIFIED_DESC @2016
+	SAY IDENTIFIED_DESC @2016
+	
+//Leg Bone Club
+COPY ~PlanarItems/items/legclub.itm~ ~override~ 
+	SAY NAME1 @2017
+	SAY NAME2 @2017
+	SAY UNIDENTIFIED_DESC @2018
+	SAY IDENTIFIED_DESC @2018
+	
+//Wooden Club
+COPY ~PlanarItems/items/club.itm~ ~override~ 
+	SAY NAME1 @2019
+	SAY NAME2 @2019
+	SAY UNIDENTIFIED_DESC @2020
+	SAY IDENTIFIED_DESC @2020
+	
+//Green Steel Dagger
+COPY ~PlanarItems/items/gsdagger.itm~ ~override~ 
+	SAY NAME1 @2025
+	SAY NAME2 @2025
+	SAY UNIDENTIFIED_DESC @2026
+	SAY IDENTIFIED_DESC @2026
+
+//Green Steel Knife
+COPY ~PlanarItems/items/gsknife.itm~ ~override~ 
+	SAY NAME1 @2027
+	SAY NAME2 @2027
+	SAY UNIDENTIFIED_DESC @2028
+	SAY IDENTIFIED_DESC @2028
+
+//High Quality Stiletto
+COPY ~PlanarItems/items/qstlo.itm~ ~override~ 
+	SAY NAME1 @2029
+	SAY NAME2 @2029
+	SAY UNIDENTIFIED_DESC @2030
+	SAY IDENTIFIED_DESC @2030
+	
+//Iron Spike
+COPY ~PlanarItems/items/spike.itm~ ~override~ 
+	SAY NAME1 @2031
+	SAY NAME2 @2031
+	SAY UNIDENTIFIED_DESC @2032
+	SAY IDENTIFIED_DESC @2032
+	
+//Jagged Knife 
+COPY ~PlanarItems/items/jknife.itm~ ~override~ 
+	SAY NAME1 @2033
+	SAY NAME2 @2033
+	SAY UNIDENTIFIED_DESC @2034
+	SAY IDENTIFIED_DESC @2034
+	
+//Knife
+COPY ~PlanarItems/items/knife.itm~ ~override~ 
+	SAY NAME1 @2035
+	SAY NAME2 @2035
+	SAY UNIDENTIFIED_DESC @2036
+	SAY IDENTIFIED_DESC @2036
+	
+//Poor Quality Stiletto
+COPY ~PlanarItems/items/pstlo.itm~ ~override~ 
+	SAY NAME1 @2042
+	SAY NAME2 @2042
+	SAY UNIDENTIFIED_DESC @2043
+	SAY IDENTIFIED_DESC @2043
+	
+//Rusty Dagger
+COPY ~PlanarItems/items/rustdag.itm~ ~override~ 
+	SAY NAME1 @2044
+	SAY NAME2 @2044
+	SAY UNIDENTIFIED_DESC @2045
+	SAY IDENTIFIED_DESC @2045 
+
+//Scalpel
+COPY ~PlanarItems/items/scalpel.itm~ ~override~ 
+	SAY NAME1 @2046
+	SAY NAME2 @2046
+	SAY UNIDENTIFIED_DESC @2047
+	SAY IDENTIFIED_DESC @2047 
+	
+//Silver Fork
+COPY ~PlanarItems/items/fork.itm~ ~override~ 
+	SAY NAME1 @2048
+	SAY NAME2 @2048
+	SAY UNIDENTIFIED_DESC @2049
+	SAY IDENTIFIED_DESC @2049 
+	
+//Silver Hairpin
+COPY ~PlanarItems/items/pin.itm~ ~override~ 
+	SAY NAME1 @2050
+	SAY NAME2 @2050
+	SAY UNIDENTIFIED_DESC @2051
+	SAY IDENTIFIED_DESC @2051
+	
+//Small Steel Fork 
+COPY ~PlanarItems/items/nesfork.itm~ ~override~ 
+	SAY NAME1 @2052
+	SAY NAME2 @2052
+	SAY UNIDENTIFIED_DESC @2053
+	SAY IDENTIFIED_DESC @2053
+
+//Steak Knife
+COPY ~PlanarItems/items/steakknf.itm~ ~override~ 
+	SAY NAME1 @2054
+	SAY NAME2 @2054
+	SAY UNIDENTIFIED_DESC @2055
+	SAY IDENTIFIED_DESC @2055
+	
+//Stiletto
+COPY ~PlanarItems/items/stiletto.itm~ ~override~ 
+	SAY NAME1 @2056
+	SAY NAME2 @2056
+	SAY UNIDENTIFIED_DESC @2057
+	SAY IDENTIFIED_DESC @2057
+	
+//Fist Irons
+COPY ~PlanarItems/items/fistiron.itm~ ~override~ 
+	SAY NAME1 @2101
+	SAY NAME2 @2101
+	SAY UNIDENTIFIED_DESC @2059
+	SAY IDENTIFIED_DESC @2059
+	
+//Iron Knuckles
+COPY ~PlanarItems/items/knuckles.itm~ ~override~ 
+	SAY NAME1 @2060
+	SAY NAME2 @2060
+	SAY UNIDENTIFIED_DESC @2061
+	SAY IDENTIFIED_DESC @2061
+
+//Punch Daggers
+COPY ~PlanarItems/items/punchdag.itm~ ~override~ 
+	SAY NAME1 @2062
+	SAY NAME2 @2062
+	SAY UNIDENTIFIED_DESC @2066
+	SAY IDENTIFIED_DESC @2066 
+	
+//Work Hammer
+COPY ~PlanarItems/items/hammer.itm~ ~override~ 
+	SAY NAME1 @2077
+	SAY NAME2 @2077
+	SAY UNIDENTIFIED_DESC @2078
+	SAY IDENTIFIED_DESC @2078 
+	
+//Hammer of Quality
+COPY ~PlanarItems/items/hamqual.itm~ ~override~ 
+	SAY NAME1 @2079
+	SAY NAME2 @2079
+	SAY UNIDENTIFIED_DESC @2080
+	SAY IDENTIFIED_DESC @2080 
+	
+//High Quality Sledgehammer 
+COPY ~PlanarItems/items/qsledge.itm~ ~override~ 
+	SAY NAME1 @2081
+	SAY NAME2 @2081
+	SAY UNIDENTIFIED_DESC @2082
+	SAY IDENTIFIED_DESC @2082 
+	
+//Maul
+COPY ~PlanarItems/items/maul.itm~ ~override~ 
+	SAY NAME1 @2083
+	SAY NAME2 @2083
+	SAY UNIDENTIFIED_DESC @2084
+	SAY IDENTIFIED_DESC @2084 
+	
+//Poor Quality Sledgehammer
+COPY ~PlanarItems/items/psledge.itm~ ~override~ 
+	SAY NAME1 @2085
+	SAY NAME2 @2085
+	SAY UNIDENTIFIED_DESC @2086
+	SAY IDENTIFIED_DESC @2086 
+	
+//Silver-Headed Hammer
+COPY ~PlanarItems/items/hamslvr.itm~ ~override~ 
+	SAY NAME1 @2087
+	SAY NAME2 @2087
+	SAY UNIDENTIFIED_DESC @2088
+	SAY IDENTIFIED_DESC @2088
+	
+//Sledgehammer
+COPY ~PlanarItems/items/sledge.itm~ ~override~ 
+	SAY NAME1 @2089
+	SAY NAME2 @2089
+	SAY UNIDENTIFIED_DESC @2090
+	SAY IDENTIFIED_DESC @2090
+	
+//War Hammer 
+COPY ~PlanarItems/items/warham.itm~ ~override~ 
+	SAY NAME1 @2091
+	SAY NAME2 @2091
+	SAY UNIDENTIFIED_DESC @2092
+	SAY IDENTIFIED_DESC @2092 
+	
+//Mace
+COPY ~PlanarItems/items/mace.itm~ ~override~ 
+	SAY NAME1 @2097
+	SAY NAME2 @2097
+	SAY UNIDENTIFIED_DESC @2098
+	SAY IDENTIFIED_DESC @2098 
+	
+//Poor Quality Mace
+COPY ~PlanarItems/items/pmace.itm~ ~override~ 
+	SAY NAME1 @2099
+	SAY NAME2 @2099
+	SAY UNIDENTIFIED_DESC @2100
+	SAY IDENTIFIED_DESC @2100
+	
+//Fist
+COPY ~PlanarItems/items/mace.itm~ ~override~ 
+	SAY NAME1 @2102
+	SAY NAME2 @2102
+	SAY UNIDENTIFIED_DESC @2103
+	SAY IDENTIFIED_DESC @2103
+	
+//---------------------------------------------
+//                                             
+//				WONDROUS ITEMS                 
+//                                             
+//---------------------------------------------
+
+//Aegis of Torment 
+COPY ~PlanarItems/items/aegis.itm~ ~override~ 
+	SAY NAME1 @3000
+	SAY NAME2 @3000
+	SAY UNIDENTIFIED_DESC @3001
+	SAY IDENTIFIED_DESC @3001 
+	
+COPY ~PlanarItems/resources/qdaegis.spl~ ~override~ //2d6 cold damage	
+	
+//Dread Bond 
+COPY ~PlanarItems/items/nofear.itm~ ~override~ 
+	SAY NAME1 @3002
+	SAY NAME2 @3003
+	SAY UNIDENTIFIED_DESC @3004
+	SAY IDENTIFIED_DESC @3005 
+	
+//Intestinal Phylactery
+COPY ~PlanarItems/items/intest2.itm~ ~override~ 
+	SAY NAME1 @3006
+	SAY NAME2 @3007
+	SAY UNIDENTIFIED_DESC @3008
+	SAY IDENTIFIED_DESC @3009
+	
+//Magus Guard
+COPY ~PlanarItems/items/magguard.itm~ ~override~ 
+	SAY NAME1 @3010
+	SAY NAME2 @3011
+	SAY UNIDENTIFIED_DESC @3012
+	SAY IDENTIFIED_DESC @3013 
+
+//Magus Shield
+COPY ~PlanarItems/items/mage4.itm~ ~override~ 
+	SAY NAME1 @3021
+	SAY NAME2 @3022
+	SAY UNIDENTIFIED_DESC @3023
+	SAY IDENTIFIED_DESC @3024
+	
+//Spider Bracelet
+COPY ~PlanarItems/items/thief1.itm~ ~override~ 
+	SAY NAME1 @3017
+	SAY NAME2 @3018
+	SAY UNIDENTIFIED_DESC @3019
+	SAY IDENTIFIED_DESC @3020 
+
+//Amber Earrings
+COPY ~PlanarItems/items/ambear.itm~ ~override~ 
+	SAY NAME1 @3025
+	SAY NAME2 @3025
+	SAY UNIDENTIFIED_DESC @3026
+	SAY IDENTIFIED_DESC @3026 
+	
+//Anarchist Earrings
+COPY ~PlanarItems/items/anear1.itm~ ~override~ 
+	SAY NAME1 @3027
+	SAY NAME2 @3027
+	SAY UNIDENTIFIED_DESC @3028
+	SAY IDENTIFIED_DESC @3028 
+	
+//[To-Do: make special anarchist earrings charms] 
+
+//Crimson Sphere Earring
+COPY ~PlanarItems/items/crimsear.itm~ ~override~ 
+	SAY NAME1 @3030
+	SAY NAME2 @3030
+	SAY UNIDENTIFIED_DESC @3031
+	SAY IDENTIFIED_DESC @3032 
+	
+//Dustman Earring
+COPY ~PlanarItems/items/dustear.itm~ ~override~ 
+	SAY NAME1 @3033
+	SAY NAME2 @3033
+	SAY UNIDENTIFIED_DESC @3034
+	SAY IDENTIFIED_DESC @3034 
+	
+//Obsidian Earring
+COPY ~PlanarItems/items/obear.itm~ ~override~ 
+	SAY NAME1 @3037
+	SAY NAME2 @3038
+	SAY UNIDENTIFIED_DESC @3039
+	SAY IDENTIFIED_DESC @3040 
+	
+//Stinger Earring
+COPY ~PlanarItems/items/stingear.itm~ ~override~ 
+	SAY NAME1 @3045
+	SAY NAME2 @3046
+	SAY UNIDENTIFIED_DESC @3047
+	SAY IDENTIFIED_DESC @3048 
+	
+//Angle-less Eye
+COPY ~PlanarItems/items/eyeglas2.itm~ ~override~ 
+	SAY NAME1 @3045
+	SAY NAME2 @3046
+	SAY UNIDENTIFIED_DESC @3047
+	SAY IDENTIFIED_DESC @3048
+	
+//Kaleidoscopic Eye
+COPY ~PlanarItems/items/eyekal.itm~ ~override~ 
+	SAY NAME1 @3050
+	SAY NAME2 @3051
+	SAY UNIDENTIFIED_DESC @3052
+	SAY IDENTIFIED_DESC @3053 
+	
+//The Fiendish Eye of Kalem'Darr
+COPY ~PlanarItems/items/eyekalem.itm~ ~override~ 
+	SAY NAME1 @3054
+	SAY NAME2 @3055
+	SAY UNIDENTIFIED_DESC @3056
+	SAY IDENTIFIED_DESC @3057 
+	
+//Adahn's Ring
+COPY ~PlanarItems/items/adring.itm~ ~override~ 
+	SAY NAME1 @3058
+	SAY NAME2 @3058
+	SAY UNIDENTIFIED_DESC @3059
+	SAY IDENTIFIED_DESC @3059
+	
+//Displacer Ring
+COPY ~PlanarItems/items/ring04.itm~ ~override~ 
+	SAY NAME1 @3060
+	SAY NAME2 @3061
+	SAY UNIDENTIFIED_DESC @3062
+	SAY IDENTIFIED_DESC @3063
+	
+//Gehraise's Ring 
+COPY ~PlanarItems/items/ring01.itm~ ~override~ 
+	SAY NAME1 @3064
+	SAY NAME2 @3065
+	SAY UNIDENTIFIED_DESC @3066
+	SAY IDENTIFIED_DESC @3067 
+	
+//Mempa's Biting Ring
+COPY ~PlanarItems/items/jring.itm~ ~override~ 
+	SAY NAME1 @3068
+	SAY NAME2 @3069
+	SAY UNIDENTIFIED_DESC @3070
+	SAY IDENTIFIED_DESC @3071 
+	
+//Negative Token 
+COPY ~PlanarItems/items/ntoken.itm~ ~override~ 
+	SAY NAME1 @3072
+	SAY NAME2 @3072
+	SAY UNIDENTIFIED_DESC @3073
+	SAY IDENTIFIED_DESC @3073 
+	
+//Yevrah's Ring of Almost Invisibility 
+COPY ~PlanarItems/items/ringai.itm~ ~override~ 
+	SAY NAME1 @3074
+	SAY NAME2 @3074
+	SAY UNIDENTIFIED_DESC @3075
+	SAY IDENTIFIED_DESC @3075 
+	
+//Ring of the Traveler 
+COPY ~PlanarItems/items/ring03.itm~ ~override~ 
+	SAY NAME1 @3076
+	SAY NAME2 @3077
+	SAY UNIDENTIFIED_DESC @3078
+	SAY IDENTIFIED_DESC @3079 
+	
+//Ring of Thex 
+COPY ~PlanarItems/items/wring.itm~ ~override~ 
+	SAY NAME1 @3080
+	SAY NAME2 @3080
+	SAY UNIDENTIFIED_DESC @3081
+	SAY IDENTIFIED_DESC @3081
+
+//Ring Zero 
+COPY ~PlanarItems/items/zero.itm~ ~override~ 
+	SAY NAME1 @3082
+	SAY NAME2 @3082
+	SAY UNIDENTIFIED_DESC @3083
+	SAY IDENTIFIED_DESC @3083 
+	
+//Serpent Ring
+COPY ~PlanarItems/items/thief2.itm~ ~override~ 
+	SAY NAME1 @3084
+	SAY NAME2 @3085
+	SAY UNIDENTIFIED_DESC @3086
+	SAY IDENTIFIED_DESC @3087 
+	
+//Twisted Ring
+COPY ~PlanarItems/items/ring02.itm~ ~override~ 
+	SAY NAME1 @3088
+	SAY NAME2 @3088
+	SAY UNIDENTIFIED_DESC @3089
+	SAY IDENTIFIED_DESC @3089
+	
+//---------------------------------------------
+//                                             
+//				COMPANION ITEMS                
+//                                             
+//---------------------------------------------
+
+//Annah's Vest 
+COPY ~PlanarItems/items/avest.itm~ ~override~ 
+	SAY NAME1 @4000
+	SAY NAME2 @4000
+	SAY UNIDENTIFIED_DESC @4001
+	SAY IDENTIFIED_DESC @4001 
+
+//Annah's Punch Daggers 
+COPY ~PlanarItems/items/annahdag.itm~ ~override~ 
+	SAY NAME1 @4002
+	SAY NAME2 @4002
+	SAY UNIDENTIFIED_DESC @4003
+	SAY IDENTIFIED_DESC @4003 
+	
+//Chained-teeth Earrings
+COPY ~PlanarItems/items/lockpick.itm~ ~override~ 
+	SAY NAME1 @4004
+	SAY NAME2 @4004
+	SAY UNIDENTIFIED_DESC @4005
+	SAY IDENTIFIED_DESC @4005 
+	
+//Jerkin of the Brazen Rogue 
+COPY ~PlanarItems/items/jer_br.itm~ ~override~ 
+	SAY NAME1 @4006
+	SAY NAME2 @4006
+	SAY UNIDENTIFIED_DESC @4007
+	SAY IDENTIFIED_DESC @4007 
+
+//Jerkin of the Flitting Shadow
+COPY ~PlanarItems/items/jer_fs.itm~ ~override~ 
+	SAY NAME1 @4008
+	SAY NAME2 @4008
+	SAY UNIDENTIFIED_DESC @4009
+	SAY IDENTIFIED_DESC @4009 
+	
+COPY ~PlanarItems/resources/qdjfs.spl~ ~override~ //invis 12 seconds
+	
+//Dak'kon's Zerth Armor
+COPY ~PlanarItems/items/zerth.itm~ ~override~ 
+	SAY NAME1 @4012
+	SAY NAME2 @4012
+	SAY UNIDENTIFIED_DESC @4013
+	SAY IDENTIFIED_DESC @4013 
+	
+COPY ~PlanarItems/resources/qdzerth.eff~ ~override~ //1 stoneskin
+	
+//Chained Blade
+COPY ~PlanarItems/items/nkarach.itm~ ~override~ 
+	SAY NAME1 @4014
+	SAY NAME2 @4014
+	SAY UNIDENTIFIED_DESC @4017
+	SAY IDENTIFIED_DESC @4017 	
+	
+COPY ~PlanarItems/items/nkarach.itm~ ~override/karach.itm~ 
+	SAY NAME1 @4014
+	SAY NAME2 @4014
+	SAY UNIDENTIFIED_DESC @4017
+	SAY IDENTIFIED_DESC @4017 	
+	
+//Chained Blade (2)
+COPY ~PlanarItems/items/nkarach2.itm~ ~override~ 
+	SAY NAME1 @4014
+	SAY NAME2 @4014
+	SAY UNIDENTIFIED_DESC @4018
+	SAY IDENTIFIED_DESC @4018
+	
+COPY ~PlanarItems/items/nkarach2.itm~ ~override/karach2.itm~ 
+	SAY NAME1 @4014
+	SAY NAME2 @4014
+	SAY UNIDENTIFIED_DESC @4018
+	SAY IDENTIFIED_DESC @4018
+	
+//Chained Blade (3)
+COPY ~PlanarItems/items/nkarach3.itm~ ~override~ 
+	SAY NAME1 @4014
+	SAY NAME2 @4014
+	SAY UNIDENTIFIED_DESC @4019
+	SAY IDENTIFIED_DESC @4019 
+
+//Streaming Blade
+COPY ~PlanarItems/items/gkarach.itm~ ~override~ 
+	SAY NAME1 @4015
+	SAY NAME2 @4015
+	SAY UNIDENTIFIED_DESC @4020
+	SAY IDENTIFIED_DESC @4020 	
+	
+//Streaming Blade (2)
+COPY ~PlanarItems/items/gkarach2.itm~ ~override~ 
+	SAY NAME1 @4015
+	SAY NAME2 @4015
+	SAY UNIDENTIFIED_DESC @4021
+	SAY IDENTIFIED_DESC @4021
+	
+//Streaming Blade (3)
+COPY ~PlanarItems/items/gkarach3.itm~ ~override~ 
+	SAY NAME1 @4015
+	SAY NAME2 @4015
+	SAY UNIDENTIFIED_DESC @4022
+	SAY IDENTIFIED_DESC @4022 
+
+COPY ~PlanarItems/resources/qdgkrch.spl~ ~override~ //restore 1 spell slot 
+	
+//Kinstealer
+COPY ~PlanarItems/items/bkarach.itm~ ~override~ 
+	SAY NAME1 @4016
+	SAY NAME2 @4016
+	SAY UNIDENTIFIED_DESC @4023
+	SAY IDENTIFIED_DESC @4023
+	
+//Kinstealer (2)
+COPY ~PlanarItems/items/bkarach2.itm~ ~override~ 
+	SAY NAME1 @4016
+	SAY NAME2 @4016
+	SAY UNIDENTIFIED_DESC @4024
+	SAY IDENTIFIED_DESC @4024
+	
+//Kinstealer (3)
+COPY ~PlanarItems/items/bkarach3.itm~ ~override~ 
+	SAY NAME1 @4016
+	SAY NAME2 @4016
+	SAY UNIDENTIFIED_DESC @4025
+	SAY IDENTIFIED_DESC @4025 
+	
+COPY ~PlanarItems/resources/qdbkrch.spl~ ~override~ //kill (-4 death save) 
+	
+//Bell's Shield 
+COPY ~PlanarItems/items/bell.itm~ ~override~ 
+	SAY NAME1 @4026
+	SAY NAME2 @4026
+	SAY UNIDENTIFIED_DESC @4027
+	SAY IDENTIFIED_DESC @4027 
+	
+//Bodice of the Godless Priest
+COPY ~PlanarItems/items/bod_gp.itm~ ~override~ 
+	SAY NAME1 @4028
+	SAY NAME2 @4028
+	SAY UNIDENTIFIED_DESC @4029
+	SAY IDENTIFIED_DESC @4029
+	
+//Bodice of the Perilous Quest
+COPY ~PlanarItems/items/bod_pq.itm~ ~override~ 
+	SAY NAME1 @4030
+	SAY NAME2 @4030
+	SAY UNIDENTIFIED_DESC @4031
+	SAY IDENTIFIED_DESC @4031 
+	
+//Fall-from-Grace's Chastity Bodice 
+COPY ~PlanarItems/items/chastity.itm~ ~override~ 
+	SAY NAME1 @4033
+	SAY NAME2 @4033
+	SAY UNIDENTIFIED_DESC @4034
+	SAY IDENTIFIED_DESC @4034 
+	
+//Fall-from-Grace's Earrings
+COPY ~PlanarItems/items/gearring.itm~ ~override~ 
+	SAY NAME1 @4035
+	SAY NAME2 @4035
+	SAY UNIDENTIFIED_DESC @4036
+	SAY IDENTIFIED_DESC @4036 
+
+//Fall-from-Grace's Touch
+COPY ~PlanarItems/items/gtouch.itm~ ~override~ 
+	SAY NAME1 @4037
+	SAY NAME2 @4037
+	SAY UNIDENTIFIED_DESC @4038
+	SAY IDENTIFIED_DESC @4038 
+	
+//Updated Grace's natural AC to 10 
+//This fixes an issue where the new armor gives her a base AC of -2 
+COPY_EXISTING ~grace.cre~ ~override~ 
+	WRITE_SHORT 0x46 10 
+	WRITE_SHORT 0x48 10 
+	
+//Ignus' Fireballs
+COPY ~PlanarItems/items/ignusfi.itm~ ~override~ 
+	SAY NAME1 @4039
+	SAY NAME2 @4039
+	SAY UNIDENTIFIED_DESC @4040
+	SAY IDENTIFIED_DESC @4040 
+	
+//Morte's Bite 
+COPY ~PlanarItems/items/mbite.itm~ ~override~ 
+	SAY NAME1 @4041
+	SAY NAME2 @4041
+	SAY UNIDENTIFIED_DESC @4042
+	SAY IDENTIFIED_DESC @4042 
+
+//[To-Do: Ingress' Teeth] 
+	
+//Teeth of the Fire Drake
+COPY ~PlanarItems/items/fdteeth.itm~ ~override~ 
+	SAY NAME1 @4047
+	SAY NAME2 @4048
+	SAY UNIDENTIFIED_DESC @4049
+	SAY IDENTIFIED_DESC @4050 
+	
+//Teeth of the Viper 
+COPY ~PlanarItems/items/vteeth.itm~ ~override~ 
+	SAY NAME1 @4051
+	SAY NAME2 @4052
+	SAY UNIDENTIFIED_DESC @4053
+	SAY IDENTIFIED_DESC @4054 
+	
+//Final Judgment
+COPY ~PlanarItems/items/judgment.itm~ ~override~ 
+	SAY NAME1 @4055
+	SAY NAME2 @4055
+	SAY UNIDENTIFIED_DESC @4056
+	SAY IDENTIFIED_DESC @4056
+
+//Vhailor's Mercykiller Armor 
+COPY ~PlanarItems/items/vhailor.itm~ ~override~ 
+	SAY NAME1 @4057
+	SAY NAME2 @4057
+	SAY UNIDENTIFIED_DESC @4058
+	SAY IDENTIFIED_DESC @4058 
+	
+//Nordom's Crossbows
+COPY ~PlanarItems/items/nordxbow.itm~ ~override~ 
+	SAY NAME1 @4059
+	SAY NAME2 @4059
+	SAY UNIDENTIFIED_DESC @4060
+	SAY IDENTIFIED_DESC @4060 
+	
+//Nordom's Crossbow Bolts 
+COPY ~PlanarItems/items/nordbolt.itm~ ~override~ 
+	SAY NAME1 @4061
+	SAY NAME2 @4061
+	SAY UNIDENTIFIED_DESC @4062
+	SAY IDENTIFIED_DESC @4062 
+	
+//Acidic Sponge Bolts
+COPY ~PlanarItems/items/bolt02.itm~ ~override~ 
+	SAY NAME1 @4063
+	SAY NAME2 @4064
+	SAY UNIDENTIFIED_DESC @4065
+	SAY IDENTIFIED_DESC @4066 
+
+//Bolts of Acheron
+COPY ~PlanarItems/items/bolt01.itm~ ~override~ 
+	SAY NAME1 @4067
+	SAY NAME2 @4068
+	SAY UNIDENTIFIED_DESC @4069
+	SAY IDENTIFIED_DESC @4070 
+	
+//[To-Do: Bolts of Kessek the Devourer]
+/*
+COPY ~PlanarItems/items/bolt09.itm~ ~override~ 
+	SAY NAME1 @4071
+	SAY NAME2 @4072
+	SAY UNIDENTIFIED_DESC @4073
+	SAY IDENTIFIED_DESC @4074
+*/
+	
+//Bolts of Whistling Doom 
+COPY ~PlanarItems/items/bolt05.itm~ ~override~ 
+	SAY NAME1 @4075
+	SAY NAME2 @4076
+	SAY UNIDENTIFIED_DESC @4077
+	SAY IDENTIFIED_DESC @4078 
+	
+//Bolts of Wincing
+COPY ~PlanarItems/items/bolt06.itm~ ~override~ 
+	SAY NAME1 @4079
+	SAY NAME2 @4080
+	SAY UNIDENTIFIED_DESC @4081
+	SAY IDENTIFIED_DESC @4082
+	
+//Jagged Bolts
+COPY ~PlanarItems/items/bolt08.itm~ ~override~ 
+	SAY NAME1 @4083
+	SAY NAME2 @4083
+	SAY UNIDENTIFIED_DESC @4084
+	SAY IDENTIFIED_DESC @4084 
+	
+//Zephyr Bolts
+COPY ~PlanarItems/items/bolt07.itm~ ~override~ 
+	SAY NAME1 @4087
+	SAY NAME2 @4087
+	SAY UNIDENTIFIED_DESC @4088
+	SAY IDENTIFIED_DESC @4088 
+
+//Rule-of-Three Bolts
+COPY ~PlanarItems/items/bolt04.itm~ ~override~ 
+	SAY NAME1 @4089
+	SAY NAME2 @4089
+	SAY UNIDENTIFIED_DESC @4090
+	SAY IDENTIFIED_DESC @4090
+	
+//Nordom's Ocular
+COPY ~PlanarItems/items/lens01.itm~ ~override~ 
+	SAY NAME1 @4091
+	SAY NAME2 @4091
+	SAY UNIDENTIFIED_DESC @4092
+	SAY IDENTIFIED_DESC @4092 
+	
+//Lens of Inherent Viciousness
+COPY ~PlanarItems/items/lens02.itm~ ~override~ 
+	SAY NAME1 @4093
+	SAY NAME2 @4093
+	SAY UNIDENTIFIED_DESC @4094
+	SAY IDENTIFIED_DESC @4094 
+	
+//Magnifying Lens
+COPY ~PlanarItems/items/lens03.itm~ ~override~ 
+	SAY NAME1 @4095
+	SAY NAME2 @4095
+	SAY UNIDENTIFIED_DESC @4096
+	SAY IDENTIFIED_DESC @4096 
+	
+//Lens of Confounding
+COPY ~PlanarItems/items/lens04.itm~ ~override~ 
+	SAY NAME1 @4097
+	SAY NAME2 @4098
+	SAY UNIDENTIFIED_DESC @4099
+	SAY IDENTIFIED_DESC @4100 
+	
+//Retractable Scope
+COPY ~PlanarItems/items/lens05.itm~ ~override~ 
+	SAY NAME1 @4101
+	SAY NAME2 @4101
+	SAY UNIDENTIFIED_DESC @4102
+	SAY IDENTIFIED_DESC @4102 
+	
+//Lens of Seeing Double
+COPY ~PlanarItems/items/lens06.itm~ ~override~ 
+	SAY NAME1 @4103
+	SAY NAME2 @4104
+	SAY UNIDENTIFIED_DESC @4105
+	SAY IDENTIFIED_DESC @4106 
+	
+//Lens of the Bat 
+COPY ~PlanarItems/items/lens07.itm~ ~override~ 
+	SAY NAME1 @4107
+	SAY NAME2 @4108
+	SAY UNIDENTIFIED_DESC @4109
+	SAY IDENTIFIED_DESC @4110 
+	
+//Lens of Perspicacity
+COPY ~PlanarItems/items/lens08.itm~ ~override~ 
+	SAY NAME1 @4111
+	SAY NAME2 @4112
+	SAY UNIDENTIFIED_DESC @4113
+	SAY IDENTIFIED_DESC @4114 
+	
+//Time's Eyepiece
+COPY ~PlanarItems/items/lens09.itm~ ~override~ 
+	SAY NAME1 @4115
+	SAY NAME2 @4116
+	SAY UNIDENTIFIED_DESC @4117
+	SAY IDENTIFIED_DESC @4118 
+	
+//Lens of the Horizon
+COPY ~PlanarItems/items/lens10.itm~ ~override~ 
+	SAY NAME1 @4119
+	SAY NAME2 @4120
+	SAY UNIDENTIFIED_DESC @4121
+	SAY IDENTIFIED_DESC @4122 
+	
+//Optix
+COPY ~PlanarItems/items/lens11.itm~ ~override~ 
+	SAY NAME1 @4123
+	SAY NAME2 @4124
+	SAY UNIDENTIFIED_DESC @4125
+	SAY IDENTIFIED_DESC @4126 
+	
+//Beer Goggles
+COPY ~PlanarItems/items/lens12.itm~ ~override~ 
+	SAY NAME1 @4127
+	SAY NAME2 @4128
+	SAY UNIDENTIFIED_DESC @4129
+	SAY IDENTIFIED_DESC @4130 
+	
+//Displacing Lens (Stealth Lens)
+COPY ~PlanarItems/items/lens13.itm~ ~override~ 
+	SAY NAME1 @4131
+	SAY NAME2 @4132
+	SAY UNIDENTIFIED_DESC @4133
+	SAY IDENTIFIED_DESC @4134
+	
+	
+	
+//---------------------------------------------
+//                                             
+//			CHARMS / CONSUMABLES               
+//                                             
+//---------------------------------------------
+
+
+//---------------------------------------------
+//                                             
+//					TATTOOS                    
+//                                             
+//---------------------------------------------
+
+ 	
+//---------------------------------------------
+//                                             
+//				RESTORED ITEMS                 
+//                                             
+//---------------------------------------------
+
+//Devil's Due [Unfinished Business]
+COPY ~PlanarItems/items/devildue.itm~ ~override~ 
+	SAY NAME1 @1800
+	SAY NAME2 @1801
+	SAY UNIDENTIFIED_DESC @1802
+	SAY IDENTIFIED_DESC @1803
+	
+//Chaos Feather [Unfinished Business]
+COPY ~PlanarItems/items/feather.itm~ ~override~ 
+	SAY NAME1 @1804
+	SAY NAME2 @1805
+	SAY UNIDENTIFIED_DESC @1806
+	SAY IDENTIFIED_DESC @1807
+	
+//Last Resort [Vrischika]
+COPY ~PlanarItems/items/resort.itm~ ~override~ 
+	SAY NAME1 @1808
+	SAY NAME2 @1809
+	SAY UNIDENTIFIED_DESC @1810
+	SAY IDENTIFIED_DESC @1811
+	
+COPY_EXISTING ~vris.sto~ ~override~ 
+	ADD_STORE_ITEM ~resort~ #0 #0 #0 ~IDENTIFIED~ #1 
+	
+//Gauntlets of Rending [Unfinished Business]
+COPY ~PlanarItems/items/rending.itm~ ~override~ 
+	SAY NAME1 @1812
+	SAY NAME2 @1813
+	SAY UNIDENTIFIED_DESC @1814
+	SAY IDENTIFIED_DESC @1815
+
+COPY ~PlanarItems/resources/qdrend1.eff~ ~override~ //on melee hit, apply qdrend2
+	 ~PlanarItems/resources/qdrend2.eff~ ~override~ //2d6 slashing damage
+	 
+//Spiked Gauntlets [Unfinished Business]
+COPY ~PlanarItems/items/spkgaunt.itm~ ~override~ 
+	SAY NAME1 @2067
+	SAY NAME2 @2067
+	SAY UNIDENTIFIED_DESC @2068
+	SAY IDENTIFIED_DESC @2068 
+	
+//Rat-tail Bracelet [Barking-Wilder]
+COPY ~PlanarItems/items/ratcharm.itm~ ~override~ 
+	SAY NAME1 @3014
+	SAY NAME2 @3014
+	SAY UNIDENTIFIED_DESC @3015
+	SAY IDENTIFIED_DESC @3016
+	
+//[To-Do: Rat-tail Bracelet Acquisition] 
+
+//Indep Earring [???]
+COPY ~PlanarItems/items/indepear.itm~ ~override~ 
+	SAY NAME1 @3035
+	SAY NAME2 @3035
+	SAY UNIDENTIFIED_DESC @3036
+	SAY IDENTIFIED_DESC @3036
+	
+//[To-Do: Indep Earring Acquisition] 
+
+//[To-Do: Eye of Vecna] 
+//Need to do item dialog for equip/abilities/etc. 
+
+//Lower Planes Vermin Armor
+COPY ~PlanarItems/items/vermin.itm~ ~override~ 
+	SAY NAME1 @4010
+	SAY NAME2 @4010
+	SAY UNIDENTIFIED_DESC @4011
+	SAY IDENTIFIED_DESC @4011 
+
+COPY_EXISTING ~vris.sto~ ~override~ 
+	ADD_STORE_ITEM ~vermin~ #0 #0 #0 ~IDENTIFIED~ #1 
+	
+//Fiend's Teeth [Unfinished Business]
+COPY ~PlanarItems/items/fteeth.itm~ ~override~ 
+	SAY NAME1 @4043
+	SAY NAME2 @4044
+	SAY UNIDENTIFIED_DESC @4045
+	SAY IDENTIFIED_DESC @4046 
+	
+//---------------------------------------------
+//                                             
+//				NEW ITEMS                      
+//                                             
+//---------------------------------------------
+	
+//Arm of the Wretched Incarnation 
+//Acquisition: take Severed Arm (Yours) to Fell and unlock its secrets)
+COPY ~PlanarItems/items/qdarmwi.itm~ ~override~ 
+	SAY NAME1 @5000
+	SAY NAME2 @5000
+	SAY UNIDENTIFIED_DESC @5001
+	SAY IDENTIFIED_DESC @5001 
+	
+<<<<<<<< qd/armwi_patch.d
+REPLACE_ACTION_TEXT_REGEXP ~.*~ ~SetGlobal("Fell_Arm","GLOBAL",1)~ ~SetGlobal("Fell_Arm","GLOBAL",1) TakePartyItem("oldarm1") GiveItemCreate("qdarmwi",Protagonist,0,0,0)~ 
+>>>>>>>> 
+
+COMPILE ~qd/armwi_patch.d~
+
+//Razorvine Earrings 
+//Acquisition: talk to Ravel about Mebbeth with the Amber Earrings in your inventory
+/*
+COPY ~PlanarItems/items/qdrvear.itm~ ~override~ 
+	SAY NAME1 @5002
+	SAY NAME2 @5002
+	SAY UNIDENTIFIED_DESC @5003
+	SAY IDENTIFIED_DESC @5003
+
+<<<<<<<< qd/rvear_patch.d
+REPLACE_ACTION_TEXT_REGEXP ~.*~ ~SetGlobal("Ravel_Mebbeth","GLOBAL",1))~ ~SetGlobal("Ravel_Mebbeth","GLOBAL",1) TakePartyItem("ambear") GiveItemCreate("qdrvear",Protagonist,0,0,0)~ 
+
+COMPILE ~qd/armwi_patch.d~
+>>>>>>>>
+
+*/	 
+
+//Eye of the Blind Sage 
+//Acquisition: Vrischika 
+/*
+COPY ~PlanarItems/items/qdeyebs.itm~ ~override~ 
+	SAY NAME1 @5004
+	SAY NAME2 @5004
+	SAY UNIDENTIFIED_DESC @5005
+	SAY IDENTIFIED_DESC @5005 
+	
+COPY_EXISTING ~vris.sto~ ~override~ 
+	ADD_STORE_ITEM ~qdeyebs~ #0 #0 #0 ~IDENTIFIED~ #1 
+
+//The Bull's Eye  
+//Acquisition: Vrischika 
+
+COPY ~PlanarItems/items/qdeyebl.itm~ ~override~ 
+	SAY NAME1 @5004
+	SAY NAME2 @5004
+	SAY UNIDENTIFIED_DESC @5005
+	SAY IDENTIFIED_DESC @5005 
+
+//Keen Eye 
+//Acquisition: Vrischika 
+
+COPY ~PlanarItems/items/qdeyekn.itm~ ~override~ 
+	SAY NAME1 @5004
+	SAY NAME2 @5004
+	SAY UNIDENTIFIED_DESC @5005
+	SAY IDENTIFIED_DESC @5005 
+*/ 
+	 
+	
