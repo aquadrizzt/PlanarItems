@@ -15,6 +15,16 @@ BEGIN @0
 
 COPY_EXISTING ~aclue.itm~ ~override/qd_planar_items_core.qd~ //check file for this component 
 
+//Small UI change to access item abilities from equipment 
+//Thanks kjeron! 
+COPY_EXISTING ~ui.menu~ ~override~ 
+	REPLACE_TEXTUALLY ~showContextMenu(const.ACTIONBAR_STATE_ITEMS)~ "if	contextBarState ~= const.ACTIONBAR_STATE_ITEMS then
+		showContextMenu(const.ACTIONBAR_STATE_ITEMS)
+	else
+		showContextMenu(105)
+	end"
+BUT_ONLY
+
 //---------------------------------------------
 //                                             
 //	  			   UNIQUE WEAPONS              
@@ -195,7 +205,9 @@ COPY ~PlanarItems/items/shard.itm~ ~override~
 	SAY NAME2 @1308
 	SAY UNIDENTIFIED_DESC @1309
 	SAY IDENTIFIED_DESC @1309 
-	
+
+//[TO DO: Destroy Shards of Fate upon entering final chapter] 
+
 //Siphon Knuckles
 COPY ~PlanarItems/items/iron2.itm~ ~override~ 
 	SAY NAME1 @1310
@@ -355,8 +367,37 @@ COPY ~PlanarItems/items/cfhammer.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @1706
 	SAY IDENTIFIED_DESC @1706
 	
-//[To-Do: Entropic Blade]
-
+//Entropic Blade
+COPY ~PlanarItems/items/edag.itm~ ~override~ 
+	SAY NAME1 @1707
+	SAY NAME2 @1707
+	SAY UNIDENTIFIED_DESC @1708
+	SAY IDENTIFIED_DESC @1708
+	
+COPY ~PlanarItems/items/eaxe.itm~ ~override~ 
+	SAY NAME1 @1707
+	SAY NAME2 @1707
+	SAY UNIDENTIFIED_DESC @1709
+	SAY IDENTIFIED_DESC @1709
+	
+COPY ~PlanarItems/items/efist.itm~ ~override~ 
+	SAY NAME1 @1707
+	SAY NAME2 @1707
+	SAY UNIDENTIFIED_DESC @1711
+	SAY IDENTIFIED_DESC @1711
+	
+COPY ~PlanarItems/items/eham.itm~ ~override~ 
+	SAY NAME1 @1707
+	SAY NAME2 @1707
+	SAY UNIDENTIFIED_DESC @1710
+	SAY IDENTIFIED_DESC @1710
+	
+COPY ~PlanarItems/items/emace.itm~ ~override~ 
+	SAY NAME1 @1707
+	SAY NAME2 @1707
+	SAY UNIDENTIFIED_DESC @1712
+	SAY IDENTIFIED_DESC @1712
+	
 //Blade of the Immortal 
 COPY ~PlanarItems/items/bladeim.itm~ ~override~ 
 	SAY NAME1 @1232
@@ -753,7 +794,7 @@ COPY ~PlanarItems/items/anear1.itm~ ~override~
 	SAY NAME1 @3027
 	SAY NAME2 @3027
 	SAY UNIDENTIFIED_DESC @3028
-	SAY IDENTIFIED_DESC @3028 
+	SAY IDENTIFIED_DESC @3029 
 	
 //[To-Do: make special anarchist earrings charms] 
 
@@ -780,10 +821,10 @@ COPY ~PlanarItems/items/obear.itm~ ~override~
 	
 //Stinger Earring
 COPY ~PlanarItems/items/stingear.itm~ ~override~ 
-	SAY NAME1 @3045
-	SAY NAME2 @3046
-	SAY UNIDENTIFIED_DESC @3047
-	SAY IDENTIFIED_DESC @3048 
+	SAY NAME1 @3041
+	SAY NAME2 @3042
+	SAY UNIDENTIFIED_DESC @3043
+	SAY IDENTIFIED_DESC @3044
 	
 //Angle-less Eye
 COPY ~PlanarItems/items/eyeglas2.itm~ ~override~ 
@@ -813,6 +854,13 @@ COPY ~PlanarItems/items/adring.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @3059
 	SAY IDENTIFIED_DESC @3059
 	
+//Adahn's Ring (2)
+COPY ~PlanarItems/items/adring.itm~ ~override/adring2.itm~ 
+	SAY NAME1 @3058
+	SAY NAME2 @3058
+	SAY UNIDENTIFIED_DESC @3059
+	SAY IDENTIFIED_DESC @3059
+		
 //Displacer Ring
 COPY ~PlanarItems/items/ring04.itm~ ~override~ 
 	SAY NAME1 @3060
@@ -882,7 +930,35 @@ COPY ~PlanarItems/items/ring02.itm~ ~override~
 	SAY NAME2 @3088
 	SAY UNIDENTIFIED_DESC @3089
 	SAY IDENTIFIED_DESC @3089
+
+//Patch to non-magical wondrous items 
+//This removes the item abilities from non-magical items 
+ACTION_FOR_EACH itmres IN ~copear~ ~copearo~ ~ear01~ ~golear~ ~silear~ ~arkring~ ~broring~ ~golring~ ~silring~ ~brobra~ ~golbra~ ~silbra~ ~tsilbra~ ~soholysy~ ~eyeball~ ~eyeglas1~ BEGIN 
+	COPY_EXISTING ~%itmres%.itm~ ~override~ 
+		LPF DELETE_ITEM_HEADER INT_VAR header_type = 3 END  
+END 
+
+//Black-barbed Wand
+COPY ~PlanarItems/items/bbwand.itm~ ~override~ 
+	SAY NAME1 @3090
+	SAY NAME2 @3091
+	SAY UNIDENTIFIED_DESC @3092
+	SAY IDENTIFIED_DESC @3093
 	
+//Shamanic Rod
+COPY ~PlanarItems/items/shaman.itm~ ~override~ 
+	SAY NAME1 @3094
+	SAY NAME2 @3095
+	SAY UNIDENTIFIED_DESC @3096
+	SAY IDENTIFIED_DESC @3097
+	
+//Clasp of Embalming (Greater Dustman Charm of Embalming)
+COPY ~PlanarItems/items/embchrm2.itm~ ~override~ 
+	SAY NAME1 @3098
+	SAY NAME2 @3098
+	SAY UNIDENTIFIED_DESC @3099
+	SAY IDENTIFIED_DESC @3099
+
 //---------------------------------------------
 //                                             
 //				COMPANION ITEMS                
@@ -1277,14 +1353,37 @@ COPY ~PlanarItems/items/lens13.itm~ ~override~
 //                                             
 //---------------------------------------------
 
+//Adder's Tear [ADDRTEAR] - unchanged 
+/*
+//Bandages
+COPY ~PlanarItems/items/bandage.itm~ ~override~ 
+	SAY NAME1 @5000
+	SAY NAME2 @5000
+	SAY UNIDENTIFIED_DESC @5001
+	SAY IDENTIFIED_DESC @5001
 
-//---------------------------------------------
-//                                             
-//					TATTOOS                    
-//                                             
-//---------------------------------------------
+//Blood Charm 
+COPY ~PlanarItems/items/bloochrm.itm~ ~override~ 
+	SAY NAME1 @5002
+	SAY NAME2 @5002
+	SAY UNIDENTIFIED_DESC @5003
+	SAY IDENTIFIED_DESC @5003
 
- 	
+//Bloodfly Charm 
+COPY ~PlanarItems/items/bloodfly.itm~ ~override~ 
+	SAY NAME1 @5004
+	SAY NAME2 @5004
+	SAY UNIDENTIFIED_DESC @5005
+	SAY IDENTIFIED_DESC @5005
+	
+//Bone Charm 
+COPY ~PlanarItems/items/bloochrm.itm~ ~override~ 
+	SAY NAME1 @5002
+	SAY NAME2 @5002
+	SAY UNIDENTIFIED_DESC @5003
+	SAY IDENTIFIED_DESC @5003
+*/
+	
 //---------------------------------------------
 //                                             
 //				RESTORED ITEMS                 
@@ -1379,10 +1478,10 @@ COPY ~PlanarItems/items/fteeth.itm~ ~override~
 //Arm of the Wretched Incarnation 
 //Acquisition: take Severed Arm (Yours) to Fell and unlock its secrets)
 COPY ~PlanarItems/items/qdarmwi.itm~ ~override~ 
-	SAY NAME1 @5000
-	SAY NAME2 @5000
-	SAY UNIDENTIFIED_DESC @5001
-	SAY IDENTIFIED_DESC @5001 
+	SAY NAME1 @9000
+	SAY NAME2 @9000
+	SAY UNIDENTIFIED_DESC @9001
+	SAY IDENTIFIED_DESC @9001 
 	
 <<<<<<<< qd/armwi_patch.d
 REPLACE_ACTION_TEXT_REGEXP ~.*~ ~SetGlobal("Fell_Arm","GLOBAL",1)~ ~SetGlobal("Fell_Arm","GLOBAL",1) TakePartyItem("oldarm1") GiveItemCreate("qdarmwi",Protagonist,0,0,0)~ 
@@ -1438,4 +1537,19 @@ COPY ~PlanarItems/items/qdeyekn.itm~ ~override~
 	SAY IDENTIFIED_DESC @5005 
 */ 
 	 
+	 
+//---------------------------------------------
+//                                             
+//					TATTOOS                    
+//                                             
+//---------------------------------------------
+//[To-Do: Make this its own component before distribution]
+
+//Change default body "armour" sound to tattoo 
+//Annah and Grace armor should be unaffected
+/*
+COPY_EXISTING ~itemtype.2da~ ~override~ 
+	SET_2DA_ENTRY 3 1 3 ~INT_12K~ 
+ 	SET_2DA_ENTRY 3 2 3 ~INT_12K1~ 	 
 	
+*/

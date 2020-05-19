@@ -613,7 +613,7 @@ Special:
    +1 Attack per Round 
    +1d3 Crushing Damage 
    Devours (reduces target's maximum hit points by 2; 1 hour)
-   Hungering (reduce wielder's maximum hit points by 2; 1 hour; hitting a target negates for 60 seconds)
+   Hungering (once per turn, reduce wielder's maximum hit points by 2; 1 hour; hitting a target protects for 1 turn)
 THAC0: +2 
 Speed: 3
 Weight: 1
@@ -973,7 +973,7 @@ THAC0: +3
 Speed: 5
 Weight: 5
 Proficiency: Edged
-Usable only by Lawful Good characters 
+Not usable by Evil characters
 
 "Celestial Fire" is the only object that Trias has left to remind him of the Upper Planes. This heavy blade is warm to the touch, and flames have been carved across the surface of the blade. The intricacy of the carvings is breathtaking; they are done with such skill that the sword seems to be burning with metallic flames... someone must have spent several centuries rendering them. The metal of the blade is unfamiliar... it is heavy, but it shines like silver.
 
@@ -993,7 +993,8 @@ THAC0: +3
 Speed: 8
 Weight: 5
 Proficiency: Axes
-Usable only by Lawful Good Fighters  
+Usable only by Fighters
+Not usable by Evil characters
 
 "Celestial Fire" is the only object that Trias has left to remind him of the Upper Planes. The blade became an axe in your hands. It is warm to the touch, and flames have been carved across the surface of the head. The intricacy of the carvings is breathtaking; they are done with such skill that the axe seems to be burning with metallic flames... someone must have spent several centuries rendering them. The metal of the axe is unfamiliar... it is heavy, but it shines like silver.
 
@@ -1010,7 +1011,7 @@ THAC0: +3
 Speed: 4
 Weight: 5
 Proficiency: Clubs
-Usable only by Lawful Good characters
+Not usable by Evil characters
 Not usable by Mages 
 
 "Celestial Fire" is the only object that Trias has left to remind him of the Upper Planes. The blade became a club in your hands. It is warm to the touch, and flames have been carved all along the length of the weapon. The intricacy of the carvings is breathtaking; they are done with such skill that the club seems to be burning with metallic flames... someone must have spent several centuries rendering them. The metal of the hammer is unfamiliar... it is heavy, but it shines like silver.
@@ -1028,7 +1029,7 @@ THAC0: +3
 Speed: 1
 Weight: 5
 Proficiency: Edged
-Usable only by Lawful Good characters
+Not usable by Evil characters
 Not usable by Priests 
 
 The blade became a dagger in your hands. It is warm to the touch, and flames have been carved across the surface of the blade. The intricacy of the carvings is breathtaking; they are done with such skill that the dagger seems to be burning with metallic flames... someone must have spent several centuries rendering them. The metal of the dagger is unfamiliar... it is heavy, but it shines like silver.
@@ -1047,7 +1048,7 @@ THAC0: +3
 Speed: 3
 Weight: 5
 Proficiency: Fists
-Usable only by Lawful Good characters
+Not usable by Evil characters
 
 The blade became a pair of gauntlets in your hands. They is warm to the touch, and flames have been carved across the knuckles of the gloves. The intricacy of the carvings is breathtaking; they are done with such skill that the gauntlets seem to be burning with metallic flames... someone must have spent several centuries rendering them. The metal of the gauntlets is unfamiliar... it is heavy, but it shines like silver.
 
@@ -1064,11 +1065,104 @@ THAC0: +3
 Speed: 9
 Weight: 5
 Proficiency: Hammers
-Usable by Lawful Good Fighters and Priests
+Usable by Fighters and Priests
+Not usable by Evil characters
 
 "Celestial Fire" is the only object that Trias had left to remind him of the Upper Planes. The blade became a hammer in your hands. It is warm to the touch, and flames have been carved across the surface of the head. The intricacy of the carvings is breathtaking; they are done with such skill that the hammer seems to be burning with metallic flames... someone must have spent several centuries rendering them. The metal of the hammer is unfamiliar... it is heavy, but it shines like silver.
 
 The hammer looks several millennia old. A faint hum can be felt within it, and the vibration becomes stronger when it touches human flesh. Not surprisingly, "Celestial Fire" can be wielded only by those with sufficient strength and purity of heart. When used in combat, "Celestial Fire" bursts into a holy radiance that burns any evil creature it strikes in combat.~ 
+
+@1707 = ~Entropic Blade~ 
+@1708 = ~ENTROPIC BLADE  
+Damage: 4-7 Piercing/Slashing
+Enchanted: +3
+Special:
+   Enervating (drains 1 level from target; save vs. death -4) 
+   +2 Damage against non-Chaotic Creatures
+   +4 Damage against Lawful Creatures
+THAC0: +3
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Lawful characters
+Not usable by Priests 
+
+This strange item was in your possession after you gave the Modron Cube to the iron golem in the Siege Tower. It looks to be a small dagger, but its surface twists and bends as you watch, as if struggling to break free from its shape. 
+
+It looks to be made of iron, silver, and any of a number of different metals. Sometimes they blend together, other times, they submerge into the core of the blade, only to resurface again minutes later.~
+
+@1709 = ~ENTROPIC BLADE  
+Damage: 4-11 Slashing
+Enchanted: +3
+Special:
+   Enervating (drains 1 level from target; save vs. death -4) 
+   +2 Damage against non-Chaotic Creatures
+   +4 Damage against Lawful Creatures
+THAC0: +3
+Speed: 8
+Weight: 1
+Proficiency: Axes
+Usable only by Fighters
+Not usable by Lawful characters
+
+This strange item was in your possession after you gave the Modron Cube to the iron golem in the Siege Tower. It looks to be a small dagger, but its surface twists and bends as you watch, as if struggling to break free from its shape. When swung, the dagger transforms into a massive axe moments before impact, cutting into the target before collapsing back down into the blade.  
+
+It looks to be made of iron, silver, and any of a number of different metals. Sometimes they blend together, other times, they submerge into the core of the blade, only to resurface again minutes later.~
+
+@1710 = ~ENTROPIC BLADE  
+Damage: 4-11 Crushing
+Enchanted: +3
+Special:
+   Enervating (drains 1 level from target; save vs. death -4) 
+   +2 Damage against non-Chaotic Creatures
+   +4 Damage against Lawful Creatures
+THAC0: +3
+Speed: 1
+Weight: 1
+Proficiency: Hammers
+Usable only by Fighters or Priests
+Not usable by Lawful characters
+
+This strange item was in your possession after you gave the Modron Cube to the iron golem in the Siege Tower. It looks to be a small dagger, but its surface twists and bends as you watch, as if struggling to break free from its shape. When swung, the dagger transforms into a massive hammer moments before impact, smashing into the target before collapsing back down into the blade.  
+
+It looks to be made of iron, silver, and any of a number of different metals. Sometimes they blend together, other times, they submerge into the core of the blade, only to resurface again minutes later.~
+
+@1711 = ~ENTROPIC BLADE  
+Damage: 4-6 Crushing
+Enchanted: +3
+Special:
+   +1 Attack per Round 
+   Enervating (drains 1 level from target; save vs. death -4) 
+   +2 Damage against non-Chaotic Creatures
+   +4 Damage against Lawful Creatures
+THAC0: +3
+Speed: 3
+Weight: 1
+Proficiency: Fists
+Not usable by Lawful characters
+
+This strange item was in your possession after you gave the Modron Cube to the iron golem in the Siege Tower. It looks to be a small dagger, but its surface twists and bends as you watch, as if struggling to break free from its shape. When swung, the dagger flows like molten metal around your hands, which them smash into your foes with great force.  
+
+It looks to be made of iron, silver, and any of a number of different metals. Sometimes they blend together, other times, they submerge into the core of the blade, only to resurface again minutes later.~
+
+@1712 = ~ENTROPIC BLADE  
+Damage: 4-9 Crushing
+Enchanted: +3
+Special:
+   Enervating (drains 1 level from target; save vs. death -4) 
+   +2 Damage against non-Chaotic Creatures
+   +4 Damage against Lawful Creatures
+THAC0: +3
+Speed: 1
+Weight: 1
+Proficiency: Clubs
+Usable only by Fighters and Thieves
+Not usable by Lawful characters
+
+This strange item was in your possession after you gave the Modron Cube to the iron golem in the Siege Tower. It looks to be a small dagger, but its surface twists and bends as you watch, as if struggling to break free from its shape. When swung, the dagger erupts into a wicked looking club, slapping the target with immense force before shifting back into a blade. 
+
+It looks to be made of iron, silver, and any of a number of different metals. Sometimes they blend together, other times, they submerge into the core of the blade, only to resurface again minutes later.~
+
 
 @1800 = ~Skull-Tipped Mace~
 @1801 = ~Devil's Due~ 
@@ -1139,7 +1233,7 @@ Most tanar'ri consider the feather to be a sacred object. Vrocks will kill anyon
 @1808 = ~Wicked Dagger~ 
 @1809 = ~Last Resort~ 
 @1810 = ~WICKED DAGGER 
-Damage: 4-7 Piercing/Slashing
+Damage: 1-4 Piercing/Slashing
 Speed: 1 
 Weight: 1
 Proficiency: Edged
@@ -1148,11 +1242,10 @@ Not usable by Priests
 This small dagger looks fragile, but a series of jagged teeth line the edge of the blade. The hilt itself is covered with dried blood.~ 
 @1811 = ~LAST RESORT 
 *CURSED*
-Damage: 4-7 Piercing/Slashing
+Damage: 1-4 Piercing/Slashing
 Enchanted: +3 
 Special: 
    Cannot miss 
-THAC0: +3
 Speed: 1 
 Weight: 1
 Proficiency: Edged
@@ -1906,7 +1999,7 @@ Usable only by Nameless One
 These earrings are made from hardened sap of the razorvine. When properly prepared, items made from this substance can be enchanted with powerful spells of protection.~ 
 
 @3027 = ~Anarchist Earrings~ 
-@3028 = ~ANARCHIST EARRING
+@3028 = ~ANARCHIST EARRINGS
 Weight: 0
 Usable only by Anarchists 
 
@@ -2018,6 +2111,7 @@ Weight: 0
 
 This shimmering jewel catches the light and reflects it in a spray of colors. It looks extremely valuable.~ 
 @3053 = ~KALEIDOSCOPIC EYE
+Invokes: Chromatic Orb (1/day)
 Special: 
    Immunity to Chromatic Orb
    +10% Elemental Resistance
@@ -2198,6 +2292,59 @@ Special:
 Weight: 0
 
 This ring looks like three rings that have been wrapped around each other. Just looking at it makes you dizzy.~ 
+
+@3090 = ~Black-Barbed Branch~ 
+@3091 = ~Black-Barbed Wand~ 
+@3092 = ~BLACK-BARBED BRANCH 
+Weight: 1
+
+This twisted branch is actually composed of three black branches that have grown tightly around each other. The branches look much like the ones in Ravel's maze, but the branches have none of the black barbs that covered the trees in her maze.~ 
+
+@3093 = ~BLACK-BARBED WAND 
+Damage: 2-8 Piercing 
+Enchanted: +3
+Special: 
+   Cannot miss 
+   Subject to Magic Resistance
+Range: 30 ft 
+Speed: 5
+Weight: 1 
+Proficiency: None 
+Usable only by Mages
+
+This twisted branch is actually composed of three black branches that have grown tightly around each other. The branches look much like the ones in Ravel's maze, but the branches have none of the black barbs that covered the trees in her maze.
+
+This black-barbed branch is a wand forged from the trees in Ravel's maze and endowed with a fraction of her magical power. By calling on the power within the wand, the wielder may cause a series of black brambles to rip from the earth around a target and enfold them in their constricting embrace.~ 
+
+@3094 = ~Claw~ 
+@3095 = ~Shamanic Rod~ 
+@3096 = ~CLAW
+Weight: 1
+
+This is the foot of some large bird. More than likely this was discarded from someone's dinner.~
+@3097 = ~SHAMANIC ROD 
+Damage: 2-5 Magic 
+Enchanted: +3
+Special: 
+   Cannot miss 
+Range: 30 ft 
+Speed: 5
+Weight: 1 
+Proficiency: None 
+Usable only by Mages
+
+This is the severed foot of some large bird. For whatever reason, someone has enchanted it, making it capable of casting the spell "Magic Missile".~
+
+@3098 = ~Clasp of Embalming~ 
+@3099 = ~CLASP OF EMBALMING 
+Special: 
+   +1 to Armor Class
+   +8 Maximum Hit Points
+Weight: 0
+Usable only by the Nameless One
+
+This intricate metal bracelet has directions inscribed on the side of it. Judging from the text, it appears that the bracelet works by being placed around the arm of a zombie or skeleton. When this is done, the enchantment held within the item spreads through the corpse, strengthening their bones, killing traces of corpse rot and grave mold, and sealing minor tears in the skin.~ 
+
 
 @4000 = ~Annah's Vest~ 
 @4001 = ~ANNAH'S VEST 
@@ -2709,7 +2856,7 @@ Weight: 0
 Usable only by Nordom 
 
 These bolts have a soft, globe-shaped head, like putty. You can't imagine what they are used for.~  
-@4066 = ~ACIDIC SPONNG BOLTS 
+@4066 = ~ACIDIC SPONGE BOLTS 
 Damage: 2-5 Missile
 Special: 
    +1d4 Acid Damage 
@@ -3000,6 +3147,7 @@ This rusty lens looks like someone stepped on it a few times. Its gears are worn
 
 @4126 = ~OPTIX 
 *CURSED*
+Invokes: Knock (1/day)
 Special:
    +2 Damage
    Attacks are treated as +3 weapons 
@@ -3010,6 +3158,8 @@ Usable only by Nordom
 Nordom's Crossbows are not the only gear spirits to have fled from Mechanus - Optix, a somewhat older and more curmudgeonly gear spirit, has been living his last few centuries in an alchemy lab in Sigil. When the alchemist passed away, Optix moved on to various odd jobs, including keg taps, cuckoo clocks, metronomes, corkscrews, and so on, never settling very long in one place. His most recent form, that of a sniper scope, seems to content him for now.
 
 Although Optix is an irritating nag to the two younger crossbow gear spirits, he *has* studied the physiology of creatures throughout the planes. The two youngsters grudgingly admit (with reluctant, strained clicks) that his advice on how to aim for the eyes and other vital areas of creatures is quite valuable.
+
+Although it runs contrary to his nature, Optix can actually force itself to be charming to other small mechanical devices... just not for too long. While in Nordom's possession, Optix can be convinced to 'talk' to any locks you encounter and try to persuade them to unlock. 
 
 Another unfortunate aspect of Optix's presence is that once he's "comfortable," he doesn't like to come off. A Remove Curse will be needed to pull him off of Nordom's head if he becomes too irritating.~
 
@@ -3037,7 +3187,7 @@ Usable only by Nordom
 
 Apparently, some modron once foolishly asked a wizard what it was like to be intoxicated, and these goggles were fashioned. When this lens is equipped, the wearer becomes "braver," "stronger," but can't see targets too well, reducing chances to hit and damage an enemy.~ 
 
-@4131 = ~Empty Scope~ 
+@4131 = ~Empty Scope~  	
 @4132 = ~Displacing Lens~
 @4133 = ~EMPTY SCOPE
 Weight: 0
@@ -3054,8 +3204,43 @@ This scope looks as if it's missing its lens, but in fact, the lens itself is di
 
 When this scope is equipped, a portion of the wearer phases out, and he becomes EXTREMELY difficult to hit with any attack. Furthermore, the wearer is just hard to see, period; it's almost like he's not all there. Depending on who's wearing this lens, it may complement his personality just fine.~  
 
-@5000 = ~Arm of the Wretched Incarnation~ 
-@5001 = ~ARM OF THE WRETCHED INCARNATION
+@5000 = ~Bandages~ 
+@5001 = ~BANDAGES 
+Special: Heals 5 Hit Points
+Weight: 0
+
+This is a roll of bandages, useful for stanching minor wounds. 
+
+^NNOTE: When used, bandages will heal a character for 5 hit points of damage. To use them, either select the 'Use' button below or place them in one of your quick slots and use them on the quick action menu on the world screen. 
+
+NOTE: Bandages are "stackable" items. When you pick them up, they automatically stack on top of one another in your inventory, freeing up slots for other items. <UNSTACK> You will then be given an option to divide the stack.^-~ 
+
+@5002 = ~Blood Charm~ 
+@5003 = ~BLOOD CHARM 
+Special: Heals User 18 Hit Points
+Weight: 0
+
+This glistening drop of blood is as hard and smooth as a pearl. When placed on the tongue, it dissolves instantly and spreads through the user's veins and heart.
+
+Like its younger cousin, the clot charm, the blood charm stimulates the user's blood into clotting and scabbing over existing wounds, healing damage the user may have suffered before consuming the charm. However, while the blood charm's initial healing effect is more powerful than the clot charm, it has no other lasting effects.~ 
+
+@5004 = ~Bloodfly Charm~
+@5005 = ~BLOODFLY CHARM 
+Special: User Regenerates 1 Hit Point per Second (60 seconds) 
+Weight: 0
+
+Blood flies are pests believed to have originated from one of the Lower Planes. In many ways, they resemble mosquitoes with an insatiable appetite - a cloud of blood flies can suck all the blood from a human body within minutes. Their stingers are capable of penetrating even the skin of fiends.
+
+Despite their vicious appetite and temperament, blood flies are used by healers to draw forth diseased blood from an individual or even drain blood from a dead body. On occasion, blood flies are used to siphon off rare types of blood and are then paralyzed with powders or spells and kept in storage for future use. 
+
+This particular blood fly charm seems to hold the blood of a lesser fiend, an abishai, in its food sac. When this paralyzed fly is consumed, the user gains the ability to regenerate health for a certain period of time. If the character is already able to regenerate, then the regeneration rate is increased.~ 
+
+@5006 = ~Bone Charm~ 
+@5007 = ~BONE CHARM 
+~ 
+
+@9000 = ~Arm of the Wretched Incarnation~ 
+@9001 = ~ARM OF THE WRETCHED INCARNATION
 Damage: 3-8 Crushing
 Enchanted: +2
 Special:
@@ -3072,8 +3257,8 @@ This severed arm is as hard as a wooden club. It looks like it was severed clean
 
 When you took your severed arm to Fell, he told you about the tattoos he inscribed upon it long ago. He described your old traveling companions, as well as the significance of the symbol etched into your left shoulder. In his examination, he also unlocked some of the latent power within the arm itself, which echoed the Wretched Incarnation's demise at the hands of a trap in the depths of the Weeping Stone Catacombs.~ 
 
-@5002 = ~Razorvine Earrings~
-@5003 = ~RAZORVINE EARRINGS 
+@9002 = ~Razorvine Earrings~
+@9003 = ~RAZORVINE EARRINGS 
 Special: 
    Memorize 2 Additional 1st Level Mage Spells
    +2 Armor Class
@@ -3083,8 +3268,8 @@ Usable only by Nameless One
 
 These earrings are made from hardened sap of the razorvine. The original earrings were gifted to you by the midwife Mebbeth and then further enchanted by Ravel when you faced her in her maze.~ 
 
-@5004 = ~Eye of the Blind Sage~ 
-@5005 = ~EYE OF THE BLIND SAGE 
+@9004 = ~Eye of the Blind Sage~ 
+@9005 = ~EYE OF THE BLIND SAGE 
 Special: 
    User is Blinded 
    +2 Intelligence
@@ -3095,8 +3280,8 @@ Usable only by the Nameless One
 
 This eye once belonged to a elderly sage wandering the Prime in search of enlightenment. How it came to end up in Vrischika's Shop of Curiosities is a question probably best left unasked.~ 
 
-@5006 = ~The Bull's Eye~ 
-@5007 = ~THE BULL'S EYE 
+@9006 = ~The Bull's Eye~ 
+@9007 = ~THE BULL'S EYE 
 Special: 
    +3 to Melee Damage 
 THAC0: +1 
@@ -3106,8 +3291,8 @@ Usable only by the Nameless One
 
 This eye seems to have been taken right from an actual bull. It is so large that you question whether it will even fit in your eye socket.~ 
 
-@5008 = ~Keen Eye~ 
-@5009 = ~KEEN EYE 
+@9008 = ~Keen Eye~ 
+@9009 = ~KEEN EYE 
 Special:   
    +5% Critical Strike Chance
    Automatically Detects Traps 
