@@ -1,6 +1,6 @@
 BACKUP ~PlanarItems/backup~
 AUTHOR ~aquadrizzt@gmail.com~
-VERSION ~0.1~ 
+VERSION ~0.3~ 
 
 /* Language Settings */
 AUTO_TRA ~PlanarItems/tra/%s~
@@ -1477,7 +1477,7 @@ COPY ~PlanarItems/items/fteeth.itm~ ~override~
 	
 //Arm of the Wretched Incarnation 
 //Acquisition: take Severed Arm (Yours) to Fell and unlock its secrets)
-COPY ~PlanarItems/items/qdarmwi.itm~ ~override~ 
+COPY ~PlanarItems/new/qdarmwi.itm~ ~override~ 
 	SAY NAME1 @9000
 	SAY NAME2 @9000
 	SAY UNIDENTIFIED_DESC @9001
@@ -1508,41 +1508,459 @@ COMPILE ~qd/armwi_patch.d~
 
 //Eye of the Blind Sage 
 //Acquisition: Vrischika 
-/*
-COPY ~PlanarItems/items/qdeyebs.itm~ ~override~ 
-	SAY NAME1 @5004
-	SAY NAME2 @5004
-	SAY UNIDENTIFIED_DESC @5005
-	SAY IDENTIFIED_DESC @5005 
-	
-COPY_EXISTING ~vris.sto~ ~override~ 
-	ADD_STORE_ITEM ~qdeyebs~ #0 #0 #0 ~IDENTIFIED~ #1 
 
+COPY ~PlanarItems/new/qdeyebs.itm~ ~override~ 
+	SAY NAME1 @9004
+	SAY NAME2 @9004
+	SAY UNIDENTIFIED_DESC @9005
+	SAY IDENTIFIED_DESC @9005
+	
 //The Bull's Eye  
 //Acquisition: Vrischika 
 
-COPY ~PlanarItems/items/qdeyebl.itm~ ~override~ 
-	SAY NAME1 @5004
-	SAY NAME2 @5004
-	SAY UNIDENTIFIED_DESC @5005
-	SAY IDENTIFIED_DESC @5005 
+COPY ~PlanarItems/new/qdeyebl.itm~ ~override~ 
+	SAY NAME1 @9006
+	SAY NAME2 @9006
+	SAY UNIDENTIFIED_DESC @9007
+	SAY IDENTIFIED_DESC @9007
 
 //Keen Eye 
 //Acquisition: Vrischika 
 
-COPY ~PlanarItems/items/qdeyekn.itm~ ~override~ 
-	SAY NAME1 @5004
-	SAY NAME2 @5004
-	SAY UNIDENTIFIED_DESC @5005
-	SAY IDENTIFIED_DESC @5005 
-*/ 
+COPY ~PlanarItems/new/qdeyekn.itm~ ~override~ 
+	SAY NAME1 @9008
+	SAY NAME2 @9008
+	SAY UNIDENTIFIED_DESC @9009
+	SAY IDENTIFIED_DESC @9009
+
+COPY_EXISTING ~vris.sto~ ~override~ 
+	ADD_STORE_ITEM ~qdeyebs~ #0 #0 #0 ~IDENTIFIED~ #1 
+	ADD_STORE_ITEM ~qdeyebl~ #0 #0 #0 ~IDENTIFIED~ #1 
+	ADD_STORE_ITEM ~qdeyekn~ #0 #0 #0 ~IDENTIFIED~ #1 
 	 
 	 
 //---------------------------------------------
 //                                             
-//					TATTOOS                    
+//				MINOR TATTOOS                    
 //                                             
 //---------------------------------------------
+//BEGIN @1 
+
+//COPY_EXISTING ~aclue.itm~ ~override/qd_planar_items_tattoos.qd~ //check file for this component 
+
+//Tattoo of Warding 
+COPY ~PlanarItems/items/ttac1.itm~ ~override~ 
+	SAY NAME1 @6000
+	SAY NAME2 @6000
+	SAY UNIDENTIFIED_DESC @6001
+	SAY IDENTIFIED_DESC @6001 
+	WRITE_LONG 0x34 250 
+	
+//Tattoo of Accuracy 
+COPY ~PlanarItems/items/ttaccura.itm~ ~override~ 
+	SAY NAME1 @6002
+	SAY NAME2 @6002
+	SAY UNIDENTIFIED_DESC @6003
+	SAY IDENTIFIED_DESC @6003 
+	WRITE_LONG 0x34 250 
+	
+//Tattoo of Bloodletting 
+COPY ~PlanarItems/items/ttbloodl.itm~ ~override~ 
+	SAY NAME1 @6004
+	SAY NAME2 @6004
+	SAY UNIDENTIFIED_DESC @6005
+	SAY IDENTIFIED_DESC @6005 
+	WRITE_LONG 0x34 250 
+	
+//Tattoo of Health 
+COPY ~PlanarItems/items/ttmaxhp1.itm~ ~override~ 
+	SAY NAME1 @6006
+	SAY NAME2 @6006
+	SAY UNIDENTIFIED_DESC @6007
+	SAY IDENTIFIED_DESC @6007 
+	WRITE_LONG 0x34 250 
+	
+//Tattoo of Might 
+COPY ~PlanarItems/items/ttstr1.itm~ ~override~ 
+	SAY NAME1 @6008
+	SAY NAME2 @6008
+	SAY UNIDENTIFIED_DESC @6009
+	SAY IDENTIFIED_DESC @6009
+	WRITE_LONG 0x34 500 
+	
+//Tattoo of Reflexes 
+COPY ~PlanarItems/items/ttdex1.itm~ ~override~ 
+	SAY NAME1 @6010
+	SAY NAME2 @6010
+	SAY UNIDENTIFIED_DESC @6011
+	SAY IDENTIFIED_DESC @6011
+	WRITE_LONG 0x34 500 
+	
+//Tattoo of Endurance 
+COPY ~PlanarItems/items/ttcon1.itm~ ~override~ 
+	SAY NAME1 @6012
+	SAY NAME2 @6012
+	SAY UNIDENTIFIED_DESC @6013
+	SAY IDENTIFIED_DESC @6013
+	WRITE_LONG 0x34 500 
+	
+//Tattoo of Reason 
+COPY ~PlanarItems/items/ttint1.itm~ ~override~ 
+	SAY NAME1 @6014
+	SAY NAME2 @6014
+	SAY UNIDENTIFIED_DESC @6015
+	SAY IDENTIFIED_DESC @6015
+	WRITE_LONG 0x34 500 
+	
+//Tattoo of Insight 
+COPY ~PlanarItems/items/ttwis1.itm~ ~override~ 
+	SAY NAME1 @6016
+	SAY NAME2 @6016
+	SAY UNIDENTIFIED_DESC @6017
+	SAY IDENTIFIED_DESC @6017
+	WRITE_LONG 0x34 500 
+	
+//Tattoo of Presence 
+COPY ~PlanarItems/items/ttchr1.itm~ ~override~ 
+	SAY NAME1 @6018
+	SAY NAME2 @6018
+	SAY UNIDENTIFIED_DESC @6019
+	SAY IDENTIFIED_DESC @6019
+	WRITE_LONG 0x34 500 
+	
+//Tattoo of Annah 
+COPY ~PlanarItems/items/ttannah1.itm~ ~override~ 
+	SAY NAME1 @6020
+	SAY NAME2 @6020
+	SAY UNIDENTIFIED_DESC @6021
+	SAY IDENTIFIED_DESC @6021 
+	WRITE_LONG 0x34 1000 
+	
+// [New] Tattoo of Dak'kon 
+COPY ~PlanarItems/new/qdttdak.itm~ ~override~ 
+	SAY NAME1 @6022
+	SAY NAME2 @6022
+	SAY UNIDENTIFIED_DESC @6023
+	SAY IDENTIFIED_DESC @6023 
+	WRITE_LONG 0x34 1000 
+
+//Tattoo of Fall-from-Grace 
+COPY ~PlanarItems/items/ttsgrace.itm~ ~override~ 
+	SAY NAME1 @6024
+	SAY NAME2 @6024
+	SAY UNIDENTIFIED_DESC @6025
+	SAY IDENTIFIED_DESC @6025
+	WRITE_LONG 0x34 1000 
+
+//Tattoo of Ignus 
+COPY ~PlanarItems/items/ttignus1.itm~ ~override~ 
+	SAY NAME1 @6026
+	SAY NAME2 @6026
+	SAY UNIDENTIFIED_DESC @6027
+	SAY IDENTIFIED_DESC @6027
+	WRITE_LONG 0x34 1000 
+
+//Tattoo of Morte 
+COPY ~PlanarItems/items/ttmorte1.itm~ ~override~ 
+	SAY NAME1 @6028
+	SAY NAME2 @6028
+	SAY UNIDENTIFIED_DESC @6029
+	SAY IDENTIFIED_DESC @6029
+	WRITE_LONG 0x34 1000 
+
+//Tattoo of Nordom
+COPY ~PlanarItems/items/ttcubed.itm~ ~override~ 
+	SAY NAME1 @6030
+	SAY NAME2 @6030
+	SAY UNIDENTIFIED_DESC @6031
+	SAY IDENTIFIED_DESC @6031
+	WRITE_LONG 0x34 1000 
+
+// [New] Tattoo of Vhailor 
+COPY ~PlanarItems/new/qdttvhl.itm~ ~override~ 
+	SAY NAME1 @6032
+	SAY NAME2 @6032
+	SAY UNIDENTIFIED_DESC @6033
+	SAY IDENTIFIED_DESC @6033
+	WRITE_LONG 0x34 1000 
+
+//Tattoo of the Anarchists
+COPY ~PlanarItems/items/ttanarch.itm~ ~override~ 
+	SAY NAME1 @6034
+	SAY NAME2 @6034
+	SAY UNIDENTIFIED_DESC @6035
+	SAY IDENTIFIED_DESC @6035	
+	WRITE_LONG 0x34 1000 
+	
+COPY ~PlanarItems/resources/qdttanr.eff~ ~override~ //25% chance to confuse for 12s (save vs. spell) 
+
+// [New] Tattoo of the Dustmen
+COPY ~PlanarItems/new/qdttdst.itm~ ~override~ 
+	SAY NAME1 @6036
+	SAY NAME2 @6036
+	SAY UNIDENTIFIED_DESC @6037
+	SAY IDENTIFIED_DESC @6037	
+	WRITE_LONG 0x34 1000 
+	
+//Tattoo of the Godsmen
+COPY ~PlanarItems/items/ttsource.itm~ ~override~ 
+	SAY NAME1 @6038
+	SAY NAME2 @6038
+	SAY UNIDENTIFIED_DESC @6039
+	SAY IDENTIFIED_DESC @6039
+	WRITE_LONG 0x34 1000 
+
+//Tattoo of the Sensates
+COPY ~PlanarItems/items/ttsens1.itm~ ~override~ 
+	SAY NAME1 @6040
+	SAY NAME2 @6040
+	SAY UNIDENTIFIED_DESC @6041
+	SAY IDENTIFIED_DESC @6041	
+	WRITE_LONG 0x34 1000 
+	
+// [New] Tattoo of the Xaositects 
+COPY ~PlanarItems/new/qdttxao.itm~ ~override~ 
+	SAY NAME1 @6042
+	SAY NAME2 @6042
+	SAY UNIDENTIFIED_DESC @6043
+	SAY IDENTIFIED_DESC @6043 
+	WRITE_LONG 0x34 1000 
+	
+//Razor Angel Ink
+COPY ~PlanarItems/items/ttrzang.itm~ ~override~ 
+	SAY NAME1 @6044
+	SAY NAME2 @6044
+	SAY UNIDENTIFIED_DESC @6045
+	SAY IDENTIFIED_DESC @6045
+	WRITE_LONG 0x34 1000 
+	
+// [New] Mark of the Dark Alley Shivs
+COPY ~PlanarItems/new/qdttdas.itm~ ~override~ 
+	SAY NAME1 @6046
+	SAY NAME2 @6046
+	SAY UNIDENTIFIED_DESC @6047
+	SAY IDENTIFIED_DESC @6047
+	WRITE_LONG 0x34 1000 
+	
+// [New] Tattoo of the Black Rose
+COPY ~PlanarItems/new/qdttbrs.itm~ ~override~ 
+	SAY NAME1 @6048
+	SAY NAME2 @6048
+	SAY UNIDENTIFIED_DESC @6049
+	SAY IDENTIFIED_DESC @6049
+	WRITE_LONG 0x34 1000 
+
+//Tattoo of the Crier's Dreams (Dreams of Es-Annon)
+COPY ~PlanarItems/items/ttdesann.itm~ ~override~ 
+	SAY NAME1 @6050
+	SAY NAME2 @6050
+	SAY UNIDENTIFIED_DESC @6051
+	SAY IDENTIFIED_DESC @6051
+	WRITE_LONG 0x34 1000 
+
+//Tattoo of the Crier's Graves (Graves of Es-Annon)
+COPY ~PlanarItems/items/ttgesann.itm~ ~override~ 
+	SAY NAME1 @6052
+	SAY NAME2 @6052
+	SAY UNIDENTIFIED_DESC @6053
+	SAY IDENTIFIED_DESC @6053
+	WRITE_LONG 0x34 1000 
+	
+//Tattoo of Union (The Joining)
+COPY ~PlanarItems/items/ttjoin.itm~ ~override~ 
+	SAY NAME1 @6054
+	SAY NAME2 @6054
+	SAY UNIDENTIFIED_DESC @6055
+	SAY IDENTIFIED_DESC @6055
+	WRITE_LONG 0x34 1000 
+	
+//Tattoo of Spite
+COPY ~PlanarItems/items/ttspite.itm~ ~override~ 
+	SAY NAME1 @6056
+	SAY NAME2 @6056
+	SAY UNIDENTIFIED_DESC @6057
+	SAY IDENTIFIED_DESC @6057
+	WRITE_LONG 0x34 1000 
+	
+//Tattoo of Grosuk's Demise
+COPY ~PlanarItems/items/ttgrosuk.itm~ ~override~ 
+	SAY NAME1 @6058
+	SAY NAME2 @6058
+	SAY UNIDENTIFIED_DESC @6059
+	SAY IDENTIFIED_DESC @6059
+	WRITE_LONG 0x34 1000 
+
+COPY ~PlanarItems/resources/qdgrosk.spl~ ~override~ //1d4 fire damage
+	
+//Tattoo of Sebastion's End
+COPY ~PlanarItems/items/ttsebast.itm~ ~override~ 
+	SAY NAME1 @6060
+	SAY NAME2 @6060
+	SAY UNIDENTIFIED_DESC @6061
+	SAY IDENTIFIED_DESC @6061
+	WRITE_LONG 0x34 1000 
+	
+//Tattoo of the Wasting Darkness
+COPY ~PlanarItems/items/ttwastin.itm~ ~override~ 
+	SAY NAME1 @6062
+	SAY NAME2 @6062
+	SAY UNIDENTIFIED_DESC @6063
+	SAY IDENTIFIED_DESC @6063 
+	WRITE_LONG 0x34 100 
+	
+//Tattoo of the Weeping Stones
+COPY ~PlanarItems/items/ttweep.itm~ ~override~ 
+	SAY NAME1 @6064
+	SAY NAME2 @6064
+	SAY UNIDENTIFIED_DESC @6065
+	SAY IDENTIFIED_DESC @6065 
+	WRITE_LONG 0x34 100 
+	
+//Tattoo of the Silent Coins
+COPY ~PlanarItems/items/ttsilent.itm~ ~override~ 
+	SAY NAME1 @6066
+	SAY NAME2 @6066
+	SAY UNIDENTIFIED_DESC @6067
+	SAY IDENTIFIED_DESC @6067
+	WRITE_LONG 0x34 100 
+
+//The Number of Ku'U Yin
+COPY ~PlanarItems/items/kyname.itm~ ~override~ 
+	SAY NAME1 @6068
+	SAY NAME2 @6068
+	SAY UNIDENTIFIED_DESC @6069
+	SAY IDENTIFIED_DESC @6069 
+	WRITE_LONG 0x34 1000 
+	
+//Tattoo of the Restless Dead
+COPY ~PlanarItems/items/ttresded.itm~ ~override~ 
+	SAY NAME1 @6070
+	SAY NAME2 @6070
+	SAY UNIDENTIFIED_DESC @6071
+	SAY IDENTIFIED_DESC @6071 
+	WRITE_LONG 0x34 1000 
+	
+//Tattoo of the Tenement Shadows
+COPY ~PlanarItems/items/tttensha.itm~ ~override~ 
+	SAY NAME1 @6072
+	SAY NAME2 @6072
+	SAY UNIDENTIFIED_DESC @6073
+	SAY IDENTIFIED_DESC @6073 
+	WRITE_LONG 0x34 1000 
+	
+//Tattoo of Death-in-Life
+COPY ~PlanarItems/items/ttdeathi.itm~ ~override~ 
+	SAY NAME1 @6074
+	SAY NAME2 @6074
+	SAY UNIDENTIFIED_DESC @6075
+	SAY IDENTIFIED_DESC @6075 
+	WRITE_LONG 0x34 1000 
+	
+COPY ~PlanarItems/resources/qdttdil.spl~ ~override~ //resurrect and stun for 3s
+	
+// [New] Tattoo of the Open Box
+COPY ~PlanarItems/new/qdttbox.itm~ ~override~ 
+	SAY NAME1 @6076
+	SAY NAME2 @6076
+	SAY UNIDENTIFIED_DESC @6077
+	SAY IDENTIFIED_DESC @6077
+	WRITE_LONG 0x34 1000 
+	
+// [New] Tattoo of the Banished Fiend
+COPY ~PlanarItems/new/qdttban.itm~ ~override~ 
+	SAY NAME1 @6078
+	SAY NAME2 @6078
+	SAY UNIDENTIFIED_DESC @6079
+	SAY IDENTIFIED_DESC @6079
+	WRITE_LONG 0x34 1000 
+	
+COPY ~PlanarItems/resources/qdttban.spl~ ~override~ //fiend check
+	 ~PlanarItems/resources/qdttban+.spl~ ~override~ //kill (on fiend) 
+
+//Update Fell's shop with additional triggers
+COPY_EXISTING ~fell.sto~ ~override~ 
+	REMOVE_STORE_ITEM ~ttac2~ 
+	REMOVE_STORE_ITEM ~ttavern~ 
+	REMOVE_STORE_ITEM ~ttbbcall~ 
+	REMOVE_STORE_ITEM ~ttbbmaze~ 
+	REMOVE_STORE_ITEM ~ttbetryr~ 
+	REMOVE_STORE_ITEM ~ttbonesi~ 
+	REMOVE_STORE_ITEM ~ttchr2~ 
+	REMOVE_STORE_ITEM ~ttcon2~ 
+	REMOVE_STORE_ITEM ~ttcutpur~ 
+	REMOVE_STORE_ITEM ~ttdeceiv~ 
+	REMOVE_STORE_ITEM ~ttdex2~ 
+	REMOVE_STORE_ITEM ~ttdv~ 
+	REMOVE_STORE_ITEM ~ttfghtr1~ 
+	REMOVE_STORE_ITEM ~ttfghtr2~ 
+	REMOVE_STORE_ITEM ~ttint2~ 
+	REMOVE_STORE_ITEM ~ttjusti~ 
+	REMOVE_STORE_ITEM ~ttlostin~ 
+	REMOVE_STORE_ITEM ~ttmage1~ 
+	REMOVE_STORE_ITEM ~ttmage2~ 
+	REMOVE_STORE_ITEM ~ttmaxhp2~ 
+	REMOVE_STORE_ITEM ~ttravel~ 
+	REMOVE_STORE_ITEM ~ttredeem~ 
+	REMOVE_STORE_ITEM ~ttrkiss~ 
+	REMOVE_STORE_ITEM ~ttsens2~ 
+	REMOVE_STORE_ITEM ~ttshadow~ 
+	REMOVE_STORE_ITEM ~ttshatlo~ 
+	REMOVE_STORE_ITEM ~ttsilver~ 
+	REMOVE_STORE_ITEM ~ttstr2~ 
+	REMOVE_STORE_ITEM ~ttthf1~ 
+	REMOVE_STORE_ITEM ~ttthf2~ 
+	REMOVE_STORE_ITEM ~tttrist~ 
+	REMOVE_STORE_ITEM ~tttw~ 
+	REMOVE_STORE_ITEM ~ttucirc~ 
+	REMOVE_STORE_ITEM ~ttwis2~
+	ADD_STORE_ITEM + ~ttaccura~ #0 #0 #0 ~IDENTIFIED~ #3
+	ADD_STORE_ITEM + ~ttbloodl~ #0 #0 #0 ~IDENTIFIED~ #3
+	ADD_STORE_ITEM ~qdttdak~ #0 #0 #0 ~IDENTIFIED~ #1  
+	ADD_STORE_ITEM ~qdttvhl~ #0 #0 #0 ~IDENTIFIED~ #1  
+	ADD_STORE_ITEM ~qdttdst~ #0 #0 #0 ~IDENTIFIED~ #1  
+	ADD_STORE_ITEM ~qdttxao~ #0 #0 #0 ~IDENTIFIED~ #1  
+	ADD_STORE_ITEM ~qdttdas~ #0 #0 #0 ~IDENTIFIED~ #1  
+	ADD_STORE_ITEM ~qdttbrs~ #0 #0 #0 ~IDENTIFIED~ #1  
+	ADD_STORE_ITEM ~qdttbox~ #0 #0 #0 ~IDENTIFIED~ #1  
+	ADD_STORE_ITEM ~qdttban~ #0 #0 #0 ~IDENTIFIED~ #1  
+	
+//handling the variable checks for special tattoos
+COPY_EXISTING ~fell.sto~ ~override~
+	GET_OFFSET_ARRAY tattoos 0x34 4 0x38 4 0 0 0x58 
+	PHP_EACH tattoos AS int => tt_off BEGIN 
+		READ_ASCII tt_off itmres
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdttdak~) BEGIN 
+			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~InParty("Dakkon")~)
+		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdttvhl~) BEGIN 
+			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~InParty("Vhail")~)
+		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdttdst~) BEGIN 
+			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~GlobalGT("Join_Dustmen", "GLOBAL", 0)~)
+		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdttxao~) BEGIN 
+			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~GlobalGT("Join_Chaosmen", "GLOBAL", 0)~)
+		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdttdas~) BEGIN 
+			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~GlobalGT("RW", "GLOBAL", 2)~)
+		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdttbrs~) BEGIN 
+			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~Global("BR_RW", "GLOBAL", 3) Global("BR_Krys", "GLOBAL", 3)~)
+		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdttbox~) BEGIN 
+			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~Global("DemonBox","GLOBAL",1)~)
+		END  
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdttban~) BEGIN 
+			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~Global("FedEx","GLOBAL",10)~)
+		END 
+	END 
+	 
+//---------------------------------------------
+//                                             
+//				MAJOR TATTOOS                    
+//                                             
+//---------------------------------------------
+
 //[To-Do: Make this its own component before distribution]
 
 //Change default body "armour" sound to tattoo 

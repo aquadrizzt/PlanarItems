@@ -1,4 +1,5 @@
 @0= ~Existing Items~ 
+@1 = ~Tattoo Overhaul~ 
 
 @1000 = ~Ascension~ 
 @1001 = ~ASCENSION
@@ -2387,6 +2388,7 @@ Perhaps the idea that Annah would wear anything solely for ornamental value make
 Armor Class: 5
 Special:
    +2 Proficiency with Fists
+   Cannot use Stealth
 Weight: 12
 Usable only by Annah
 
@@ -2640,7 +2642,7 @@ Special:
 Weight: 5
 Usable only by Fall-from-Grace
 
-This is a bodice much like the one Fall-from-Grace, Madame of the Brothel of Slating Intellectual Lusts, often wears. The enchantments woven into it by Goncalves allow Fall-from-Grace to memorize twice the number of 1st and 2nd level spells per day as she normally could.~ 
+This is a bodice much like the one Fall-from-Grace, Madame of the Brothel of Slating Intellectual Lusts, often wears. The enchantments woven into it by Goncalves enhance Fall-from-Grace's spellcasting capabilities quite considerably.~ 
 
 @4030 = ~Bodice of the Perilous Quest~ 
 @4031 = ~BODICE OF THE PERILOUS QUEST
@@ -3010,7 +3012,7 @@ This snap-on magnifying lens serves as a sighting scope for Nordom's crossbows. 
 @4093 = ~Lens of Inherent Viciousness~ 
 @4094 = ~LENS OF INHERENT VICIOUSNESS 
 Special: 
-   Critical hits deal +2d4 missile damage. 
+   Critical hits deal +2d4 missile damage
 Weight: 0
 Usable only by Nordom 
 
@@ -3239,6 +3241,384 @@ This particular blood fly charm seems to hold the blood of a lesser fiend, an ab
 @5007 = ~BONE CHARM 
 ~ 
 
+@6000 = ~Tattoo of Warding~ 
+@6001 = ~TATTOO OF WARDING
+Special: +2 to Armor Class
+Weight: 0
+
+This tattoo is a minor ward against physical attacks. It hardens the wearer's skin, making them more difficult to hurt in combat.~ 
+
+@6002 = ~Tattoo of Accuracy~ 
+@6003 = ~TATTOO OF ACCURACY
+THAC0: +2
+Weight: 0
+
+This tattoo has two concentric rings with lines radiating from the center. When inscribed on the skin, the wearer's perceptions of distance and balance become heightened, giving their attacks greater accuracy.~
+
+@6004 = ~Tattoo of Bloodletting~ 
+@6005 = ~TATTOO OF BLOODLETTING
+Special: +2 to Weapon Damage
+Weight 0
+
+This tattoo has a barbed whip inscribed on it. When the wearer strikes an opponent in combat, the tattoo flares and the whip takes an extra "bite" out of the opponent.~ 
+
+@6006 = ~Tattoo of Health~
+@6007 = ~TATTOO OF HEALTH
+Special: +10% Maximum Hit Points
+Weight: 0
+
+This tattoo grants the wearer a slight bonus to health, making them more difficult to knock unconscious.~
+
+@6008 = ~Tattoo of Might~ 
+@6009 = ~TATTOO OF MIGHT 
+Special: +1 to Strength
+Weight: 0
+
+This tattoo adds a slight bonus to the user's strength, making his physical attacks more damaging and allowing him to carry more weight.~ 
+
+@6010 = ~Tattoo of Reflexes~ 
+@6011 = ~TATTOO OF REFLEXES 
+Special: +1 to Dexterity
+Weight: 0
+
+This tattoo gives the wearer's reflexes an additional edge, making him more difficult to hit.~ 
+
+@6012 = ~Tattoo of Endurance~ 
+@6013 = ~TATTOO OF ENDURANCE 
+Special: +1 to Constitution
+Weight: 0
+
+This tattoo gives a minor gain to the wearer's constitution, making him more difficult to take down in combat.~ 
+
+@6014 = ~Tattoo of Reason~ 
+@6015 = ~TATTOO OF REASON 
+Special: +1 to Intelligence
+Weight: 0
+
+This tattoo adds a slight bonus to the user's intelligence, allowing him a greater chance of gaining memories and aiding his mage skills.~ 
+
+@6016 = ~Tattoo of Insight~ 
+@6017 = ~TATTOO OF INSIGHT 
+Special: +1 to Wisdom
+Weight: 0
+
+This tattoo adds a slight bonus to the user's wisdom, allowing him a greater chance of gaining memories and giving him a greater percentage of experience points earned.~ 
+
+@6018 = ~Tattoo of Presence~ 
+@6019 = ~TATTOO OF PRESENCE 
+Special: +1 to Charisma
+Weight: 0
+
+This tattoo gives the wearer an edge when interacting with others, giving them a higher presence and leadership ability.~ 
+
+@6020 = ~Tattoo of Annah~ 
+@6021 = ~TATTOO OF ANNAH 
+Special: +5% Critical Strike Chance 
+Weight: 0 
+Usable only by the Nameless One 
+
+Some of Annah's presence must be rubbing off on you, for this tattoo allows you to call upon some of her cat-like precision and strike your opponents where it'll hurt most.~ 
+
+@6022 = ~Tattoo of Dak'kon~ 
+@6023 = ~TATTOO OF DAK'KON 
+Special:
+   +2 to Weapon Speed 
+   +2 to Casting Speed
+Weight: 0 
+Usable only by the Nameless One 
+
+Your travels with the githzerai Dak'kon have taught you a thing or two about moving gracefully and purposely through battle, allowing you to swing your weapons and cast spells much more quickly than normal.~ 
+
+@6024 = ~Tattoo of Fall-from-Grace~ 
+@6025 = ~TATTOO OF FALL-FROM-GRACE 
+Special: +15% Experience Gained 
+Weight: 0 
+Usable only by the Nameless One 
+
+Some of Fall-from-Grace's presence must be rubbing off on you, for this tattoo allows you to steady your thoughts and take events from a calm perspective, allowing you to gain more experience from your encounters.
+
+^NNOTE: Due to the way the game handles Experience bonuses, removing this tattoo will also remove any bonus experience gained as a result of wearing it.^~ 
+   
+@6026 = ~Tattoo of Ignus~ 
+@6027 = ~TATTOO OF IGNUS 
+Special:
+   +50% Fire Damage
+   Immunity to fire and magical fire 
+Weight: 0 
+Usable only by the Nameless One 
+
+Having Ignus as a companion is allowing you to see flames and madness in a different... light. When this tattoo is worn, you may draw upon Ignus' fury to shrug off flame attacks and empower your own fiery abilities.~ 
+
+@6028 = ~Tattoo of Morte~ 
+@6029 = ~TATTOO OF MORTE 
+Special: +1 Luck 
+Weight: 0 
+Usable only by the Nameless One 
+
+For all Morte's faults, having him as a companion makes you seem more capable and not so much of a stranger to Sigil's streets.~ 
+
+@6030 = ~Tattoo of Nordom~ 
+@6031 = ~TATTOO OF NORDOM 
+Special:
+   +2 to Intelligence
+   -1 to Wisdom
+Weight: 0
+Usable only by Nameless One
+
+Some of Nordom's presence must be rubbing off on you, for this tattoo allows you to tap into his (mostly) ordered and logical mind. Unfortunately, by doing so, your ability to comprehend the world around you takes a fall, making it more difficult to learn from your experiences.~ 
+
+@6032 = ~Tattoo of Vhailor~ 
+@6033 = ~TATTOO OF VHAILOR 
+Special: 
+   +2 Weapon Damage against non-Lawful creatures 
+   +4 Weapon Damage against Chaotic Creatures
+Weight: 0
+Usable only by Nameless One
+
+Vhailor can be a difficult companion to travel with at times, but his presence provides you with the conviction to attack those you judge corrupt with increased fervor.~
+
+@6034 = ~Tattoo of the Anarchists~ 
+@6035 = ~TATTOO OF THE ANARCHISTS 
+Special: 
+   Your Attacks have a 25% chance to Confuse (12 seconds; save vs. spell negates) 
+Weight: 0
+Usable only by Anarchists
+
+This tattoo is created from the four symbols of the Revolutionary League. Wearing this openly is not a good idea.
+
+The Revolutionary League believes that all power structures should be overthrown, and they have devoted themselves to seeing that this occurs. They are the natural enemies of nearly all the other factions, and so they must move quickly when identified. The problem with this tattoo, of course, is that it immediately identifies its wearer as an Anarchist. Authority figures have a problem with this.~
+
+@6036 = ~Tattoo of the Dustmen~ 
+@6037 = ~TATTOO OF THE DUSTMEN 
+Special: 
+   +2 to THAC0 against Undead
+   +2 Weapon Damage against Undead
+Weight: 0
+Usable only by Dustmen
+
+This tattoo depicts the Dustman's iconic spider-like skull. Wearing this openly tells onlookers that you are a proud member of The Dead. 
+
+Wearing this tattoo lets you channel the philosophy of the Dustmen by helping guide undead towards a True Death.~ 
+
+@6038 = ~Tattoo of the Godsmen~ 
+@6039 = ~TATTOO OF THE GODSMEN 
+Special: 
+   Blessed (+1 to hit and saves) 
+Weight: 0
+Usable only by Godsmen  
+
+This tattoo recognizes your beliefs in the Godsmen, the Believers of the Source. Wearing this tattoo bolsters you with renewed purpose.~ 
+
+@6040 = ~Tattoo of the Sensates~ 
+@6041 = ~TATTOO OF THE SENSATES
+Special: 
+   +20% Damage
+   -10% to all Resistances
+Weight: 0 
+Usable only by Sensates 
+
+This tattoo enhances the player's senses; as a side effect, the wearer can use their enhanced senses to pinpoint a target's vulnerable points and inflict more damage. Unfortunately, the tattoo also enhances any sensations of pain the wearer feels, so they also take more damage.~ 
+
+@6042 = ~Tattoo of the Xaositects~ 
+@6043 = ~TATTOO OF THE XAOSITECTS 
+Special: 
+   +2 to Armor Class and Saves against Lawful creatures 
+Weight: 0 
+Usable only by Xaositects 
+
+This tattoo channels your belief in the philosophy of the Xaositects (most specifically, that chaos is the only way forward). As such, it protects you from any lawful beings who may attempt to interfere with the change you bring to the cosmos.~ 
+
+@6044 = ~Razor Angel Ink~ 
+@6045 = ~RAZOR ANGEL INK 
+Special: 
+   +2 to Armor Class and Saves against Evil creatures 
+Weight: 0 
+Usable only by non-Evil characters
+Usable only by the Nameless One
+
+This tattoo is a reminder of the aid you gave to the Razor Angels in the Alley of Dangerous Angles. Your strike against the evil in the heart of the Alley now grants you some protection against those with spite in their hearts.~ 
+
+@6046 = ~Mark of the Dark Alley Shivs~ 
+@6047 = ~MARK OF THE DARK ALLEY SHIVS 
+Special: 
+   +2 to Armor Class and Saves against Good creatures 
+Weight: 0 
+Usable only by non-Good characters
+Usable only by the Nameless One
+
+This tattoo is a reminder of the aid you gave to the Dark Alley Shivs in the Alley of Dangerous Angles. Your strike against the weak in the heart of the Alley now grants you some protection against those who let morality hold them back.~ 
+
+@6048 = ~Tattoo of the Black Rose~ 
+@6049 = ~TATTOO OF THE BLACK ROSE 
+Special: 
+   +2 to Armor Class and Saves against Lawful Good creatures 
+   +2 to Armor Class and Saves against Lawful Evil creatures 
+   +2 to Armor Class and Saves against Chaotic Good creatures 
+   +2 to Armor Class and Saves against Chaotic Evil creatures 
+Weight: 0 
+Usable only by the Nameless One
+
+This tattoo is a reminder of the aid you gave to Black Rose in the Alley of Dangerous Angles. Your efforts to maintain the balance in tenuous circumstances now grant you some protection against those with more extreme ideologies.~ 
+
+@6050 = ~Tattoo of the Criers' Dreams~ 
+@6051 = ~TATTOO OF the CRIERS' DREAMS 
+Special:
+   +4 to Save vs. Spells
+Weight: 0
+Usable only by the Nameless One
+
+For some reason, the tale of the Crier of Es-Annon filled you with a strange nostalgia, which you have related to Fell. This tattoo draws upon both this nostalgia and the perseverance of the Criers of Es-Annon, making you better able to shrug off spells. 
+
+Artistically, this is some of Fell's best work: although this tattoo shows the barest image of Es-Annon that you heard from the Crier of Es-Annon, you can almost *feel* the great spiraling parks and avenues of light through this intricate symbol. This tattoo helps preserve the memory of the city and the dream of its people that its majesty might be remembered.~ 
+
+@6052 = ~Tattoo of the Criers' Graves~ 
+@6053 = ~TATTOO OF THE CRIERS' GRAVES 
+Special:
+   +4 to Save vs. Death
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo is perhaps the last piece of Es-Annon that will exist... as the Criers of Es-Annon die of age and disease, their graves will be all that remains of Es-Annon. This symbol draws upon the suffering of the Criers and uses it as a shield against harm, allowing you a greater chance of avoiding the Criers' fate.~
+
+@6054 = ~Tattoo of Union~
+@6055 = ~TATTOO OF UNION 
+Special:
+   On a successful attack, nearby allies gain a stacking +1 bonus to hit for 2 rounds. 
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo tells of how you brought Corvus and Karina together. It allows you to draw upon some of their happiness in finding each other to bolster your companions when you succeed.~ 
+
+@6056 = ~Tattoo of Spite~ 
+@6057 = ~TATTOO OF SPITE 
+Special:
+   Enemies striking you suffer a stacking -1 penalty to AC for 2 rounds. 
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo symbolizes the way in which, with but a simple statement, you clipped Corvus and Karina's relationship before it had a chance to take root. This tattoo allows you to draw upon Corvus' unrequited love and turn it into a weapon against others.~ 
+
+@6058 = ~Tattoo of Grosuk's Demise~ 
+@6059 = ~TATTOO OF GROSUK'S DEMISE 
+Special: 
+   Deals 1d4 Fire Damage to Attackers when Hit 
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo tells of your efforts to aid Sebastion by slaying Grosuk the abishai. This tattoo draws upon Grosuk's fiery rage to damage those who would seek to injure you (in combat or in unpleasant legal entanglements).~ 
+
+@6060 = ~Tattoo of Sebastion's End~
+@6061 = ~TATTOO OF SEBASTION'S END 
+Special: +10% Magic Resistance
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo tells of your betrayal of Sebastion's intentions to Grosuk the abishai. This tattoo draws upon that experience, allowing you to protect yourself from other mages who may try to double-cross you (or who you may decide to double-cross yourself).~ 
+
+@6062 = ~Tattoo of the Wasting Darkness~ 
+@6063 = ~TATTOO OF THE WASTING DARKNESS
+Invokes: A Lost Memory 
+Special: 
+   +1 to Armor Class 
+   +25% to Stealth 
+   -1 to Charisma 
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo came from the severed arm you found in the Dismembered Crypt. Apparently, this tattoo tells of the experiences of one of your past incarnations... the symbols and tales are unfamiliar to you, but it seems to tell of a time when you were seeking shelter beneath the catacombs and were forced to live as a shadow might, hiding from detection by the Sigil authorities and trying to conceal yourself from the more dangerous inhabitants of the Weeping Stone catacombs.   
+
+When worn, the tattoo makes concealing yourself easier; it allows you to shape the shadows around you like a cloak. This makes it harder for your enemies to hurt you when they see you and harder for you to find when you don't wish to be seen. It lends you a sinister appearance, however, which will cause many to shun you.
+
+If you choose to tap into the tattoo's power, some of the memories of hiding beneath Sigil will return to you, giving you the benefit of the previous incarnation's experience. It can only do this once, but even after the tattoo is invoked, the ability to shape shadows around you will remain.~ 
+
+@6064 = ~Tattoo of the Weeping Stones~ 
+@6065 = ~TATTOO OF THE WEEPING STONES  
+Invokes: A Lost Memory 
+Special: 
+   +25 Lore
+   +50% to Cold Resistance
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo came from the severed arm you found in the Dismembered Crypt. Apparently, this tattoo tells of the experiences of one of your past incarnations... the symbols and tales are unfamiliar to you, but it seems to tell of a time when the catacombs beneath Sigil's streets were your second home. It tells of you travelling down into the tombs, living in darkness, and coming to learn the nature of why the stones beneath Sigil weep. 
+
+When worn, the tattoo makes you more resilient to cold, giving your skin the texture and strength of the weeping stone walls. In so doing, however, it also gives you a hungry gaunt look, as if you are starving.
+
+If you choose to tap into the tattoo's power, some of the memories of living beneath Sigil will return to you, giving you the benefit of the previous incarnation's experience. It can only do this once, but even after the tattoo is invoked, the resistance to cold and the bonus to your lore will remain.~
+
+@6066 = ~Tattoo of the Silent Coins~ 
+@6067 = ~TATTOO OF THE SILENT COINS 
+Invokes: A Lost Memory 
+Special: 
+   +25% to Pick Pockets
+Weight: 0
+Usable only by the Nameless One
+Usable only by Thieves
+
+This tattoo came from the severed arm you found in the Dismembered Crypt. Apparently, this tattoo tells of the experiences of one of your past incarnations... the symbols and tales are unfamiliar to you, but it seems to tell of a time when you lived as a thief on Sigil's streets, before being driven down into the catacombs because of your thieving nature. 
+
+In activating the tattoo, some of the memories of living on Sigil's streets will return to you, giving you more experience. Furthermore, it will give you a permanent bonus to your pick pocket skill. Even when the tattoo is invoked and the experience has been gained, however, the tattoo and the pick pocket bonus will remain.~ 
+
+@6068 = ~The Number of Ku'U Yin~ 
+@6069 = ~THE NUMBER OF KU'U YIN 
+Special: 
+   +2 to Armor Class and Saves against Chaotic creatures 
+Weight: 0 
+Usable only by non-Chaotic characters
+Usable only by the Nameless One
+
+This is a tattoo of a number, an intricate weaving of ink and flesh. It squirms when held, as if it sought out a host. It is the number of Ku'u Yin, a personal identifier that radiates Law. When applied, the tattoo works itself into the skin of its owner, protecting it against the depredations of strongly chaotic creatures. It cannot be used by someone of chaotic alignment.~ 
+   
+@6070 = ~Tattoo of the Restless Dead~ 
+@6071 = ~TATTOO OF THE RESTLESS DEAD 
+Invokes: Bless (2/day)
+Special: 
+   +2 to Armor Class and Saves against Undead creatures 
+Weight: 0 
+Usable only by the Nameless One
+
+This tattoo recognizes your efforts to calm the restless dead of the mausoleum. You may draw upon their gratitude to bless yourself or your companions, and the spirits also protect you from others of their kind who may cause you harm.~ 
+
+@6072 = ~Tattoo of the Tenement Shadows~ 
+@6073 = ~TATTOO OF THE TENEMENT SHADOWS 
+Invokes: Adder's Kiss (1/day)
+Special: 
+   +25% to Stealth
+Weight: 0 
+Usable only by the Nameless One
+
+This tattoo tells of your experiences in escaping the Tenement of the Starved Dogs; the tattoo has the same color as the Adder's Tear which Sybil gave you. It gives you an additional bonus to stealth as long as it is inscribed on your flesh, and even lets you channel the power of the Adder's Tear.~
+
+@6074 = ~Tattoo of Death-in-Life~
+@6075 = ~TATTOO OF DEATH-IN-LIFE 
+Special: 
+   On death, resurrect at 50% Hit Points after 3s (1/day) 
+Weight: 0
+Not usable by the Nameless One 
+
+This tattoo tells of how you saved Dimtree's life by granting him a second death. Whether it was the intensity of Dimtree's gratitude or channeling of the power in the words you spoke to free him, this tattoo now allows you to draw from that experience and pull someone back from the brink of death.~
+
+@6076 = ~Tattoo of the Open Box~ 
+@6077 = ~TATTOO OF THE OPEN BOX 
+Special: 
+   Immunity to fear 
+   -1 to Wisdom 
+Weight: 0 
+Usable only by the Nameless One 
+
+This tattoo recounts how you were given a box to deliver, and how you opened it despite multiple warnings to do not do so. Whether this was fearlessess or foolishness remains to be seen, but this tattoo channels both.~ 
+
+@6078 = ~Tattoo of the Banished Fiend~ 
+@6079 = ~TATTOO OF THE BANISHED FIEND 
+Special: 
+   +2 to THAC0 against Fiends 
+   Fiends you critically hit are banished (slain; no save) 
+Weight: 0 
+Usable only by the Nameless One 
+
+This tattoo recounts how you were given a box to deliver, and upon delivery you found out that it contained a vile fiend, which was swiftly banished back to the Lower Planes. This experience has taught you a great deal about handling demons and devils, and you even learned a bit about banishing fiends back to where they came from.~ 
+
+
 @9000 = ~Arm of the Wretched Incarnation~ 
 @9001 = ~ARM OF THE WRETCHED INCARNATION
 Damage: 3-8 Crushing
@@ -3264,7 +3644,7 @@ Special:
    +2 Armor Class
 Weight: 0
 Usable only by Mages
-Usable only by Nameless One
+Usable only by the Nameless One 
 
 These earrings are made from hardened sap of the razorvine. The original earrings were gifted to you by the midwife Mebbeth and then further enchanted by Ravel when you faced her in her maze.~ 
 
