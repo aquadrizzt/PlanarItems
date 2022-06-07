@@ -3606,7 +3606,7 @@ Special:
 Weight: 0 
 Usable only by the Nameless One 
 
-This tattoo recounts how you were given a box to deliver, and how you opened it despite multiple warnings to do not do so. Whether this was fearlessess or foolishness remains to be seen, but this tattoo channels both.~ 
+This tattoo recounts how you were given a box to deliver, and how you opened it despite multiple warnings to not do so. Whether this was fearlessess or foolishness remains to be seen, but this tattoo channels both.~ 
 
 @6078 = ~Tattoo of the Banished Fiend~ 
 @6079 = ~TATTOO OF THE BANISHED FIEND 
@@ -3617,6 +3617,131 @@ Weight: 0
 Usable only by the Nameless One 
 
 This tattoo recounts how you were given a box to deliver, and upon delivery you found out that it contained a vile fiend, which was swiftly banished back to the Lower Planes. This experience has taught you a great deal about handling demons and devils, and you even learned a bit about banishing fiends back to where they came from.~ 
+
+@7000 = ~Tattoo of the Betrayer~ 
+@7001 = ~TATTOO OF THE BETRAYER
+Special:
+   +1 to Strength
+   +1 to Intelligence
+   +1x Backstab Multiplier 
+   First attack each round is guaranteed to backstab
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo describes the defeat of Trias the Betrayer, and how you dealt the death stroke to the corrupted deva. It represents the strength necessary to defeat him and the smarts required to outwit a deva. Part of Trias' traitorous nature seems to live on in this tattoo, allowing you to attack your opponents when they least expect it.
+~ 
+
+@7002 = ~Tattoo of the Champion~ 
+@7003 = ~TATTOO OF THE CHAMPION 
+Special:
+   +2 to Strength
+   Attacks deal maximum damage
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo represents the fact you have achieved the pinnacle of your skills in the warrior arts. This tattoo enhances your natural combat skills, maximizing your damage with every strike.~
+
+@7004 = ~Tattoo of the Justicar~ 
+@7005 = ~TATTOO OF THE JUSTICAR 
+Special:
+   +1 to Strength
+   +1 to Charisma
+   Automatically detect evil 
+   +2 to THAC0 against Evil creatures 
+   +2 to Damage against Evil creatures 
+   Attacks are treated as +3 weapons against Evil creatures
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo tells of your efforts to help Trist and depicts the arrest and trial of Byron Pikit. This tattoo bolsters the eye and mind of the wearer - it allows the wearer to perceive injustices and grants the user the strength to correct them.~
+
+@7006 = ~Tattoo of the Lost Incarnation~ 
+@7007 = ~TATTOO OF THE LOST INCARNATION 
+Invokes: A Lost Memory
+Special:
+   +1 to Dexterity
+   +1 to Constitution
+   +100% Experience Gained 
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo came from the severed arm you found in the Dismembered Crypt. Apparently, this tattoo tells of the experiences of one of your past incarnations... the symbols and tales are unfamiliar to you, but it seems to tell of a time when you were lost and abandoned on the streets of the Hive, barely able to make a living robbing and stealing from others you encountered. The crimes the lost incarnation committed eventually drove him to seek shelter in the Weeping Stone catacombs, where he survived for almost a year.     
+
+When worn, the tattoo seems to bring out a survival instinct in you, making you more dexterous and resilient. If you choose to tap into the tattoo's power, some of the memories of hiding beneath Sigil will return to you, giving you the benefit of the previous incarnation's experience. 
+
+^NNOTE: Due to the way the game handles Experience bonuses, removing this tattoo will also remove any bonus experience gained as a result of wearing it.^~
+
+@7008 = ~Tattoo of the Archmage~ 
+@7009 = ~TATTOO OF THE ARCHMAGE 
+Special:
+   +2 to Intelligence
+   Each round, refresh an expended 1st level spell slot
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo represents the fact you have achieved the pinnacle of your skills in the arts of magic. This tattoo enhances your natural talent for the Art considerably, heightening your reasoning and deductive abilities, and allowing you to continously invoke your most fundamental spells.~
+
+@7010 = ~Tattoo of the Redeemer~ 
+@7011 = ~TATTOO OF THE REDEEMER 
+Special:
+   +1 to Wisdom
+   +1 to Charisma
+   Deals 3d6 Magic Damage to Attackers You Haven't Attacked when Hit
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo tells the story of the redemption of Trias the Betrayer, and how you steered him from the path of evil into forgiveness. It reflects your wisdom and your persuasive skills, and carries the blessing of Trias with it.~
+
+@7012 = ~Tattoo of the Scoundrel~ 
+@7013 = ~TATTOO OF THE SCOUNDREL 
+Special:
+   +2 to Dexterity
+   Ignore item restrictions
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo represents the fact you have achieved the pinnacle of your skills in the stealthy arts. This tattoo heightens your reflexes and your innate resourcefulness, allowing you to use any magic item.
+
+^NNOTE: This tattoo disables your ability to equip other chest tattoos. To equip a different one, first unequip this item.^~
+
+@7014 = ~Tattoo of the Taleweaver~ 
+@7015 = ~TATTOO OF THE TALEWEAVER 
+Special:
+   +1 to Intelligence
+   +1 to Charisma 
+   +25 Lore
+   Taleweaving (you and nearby allies; +2 bonus to THAC0 and saving throws) 
+Weight: 0
+Usable only by the Nameless One
+
+Ever since you've heard Yves' tales, you can use this tattoo to draw upon some of her knowledge and her experiences. Not only does this tattoo help you identify the stories behind unidentified objects you encounter, but it also seems to make you more interesting to others, as if they somehow KNOW you have interesting stories to tell. ~
+
+@7016 = ~Tattoo of the Philosopher~ 
+@7017 = ~TATTOO OF THE PHILOSOPHER 
+Special:
+   +1 to Strength
+   +1 to Wisdom 
+   +15% Critical Hit Chance
+   Scripture of Steel (you and nearby allies; +1 to hit, damage, and saves)
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo recognizes your knowledge of Zerthimon's teachings and marks you as a friend to the githzerai people. It allows you to summon the discipline and focus of Zerthimon, giving strength and accuracy to your strikes against your enemies.~
+
+@7018 = ~Tattoo of the Hierophant~ 
+@7019 = ~TATTOO OF THE HIEROPHANT 
+Special:
+   +2 to Wisdom
+   Each round, refresh an expended 1st level spell slot
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo symbolizes your extensive understanding of the power of belief. Your ability to use belief to shape reality is substantially improved, heightening your awareness and force of will considerably, and allowing you to continously invoke your most fundamental spells.~
+
+
+
+
+
 
 
 @9000 = ~Arm of the Wretched Incarnation~ 
@@ -3674,8 +3799,8 @@ This eye seems to have been taken right from an actual bull. It is so large that
 @9008 = ~Keen Eye~ 
 @9009 = ~KEEN EYE 
 Special:   
-   +5% Critical Strike Chance
-   Automatically Detects Traps 
+   +5% Critical Hit Chance
+   +25% Detect Traps
 Weight: 0 
 Usable only by Thieves
 Usable only by the Nameless One 
