@@ -1239,16 +1239,23 @@ COPY ~PlanarItems/items/bolt08.itm~ ~override~
 	SAY NAME2 @4083
 	SAY UNIDENTIFIED_DESC @4084
 	SAY IDENTIFIED_DESC @4084 
-	
-//Zephyr Bolts
+
+//Winged Bolts
 COPY ~PlanarItems/items/bolt07.itm~ ~override~ 
+	SAY NAME1 @4085
+	SAY NAME2 @4085
+	SAY UNIDENTIFIED_DESC @4086
+	SAY IDENTIFIED_DESC @4086 
+
+//Zephyr Bolts
+COPY ~PlanarItems/items/bolt04.itm~ ~override~ 
 	SAY NAME1 @4087
 	SAY NAME2 @4087
 	SAY UNIDENTIFIED_DESC @4088
 	SAY IDENTIFIED_DESC @4088 
 
 //Rule-of-Three Bolts
-COPY ~PlanarItems/items/bolt04.itm~ ~override~ 
+COPY ~PlanarItems/items/bolt03.itm~ ~override~ 
 	SAY NAME1 @4089
 	SAY NAME2 @4089
 	SAY UNIDENTIFIED_DESC @4090
@@ -1877,13 +1884,123 @@ COPY ~PlanarItems/new/qdttban.itm~ ~override~
 COPY ~PlanarItems/resources/qdttban.spl~ ~override~ //fiend check
 	 ~PlanarItems/resources/qdttban+.spl~ ~override~ //kill (on fiend) 
 
+//---------------------------------------------
+//                                             
+//				MAJOR TATTOOS                    
+//                                             
+//---------------------------------------------
+
+//[To-Do: Make this its own component before distribution]
+
+//Change default body "armour" sound to tattoo 
+//Annah and Grace armor should be unaffected
+COPY_EXISTING ~itemtype.2da~ ~override~ 
+	SET_2DA_ENTRY 3 1 3 ~INT_12K~ 
+ 	SET_2DA_ENTRY 3 2 3 ~INT_12K1~ 	 
+	
+//Tattoo of the Betrayer 
+COPY ~PlanarItems/items/ttbetryr.itm~ ~override~ 
+	SAY NAME1 @7000
+	SAY NAME2 @7000
+	SAY UNIDENTIFIED_DESC @7001
+	SAY IDENTIFIED_DESC @7001 
+	WRITE_LONG 0x34 2500 
+
+COPY ~PlanarItems/resources/qdbtryr.spl~ ~override~ //disables auto backstab (6s)
+
+//Tattoo of the Champion [Supreme Warrior]
+COPY ~PlanarItems/items/ttfghtr2.itm~ ~override~ 
+	SAY NAME1 @7002
+	SAY NAME2 @7002
+	SAY UNIDENTIFIED_DESC @7003
+	SAY IDENTIFIED_DESC @7003 
+	WRITE_LONG 0x34 2500 
+
+//Tattoo of the Justicar [Justice's Eye] 
+COPY ~PlanarItems/items/ttjusti.itm~ ~override~ 
+	SAY NAME1 @7004
+	SAY NAME2 @7004
+	SAY UNIDENTIFIED_DESC @7005
+	SAY IDENTIFIED_DESC @7005
+	WRITE_LONG 0x34 2500 
+
+COPY ~PlanarItems/resources/qdttjst.eff~ ~override~ //detect evil pulse (2s)
+
+//Tattoo of the Lost Incarnation 
+COPY ~PlanarItems/items/ttlostin.itm~ ~override~ 
+	SAY NAME1 @7006
+	SAY NAME2 @7006
+	SAY UNIDENTIFIED_DESC @7007
+	SAY IDENTIFIED_DESC @7007
+	WRITE_LONG 0x34 1000 
+
+//Tattoo of the Archmage [Magi] 
+COPY ~PlanarItems/items/ttmage2.itm~ ~override~ 
+	SAY NAME1 @7008
+	SAY NAME2 @7008
+	SAY UNIDENTIFIED_DESC @7009
+	SAY IDENTIFIED_DESC @7009
+	WRITE_LONG 0x34 2500
+
+COPY ~PlanarItems/resources/qdttmg.eff~ ~override~ //refresh L1 slot (mage)
+
+//Tattoo of the Redeemer 
+COPY ~PlanarItems/items/ttredeem.itm~ ~override~ 
+	SAY NAME1 @7010
+	SAY NAME2 @7010
+	SAY UNIDENTIFIED_DESC @7011
+	SAY IDENTIFIED_DESC @7011
+	WRITE_LONG 0x34 2500 
+
+COPY ~PlanarItems/resources/qdrdmr.eff~ ~override~ //grants immunity to backlash when strucl
+COPY ~PlanarItems/resources/qdrdmr.spl~ ~override~ //3d6 magic damage to attackers 
+
+//Tattoo of the Scoundrel 
+COPY ~PlanarItems/items/ttthf2.itm~ ~override~ 
+	SAY NAME1 @7012
+	SAY NAME2 @7012
+	SAY UNIDENTIFIED_DESC @7013
+	SAY IDENTIFIED_DESC @7013
+	WRITE_LONG 0x34 2500 
+
+//Tattoo of the Taleweaver 
+COPY ~PlanarItems/items/tttw.itm~ ~override~ 
+	SAY NAME1 @7014
+	SAY NAME2 @7014
+	SAY UNIDENTIFIED_DESC @7015
+	SAY IDENTIFIED_DESC @7015 
+	WRITE_LONG 0x34 2500 
+
+COPY ~PlanarItems/resources/qdtttw.spl~ ~override~ //aura: +2 thaco, saves, imm: morale
+
+//Tattoo of the Philosopher 
+COPY ~PlanarItems/items/ttucirc.itm~ ~override~ 
+	SAY NAME1 @7016
+	SAY NAME2 @7016
+	SAY UNIDENTIFIED_DESC @7017
+	SAY IDENTIFIED_DESC @7017 
+	WRITE_LONG 0x34 2500 
+
+COPY ~PlanarItems/resources/qdtucrc.spl~ ~override~ //aura: blessed
+
+//Tattoo of the Hierophant <Power of Belief>
+ACTION_IF (FILE_EXISTS_IN_GAME ~qdttpr2.itm~) THEN BEGIN 
+	COPY ~PlanarItems/new/qdttpr2.itm~ ~override~ 
+		SAY NAME1 @7018
+		SAY NAME2 @7018
+		SAY UNIDENTIFIED_DESC @7019
+		SAY IDENTIFIED_DESC @7019
+		WRITE_LONG 0x34 2500 
+
+	COPY ~PlanarItems/resources/qdttpr.eff~ ~override~ //refresh L1 slot (mage)
+END 
+
 //Update Fell's shop with additional triggers
 COPY_EXISTING ~fell.sto~ ~override~ 
 	REMOVE_STORE_ITEM ~ttac2~ 
 	REMOVE_STORE_ITEM ~ttavern~ 
 	REMOVE_STORE_ITEM ~ttbbcall~ 
 	REMOVE_STORE_ITEM ~ttbbmaze~ 
-	REMOVE_STORE_ITEM ~ttbetryr~ 
 	REMOVE_STORE_ITEM ~ttbonesi~ 
 	REMOVE_STORE_ITEM ~ttchr2~ 
 	REMOVE_STORE_ITEM ~ttcon2~ 
@@ -1892,15 +2009,10 @@ COPY_EXISTING ~fell.sto~ ~override~
 	REMOVE_STORE_ITEM ~ttdex2~ 
 	REMOVE_STORE_ITEM ~ttdv~ 
 	REMOVE_STORE_ITEM ~ttfghtr1~ 
-	REMOVE_STORE_ITEM ~ttfghtr2~ 
 	REMOVE_STORE_ITEM ~ttint2~ 
-	REMOVE_STORE_ITEM ~ttjusti~ 
-	REMOVE_STORE_ITEM ~ttlostin~ 
 	REMOVE_STORE_ITEM ~ttmage1~ 
-	REMOVE_STORE_ITEM ~ttmage2~ 
 	REMOVE_STORE_ITEM ~ttmaxhp2~ 
 	REMOVE_STORE_ITEM ~ttravel~ 
-	REMOVE_STORE_ITEM ~ttredeem~ 
 	REMOVE_STORE_ITEM ~ttrkiss~ 
 	REMOVE_STORE_ITEM ~ttsens2~ 
 	REMOVE_STORE_ITEM ~ttshadow~ 
@@ -1908,10 +2020,7 @@ COPY_EXISTING ~fell.sto~ ~override~
 	REMOVE_STORE_ITEM ~ttsilver~ 
 	REMOVE_STORE_ITEM ~ttstr2~ 
 	REMOVE_STORE_ITEM ~ttthf1~ 
-	REMOVE_STORE_ITEM ~ttthf2~ 
 	REMOVE_STORE_ITEM ~tttrist~ 
-	REMOVE_STORE_ITEM ~tttw~ 
-	REMOVE_STORE_ITEM ~ttucirc~ 
 	REMOVE_STORE_ITEM ~ttwis2~
 	ADD_STORE_ITEM + ~ttaccura~ #0 #0 #0 ~IDENTIFIED~ #3
 	ADD_STORE_ITEM + ~ttbloodl~ #0 #0 #0 ~IDENTIFIED~ #3
@@ -1955,19 +2064,5 @@ COPY_EXISTING ~fell.sto~ ~override~
 		END 
 	END 
 	 
-//---------------------------------------------
-//                                             
-//				MAJOR TATTOOS                    
-//                                             
-//---------------------------------------------
 
-//[To-Do: Make this its own component before distribution]
-
-//Change default body "armour" sound to tattoo 
-//Annah and Grace armor should be unaffected
-/*
-COPY_EXISTING ~itemtype.2da~ ~override~ 
-	SET_2DA_ENTRY 3 1 3 ~INT_12K~ 
- 	SET_2DA_ENTRY 3 2 3 ~INT_12K1~ 	 
-	
-*/
+ 
