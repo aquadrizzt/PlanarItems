@@ -32,7 +32,7 @@ This odd axe is so garishly painted and unwieldy that it couldn't possibly be us
 Damage: 3-10 Slashing
 Enchanted: +2
 Special:
-  +1d4 Damage of Two Random Elements
+  +1d8 Damage of Two Random Elements
 THAC0: +2
 Speed: 8
 Weight: 4
@@ -390,7 +390,7 @@ Damage: 2-5 Slashing/Piercing
 Enchanted: +1 
 Special:
    +1x Backstab Multiplier
-   +20% Stealth
+   +20% to Stealth
 THAC0: +1
 Speed: 1
 Weight: 0
@@ -558,6 +558,8 @@ Tempered with the lethal venom of the dreaded hook spider, the magical propertie
 @1232 = ~Blade of the Immortal~ 
 @1233 = ~BLADE OF THE IMMORTAL 
 Damage: 4-7 Slashing/Piercing
+Special:
+   Slays on critical hit (no save)
 Enchanted: +3 
 THAC0: +3
 Speed: 1
@@ -566,6 +568,57 @@ Proficiency: Edged
 Usable by The Nameless One 
 
 This is the strange blade that the iron golem forged using a drop of your blood. It is an ugly looking weapon, shaped so it resembles one of the symbols on your left arm. Black veins worm their way across the surface of the metal, and the edge looks so dull that it couldn't even cut warm butter. It pulses slightly as you hold it, like a heart. The golem claimed this "blade" could slay even you - provided it was used in a place that was cut off from the rest of the planes.~ 
+
+@1234 = ~Strange Dagger~ 
+@1235 = ~Porphatys Blade~ 
+@1236 = ~STRANGE DAGGER 
+Damage: 3-6 Slashing/Piercing
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This dagger has a very unusual design. Sharp angles and curves adorn the blade making it difficult to tell what exactly the purpose of this blade is.~
+@1237 = ~PORPHATYS BLADE 
+Damage: 3-6 Slashing/Piercing
+Enchanted: +2
+Special:
+   +1d4 Acid Damage
+   +1d4 Cold Damage
+THAC0: +2
+Speed: 1
+Weight: 1
+Proficiency: Edged 
+Not usable by Priests 
+
+Porphatys, the fifth layer of Carceri, is a plane covered in a swirling vortex of acidic snow. This snow is dangerous to more than a body's physical form - it also tears at the mind and soul, slowly etching away a person's reason. Despite this, the elemental powers of a weapon created in Porphatys are usually worth the risk.~ 
+
+@1238 = ~Rusted Dagger~ 
+@1239 = ~Fiend's Blood Dagger~ 
+@1240 = ~RUSTED DAGGER
+Damage: 3-6 Slashing/Piercing
+Weight: 1
+Speed: 1
+Proficiency: Edged
+Not usable by Good characters
+Not usable by Priests
+
+Despite its rusty appearance, this dagger manages to retain a razor sharp edge. Blood from the fiend you pulled it from has permanently bonded to the dagger.~
+@1241 = ~FIEND'S BLOOD DAGGER 
+Damage: 3-6 Slashing/Piercing
+Enchanted: +2
+Special:
+   +1d4 Fire Damage against non-Evil Creatures
+   +2d4 Fire Damage against Good Creatures
+   Poisons (1 damage every 6 seconds against non-Evil creatures, 1 damage every 2 seconds against Good creatures; 30 seconds; save vs. death -2 negates)
+THAC0: +2
+Speed: 1
+Weight: 1
+Proficiency: Edged 
+Not usable by Good characters
+Not usable by Priests
+
+The history of this dagger is for the most part unknown. More than likely some berk perished while fighting the fiend, losing his dagger as well as his life. For now the name is but a description, it has yet to earn a proper title. Years of being embedded in the flesh of a fiend have imbued this once ordinary dagger with qualities best left with their kind. Blood of the fiend has infused itself with the dagger causing it to feel slightly warm to the touch. Opponents unlucky enough to be struck by this vile blade will burn and writhe as the fiendish ichor attempts to corrupt them from within.~ 
 
 @1300 = ~Clawed Knuckles~
 @1301 = ~Assassin's Knuckles~
@@ -614,7 +667,7 @@ Special:
    +1 Attack per Round 
    +1d3 Crushing Damage 
    Devours (reduces target's maximum hit points by 2; 1 hour)
-   Hungering (once per turn, reduce wielder's maximum hit points by 2; 1 hour; hitting a target protects for 1 turn)
+   Hungering (once per round, reduce wielder's maximum hit points by 2; 1 hour; hitting a target protects for 1 turn)
 THAC0: +2 
 Speed: 3
 Weight: 1
@@ -846,6 +899,26 @@ A fearsome aura of power emanates from this massive weapon. Sharp, powerful line
 
 Upon holding the weapon it is instantly apparent that only those that are pure of heart can truly wield it. ~ 
 
+@1508 = ~The Justifier~ 
+@1509 = ~THE JUSTIFIER 
+*CURSED* 
+(Minor Artifact) 
+Damage: 3-8 Crushing/Piercing
+Enchanted: +2 
+Special:
+   +2d6 Magic Damage
+   Zeal (while in the presence of an evil creature, berserks in combat and prevents wielder from dying; 12 seconds; save vs. spell -4 negates)
+THAC0: +2
+Speed: 5
+Weight: 2
+Proficiency: Hammers
+Usable by Fighters and Priests 
+Not usable by Evil 
+
+This mace looks much like any other mace - a spiked ball atop a wooden shaft, a leather handgrip, a thong to prevent losing it in the heat of battle - except for the Eye etched on the head of the weapon. This weapon is The Justifier, a mace created in the city of Heliopolis by disciples of the god Horus to maim the followers of evil. An intelligent weapon several centuries old, the Justifier is more than happy to offer its opinions on various matters. 
+
+While the Justifier is usually good-natured, it will erupt in anger if it notices evil creatures nearby. When this happens, it attempts to possess its wielder and compel them to attack nearby creatures indiscriminately. It is usually apologetic afterwards, but will resist attempts to stop wielding it nonetheless.~ 
+
 @1600 = ~Strange Object~ 
 @1601 = ~Mark of the Savant~ 
 @1602 = ~STRANGE OBJECT 
@@ -864,8 +937,8 @@ Enchanted: +2
 Special:
    +1 Attack per Round 
    +1 Dexterity
-   +25% Open Locks 
-   +25% Detect Traps 
+   +25% to Open Locks 
+   +25% to Find Traps 
 THAC0: +2
 Speed: 3
 Weight: 3
@@ -1967,7 +2040,7 @@ Usable only by Thieves
 This appears to be an exquisitely-made piece of costume jewelry made to resemble a spider of some sort. It almost appears as if the spider could get up and walk away at any minute.~ 
 @3020 = ~SPIDER BRACELET 
 Special:
-   +10% Stealth
+   +10% to Stealth
    Immunity to hold and paralyze 
 Weight: 0
 Usable only by Thieves
@@ -2064,7 +2137,7 @@ Usable only by Thieves
 This small earring is made from polished obsidian. Despite the smoothness of its surface, it reflects no light whatsoever.~ 
 @3040 = ~OBSIDIAN EARRING 
 Special: 
-   +25% Stealth 
+   +25% to Stealth 
 Weight: 0
 Usable only by Thieves
 
@@ -2218,6 +2291,7 @@ This is a "negative token": a flat, black disk that appears to have no substance
 @3075 = ~YEVRAH'S RING OF ALMOST INVISIBILITY 
 Special: 
    +1 to Armor Class
+   +10% to Stealth 
 Weight: 0
 
 The ring makes its wearer invisible - almost. Sometimes, for brief periods, the wearer becomes really, *really* close to being invisible - an event which is often disconcerting to an attacker - and is thus more difficult to strike in combat.~ 
@@ -2231,6 +2305,7 @@ This appears to be a silver ring with a large stone of some kind mounted to it, 
 @3079 = ~RING OF THE TRAVELER 
 Special: 
    +1 to Armor Class
+   +1 to All Saving Throws
 Weight: 0
 
 These rings are quite common across the planes. Simple to make and in great demand, Mages usually create these items as a way to raise quick money. This particular ring has a minor enchantment on it that protects the wearer from harm.~ 
@@ -2293,6 +2368,34 @@ Special:
 Weight: 0
 
 This ring looks like three rings that have been wrapped around each other. Just looking at it makes you dizzy.~ 
+
+@3090 = ~Deionarra's Ring~ 
+@3091 = ~Deionarra's Wedding Ring~ 
+@3092 = ~DEIONARRA'S RING
+Weight: 0
+
+This ivory ring was part of Deionarra's legacy. It radiates a slight glow, and though it is cold to the touch, the chill is strangely comforting. The ivory band stretches to fit the width of any finger.~ 
+@3093 = ~DEIONARRA'S WEDDING RING 
+Special:
+   Immunity to normal weapons
+Weight: 0
+Usable only by Nameless One
+
+
+This ivory ring was part of Deionarra's legacy. It radiates a slight glow, and though it is cold to the touch, the chill is strangely comforting. The ivory band stretches to fit the width of any finger.
+
+Among the many secrets of the Society of Sensation is the ability to shape a peculiar stone from Elysium, dubbed "soulstone." While this stone is not as powerful as the sensory stones, the soul stone is said to carry an imprint of the shaper's feelings. These rings are often used in Sensate marriage ceremonies, each ring inscribed with the feelings of the other. This ring was obviously intended for you.~ 
+
+@3094 = ~DEIONARRA'S WEDDING RING 
+Special:
+   Immunity to normal weapons
+   +25% Magic Resistance
+Weight: 0
+Usable only by Nameless One
+
+This ivory ring was part of Deionarra's legacy, and through some unknown means, she has enhanced its power three-fold. Where it radiated only a slight glow before, it now burns with a cold, white fire along the edges. The fire does not burn - if anything, its touch is comforting.
+
+Among the many secrets of the Society of Sensation is the ability to shape a peculiar stone from Elysium, dubbed "soulstone." While this stone is not as powerful as the sensory stones, the soul stone is said to carry an imprint of the shaper's feelings. These rings are often used in Sensate marriage ceremonies, each ring inscribed with the feelings of the other. This ring was obviously intended for you.~ 
 
 @3090 = ~Black-Barbed Branch~ 
 @3091 = ~Black-Barbed Wand~ 
@@ -2398,7 +2501,7 @@ This piece of sturdy leather armor was clearly fashioned for a woman. It is a pi
 @4009 = ~JERKIN OF THE FLITTING SHADOW
 Armor Class: 6
 Special:
-   +25% Stealth Skill Bonus
+   +25% to Stealth
    On critical hit, become invisible for 12 seconds
 Weight: 8
 Usable only by Annah
@@ -2789,6 +2892,21 @@ Usable only by Morte
 
 These teeth appear to be a set of hollow fangs, much like those of a viper. Although long removed from their original host, the teeth still drip poison from their sharp tips.~ 
 
+@4055 = ~Ingress' Teeth~ 
+@4056 = ~INGRESS' TEETH
+Damage: 3-5 Crushing/Piercing
+Enchanted: +2
+Invokes: Swarm Curse (1/day)
+THAC0: +2 
+Speed: 1
+Range: 10 ft 
+Weight: 1
+Proficiency: Fists
+Usable only by Morte
+
+
+This is a handful of Ingress' living teeth. Apparently, they didn't want to go with her back through the portal to her home plane. They rattle amongst themselves whenever they are held close together; they remind you of a bunch of creepy ivory hopping bugs. When placed in Morte's mouth, the teeth seem uneasy, as if they are waiting for the first opportunity to escape. When Morte attacks, the teeth fly out of his mouth to bite and tear at his enemies.~ 
+
 @4055 = ~Final Judgment~ 
 @4056 = ~FINAL JUDGMENT 
 Damage: 3-12 Slashing
@@ -2904,8 +3022,8 @@ The heads of these enchanted bolts have two long fangs curving out from the cent
 @4074 = ~BOLTS OF KESSEK THE DEVOURER 
 Damage: 4-7 Missile
 Special: 
-   +1d4 Piercing Damage 
-   Staggers (halved movement speed and 1/2 attack per round; 18 seconds) 
+   Devouring (-2 max HP every 6 seconds; 60 seconds; no save) 
+   Bloodhunt (automatically attacks nearest enemy upon death; 60 seconds) 
 Enchanted: +3 
 Weight: 0
 Usable only by Nordom 
