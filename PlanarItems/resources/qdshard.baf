@@ -1,0 +1,8 @@
+IF
+	PartyHasItem("SHARD")  //Shards of Fate
+THEN
+	RESPONSE #100
+		DestroyPartyItem("SHARD",TRUE)  // Shards of Fate
+		Continue()
+END
+

@@ -1,0 +1,15 @@
+IF
+	Range(NearestEnemyOf(Protagonist),30)
+THEN
+	RESPONSE #100
+		ApplySpellRES("qdbolt9#",NearestEnemyOf(Protagonist))  // No such index
+		DestroySelf()
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
