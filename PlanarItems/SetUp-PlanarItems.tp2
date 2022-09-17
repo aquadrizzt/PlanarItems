@@ -1,6 +1,6 @@
 BACKUP ~PlanarItems/backup~
 AUTHOR ~aquadrizzt@gmail.com~
-VERSION ~0.4~ 
+VERSION ~0.5~ 
 
 /* Language Settings */
 AUTO_TRA ~PlanarItems/tra/%s~
