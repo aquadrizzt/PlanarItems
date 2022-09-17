@@ -25,6 +25,21 @@ COPY_EXISTING ~ui.menu~ ~override~
 	end"
 BUT_ONLY
 
+//TNO gets a +2 bonus to AC after character creation 
+COPY_EXISTING ~charbase.cre~ ~override~ 
+	LPF ADD_CRE_EFFECT 
+		INT_VAR 
+			timing = 9
+			parameter1 = 2 
+	END 
+
+//Added the summoning limit 2da from SoD in order to allow invisible creature tricks 
+COPY ~PlanarItems/resources/SUMMLIMT.2da~ ~override~ 
+
+//Monsters with immunity to weapons below an enchantment level are now considered to have enchanted weapons. 
+COPY ~PlanarItems/items/PLUS1IM.itm~ ~override~ 
+	 ~PlanarItems/items/PLUS2IM.itm~ ~override~ 
+
 //---------------------------------------------
 //                                             
 //	  			   UNIQUE WEAPONS              
@@ -143,6 +158,16 @@ COPY ~PlanarItems/items/enlight.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @1209
 	SAY IDENTIFIED_DESC @1209
 	
+//Fiend's Blood Dagger
+COPY ~PlanarItems/items/fdag.itm~ ~override~ 
+	SAY NAME1 @1238
+	SAY NAME2 @1239
+	SAY UNIDENTIFIED_DESC @1240
+	SAY IDENTIFIED_DESC @1241 
+
+COPY ~PlanarItems/resources/qdfdag1.spl~ ~override~ // neutral damage/poison 
+	 ~PlanarItems/resources/qdfdag2.spl~ ~override~ // good damage/poison 
+	
 //Kaarlac's Knife
 COPY ~PlanarItems/items/kknife.itm~ ~override~ 
 	SAY NAME1 @1210
@@ -156,7 +181,14 @@ COPY ~PlanarItems/items/splinter.itm~ ~override~
 	SAY NAME2 @1215
 	SAY UNIDENTIFIED_DESC @1216
 	SAY IDENTIFIED_DESC @1217
-	
+
+//Porphatys Blade
+COPY ~PlanarItems/items/pdag.itm~ ~override~ 
+	SAY NAME1 @1234
+	SAY NAME2 @1225
+	SAY UNIDENTIFIED_DESC @1236
+	SAY IDENTIFIED_DESC @1237 
+
 //Ravel's Fingernail
 COPY ~PlanarItems/items/fingnail.itm~ ~override~ 
 	SAY NAME1 @1218
@@ -184,7 +216,7 @@ COPY ~PlanarItems/items/widmkr.itm~ ~override~
 	SAY NAME2 @1229
 	SAY UNIDENTIFIED_DESC @1230
 	SAY IDENTIFIED_DESC @1231 
-	
+
 //Assassin's Knuckles
 COPY ~PlanarItems/items/iron3.itm~ ~override~ 
 	SAY NAME1 @1300
@@ -206,7 +238,8 @@ COPY ~PlanarItems/items/shard.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @1309
 	SAY IDENTIFIED_DESC @1309 
 
-//[TO DO: Destroy Shards of Fate upon entering final chapter] 
+//Destroy Shards of Fate upon entering final chapter] 
+EXTEND_TOP ~ar1200.bcs~ ~PlanarItems/resources/qdshard.baf~ 
 
 //Siphon Knuckles
 COPY ~PlanarItems/items/iron2.itm~ ~override~ 
@@ -271,7 +304,12 @@ COPY ~PlanarItems/items/heaven.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @1507
 	SAY IDENTIFIED_DESC @1507 
 	
-//[To-Do: The Justifier]
+//The Justifier
+COPY ~PlanarItems/items/justfier.itm~ ~override~ 
+	SAY NAME1 @1508
+	SAY NAME2 @1508
+	SAY UNIDENTIFIED_DESC @1509
+	SAY IDENTIFIED_DESC @1509  
 
 //Mark of the Savant
 COPY ~PlanarItems/items/savant.itm~ ~override~ 
@@ -295,13 +333,11 @@ COPY ~PlanarItems/items/spunch.itm~ ~override~
 	SAY IDENTIFIED_DESC @1607 
 	
 //Punch Daggers of True Death
-/*
 COPY ~PlanarItems/items/tpunch.itm~ ~override~ 
 	SAY NAME1 @1608
 	SAY NAME2 @1608
 	SAY UNIDENTIFIED_DESC @1609 
 	SAY IDENTIFIED_DESC @1609 
-*/
 
 //Punch Daggers of Zar 'Anun
 COPY ~PlanarItems/items/zpunch.itm~ ~override~ 
@@ -405,6 +441,8 @@ COPY ~PlanarItems/items/bladeim.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @1233
 	SAY IDENTIFIED_DESC @1233 
 	
+COPY ~PlanarItems/resources/QDBLIM.spl~ ~override~ //slay anyone (from crit effect)
+
 //---------------------------------------------
 //                                             
 //	  			 NON-UNIQUE WEAPONS            
@@ -796,7 +834,11 @@ COPY ~PlanarItems/items/anear1.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @3028
 	SAY IDENTIFIED_DESC @3029 
 	
-//[To-Do: make special anarchist earrings charms] 
+//Update Conall's shop to remove old Anarchist earrings
+COPY_EXISTING ~fell.sto~ ~override~ 
+	REMOVE_STORE_ITEM ~anear2~
+	REMOVE_STORE_ITEM ~anear3~
+	REMOVE_STORE_ITEM ~anear4~ 
 
 //Crimson Sphere Earring
 COPY ~PlanarItems/items/crimsear.itm~ ~override~ 
@@ -861,6 +903,20 @@ COPY ~PlanarItems/items/adring.itm~ ~override/adring2.itm~
 	SAY UNIDENTIFIED_DESC @3059
 	SAY IDENTIFIED_DESC @3059
 		
+//Deionarra's Wedding Ring (normal)
+COPY ~PlanarItems/items/dwedring.itm~ ~override~ 
+	SAY NAME1 @3090
+	SAY NAME2 @3091
+	SAY UNIDENTIFIED_DESC @3092
+	SAY IDENTIFIED_DESC @3093
+
+//Deionarra's Wedding Ring (upgraded)
+COPY ~PlanarItems/items/dsupring.itm~ ~override~ 
+	SAY NAME1 @3090
+	SAY NAME2 @3091
+	SAY UNIDENTIFIED_DESC @3092
+	SAY IDENTIFIED_DESC @3094
+
 //Displacer Ring
 COPY ~PlanarItems/items/ring04.itm~ ~override~ 
 	SAY NAME1 @3060
@@ -1152,8 +1208,13 @@ COPY ~PlanarItems/items/mbite.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @4042
 	SAY IDENTIFIED_DESC @4042 
 
-//[To-Do: Ingress' Teeth] 
-	
+//Ingress' Teeth
+COPY ~PlanarItems/items/iteeth.itm~ ~override~ 
+	SAY NAME1 @4055
+	SAY NAME2 @4055
+	SAY UNIDENTIFIED_DESC @4046
+	SAY IDENTIFIED_DESC @4046 
+
 //Teeth of the Fire Drake
 COPY ~PlanarItems/items/fdteeth.itm~ ~override~ 
 	SAY NAME1 @4047
@@ -1210,15 +1271,21 @@ COPY ~PlanarItems/items/bolt01.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @4069
 	SAY IDENTIFIED_DESC @4070 
 	
-//[To-Do: Bolts of Kessek the Devourer]
-/*
+//Bolts of Kessek the Devourer
 COPY ~PlanarItems/items/bolt09.itm~ ~override~ 
 	SAY NAME1 @4071
 	SAY NAME2 @4072
 	SAY UNIDENTIFIED_DESC @4073
 	SAY IDENTIFIED_DESC @4074
-*/
-	
+
+COMPILE ~PlanarItems/resources/qdbolt9.baf~ //invisible creature script (transfer on death) 
+
+COPY ~PlanarItems/resources/qdbolt9.spl~ ~override~  //summon invis creature on death
+	 ~PlanarItems/resources/qdbolt9#.spl~ ~override~ //spell to transfer effects on death to nearest enemy
+	 ~PlanarItems/resources/qdbolt9.eff~ ~override~  //-2 max hp, no effect on current hp
+	 ~PlanarItems/resources/qdbolt9_.eff~ ~override~ //2 stunning damage 
+	 ~PlanarItems/resources/qdbolt9.cre~ ~override~  //invisible creature for on death effect 
+
 //Bolts of Whistling Doom 
 COPY ~PlanarItems/items/bolt05.itm~ ~override~ 
 	SAY NAME1 @4075
