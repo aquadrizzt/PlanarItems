@@ -1210,10 +1210,10 @@ COPY ~PlanarItems/items/mbite.itm~ ~override~
 
 //Ingress' Teeth
 COPY ~PlanarItems/items/iteeth.itm~ ~override~ 
-	SAY NAME1 @4055
-	SAY NAME2 @4055
-	SAY UNIDENTIFIED_DESC @4046
-	SAY IDENTIFIED_DESC @4046 
+	SAY NAME1 @4135
+	SAY NAME2 @4135
+	SAY UNIDENTIFIED_DESC @4136
+	SAY IDENTIFIED_DESC @4136 
 
 //Teeth of the Fire Drake
 COPY ~PlanarItems/items/fdteeth.itm~ ~override~ 
