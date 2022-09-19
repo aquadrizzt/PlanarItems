@@ -2892,21 +2892,6 @@ Usable only by Morte
 
 These teeth appear to be a set of hollow fangs, much like those of a viper. Although long removed from their original host, the teeth still drip poison from their sharp tips.~ 
 
-@4055 = ~Ingress' Teeth~ 
-@4056 = ~INGRESS' TEETH
-Damage: 3-5 Crushing/Piercing
-Enchanted: +2
-Invokes: Swarm Curse (1/day)
-THAC0: +2 
-Speed: 1
-Range: 10 ft 
-Weight: 1
-Proficiency: Fists
-Usable only by Morte
-
-
-This is a handful of Ingress' living teeth. Apparently, they didn't want to go with her back through the portal to her home plane. They rattle amongst themselves whenever they are held close together; they remind you of a bunch of creepy ivory hopping bugs. When placed in Morte's mouth, the teeth seem uneasy, as if they are waiting for the first opportunity to escape. When Morte attacks, the teeth fly out of his mouth to bite and tear at his enemies.~ 
-
 @4055 = ~Final Judgment~ 
 @4056 = ~FINAL JUDGMENT 
 Damage: 3-12 Slashing
@@ -3323,6 +3308,21 @@ Usable only by Modrons
 This scope looks as if it's missing its lens, but in fact, the lens itself is displaced in space: if you use your peripheral vision, you can make it out a few feet to your left, just hanging in space. 
 
 When this scope is equipped, a portion of the wearer phases out, and he becomes EXTREMELY difficult to hit with any attack. Furthermore, the wearer is just hard to see, period; it's almost like he's not all there. Depending on who's wearing this lens, it may complement his personality just fine.~  
+
+@4135 = ~Ingress' Teeth~ 
+@4136 = ~INGRESS' TEETH
+Damage: 3-5 Crushing/Piercing
+Enchanted: +2
+Invokes: Swarm Curse (1/day)
+THAC0: +2 
+Speed: 1
+Range: 10 ft 
+Weight: 1
+Proficiency: Fists
+Usable only by Morte
+
+
+This is a handful of Ingress' living teeth. Apparently, they didn't want to go with her back through the portal to her home plane. They rattle amongst themselves whenever they are held close together; they remind you of a bunch of creepy ivory hopping bugs. When placed in Morte's mouth, the teeth seem uneasy, as if they are waiting for the first opportunity to escape. When Morte attacks, the teeth fly out of his mouth to bite and tear at his enemies.~ 
 
 @5000 = ~Bandages~ 
 @5001 = ~BANDAGES 
