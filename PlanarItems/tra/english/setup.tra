@@ -1,5 +1,5 @@
 @0= ~Existing Items~ 
-@1 = ~Tattoo Overhaul~ 
+@1 = ~Special Inventory Notes~ 
 
 @1000 = ~Ascension~ 
 @1001 = ~ASCENSION
@@ -56,7 +56,7 @@ The list of tragedies and deeds goes on and on.~
 @1006 = ~Polished Battle Axe~ 
 @1007 = ~Blindsider~
 @1008 = ~POLISHED BATTLE AXE
-Damage: 2-9 Slashing
+Damage: 3-10 Slashing
 Speed: 8
 Weight: 4
 Proficiency: Axes
@@ -64,16 +64,17 @@ Usable only by Fighters
 
 The blade of this axe has been remarkably polished so that its surface is as reflective as a mirror. The weight of the axe is unusually light, almost as if it were intended more for ornamentation than actual combat.~
 @1009 = ~BLINDSIDER
-Damage: 2-9 Slashing
-Enchanted: +1
+Damage: 3-10 Slashing
+Enchanted: +2
 Special:
    20% Chance to Blind (12 seconds)
    Immunity to Blindness
-THAC0: +1
+THAC0: +2
 Speed: 8
 Weight: 4
 Proficiency: Axes
 Usable only by Fighters
+Usable only by the Nameless One
 
 This magnificent axe, known as "Blindsider," is truly one of a kind. It is rumored that it was the creation of one Akyzum Yar, chief metallurgist of an ancient empire on the Prime Material Plane. The Emperor whom Yar served, a vain and wicked man, commissioned the creation of "a weapon of unsurpassed beauty." After years of toiling, Yar succeeded and presented the Emperor with "Blindsider," whereupon he was promptly put to death so that his work could never be reproduced. 
 
@@ -3856,10 +3857,92 @@ Usable only by the Nameless One
 
 This tattoo symbolizes your extensive understanding of the power of belief. Your ability to use belief to shape reality is substantially improved, heightening your awareness and force of will considerably, and allowing you to continously invoke your most fundamental spells.~
 
+@8000 = ~Special Inventory: Argent Hammer~
+@8001 = ~When asked about this gleaming hammer inscribed with runes, Coaxmetal tells you that he will only sell it to a wielder of sufficient skill. 
 
+^NNOTE: This item will become available when The Nameless One achieves specialization.~ 
 
+@8002 = ~Special Inventory: Backbiter~
+@8003 = ~When asked about this elegant dagger, Coaxmetal tells you that he will only sell it to a wielder of sufficient skill. 
 
+^NNOTE: This item will become available when The Nameless One achieves specialization.~ 
 
+@8004 = ~Special Inventory: Runeblade~
+@8005 = ~When asked about this black blade covered with blue and red runes, Coaxmetal tells you that he will only sell it to a wielder of sufficient skill. 
+
+^NNOTE: This item will become available when The Nameless One achieves specialization.~ 
+
+@8006 = ~Special Inventory: Blindsider~
+@8007 = ~When asked about this axe with a reflection so bright it almost hurts your eyes, Coaxmetal tells you that it is meant only for a great warrior. 
+
+^NNOTE: This item will become available when The Nameless One achieves double specialization in the Fighter class.~ 
+
+@8008 = ~Special Inventory: Widowmaker~
+@8009 = ~When asked about this wicked-looking dagger with an iridescent sheen, Coaxmetal tells you that it is meant only for a great rogue.
+
+^NNOTE: This item will become available when The Nameless One achieves double specialization in the Thief class.~ 
+
+@8010 = ~Special Inventory: Kaarlac's Knife~
+@8011 = ~When asked about this unassuming knife, Coaxmetal tells you that it is meant only for a great wizard.
+
+^NNOTE: This item will become available when The Nameless One achieves double specialization in the Mage class.~ 
+
+@8012 = ~Special Inventory: Butcherer of Innocents~
+@8013 = ~When asked about this bloody cleaver, Coaxmetal tells you that he will only sell it to one who has ended many innocent lives.
+
+^NNOTE: This item will become available when The Nameless One has murdered at least 30 innocent people.~ 
+
+@8014 = ~Special Inventory: Crossbow Bolts~
+@8015 = ~When asked about this collection of crossbow bolts, Coaxmetal tells you that they are meant only for a skilled crossbow user.
+
+^NNOTE: These items will become available when The Nameless One has someone who can use crossbows in his party.~ 
+
+@8016 = ~Special Inventory: Three-Headed Crossbow Bolts~
+@8017 = ~When asked about this collection of crossbow bolts with three-heads, Coaxmetal tells you that he can't finish these bolts until he finds a functional prototype.
+
+^NNOTE: This item will become available when someone in the party has manufactured these complicated bolts.~ 
+
+@8018 = ~Special Inventory: Painful-Looking Crossbow Bolts~
+@8019 = ~When asked about this collection of crossbow bolts that makes you feel deeply uncomfortable, Coaxmetal tells you that he can't finish these bolts until he finds a functional prototype.
+
+^NNOTE: This item will become available when someone in the party has manufactured these complicated bolts.~ 
+
+@8020 = ~Special Inventory: Winged Crossbow Bolts~
+@8021 = ~When asked about this collection of narrow and sleek crossbow bolts, Coaxmetal tells you that he can't finish these bolts until he finds a functional prototype.
+
+^NNOTE: This item will become available when someone in the party has manufactured these complicated bolts.~ 
+
+@8022 = ~Special Inventory: Anarchist Earrings~
+@8023 = ~When asked about this set of four earrings cut into the four Anarchist sigils, Conall tells you that these are only available to *true* Anarchists.
+
+^NNOTE: This item is only available if the Nameless One is an Anarchist.~ 
+
+@8024 = ~Special Inventory: Mage Scrolls~
+@8025 = ~When asked about this motley collection of loose scrolls, worn tomes, and dirty rags, Mebbeth tells you that these notes are only useful to practioners of the Art.
+
+^NNOTE: These items will become available once the Nameless One has learned how to be a Mage.~ 
+
+@8026 = ~Special Inventory: Advanced Cures~
+@8027 = ~When asked about their most recent alchemical research, Pestle Kilnn tell you that they won't be able to finish it until they find a way to separate themselves again.
+
+You notice that some of the residue appears to be liquifying their alchemical glassware.
+
+^NNOTE: This item will become available after Pestle and Kilnn have been separated.~ 
+
+@8028 = ~Special Inventory: Prized Artifact~
+@8029 = ~When asked about their most prized curiosity, Vrischika smiles smugly and says that she doesn't think you're ready to see it.
+
+^NNOTE: This item will become available much later, after you've explored the Planes.~ 
+
+@8030 = ~Special Inventory: Leather Streetwear~
+@8031 = ~When asked about these sleek pieces of leather armor, Goncalves says that they were a commission by a young tiefling from the Hive.
+
+^NNOTE: These items is will become available when The Nameless One has someone in the party who would be able to wear it.~ 
+
+@8032 = ~Special Inventory: Glamorous Bodices~
+@8033 = ~When asked about these beautiful cloth bodices, Goncalves says they were a commission by the madame of the nearby Brothel.
+
+^NNOTE: These items is will become available when The Nameless One has someone in the party who would be able to wear it.~ 
 
 
 @9000 = ~Arm of the Wretched Incarnation~ 
@@ -3925,3 +4008,17 @@ Usable only by the Nameless One
 
 This eye is a boon to thieves everywhere (or at least those willing to poke out their own eye). When in use, it highlights critical areas of nearby creatures in red, allowing the thief to strike with greater precision. It also highlights nearby traps, allowing the user to deftly avoid them or disarm them.~ 
    
+@9010 = ~Argent Hammer~ 
+@9011 = ~ARGENT HAMMER
+Damage: 2-9 Crushing
+Enchanted: +1
+Special:
+   +1d4 Magic Damage
+   On critical hit, knocks target back 20 feet 
+THAC0: +1
+Speed: 9
+Weight: 10
+Proficiency: Hammers
+Usable only by Fighters
+
+A small rune of force is inscribed on the head of this silver hammer. When the hammer connects with its target, the rune glows bright and a wave of forces washes over the target, potentially knocking them back.~ 
