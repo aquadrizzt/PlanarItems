@@ -1,6 +1,6 @@
 BACKUP ~PlanarItems/backup~
 AUTHOR ~aquadrizzt@gmail.com~
-VERSION ~0.5~ 
+VERSION ~0.4~ 
 
 /* Language Settings */
 AUTO_TRA ~PlanarItems/tra/%s~
@@ -8,13 +8,16 @@ LANGUAGE ~English~ ~english~ ~PlanarItems/tra/english/setup.tra~
 
 //---------------------------------------------
 //                                             
-//				EXISTING ITEMS                 
+//				MAIN ITEM REWORK                
 //                                             
 //---------------------------------------------
 BEGIN @0 
 
 COPY_EXISTING ~aclue.itm~ ~override/qd_planar_items_core.qd~ //check file for this component 
 
+//---------------------------------------------                                          
+//				NON ITEM CHANGES                                 
+//---------------------------------------------
 //Small UI change to access item abilities from equipment 
 //Thanks kjeron! 
 COPY_EXISTING ~ui.menu~ ~override~ 
@@ -39,6 +42,18 @@ COPY ~PlanarItems/resources/SUMMLIMT.2da~ ~override~
 //Monsters with immunity to weapons below an enchantment level are now considered to have enchanted weapons. 
 COPY ~PlanarItems/items/PLUS1IM.itm~ ~override~ 
 	 ~PlanarItems/items/PLUS2IM.itm~ ~override~ 
+
+//Updated Grace's natural AC to 10 
+//This fixes an issue where the new armor gives her a base AC of -2 
+COPY_EXISTING ~grace.cre~ ~override~ 
+	WRITE_SHORT 0x46 10 
+	WRITE_SHORT 0x48 10 
+
+//Change default body "armour" sound to tattoo <this is for major tattoos>
+//Annah and Grace armor should be unaffected
+COPY_EXISTING ~itemtype.2da~ ~override~ 
+	SET_2DA_ENTRY 3 1 3 ~INT_12K~ 
+ 	SET_2DA_ENTRY 3 2 3 ~INT_12K1~ 	 
 
 //---------------------------------------------
 //                                             
@@ -835,7 +850,7 @@ COPY ~PlanarItems/items/anear1.itm~ ~override~
 	SAY IDENTIFIED_DESC @3029 
 	
 //Update Conall's shop to remove old Anarchist earrings
-COPY_EXISTING ~fell.sto~ ~override~ 
+COPY_EXISTING ~conall.sto~ ~override~ 
 	REMOVE_STORE_ITEM ~anear2~
 	REMOVE_STORE_ITEM ~anear3~
 	REMOVE_STORE_ITEM ~anear4~ 
@@ -1188,12 +1203,6 @@ COPY ~PlanarItems/items/gtouch.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @4038
 	SAY IDENTIFIED_DESC @4038 
 	
-//Updated Grace's natural AC to 10 
-//This fixes an issue where the new armor gives her a base AC of -2 
-COPY_EXISTING ~grace.cre~ ~override~ 
-	WRITE_SHORT 0x46 10 
-	WRITE_SHORT 0x48 10 
-	
 //Ignus' Fireballs
 COPY ~PlanarItems/items/ignusfi.itm~ ~override~ 
 	SAY NAME1 @4039
@@ -1542,7 +1551,7 @@ COPY ~PlanarItems/items/fteeth.itm~ ~override~
 	SAY NAME2 @4044
 	SAY UNIDENTIFIED_DESC @4045
 	SAY IDENTIFIED_DESC @4046 
-	
+
 //---------------------------------------------
 //                                             
 //				NEW ITEMS                      
@@ -1600,7 +1609,6 @@ COPY ~PlanarItems/new/qdeyebl.itm~ ~override~
 
 //Keen Eye 
 //Acquisition: Vrischika 
-
 COPY ~PlanarItems/new/qdeyekn.itm~ ~override~ 
 	SAY NAME1 @9008
 	SAY NAME2 @9008
@@ -1612,7 +1620,318 @@ COPY_EXISTING ~vris.sto~ ~override~
 	ADD_STORE_ITEM ~qdeyebl~ #0 #0 #0 ~IDENTIFIED~ #1 
 	ADD_STORE_ITEM ~qdeyekn~ #0 #0 #0 ~IDENTIFIED~ #1 
 	 
-	 
+// Forceful Hammer 
+// Acquisition: Coaxmetal, 1st Fighter specialization
+COPY ~PlanarItems/new/qdhmmr1.itm~ ~override~ 
+	SAY NAME1 @9010
+	SAY NAME2 @9010
+	SAY UNIDENTIFIED_DESC @9011
+	SAY IDENTIFIED_DESC @9011
+
+COPY ~PlanarItems/resources/qdhmmr1.spl~ ~override~  
+
+//---------------------------------------------
+//                                             
+//			STORE UPDATES: COAXMETAL                    
+//                                             
+//---------------------------------------------
+//Coaxmetal: Argent Hammer
+COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT01.itm~ 
+	SAY NAME1 @8000
+	SAY NAME2 @8000
+	SAY UNIDENTIFIED_DESC @8001
+	SAY IDENTIFIED_DESC @8001 
+
+//Coaxmetal: Backbiter
+COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT02.itm~ 
+	SAY NAME1 @8002
+	SAY NAME2 @8002
+	SAY UNIDENTIFIED_DESC @8003
+	SAY IDENTIFIED_DESC @8003 
+
+//Coaxmetal: Runeblade
+COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT03.itm~ 
+	SAY NAME1 @8004
+	SAY NAME2 @8004
+	SAY UNIDENTIFIED_DESC @8005
+	SAY IDENTIFIED_DESC @8005
+
+//Coaxmetal: Blindsider
+COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT04.itm~ 
+	SAY NAME1 @8006
+	SAY NAME2 @8006
+	SAY UNIDENTIFIED_DESC @8007
+	SAY IDENTIFIED_DESC @8007 
+
+//Coaxmetal: Widowmaker
+COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT05.itm~ 
+	SAY NAME1 @8008
+	SAY NAME2 @8008
+	SAY UNIDENTIFIED_DESC @8009
+	SAY IDENTIFIED_DESC @8009 
+
+//Coaxmetal: Kaarlac's Knife
+COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT06.itm~ 
+	SAY NAME1 @8010
+	SAY NAME2 @8010
+	SAY UNIDENTIFIED_DESC @8011
+	SAY IDENTIFIED_DESC @8011 
+
+//Coaxmetal: Butcherer of Innocents
+COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT07.itm~ 
+	SAY NAME1 @8012
+	SAY NAME2 @8012
+	SAY UNIDENTIFIED_DESC @8013
+	SAY IDENTIFIED_DESC @8013 
+
+//Coaxmetal: Crossbow Bolts for Nordom
+COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT08.itm~ 
+	SAY NAME1 @8014
+	SAY NAME2 @8014
+	SAY UNIDENTIFIED_DESC @8015
+	SAY IDENTIFIED_DESC @8015
+
+//Coaxmetal: Three-Headed Crossbow Bolts
+COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT09.itm~ 
+	SAY NAME1 @8016
+	SAY NAME2 @8016
+	SAY UNIDENTIFIED_DESC @8017
+	SAY IDENTIFIED_DESC @8017
+
+//Coaxmetal: Wincing Crossbow Bolts
+COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT10.itm~ 
+	SAY NAME1 @8018
+	SAY NAME2 @8018
+	SAY UNIDENTIFIED_DESC @8019
+	SAY IDENTIFIED_DESC @8019
+
+//Coaxmetal: Winged Crossbow Bolts
+COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT11.itm~ 
+	SAY NAME1 @8020
+	SAY NAME2 @8020
+	SAY UNIDENTIFIED_DESC @8021
+	SAY IDENTIFIED_DESC @8021
+
+
+// Replace Brimstone Hammer with Forceful Hammer in Coaxmetal's Store
+// Change the first tier specialization weapons to be purchaseable once TNO has achieved any specialization.
+// Change Butcherer of Innocents to only require 29 murders (remove the fighter requirement)
+// Add store hints for the unlockable weapons
+COPY_EXISTING ~coax.sto~ ~override~ 
+	REMOVE_STORE_ITEM ~brimham~ 
+	ADD_STORE_ITEM ~QDHMMR1~ AFTER ~SPUNCH~ #0 #0 #0 ~IDENTIFIED~ #1 
+	ADD_STORE_ITEM ~QDINVT01~ AFTER ~qdhmmr1~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+	ADD_STORE_ITEM ~QDINVT02~ AFTER ~backbtr~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+	ADD_STORE_ITEM ~QDINVT03~ AFTER ~rblade~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+	ADD_STORE_ITEM ~QDINVT04~ AFTER ~bsider~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+	ADD_STORE_ITEM ~QDINVT05~ AFTER ~widmkr~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+	ADD_STORE_ITEM ~QDINVT06~ AFTER ~kknife~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+	ADD_STORE_ITEM ~QDINVT07~ AFTER ~butcher~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+	ADD_STORE_ITEM ~QDINVT08~ AFTER ~bolt01~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+	ADD_STORE_ITEM ~QDINVT09~ AFTER ~bolt03~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+	ADD_STORE_ITEM ~QDINVT10~ AFTER ~bolt06~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+	ADD_STORE_ITEM ~QDINVT11~ AFTER ~bolt07~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+
+COPY_EXISTING ~coax.sto~ ~override~ 
+	GET_OFFSET_ARRAY items 0x34 4 0x38 4 0 0 0x58 
+	PHP_EACH items AS int => itm_off BEGIN 
+		READ_ASCII itm_off itmres
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~QDHMMR1~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~GlobalGT("Specialist", "GLOBAL", 0)~)
+		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~backbtr~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~GlobalGT("Specialist", "GLOBAL", 0)~)
+		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~rblade~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~GlobalGT("Specialist", "GLOBAL", 0)~)
+		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~butcher~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~GlobalGT("Murder", "GLOBAL", 29)~)
+		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdinvt01~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~Global("Specialist", "GLOBAL", 0)~)
+		END
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdinvt02~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~Global("Specialist", "GLOBAL", 0)~)
+		END
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdinvt03~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~Global("Specialist", "GLOBAL", 0)~)
+		END
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdinvt04~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~!Global("Specialist", "GLOBAL", 4)~)
+		END
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdinvt05~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~!Global("Specialist", "GLOBAL", 5)~)
+		END
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdinvt06~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~!Global("Specialist", "GLOBAL", 6)~)
+		END
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdinvt07~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~GlobalLT("Murder", "GLOBAL", 30)~)
+		END
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdinvt08~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~!InParty("Nordom")~)
+		END
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdinvt09~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~InParty("Nordom") !Global("Nordom_Bolt_03", "GLOBAL", 1)~)
+		END
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdinvt10~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~InParty("Nordom") !Global("Nordom_Bolt_06", "GLOBAL", 1)~)
+		END
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdinvt11~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~InParty("Nordom") !Global("Nordom_Bolt_07", "GLOBAL", 1)~)
+		END
+	END
+	
+//---------------------------------------------
+//                                             
+//			STORE UPDATES: CONALL                    
+//                                             
+//---------------------------------------------
+//Conall: Anarchist Earring
+COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT12.itm~ 
+	SAY NAME1 @8022
+	SAY NAME2 @8022
+	SAY UNIDENTIFIED_DESC @8023
+	SAY IDENTIFIED_DESC @8023 
+
+COPY_EXISTING ~conall.sto~ ~override~ 
+	ADD_STORE_ITEM ~QDINVT12~ AFTER ~anear1~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+
+COPY_EXISTING ~conall.sto~ ~override~ 
+	GET_OFFSET_ARRAY items 0x34 4 0x38 4 0 0 0x58 
+	PHP_EACH items AS int => itm_off BEGIN 
+		READ_ASCII itm_off itmres
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~QDINVT12~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~!Faction(Protagonist,ANARCHIST)~)
+		END 
+	END 
+//---------------------------------------------
+//                                             
+//			STORE UPDATES: GONCALVES                    
+//                                             
+//---------------------------------------------
+//Goncalves: Annah armor
+COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT16.itm~ 
+	SAY NAME1 @8030
+	SAY NAME2 @8030
+	SAY UNIDENTIFIED_DESC @8031
+	SAY IDENTIFIED_DESC @8031
+
+//Goncalves: FFG armor
+COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT17.itm~ 
+	SAY NAME1 @8032
+	SAY NAME2 @8032
+	SAY UNIDENTIFIED_DESC @8033
+	SAY IDENTIFIED_DESC @8033  
+
+COPY_EXISTING ~tailor.sto~ ~override~ 
+	ADD_STORE_ITEM ~QDINVT16~ AFTER ~jer_br~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+	ADD_STORE_ITEM ~QDINVT17~ AFTER ~god_gp~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+
+// Changes the Bodice of the Perilous Quest and the Jerkin of the Flitting Shadow to be available without discovering that Goncalves is a Mage.
+COPY_EXISTING ~tailor.sto~ ~override~ 
+	GET_OFFSET_ARRAY items 0x34 4 0x38 4 0 0 0x58 
+	PHP_EACH items AS int => itm_off BEGIN 
+		READ_ASCII itm_off itmres
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~QDINVT16~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~!InParty("Annah")~)
+		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~QDINVT17~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~!InParty("Grace")~)
+		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~BOD_PQ~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~InParty("Grace")~)
+		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~JER_FS~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~InParty("Annah")~)
+		END 
+	END 
+//---------------------------------------------
+//                                             
+//			STORE UPDATES: MEBBETH                    
+//                                             
+//---------------------------------------------
+//Mebbeth: Mage Scrolls
+COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT13.itm~ 
+	SAY NAME1 @8024
+	SAY NAME2 @8024
+	SAY UNIDENTIFIED_DESC @8025
+	SAY IDENTIFIED_DESC @8025 
+
+COPY_EXISTING ~mebbeth.sto~ ~override~ 
+	ADD_STORE_ITEM ~QDINVT13~ AFTER ~spwi101~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+
+COPY_EXISTING ~mebbeth.sto~ ~override~ 
+	GET_OFFSET_ARRAY items 0x34 4 0x38 4 0 0 0x58 
+	PHP_EACH items AS int => itm_off BEGIN 
+		READ_ASCII itm_off itmres
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~QDINVT13~) BEGIN 
+			WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~Global("Mage_Training", "GLOBAL", 0)~)
+		END 
+	END 
+
+//---------------------------------------------
+//                                             
+//			STORE UPDATES: PESTLE and KILNN                    
+//                                             
+//---------------------------------------------
+ACTION_IF FILE_EXISTS_IN_GAME ~Q!LOTHAR.xxx~ BEGIN 
+	//PnK: UB Gorgon Salve
+	COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT14.itm~ 
+		SAY NAME1 @8026
+		SAY NAME2 @8026
+		SAY UNIDENTIFIED_DESC @8027
+		SAY IDENTIFIED_DESC @8027
+
+	COPY_EXISTING ~pk_store.sto~ ~override~ 
+		ADD_STORE_ITEM ~QDINVT14~ AFTER ~gsalve~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+
+	COPY_EXISTING ~pk_store.sto~ ~override~ 
+		GET_OFFSET_ARRAY items 0x34 4 0x38 4 0 0 0x58 
+		PHP_EACH items AS int => itm_off BEGIN 
+			READ_ASCII itm_off itmres
+			PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~QDINVT14~) BEGIN 
+				WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~!Global("PK_Quest","GLOBAL",2)~)
+			END 
+		END 
+END 
+
+
+//---------------------------------------------
+//                                             
+//			STORE UPDATES: VRISCHIKA                    
+//                                             
+//---------------------------------------------
+ACTION_IF FILE_EXISTS_IN_GAME ~Q!ITEMS.xxx~ BEGIN 
+	//Vrischika: Eye of Vecna
+	COPY ~PlanarItems/items/qdnote.itm~ ~override/QDINVT15.itm~ 
+		SAY NAME1 @8028
+		SAY NAME2 @8028
+		SAY UNIDENTIFIED_DESC @8029
+		SAY IDENTIFIED_DESC @8029
+
+	COPY_EXISTING ~vris.sto~ ~override~ 
+		ADD_STORE_ITEM ~QDINVT15~ AFTER ~eyevecna~ #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~ 
+
+	COPY_EXISTING ~vris.sto~ ~override~ 
+		GET_OFFSET_ARRAY items 0x34 4 0x38 4 0 0 0x58 
+		PHP_EACH items AS int => itm_off BEGIN 
+			READ_ASCII itm_off itmres
+			PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~QDINVT15~) BEGIN 
+				WRITE_LONG (itm_off + 0x1c) RESOLVE_STR_REF(~Global("Regret","GLOBAL",0)~)
+			END 
+		END 
+
+END 
+
+//---------------------------------------------
+//                                             
+//			STORE UPDATES: FELL -> handled AFTER tattoo section                   
+//                                             
+//---------------------------------------------
+
+
 //---------------------------------------------
 //                                             
 //				MINOR TATTOOS                    
@@ -1959,12 +2278,6 @@ COPY ~PlanarItems/resources/qdttban.spl~ ~override~ //fiend check
 
 //[To-Do: Make this its own component before distribution]
 
-//Change default body "armour" sound to tattoo 
-//Annah and Grace armor should be unaffected
-COPY_EXISTING ~itemtype.2da~ ~override~ 
-	SET_2DA_ENTRY 3 1 3 ~INT_12K~ 
- 	SET_2DA_ENTRY 3 2 3 ~INT_12K1~ 	 
-	
 //Tattoo of the Betrayer 
 COPY ~PlanarItems/items/ttbetryr.itm~ ~override~ 
 	SAY NAME1 @7000
@@ -2111,11 +2424,20 @@ COPY_EXISTING ~fell.sto~ ~override~
 		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdttvhl~) BEGIN 
 			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~InParty("Vhail")~)
 		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~ttanarch~) BEGIN 
+			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~Faction(Protagonist,ANARCHIST)~)
+		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~ttsource~) BEGIN 
+			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~Faction(Protagonist,GODSMAN)~)
+		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~ttsens1~) BEGIN 
+			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~Faction(Protagonist,SENSATE)~)
+		END 
 		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdttdst~) BEGIN 
-			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~GlobalGT("Join_Dustmen", "GLOBAL", 0)~)
+			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~Faction(Protagonist,DUSTMEN)~)
 		END 
 		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdttxao~) BEGIN 
-			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~GlobalGT("Join_Chaosmen", "GLOBAL", 0)~)
+			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~Faction(Protagonist,XAOSITECT)~)
 		END 
 		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdttdas~) BEGIN 
 			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~GlobalGT("RW", "GLOBAL", 2)~)
@@ -2130,6 +2452,6 @@ COPY_EXISTING ~fell.sto~ ~override~
 			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~Global("FedEx","GLOBAL",10)~)
 		END 
 	END 
-	 
 
- 
+
+
