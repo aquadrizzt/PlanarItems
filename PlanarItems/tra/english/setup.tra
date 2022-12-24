@@ -1,5 +1,7 @@
-@0= ~Existing Items~ 
-@1 = ~Special Inventory Notes~ 
+@0000= ~Spell and Items Revisions for PSTEE~ 
+@0001 = ~Revised Spells~ 
+@0100 = ~Blunt~ 
+@0101 = ~Edged~ 
 
 @1000 = ~Ascension~ 
 @1001 = ~ASCENSION
@@ -203,7 +205,7 @@ No matter what the target, Heartgrinder is a powerful weapon, capable of tearing
 Damage: 2-7 Crushing
 Speed: 4
 Weight: 3
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 This club seems to be made from sort of prickly plant. Small thorns adorn the head of the club and can easily be broken off.~ 
@@ -216,7 +218,7 @@ Special:
 THAC0: +1
 Speed: 4
 Weight: 4
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 This club seems to be made from some sort of prickly plant. Small thorns adorn the head of the club and can easily be broken off.
@@ -229,7 +231,7 @@ This particular club is one of the more favored weapons of thieves. Upon making 
 Damage: 2-7 Crushing
 Speed: 4
 Weight: 12
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 This is a heavy wooden club that is covered with sharp spikes.~
@@ -242,7 +244,7 @@ Special:
 THAC0: +1
 Speed: 4
 Weight: 4
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 This is a heavy wooden club that is covered with enchanted spikes.~ 
@@ -253,7 +255,7 @@ This is a heavy wooden club that is covered with enchanted spikes.~
 Damage: 2-7 Crushing
 Speed: 4
 Weight: 4
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 This strange leg bone looks faintly metallic. There is the slight smell of sulfur and acid about it, but it radiates a slight chill.~
@@ -267,7 +269,7 @@ Special:
 THAC0: +1
 Speed: 4
 Weight: 4
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 This tanar'ri femur carries the last traces of a balor's essence within its marrow. Disgraced in battle and torn apart by its fellow fiends in a ceremonial execution, the bone has since carried with it a vengeful spite towards all of its kind. 
@@ -280,7 +282,7 @@ When the femur strikes any tanar'ri or baatezu, serrated teeth bristle up and do
 Damage: 3-8 Crushing
 Speed: 4
 Weight: 4
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 This rickety wooden staff has a crosspiece nailed across the top. The crosspiece is wrapped in rags, presumably to keep the damn thing from jamming too sharply into the user's armpit when they lean on it. The crutch, not surprisingly, smells terrible, and every inch of it is covered in dirt, sewage, and various unidentifiable stains.~
@@ -293,7 +295,7 @@ Special:
 THAC0: +2
 Speed: 4
 Weight: 4
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 This rickety wooden staff has a crosspiece nailed across the top. The crosspiece is wrapped in rags, presumably to keep the damn thing from jamming too sharply into Pharod's armpit when he leans on it. The crutch, not surprisingly, smells terrible, and every inch of it is covered in dirt, sewage and various unidentifiable stains. 
@@ -306,7 +308,7 @@ Something about this crutch makes you wonder - despite its fragile appearance, i
 Damage: 2-7 Crushing
 Speed: 4
 Weight: 5
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 This severed arm is as hard as a wooden club. It looks like it was severed cleanly at the shoulder (most likely by a scythe blade), and even though it looks many decades old, it is more petrified than rotted. It has an unhealthy gray pallor and is covered with scars. Intricate tattoos decorate its surface, spiraling up from the wrist all the way to the remains of the shoulder. ~ 
@@ -319,7 +321,7 @@ Special:
 THAC0: +1
 Speed: 4
 Weight: 5
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 This severed arm is as hard as a wooden club. It looks like it was severed cleanly at the shoulder (most likely by a scythe blade), and even though it looks many decades old, it is more petrified than rotted. It has an unhealthy gray pallor and is covered with scars. Intricate tattoos decorate its surface, spiraling up from the wrist all the way to the remains of the shoulder. 
@@ -332,7 +334,7 @@ Upon closer inspection, you know for a fact that this arm is yours. How long it 
 Damage: 4-9 Crushing
 Speed: 4
 Weight: 4
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 A crude club fashioned from the spine and head of a large bird.~
@@ -344,7 +346,7 @@ Special:
 THAC0: +3
 Speed: 4
 Weight: 4
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 Created from the bones of a Vrock, this club makes a formidable weapon. The toxic spores of the vrock deal substantial poison damage to any target unlucky enough to be struck by this foul weapon.~ 
@@ -414,7 +416,9 @@ Proficiency: Edged
 Usable only by Godsmen
 Not usable by Priests
 
-The second weapon of the Godsmen's "Triad of Tests" - "Ascension" and "Reason" are the other two weapons in the triad - this dagger is slim, perfectly balanced, and light as a feather. The symbol of the Godsmen is engraved along the blade, and the entire weapon seems to shiver as if in anticipation. You are the first to bear this weapon.~
+The second weapon of the Godsmen's "Triad of Tests" - "Ascension" and "Reason" are the other two weapons in the triad - this dagger is slim, perfectly balanced, and light as a feather. The symbol of the Godsmen is engraved along the blade, and the entire weapon seems to shiver as if in anticipation. You are the first to bear this weapon. 
+
+^NNOTE: Due to the way the game handles Experience bonuses, removing this weapon will also remove any bonus experience gained as a result of wearing it.~
 
 @1210 = ~Curved Knife~
 @1211 = ~Kaarlac's Knife~
@@ -477,7 +481,7 @@ This twisted fingernail of extruded night hag skin has got to be one of the ugli
 Damage: 4-7 Slashing/Piercing
 Enchanted: +3
 Special:
-   20% chance to cast Black-barbed Curses (4d4 piercing damage) 
+   20% chance to cast Black-barbed Curse (4d4 piercing damage) 
    Disease (1 damage every 3 seconds; 30 seconds; save vs. death negates)
 THAC0: +3
 Speed: 1
@@ -530,7 +534,9 @@ Weight: 0
 Proficiency: Edged
 Not usable by Priests
 
-This unremarkable, dirt-caked dagger has the letters 'UHIR' carved into its handle. Despite its shoddy appearance, the blade is well-balanced. As Uhir himself informed you, the blade provides the person who wields it with a bit of extra luck.~ 
+This unremarkable, dirt-caked dagger has the letters 'UHIR' carved into its handle. Despite its shoddy appearance, the blade is well-balanced. As Uhir himself informed you, the blade provides the person who wields it with a bit of extra luck.
+
+^NNOTE: The main effects of luck are a bonus to hit, an increase in outgoing minimum damage, and a decrease in incoming maximum damage. Luck also offers smaller bonuses to certain Thief skills and initative rolls.~ 
 
 @1228 = ~Serrated Dagger~
 @1229 = ~Widowmaker~
@@ -626,7 +632,7 @@ The history of this dagger is for the most part unknown. More than likely some b
 @1302 = ~CLAWED KNUCKLES 
 Damage: 3-5 Crushing
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round 
 Speed: 3
 Weight: 1
 Proficiency: Fist
@@ -637,7 +643,7 @@ A totally redesigned version of ordinary iron knuckles, these knuckles have long
 Damage: 3-5 Crushing
 Enchanted: +2 
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
    +1d3 Slashing Damage 
    Paralyzes (5 rounds; save vs. death negates) 
 THAC0: +2 
@@ -653,7 +659,7 @@ A totally redesigned version of ordinary iron knuckles, these knuckles have long
 @1306 = ~BONE GAUNTLETS 
 Damage: 3-5 Crushing
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
 Speed: 3
 Weight: 1
 Proficiency: Fist
@@ -665,7 +671,7 @@ These bone gauntlets look sturdier than leather, but they are uncomfortable to w
 Damage: 3-5 Crushing
 Enchanted: +2 
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
    +1d3 Crushing Damage 
    Devours (reduces target's maximum hit points by 2; 1 hour)
    Hungering (once per round, reduce wielder's maximum hit points by 2; 1 hour; hitting a target protects for 1 turn)
@@ -683,8 +689,8 @@ The most common name for this item is the "Gauntlets of Teeth." The exact creatu
 Damage: 4-6 Crushing
 Enchanted: +3 
 Special:
-   +1 Attack per Round 
-   Slays 
+   +1/2 Attack per Round  
+   Slays (no save)
    Breakable
 THAC0: +3 
 Speed: 3
@@ -698,7 +704,7 @@ These gauntlets have been created from special crystals found only on the planes
 @1312 = ~SPIKED KNUCKLES 
 Damage: 2-4 Crushing
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
 Speed: 3
 Weight: 1
 Proficiency: Fist
@@ -709,7 +715,7 @@ These knuckles have had large metal spikes added to it, so as to pierce armor as
 Damage: 2-4 Crushing
 Enchanted: +1 
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
    Transfers 1d4 Hit Points from Target to Wielder
 THAC0: +1
 Speed: 3
@@ -723,7 +729,7 @@ These knuckles have had large metal spikes added to it, so as to pierce armor as
 @1316 = ~SPIKED GAUNTLETS 
 Damage: 3-5 Crushing/Piercing
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
 Speed: 3
 Weight: 2
 Proficiency: Fist
@@ -734,7 +740,7 @@ A ridge of huge black spikes bristle along the knuckles of these metal gauntlets
 Damage: 3-5 Crushing/Piercing
 Enchanted: +2
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
    +2 Strength 
    +100 Exceptional Strength
 THAC0: +2
@@ -750,7 +756,7 @@ A ridge of huge black spikes bristle along the knuckles of these metal gauntlets
 Damage: 2-9 Crushing
 Speed: 9
 Weight: 5
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 Primarily intended for heavy work, this huge hammer would make a formidable weapon. Both its head and haft are crafted from a strange, jet-black material that smells faintly of sulfur and leaves a curious ash-like residue upon everything it touches.~
@@ -763,7 +769,7 @@ Special:
 THAC0: +1 
 Speed: 9
 Weight: 5
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 This type of weapon, thought to be forged by the flames of the Elemental Plane of Fire, is extremely rare, even in Sigil. The elemental properties of the hammer grants its wielder an increased resistance to fire and fire-based attacks. In addition, when used in combat, the hammer deals out additional damage when it successfully connects, searing its target with crackling flames.~ 
@@ -774,7 +780,7 @@ This type of weapon, thought to be forged by the flames of the Elemental Plane o
 Damage: 2-9 Crushing
 Speed: 9
 Weight: 15
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 Requires: 16 Intelligence
 
@@ -788,7 +794,7 @@ Special:
 THAC0: +1 
 Speed: 9
 Weight: 5
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 Requires: 16 Intelligence
 
@@ -804,7 +810,7 @@ It is believed that the Intelligence vs. Intelligence contest the hammer once in
 Damage: 3-10 Crushing
 Speed: 9
 Weight: 10
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 Primarily intended for heavy work, this huge hammer would make a formidable weapon. Unlike some of the other sledgehammers you've seen, however, this one has a round head, and the metal surface looks brand new. Closer inspection of the head of the hammer reveals a tracery of cracks along its surface, but the head itself does not seem to be weak or fragile. Curious.~ 
@@ -818,7 +824,7 @@ Special:
 THAC0: +2
 Speed: 9
 Weight: 10
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 Research reveals that this is a formidable weapon indeed. Far superior to a normal sledgehammer, this war hammer (also called "The Hammer of Comminution") delivers a devastating strike that not only inflicts crushing damage, but also fractures any surface it contacts, whether bone, metal, or wood, inflicting extra damage... and if the victim survives, it also "softens" him up for the next attack. 
@@ -835,7 +841,7 @@ Special:
 THAC0: +1
 Speed: 9
 Weight: 5
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 Usable only by Godsmen 
 
@@ -847,7 +853,7 @@ This enormous hammer is the third weapon in the Godsmen's "Triad of Tests." The 
 Damage: 3-8 Crushing/Piercing
 Speed: 5
 Weight: 4
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 This mace has a soft almost spongy feel to it. More than likely this is used as a practice weapon.~ 
@@ -861,7 +867,7 @@ Special:
 THAC0: +2
 Speed: 5
 Weight: 4
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 When an opponent is struck with sufficient force, acid is released thru the spongy surface of the mace. From the resulting spray of acid, the adversary can become temporarily blinded making him easier to hit.~ 
@@ -875,7 +881,7 @@ Special:
 THAC0: +1
 Speed: 5
 Weight: 11
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 Usable only by Dustmen
 
@@ -892,7 +898,7 @@ Special:
 THAC0: +3
 Speed: 5
 Weight: 10
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 Usable only by Good 
 
@@ -908,11 +914,11 @@ Damage: 3-8 Crushing/Piercing
 Enchanted: +2 
 Special:
    +2d6 Magic Damage
-   Zeal (while in the presence of an evil creature, berserks in combat and prevents wielder from dying; 12 seconds; save vs. spell -4 negates)
+   Zeal (while in the presence of an enemy, berserks in combat and prevents wielder from dying; 12 seconds; save vs. spell -4 negates)
 THAC0: +2
 Speed: 5
 Weight: 2
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 Not usable by Evil 
 
@@ -925,7 +931,7 @@ While the Justifier is usually good-natured, it will erupt in anger if it notice
 @1602 = ~STRANGE OBJECT 
 Damage: 3-5 Piercing
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
 Speed: 3
 Weight: 3
 Proficiency: Fist
@@ -936,7 +942,7 @@ This is a small metallic object consisting of tiny intricate gears and levers. O
 Damage: 3-5 Piercing
 Enchanted: +2
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
    +1 Dexterity
    +25% to Open Locks 
    +25% to Find Traps 
@@ -955,7 +961,7 @@ Only the most gifted of thieves possess items such as this. As it takes a keen m
 Damage: 2-4 Piercing
 Enchanted: +1
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
    +1 Luck 
 THAC0: +1
 Speed: 3
@@ -967,14 +973,16 @@ These daggers were once wielded by Moorin, the jinxed. Moorin was a hapless youn
 
 Moorin's thieving career was filled with numerous mishaps that involved her in combat situations. Each such combat often ended with Moorin being seriously wounded and thrown into prison. When it became obvious that Moorin was not long for this world her father, Arch-mage Xoorcon, created these magical blades for her use.
 
-With the luck provided by her new blades Moorin was actually able to successfully strike an opponent in combat (which came as a shock to her). While her opponent was busy bleeding, Moorin would make good her escape. Unfortunately, during one such escape, Moorin tripped, fell on her dagger and died before she could staunch the bleeding from her wounds.~ 
+With the luck provided by her new blades Moorin was actually able to successfully strike an opponent in combat (which came as a shock to her). While her opponent was busy bleeding, Moorin would make good her escape. Unfortunately, during one such escape, Moorin tripped, fell on her dagger and died before she could staunch the bleeding from her wounds.
+
+^NNOTE: The main effects of luck are a bonus to hit, an increase in outgoing minimum damage, and a decrease in incoming maximum damage. Luck also offers smaller bonuses to certain Thief skills and initative rolls.~ 
 
 @1606 = ~Punch Daggers of Shar~
 @1607 = ~PUNCH DAGGERS OF SHAR 
 Damage: 2-4 Piercing
 Enchanted: +3
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
    +2 THAC0 against Mages 
    +8 Damage against Mages
    Silences (12 seconds; save vs. spell)
@@ -993,7 +1001,7 @@ Shar met her demise when she was hired to assassinate the very mage who created 
 Damage: 2-4 Piercing
 Enchanted: +1
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
    Executes (kills targets with less than one quarter of maximum Hit Points; no save) 
 THAC0: +1
 Speed: 3
@@ -1009,7 +1017,7 @@ To ensure that the recipient reaches the "True Death", these daggers have been e
 Damage: 2-4 Piercing
 Enchanted: +1
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
    +1x Backstab Multiplier
 THAC0: +1
 Speed: 3
@@ -1024,7 +1032,7 @@ This infamous weapon is said to have once been wielded by the assassin Zar 'Anun
 Damage: 4-6 Piercing
 Enchanted: +3
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
    +2 to Armor Class
    +2 to All Saves 
    +2 to THAC0
@@ -1054,7 +1062,7 @@ Not usable by Evil characters
 
 The sword looks several millennia old. A faint hum can be felt within it, and the vibration becomes stronger when it touches human flesh. Not surprisingly, "Celestial Fire" can be wielded only by those with sufficient strength and purity of heart. When used in combat, "Celestial Fire" bursts into a holy radiance that burns any evil creature it strikes in combat. 
 
-^NNOTE: Celestial Fire can be transformed into a weapon type (axe, club, dagger, gauntlets, hammer) of your choosing via interaction. Be aware that this choice is permanent.^-
+^NNOTE: Celestial Fire can be transformed into a weapon type (axe, club, dagger, gauntlets, hammer) of your choosing via interaction. Be aware that this choice is permanent.-
 ~ 
 
 @1702 = ~CELESTIAL FIRE 
@@ -1085,7 +1093,7 @@ Special:
 THAC0: +3
 Speed: 4
 Weight: 5
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Evil characters
 Not usable by Mages 
 
@@ -1115,7 +1123,7 @@ The dagger looks several millennia old. A faint hum can be felt within it, and t
 Damage: 4-6 Crushing
 Enchanted: +3
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
    +1d6 Fire Damage
    +2 Damage against non-Good Creatures
    +4 Damage against Evil Creatures
@@ -1139,7 +1147,7 @@ Special:
 THAC0: +3
 Speed: 9
 Weight: 5
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests
 Not usable by Evil characters
 
@@ -1194,7 +1202,7 @@ Special:
 THAC0: +3
 Speed: 1
 Weight: 1
-Proficiency: Hammers
+Proficiency: Blunt
 Usable only by Fighters or Priests
 Not usable by Lawful characters
 
@@ -1206,7 +1214,7 @@ It looks to be made of iron, silver, and any of a number of different metals. So
 Damage: 4-6 Crushing
 Enchanted: +3
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
    Enervating (drains 1 level from target; save vs. death -4) 
    +2 Damage against non-Chaotic Creatures
    +4 Damage against Lawful Creatures
@@ -1230,7 +1238,7 @@ Special:
 THAC0: +3
 Speed: 1
 Weight: 1
-Proficiency: Clubs
+Proficiency: Blunt
 Usable only by Fighters and Thieves
 Not usable by Lawful characters
 
@@ -1245,7 +1253,7 @@ It looks to be made of iron, silver, and any of a number of different metals. So
 Damage: 3-8 Crushing/Piercing
 Speed: 5
 Weight: 4
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 This weapon has a black metal handle that seems to have grown into the narrow skull that is affixed to its top. The metal looks as if it has grown out from the skull, and spikes pierce through the eye sockets, jaw, and from the skull cap itself.  
@@ -1262,7 +1270,7 @@ Special:
 THAC0: +2
 Speed: 5
 Weight: 4
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 This weapon has a black metal handle that seems to have grown into the narrow skull that is affixed to its top. The metal looks as if it has grown out from the skull, and spikes pierce through the eye sockets, jaw, and from the skull cap itself.  
@@ -1345,7 +1353,7 @@ These are a pair of stiff leather gloves. The leather around the edges of the fi
 Damage: 3-5 Crushing
 Enchanted: +2
 Special: 
-   +1 Attack per Round 
+   +1/2 Attack per Round  
    On hit, +2d6 Slashing Damage (3 seconds) 
 Speed: 3
 Weight: 1
@@ -1433,7 +1441,7 @@ Primitive cultures often times used parts of animals as weapons. This appears to
 Damage: 1-6 Crushing
 Speed: 4
 Weight: 3
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 This arm snapped clean off corpse #985 when it, uh, accidentally toppled. As much as the corpse's knee was rotted clean through, it looks like the combination of thick applications of embalming fluid and rigor mortis has made this arm almost as hard as wood. If you needed to, you could either use it to shake someone's hand from a distance or use it to bash their skull in.~
@@ -1442,12 +1450,12 @@ This arm snapped clean off corpse #985 when it, uh, accidentally toppled. As muc
 Damage: 1-6 Crushing
 Speed: 4
 Weight: 3
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 This iron prybar can be used to pry open doors, chests, and even the occasional reluctant rib cage. It also makes a good bludgeoning weapon when there's no time for subtlety.
 
-^NNOTE: To use the prybar to force a locked door or chest, select it as a weapon then "attack" the container or door you wish to pry open. Although the prybar is specifically intended for such use, you can attempt to bash open a container or door with *any* weapon, including your fists.^-~
+^NNOTE: To use the prybar to force a locked door or chest, select it as a weapon then "attack" the container or door you wish to pry open. Although the prybar is specifically intended for such use, you can attempt to bash open a container or door with *any* weapon, including your fists.~
 
 @2017 = ~Leg Bone Club~ 
 @2018 = ~LEG BONE CLUB
@@ -1456,7 +1464,7 @@ Special:
    Fragile (breaks after 20 uses)
 Speed: 4
 Weight: 2
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 This leg bone is heavy enough to be used as a club. It's not the height of fashion, but it sure makes a satisfying sound when you strike someone. 
@@ -1468,7 +1476,7 @@ Although an effective weapon, this leg bone is fragile and has a chance of break
 Damage: 1-6 Crushing
 Speed: 4
 Weight: 3
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 This crude wooden club has seen better days, but it still looks sturdy enough to be used as a weapon.~
@@ -1633,7 +1641,7 @@ Not usable by Priests
 
 This simple surgical cutting tool looks like it's seen a lot of use.
 
-^NNOTE: <SCALPELTALK>^-~ 
+^NNOTE: <SCALPELTALK>~ 
 
 @2048 = ~Silver Fork~ 
 @2049 = ~SILVER FORK 
@@ -1691,20 +1699,20 @@ This is a short dagger with a slender blade.~
 @2059 = ~FIST IRONS 
 Damage: 1-3 Crushing
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
 Speed: 3
 Weight: 1
 Proficiency: Fist
 
 This crude iron bar is designed to slip over the fist, with the thick portion resting in the palm and the iron ring facing outwards, over the knuckles. While wearing these fist irons, a single punch can shatter someone's jaw.
 
-^NNOTE: Many weapons in Torment do similar amounts of damage... but the *type* of damage each weapon does varies. Some creatures are more vulnerable to certain types of damage than others; if your current weapon isn't doing much damage against a creature, chances are it is resistant to it. Switch off weapons and see which one works best.^-~ 
+^NNOTE: Many weapons in Torment do similar amounts of damage... but the *type* of damage each weapon does varies. Some creatures are more vulnerable to certain types of damage than others; if your current weapon isn't doing much damage against a creature, chances are it is resistant to it. Switch off weapons and see which one works best.~ 
 
 @2060 = ~Iron Knuckles~
 @2061 = ~IRON KNUCKLES 
 Damage: 1-3 Crushing
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
 Speed: 3
 Weight: 1
 Proficiency: Fist
@@ -1714,9 +1722,9 @@ Iron knuckles that slip over the fingers, giving your fists the extra "oomph" th
 @2062 = ~Punch Daggers~
 @2063 = ~Magic Punch Daggers~ 
 @2064 = ~PUNCH DAGGERS 
-Damage: 2-4 Piercing
+Damage: 3-5 Piercing
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
 Speed: 3
 Weight: 2
 Proficiency: Fist
@@ -1725,11 +1733,11 @@ Usable only by Fighters and Thieves
 This weapon is a pair of jagged dagger blades mounted on iron knuckles. The blades have jagged edges to allow them to dish out additional piercing damage when the wearer strikes an opponent.~ 
 
 @2065 = ~MAGIC PUNCH DAGGERS 
-Damage: 2-4 Piercing
-Enchanted: +1
+Damage: 3-5 Piercing
+Enchanted: +2
 Special:
-   +1 Attack per Round 
-THAC0: +1 
+   +1/2 Attack per Round 
+THAC0: +2 
 Speed: 3
 Weight: 2
 Proficiency: Fist
@@ -1740,7 +1748,7 @@ This weapon is a pair of jagged dagger blades mounted on iron knuckles. The blad
 @2066 = ~PUNCH DAGGERS 
 Damage: 1-3 Piercing
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
 Speed: 3
 Weight: 2
 Proficiency: Fist
@@ -1752,7 +1760,7 @@ This weapon is a pair of jagged dagger blades mounted on iron knuckles. The blad
 @2068 = ~SPIKED GAUNTLETS 
 Damage: 1-3 Crushing/Piercing
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
 Speed: 3
 Weight: 2
 Proficiency: Fist
@@ -1765,7 +1773,7 @@ target they punch.~
 @2071 = ~IRON KNUCKLES 
 Damage: 2-4 Crushing/Piercing
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round  
 Speed: 3
 Weight: 1
 Proficiency: Fist
@@ -1776,7 +1784,7 @@ These are iron knuckles that have had small spikes welded to them so as to do ex
 Damage: 2-4 Crushing/Piercing
 Enchanted: +1
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round 
 THAC0: +1 
 Speed: 3
 Weight: 1
@@ -1790,7 +1798,7 @@ These iron knuckles have been improved upon by the addition of tiny spikes. In a
 Damage: 2-9 Crushing
 Speed: 9 
 Weight: 5
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 Primarily intended for heavy work, this huge hammer would make a formidable weapon. Its head is of black iron, and the haft is almost as long as a man's arm.~ 
@@ -1801,7 +1809,7 @@ Enchanted: +1
 THAC0: +1 
 Speed: 9 
 Weight: 5
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 This hammer bears a wounding enchantment and is much lighter than a normal hammer, allowing it to be swung faster and do more damage in combat. Any history or legends concerning this hammer have been eclipsed by other, more famous weapons in the Encyclopedia Magica. Nonetheless, this sledgehammer carries itself with a quiet dignity.~ 
@@ -1811,7 +1819,7 @@ This hammer bears a wounding enchantment and is much lighter than a normal hamme
 Damage: 1-8 Crushing
 Speed: 9 
 Weight: 6
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 This is a heavy work hammer. It has a long handle and a metal head that looks like it could shape steel and crush skulls with ease.~ 
@@ -1821,7 +1829,7 @@ This is a heavy work hammer. It has a long handle and a metal head that looks li
 Damage: 2-9 Crushing
 Speed: 9 
 Weight: 6
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 This is a finely crafted war hammer. Godsman etchings and symbology decorate the head of the weapon and work their way down the shaft. Despite its heavy appearance, it feels much lighter than it looks.~ 
@@ -1831,7 +1839,7 @@ This is a finely crafted war hammer. Godsman etchings and symbology decorate the
 Damage: 2-9 Crushing
 Speed: 9 
 Weight: 9
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 This is a well-crafted hammer, well-balanced and pleasing to the eye. Don't be fooled by its appearance - this weapon is dangerous. It requires two hands and the desire to inflict crushing damage on your enemies.~ 
@@ -1841,7 +1849,7 @@ This is a well-crafted hammer, well-balanced and pleasing to the eye. Don't be f
 Damage: 1-8 Crushing
 Speed: 9 
 Weight: 6
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 Essentially a variation of the standard sledgehammer, the maul has a wedge-shaped head used for splitting wood. Although it can be used as a weapon, it is unwieldy and difficult to swing in combat.~ 
@@ -1851,7 +1859,7 @@ Essentially a variation of the standard sledgehammer, the maul has a wedge-shape
 Damage: 0-7 Crushing
 Speed: 9 
 Weight: 10
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 This hammer is little more than a heavy lump of metal on the end of a stout stick. It's powerful, yes, but the balance is poor and it's entirely ungraceful.~ 
@@ -1862,7 +1870,7 @@ Damage: 0-7 Crushing
 THAC0: -1 
 Speed: 9 
 Weight: 6
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 This is a small war hammer. The head of the hammer is decorated with a thin layer of silver that is dented and scratched in many places. Perhaps the hammer was once used for ceremonial purposes.~ 
@@ -1872,7 +1880,7 @@ This is a small war hammer. The head of the hammer is decorated with a thin laye
 Damage: 1-8 Crushing
 Speed: 9 
 Weight: 10
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 Primarily intended for heavy work, this huge hammer would make a formidable weapon. Its head is of black iron, and the haft is almost as long as a man's arm. Enchanted hammers aside, the sledgehammer is the most damaging of all hammers.~ 
@@ -1882,7 +1890,7 @@ Primarily intended for heavy work, this huge hammer would make a formidable weap
 Damage: 1-6 Crushing
 Speed: 5
 Weight: 7
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 This is a heavy war hammer. It has a long handle and a metal head that looks like it could shape steel and crush skulls with ease.~ 
@@ -1893,7 +1901,7 @@ This is a heavy war hammer. It has a long handle and a metal head that looks lik
 Damage: 2-7 Crushing/Piercing
 Speed: 5
 Weight: 10
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 Standard mace design. Quite effective in delivering crushing blows to your enemy.~ 
@@ -1904,7 +1912,7 @@ Enchanted: +1
 THAC0: +1 
 Speed: 5
 Weight: 10
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests
 
 Made from ore found only in the wastelands of Avernus. Baatezu have created a metal called Baatorian green steel. Weapons produced from this metal are lighter and stronger than those forged of ordinary steel and tend to inflict greater damage. Although produced in great quantities for the Blood Wars, weapons such as these are rarely found outside of Baator.~ 
@@ -1914,7 +1922,7 @@ Made from ore found only in the wastelands of Avernus. Baatezu have created a me
 Damage: 1-6 Crushing/Piercing
 Speed: 5
 Weight: 12
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 This seems to be a standard variety mace. Used properly, this weapon can deliver a crushing blow to an opponent.~ 
@@ -1924,7 +1932,7 @@ This seems to be a standard variety mace. Used properly, this weapon can deliver
 Damage: 0-5 Crushing/Piercing
 Speed: 5
 Weight: 13
-Proficiency: Hammers
+Proficiency: Blunt
 Usable by Fighters and Priests 
 
 This mace seems to be of very poor construction. The balance and weight lend itself to an awkward and almost erratic swing. Most likely this was constructed by an apprentice blacksmith.~ 
@@ -1933,14 +1941,40 @@ This mace seems to be of very poor construction. The balance and weight lend its
 @2103 = ~FIST 
 Damage: 1-3 Crushing
 Special:
-   +1 Attack per Round 
+   +1/2 Attack per Round 
 Speed: 3
 Weight: 0
 Proficiency: Fists
 
-^NNOTE: Your fist is your default attack. Although the amount of damage you can do with your fists is relatively small, you can attack quickly and the damage you do *is* affected by your Strength.^-
+Your fist is your default attack. Although the amount of damage you can do with your fists is relatively small, you can attack quickly and the damage you do *is* affected by your Strength. Your punches are lethal; you CAN kill with repeated blows. 
 
-Your punches are lethal; you CAN kill with repeated blows. As long as you have not filled up all your quick weapon slots, you can always select "fist" as your current weapon.~ 
+^NNOTE: As long as you have not filled up all your quick weapon slots, you can always select "fist" as your current weapon.~ 
+
+@2104 = ~Punch Daggers~
+@2105 = ~Enchanted Punch Daggers~ 
+@2106 = ~PUNCH DAGGERS 
+Damage: 2-4 Piercing
+Special:
+   +1/2 Attack per Round 
+Speed: 3
+Weight: 2
+Proficiency: Fist
+Usable only by Fighters and Thieves
+
+This weapon is a pair of jagged dagger blades mounted on iron knuckles. The blades have jagged edges to allow them to dish out additional piercing damage when the wearer strikes an opponent. In addition, the blades have been magically enhanced to increase the damage incurred.~ 
+
+@2107 = ~ENCHANTED PUNCH DAGGERS 
+Damage: 2-4 Piercing
+Enchanted: +1
+Special:
+   +1/2 Attack per Round 
+THAC0: +1 
+Speed: 3
+Weight: 2
+Proficiency: Fist
+Usable only by Fighters and Thieves
+
+This weapon is a pair of jagged dagger blades mounted on iron knuckles. The blades have jagged edges to allow them to dish out additional piercing damage when the wearer strikes an opponent. In addition, the blades have been magically enhanced to increase the damage incurred.~ 
 
 
 @3000 = ~Aegis of Torment~ 
@@ -2042,7 +2076,7 @@ This appears to be an exquisitely-made piece of costume jewelry made to resemble
 @3020 = ~SPIDER BRACELET 
 Special:
    +10% to Stealth
-   Immunity to hold and paralyze 
+   Immunity to hold, slow, and paralyze 
 Weight: 0
 Usable only by Thieves
 
@@ -2069,7 +2103,7 @@ Special:
    Memorize 2 Additional 1st Level Mage Spells
 Weight: 0
 Usable only by Mages
-Usable only by Nameless One
+Usable only by the Nameless One
 
 These earrings are made from hardened sap of the razorvine. When properly prepared, items made from this substance can be enchanted with powerful spells of protection.~ 
 
@@ -2097,8 +2131,8 @@ This thin earring has a small red gem set into its end. It glows slightly, as if
 
 @3032 = ~CRIMSON SPHERE EARRING
 Special:
-   +25% Resistance to Fire
-   +25% Resistance to Magical Fire
+   +25% Fire Resistance 
+   +25% Magical Fire Resistance
 Weight: 0
 
 This small red gem set into this earring acts like a heat sponge, protecting the wearer from heat or flame attacks. Whenever the wearer is exposed to fire, the gem draws some of the heat into itself, shielding its wearer from part of the damage.
@@ -2187,6 +2221,7 @@ Weight: 0
 This shimmering jewel catches the light and reflects it in a spray of colors. It looks extremely valuable.~ 
 @3053 = ~KALEIDOSCOPIC EYE
 Invokes: Chromatic Orb (1/day)
+
 Special: 
    Immunity to Chromatic Orb
    +10% Elemental Resistance
@@ -2225,16 +2260,22 @@ Kalem'Darr, unable to bear his reversal of fortune, finally plucked the offendin
 
 It is said the eyeball itself saw a better opportunity as a free agent, but this has never been proven.
 
-When placed within an empty eye socket, not only does the fiendish eye grant the wearer a trace of Kalem'Darr's fiendish immunities, it also grants the wearer a bonus to their dealings with others, allowing them to thread their way through a conversation and take what they need. Still, the blinding array of opportunities the eye presents to the wearer blinds him to the opportunities he does take, reducing how much he learns from his experiences.~ 
+When placed within an empty eye socket, not only does the fiendish eye grant the wearer a trace of Kalem'Darr's fiendish immunities, it also grants the wearer a bonus to their dealings with others, allowing them to thread their way through a conversation and take what they need. Still, the blinding array of opportunities the eye presents to the wearer blinds him to the opportunities he does take, reducing how much he learns from his experiences.
+
+^NNOTE: The main effects of luck are a bonus to hit, an increase in outgoing minimum damage, and a decrease in incoming maximum damage. Luck also offers smaller bonuses to certain Thief skills and initative rolls.
+
+^NNOTE: Due to the way the game handles Experience bonuses, removing this eye will also restore any experience lost as a result of wearing it.~ 
 
 @3058 = ~Adahn's Ring~ 
 @3059 = ~ADAHN'S RING 
 Special:
-   Immunity to hold and paralyze 
+   +1 to Luck
 Weight: 0
 Usable only by Chaotic creatures 
 
-This is a gift you received from Adahn when you bid him farewell in the Smoldering Corpse Bar. It's a featureless metal ring that looks extremely thick and heavy, but it is almost weightless. It shifts as you watch, changing from silver, to bronze, to gold.~ 
+This is a gift you received from Adahn when you bid him farewell in the Smoldering Corpse Bar. It's a featureless metal ring that looks extremely thick and heavy, but it is almost weightless. It shifts as you watch, changing from silver, to bronze, to gold.
+
+^NNOTE: The main effects of luck are a bonus to hit, an increase in outgoing minimum damage, and a decrease in incoming maximum damage. Luck also offers smaller bonuses to certain Thief skills and initative rolls.~ 
 
 @3060 = ~Lover's Band~ 
 @3061 = ~Displacer Ring~ 
@@ -2284,9 +2325,11 @@ Mempa's Biting Ring, whose powerful aura protects its bearer from bodily harm, i
 @3072 = ~Negative Token~ 
 @3073 = ~NEGATIVE TOKEN 
 Special:
-   +2 to Armor Class and Saves against Shadows 
+   Protection from Shadows
 
-This is a "negative token": a flat, black disk that appears to have no substance to it at all. Turning it over reveals that it has no third dimension - there is no thickness to this item at all. This ring provides protection against the shadows that stalk you, making it more difficult for them to harm you.~ 
+This is a "negative token": a flat, black disk that appears to have no substance to it at all. Turning it over reveals that it has no third dimension - there is no thickness to this item at all. This ring provides protection against the shadows that stalk you, making it more difficult for them to harm you.
+
+^NNOTE: Protection effects grant a +2 bonus to Armor Class and Saving Throws against the specified creatures. Protection effects do not stack.~ 
 
 @3074 = ~Yevrah's Ring of Almost Invisibility~ 
 @3075 = ~YEVRAH'S RING OF ALMOST INVISIBILITY 
@@ -2376,11 +2419,12 @@ This ring looks like three rings that have been wrapped around each other. Just 
 Weight: 0
 
 This ivory ring was part of Deionarra's legacy. It radiates a slight glow, and though it is cold to the touch, the chill is strangely comforting. The ivory band stretches to fit the width of any finger.~ 
+
 @3093 = ~DEIONARRA'S WEDDING RING 
 Special:
    Immunity to normal weapons
 Weight: 0
-Usable only by Nameless One
+Usable only by the Nameless One
 
 
 This ivory ring was part of Deionarra's legacy. It radiates a slight glow, and though it is cold to the touch, the chill is strangely comforting. The ivory band stretches to fit the width of any finger.
@@ -2392,7 +2436,7 @@ Special:
    Immunity to normal weapons
    +25% Magic Resistance
 Weight: 0
-Usable only by Nameless One
+Usable only by the Nameless One
 
 This ivory ring was part of Deionarra's legacy, and through some unknown means, she has enhanced its power three-fold. Where it radiated only a slight glow before, it now burns with a cold, white fire along the edges. The fire does not burn - if anything, its touch is comforting.
 
@@ -2411,7 +2455,7 @@ Enchanted: +3
 Special: 
    Cannot miss 
    Subject to Magic Resistance
-Range: 30 ft 
+Range: 30 feet 
 Speed: 5
 Weight: 1 
 Proficiency: None 
@@ -2432,13 +2476,13 @@ Damage: 2-5 Magic
 Enchanted: +3
 Special: 
    Cannot miss 
-Range: 30 ft 
+Range: 30 feet 
 Speed: 5
 Weight: 1 
 Proficiency: None 
 Usable only by Mages
 
-This is the severed foot of some large bird. For whatever reason, someone has enchanted it, making it capable of casting the spell "Magic Missile".~
+This is the severed foot of some large bird. For whatever reason, someone has enchanted it, making it capable of casting a minor variant of the spell "Magic Missile".~
 
 @3098 = ~Clasp of Embalming~ 
 @3099 = ~CLASP OF EMBALMING 
@@ -2455,7 +2499,7 @@ This intricate metal bracelet has directions inscribed on the side of it. Judgin
 @4001 = ~ANNAH'S VEST 
 Armor Class: 8
 Special:
-   Immunity to hold and paralyze 
+   Immunity to hold, slow, and paralyze 
 Weight: 10
 Usable only by Annah
 
@@ -2466,7 +2510,7 @@ Annah's vest is similar to leather armor, but it seems more flexible and allows 
 Damage: 2-4 Piercing
 Enchanted: +1
 Special: 
-   +1 Attack per Round
+   +1/2 Attack per Round 
    +5% Critical Hit Chance
 THAC0: +1 
 Speed: 3
@@ -2485,7 +2529,7 @@ Usable only by Annah
 
 Perhaps the idea that Annah would wear anything solely for ornamental value makes you suspicious of these earrings. Upon closer examination, you discover these thin metal earrings are actually a series of well-crafted lockpicks. If need be, you can unhook them and use them to pick open stubborn locks. 
 
-^NNOTE: These earrings will only add to your Open Locks skill when they are equipped.^-~ 
+^NNOTE: These earrings will only add to your Open Locks skill when they are equipped.~ 
 
 @4006 = ~Jerkin of the Brazen Rogue~ 
 @4007 = ~JERKIN OF THE BRAZEN ROGUE
@@ -2513,12 +2557,14 @@ This piece of light leather armor was clearly fashioned for a woman. Even at a g
 @4011 = ~LOWER PLANES VERMIN ARMOR 
 Armor Class: 6
 Special: 
-   +2 to Armor Class and Saves against Lawful creatures
-   +2 to Armor Class and Saves against Good creatures    
+   Protection from Lawful creatures
+   Protection from Good creatures    
 Weight: 10
 Usable only by Annah
 
-This armor has been woven from the hides of various Abyssal vermin. The stitching thread appears to be a single white hair (though the type of creature is unknown). There are no metal fixtures, studs, or buckles anywhere on the armor... it is composed solely from the remains of living creatures.~  
+This armor has been woven from the hides of various Abyssal vermin. The stitching thread appears to be a single white hair (though the type of creature is unknown). There are no metal fixtures, studs, or buckles anywhere on the armor... it is composed solely from the remains of living creatures.
+
+^NNOTE: Protection effects grant a +2 bonus to Armor Class and Saving Throws against the specified creatures. Protection effects do not stack.~  
 @4012 = ~Dak'kon's Zerth Armor~ 
 @4013 = ~DAK'KON'S ZERTH ARMOR
 Armor Class: 5
@@ -2738,15 +2784,22 @@ Usable only by Fall-from-Grace
 The engravings on this bracelet are nothing short of beautiful. The craftsmanship reflects the skilled work of the Meh 'gahmi Sah 'ma nomadic tribes. This bracelet was carved for their greatest warrior-priestess, Bell, who sought to bring peace to the greater southern plains region. The enthralling purple stones inset along the bracelet give off a soft, warm, royal purple glow.~ 
 
 @4028 = ~Bodice of the Godless Priest~ 
-@4029 = ~BODICE OF THE GODLESS PRIESTESS
+@4029 = ~BODICE OF THE GODLESS PRIEST
 Special: 
    +2 Armor Class 
-   +20% Damage 
    +2 Casting Speed 
+   Supreme Healer
 Weight: 5
 Usable only by Fall-from-Grace
 
-This is a bodice much like the one Fall-from-Grace, Madame of the Brothel of Slating Intellectual Lusts, often wears. The enchantments woven into it by Goncalves enhance Fall-from-Grace's spellcasting capabilities quite considerably.~ 
+This is a bodice much like the one Fall-from-Grace, Madame of the Brothel of Slating Intellectual Lusts, often wears. The enchantments woven into it by Goncalves enhance Fall-from-Grace's spellcasting capabilities quite considerably.
+
+^0xFFFFFF00SUPREME HEALER 
+Modifies: Cure Wounds spells 
+
+Life is worth protecting.
+
+Your Cure Wounds spells always heal the maximum possible amount.^-~ 
 
 @4030 = ~Bodice of the Perilous Quest~ 
 @4031 = ~BODICE OF THE PERILOUS QUEST
@@ -2766,7 +2819,7 @@ Special:
 Weight: 5
 Usable only by Fall-from-Grace
 
-Fall-from-Grace's bodice is made from the tanned hide of some creature. Despite its prim and proper appearance, it does little to detract from Grace's sensuality. The bodice possesses no known powers other than some minor enchantments that prevent it from becoming dirty and repairs minor tears in the fabric.~ 
+Fall-from-Grace's bodice is made from the tanned hide of some creature. Despite its prim and proper appearance, it does little to detract from Grace's sensuality. The bodice possesses no known powers other than some minor enchantments that prevents it from becoming dirty and repairs minor tears in the fabric.~ 
 
 @4035 = ~Fall-from-Grace's Earrings~ 
 @4036 = ~FALL-FROM-GRACE'S EARRINGS
@@ -2780,18 +2833,20 @@ These are Fall-from-Grace's earrings. They give her a slight amount of protectio
 
 @4037 = ~Fall-from-Grace's Touch~ 
 @4038 = ~FALL-FROM-GRACE'S TOUCH 
-Damage: 1-3 Magic 
+Damage: None (see below) 
 Enchanted: +1
 Special: 
-   +1 Attack per Round
    No Strength Bonus to Damage
+   Transfers 1d3 Hit Points of Damage
 THAC0: +1
 Speed: 3
 Weight: 0
 Proficiency: Fists
 Usable only by Fall-from-Grace
 
-This is Fall-from-Grace's basic attack.~ 
+This is Fall-from-Grace's basic attack. On a successful attack, Fall-from-Grace transfers a small amount of her accumulated wounds to her target.
+
+^NNOTE: This attack will not inflict damage unless Fall-from-Grace is below her maximum hit points.~ 
 
 @4039 = ~Ignus' Fireballs~ 
 @4040 = ~IGNUS' FIREBALLS 
@@ -2801,7 +2856,7 @@ Special:
    +1 Attack per Round
    Cannot miss 
    Subject to Magic Resistance
-Range: 30 ft 
+Range: 30 feet 
 Speed: 3
 Weight: 0 
 Proficiency: None 
@@ -2816,9 +2871,9 @@ Speed: 1
 Weight: 0
 Proficiency: "Fists" (Don't ask.)
 
-Morte's bite is lethal, and he CAN masticate someone to death. As long as his quick weapon slots are not all filled, Morte can always select bite as his current weapon.
+Morte's bite is lethal, and he CAN masticate someone to death. 
 
-^NNOTE: Morte's bite is his default attack. Although the amount of damage he can do with his bite is relatively small, it allows him to attack quickly, which can infuriate any mage who's trying to cast a spell.^-~ 
+^NNOTE: Morte's bite is his default attack. Although the amount of damage he can do with his bite is relatively small, it allows him to attack quickly, which can infuriate any mage who's trying to cast a spell.~ 
 
 @4043 = ~Unnatural Teeth~ 
 @4044 = ~Fiend's Teeth~ 
@@ -2916,7 +2971,7 @@ The origin of this axe is unknown. If you were to hazard a guess, the axe gained
 @4058 = ~VHAILOR'S MERCYKILLER ARMOR 
 Armor Class: 2
 Special: 
-   +2 to Armor Class and Saves against Chaotic creatures 
+   Protection from Chaotic creatures 
 Weight: 75
 Usable only by Vhailor
 
@@ -2924,7 +2979,9 @@ This archaic suit of armor is animated by Vhailor's life force. It bears numerou
 
 Blades decorate the shoulders of this suit of armor, and the symbol of the Mercykiller faction (a red dragon with its wings outspread) is emblazoned on the chest piece.
 
-This suit of armor is part of Vhailor... destroying Vhailor (if such a thing were possible) would most likely result in the destruction of the armor.~ 
+This suit of armor is part of Vhailor... destroying Vhailor (if such a thing were possible) would most likely result in the destruction of the armor.
+
+^NNOTE: Protection effects grant a +2 bonus to Armor Class and Saving Throws against the specified creatures. Protection effects do not stack.~ 
 
 @4059 = ~Nordom's Crossbows~ 
 @4060 = ~NORDOM'S CROSSBOWS 
@@ -2934,7 +2991,7 @@ Special:
    2 Attacks per Round 
 THAC0: +1 
 Speed: 10
-Range: 30 ft 
+Range: 30 feet 
 Weight: 7
 Proficiency: Missle
 Usable only by Nordom 
@@ -3008,8 +3065,8 @@ The heads of these enchanted bolts have two long fangs curving out from the cent
 @4074 = ~BOLTS OF KESSEK THE DEVOURER 
 Damage: 4-7 Missile
 Special: 
-   Devouring (-2 max HP every 6 seconds; 60 seconds; no save) 
-   Bloodhunt (automatically attacks nearest enemy upon death; 60 seconds) 
+   Devouring (-2 max HP every 6 seconds; 30 seconds; no save) 
+   Bloodhunt (automatically attacks nearest enemy upon death; 30 seconds) 
 Enchanted: +3 
 Weight: 0
 Usable only by Nordom 
@@ -3082,7 +3139,7 @@ These enchanted bolts have a series of jagged black runes traced along the shaft
 @4085 = ~Winged Bolts~ 
 @4086 = ~WINGED BOLTS 
 Damage: 1-6 Missile
-Range: 60 ft 
+Range: 60 feet 
 Weight: 0
 Usable only by Nordom
 
@@ -3165,35 +3222,37 @@ Usable only by Nordom
 
 This bizarre bubble shaped scope has two lenses mounted side by side. When looking through it, everything appears double, which makes it difficult to distinguish which target is the real one.~ 
 @4106 = ~LENS OF SEEING DOUBLE 
+*CURSED*
 Special: 
    +100% Missile Damage 
+   Twinned Bolts (on-hit effects of bolts activate twice)
 THAC0: -3 
 Weight: 0 
 Usable only by Nordom 
 
 This bizarre bubble shaped scope has two lenses mounted side by side. When looking through it, everything appears double, which makes it difficult to distinguish which target is the real one. 
 
-The benefit of the lens, however, is any projectile the user fires at a target IS doubled while he is wearing the lens. When equipped, any projectile fired by the lens-wearer splits into two, doubling its damage.~ 
+The benefit of the lens, however, is any projectile the user fires at a target IS doubled while he is wearing the lens. When equipped, any projectile fired by the lens-wearer splits into two, doubling its damage and any other magical effects the bolt may be carrying.
+
+This item can only be unequipped through the use of a Remove Curse spell.~ 
 
 @4107 = ~Glittering Lens~ 
-@4108 = ~Lens of the Bat~ 
+@4108 = ~Lens of Eyes~ 
 @4109 = ~GLITTERING LENS
 Weight: 0
 Usable only by Nordom 
 
 This glittering lens looks like it's used as a sniper scope. Although you can't be sure, it looks as if there is a series of tiny eyeballs embedded in the lens itself.~ 
 
-@4110 = ~LENS OF THE BAT 
-*CURSED*
+@4110 = ~LENS OF EYES
 Special: 
-   -4 Sight Radius 
    Immunity to blind
    Immunity to backstabs 
    Can see Invisible creatures 
 Weight: 0
 Usably only by Nordom
 
-Whether a joke or the result of a bizarre experiment, some insane machinist dabbling in the Art has crafted a lens that "gifts" the user with the vision of a bat, forcing them to rely on echolocation and sound to locate enemies. The inventor must have wanted to force the user to appreciate the perspective, as the lens cannot be removed without a Remove Curse spell.~ 
+Tiny eyes are embedded throughout the lens. When equipped, it improves the wearer's vision significantly, allowing them to see in all directions. This additional visual information also allows the wearer to triangulate the location of invisible creatures.s~ 
 
 @4111 = ~Glittering Lens~ 
 @4112 = ~Lens of Perspicacity~ 
@@ -3235,8 +3294,6 @@ Usable only by Nordom
 
 This lens is made of blue glass that reminds you of a calm, cloudless sky.~ 
 @4122 = ~LENS OF THE HORIZON
-Special: 
-   +4 Sight Radius 
 THAC0: +3
 Weight: 0
 Usable only by Nordom
@@ -3312,53 +3369,364 @@ When this scope is equipped, a portion of the wearer phases out, and he becomes 
 
 @4135 = ~Ingress' Teeth~ 
 @4136 = ~INGRESS' TEETH
+Invokes: Swarm Curse (1/day)
 Damage: 3-5 Crushing/Piercing
 Enchanted: +2
-Invokes: Swarm Curse (1/day)
 THAC0: +2 
 Speed: 1
-Range: 10 ft 
+Range: 10 feet 
 Weight: 1
 Proficiency: Fists
 Usable only by Morte
 
-
 This is a handful of Ingress' living teeth. Apparently, they didn't want to go with her back through the portal to her home plane. They rattle amongst themselves whenever they are held close together; they remind you of a bunch of creepy ivory hopping bugs. When placed in Morte's mouth, the teeth seem uneasy, as if they are waiting for the first opportunity to escape. When Morte attacks, the teeth fly out of his mouth to bite and tear at his enemies.~ 
 
-@5000 = ~Bandages~ 
-@5001 = ~BANDAGES 
-Special: Heals 5 Hit Points
+@4137 = ~Ignus' Charm~ 
+@4138 = ~IGNUS' CHARM 
+Teaches: Seeking Flames
+Weight: 0 
+Usable only by the Nameless One
+Usable only by Mages
+
+This is your charred right index finger; the tip has been snapped off, and the flesh that once surrounded the bone has been turned to ash. It was but a *touch* from Ignus, but it was enough to leave lingering, blackened, scars on your hand. To make matters worse, you notice that your flesh has healed slowly and poorly from the wound... if Ignus were to attack you with a rage, he might be able to muster enough heat and flames that recovering would be difficult... perhaps even destroy you? The thought doesn't please you.
+
+Ignus has hinted that this charred remain of your finger somehow holds a fraction of his infernal power... now passed on to you. To invoke its power, you must slice off your finger again, place this stump there, then let the flesh heal over it. When this occurs, the traces of Ignus that remain upon the finger will 'kindle' a small portion of knowledge within you.~ 
+
+@4139 = ~Ignus' Eye~ 
+@4140 = ~IGNUS' EYE 
+Invokes: Horror (1/day)
+Special:
+   Blistering Gaze (nearby enemies suffer a -2 penalty to saves vs. spells and a -25% penalty to fire resistance)
+Weight: 0
+Usable only by the Nameless One
+
+This is the scorched remains of your eye, blistered by Ignus' touch. Ignus has hinted that this charred remain of your eye somehow holds a fraction of his infernal power... now passed on to you. When placed in your eye socket, your gaze causes others to see brief, terrible glimpses of the elemental forces Ignus draws upon, leaving them unsettled and vulnerable to the flames that will undoubtedly follow.~ 
+
+@4141 = ~Ignus' Innards~ 
+@4142 = ~IGNUS' INNARDS 
+Special:
+   Fire Damage: +25% 
+   Pyromancer
+Weight: 0
+Usable only by the Nameless One
+
+This is your charred mass of intestines; Ignus has hinted that these charred remains hold a fraction of his infernal power... now passed on to you. Ignus has taught you that everything *must* burn, and winding the incinerated viscera around your wrist allows you to channel this belief.
+
+^0xFFFFFF00PYROMANCER
+Modifies: Spells that deal acid, cold, or electricity damage 
+
+The world must burn. 
+
+Elemental damage you would deal with spells is converted into fire damage.^-~ 
+
+@4143 = ~Ignus' Hand~ 
+@4144 = ~IGNUS' HAND 
+Damage: 1-8 Fire 
+Enchanted: +3
+Special: 
+   Cannot miss 
+Range: 30 feet  
+Speed: 3
+Weight: 1 
+Proficiency: None 
+Usable only by Mages
+Usable only by the Nameless One
+
+This is your charred hand; it has been severed at the wrist, and the flesh that once surrounded the bone has been scoured clean, leaving only the stark white bones behind. Despite the lack of muscle and skin, however, the bones of the hand have been fused together so that the bones do not fall apart. The pain of having the hand separated from you was almost more than you could bear, and it left lingering, blackened, scars on your wrists and arm. To make matters worse, you notice that your flesh has healed slowly and poorly from the wound... if Ignus were to attack you with a rage, he might be able to muster enough heat and flames that recovering would be difficult... perhaps even destroy you? The thought doesn't please you. 
+
+Reattaching the fused bones to the stump transferred some traces of Ignus' magic to you. By focusing intently, you can light your own hand ablaze, allowing you to launch fireballs at your enemies. Strangely, this process hurts much less than the original ordeal.~ 
+
+@4145 = ~Second Circle of Zerthimon~ 
+@4146 = ~SECOND CIRCLE OF ZERTHIMON 
+Teaches: Scripture of Steel
+Weight: 1 
+Usable only by the Nameless One
+
+"*Know* that flesh cannot mark steel. *Know* that steel may mark flesh. In *knowing* this, Zerthimon became free."
+
+"*Know* that the tentacled ones were of flesh. They relied on the flesh and used it as tools for their will. One of the places where flesh served their will were the Fields of Husks on the False Worlds of the *illithids.*"
+
+"The Fields were where the bodies of the People were cast after the *illithids* had consumed their brains. When the brain had been devoured, the husks came to be fertilizer to grow the poison-stemmed grasses of the *illithids.* Zerthimon worked the Fields with no *knowing* of himself or what he had become. He was a tool of flesh, and the flesh was content."
+
+"It was upon these fields that Zerthimon came to *know* the scripture of steel. During one of the turnings, as Zerthimon tilled the Fields with his hands, he came across a husk whose brain remained within it. It has not been used as food. Yet it was dead."
+
+"The thought that one of the husks had died a death without serving as food for the *illithids* was a thought Zerthimon had difficulty understanding. From that thought, came a desire to *know* what had happened to the husk."
+
+"Embedded in the skull of the husk was a steel blade. It had pierced the bone. Zerthimon realized that was what had killed the husk. The steel had marked the flesh, but the flesh had not marked the steel."
+
+"Zerthimon took the blade and studied its surface. In it, he saw his reflection. It was in the reflection of the steel that Zerthimon first *knew* himself. Its edge was sharp, its will the wearer's. It was the blade that would come to be raised against Gith when Zerthimon made the Pronouncement of Two Skies."
+
+"Zerthimon kept the blade for many turnings, and many were the thoughts he had about it. He used it in the fields to aid his work. In using it, he thought about how it was not used."
+
+"The *illithids* were powerful. Zerthimon had believed that there was nothing that they did not *know.* Yet the *illithids* never carried tools of steel. They only used flesh as tools. Everything was done through flesh, for the tentacled ones were made of flesh and they *knew* flesh. Yet steel was superior to flesh. When the blade had killed the husk, it was the flesh that had been weaker than the steel."
+
+"It was then that Zerthimon came to *know* that flesh yielded to steel. In *knowing* that, he came to *know* that steel was stronger than the *illithids.*"
+
+"Steel became the scripture of the People. *Know* that steel is the scripture by which the People came to *know* freedom."
+
+^0xFFFFFF00SCRIPTURE OF STEEL
+Modifies: Enchant Weapon
+
+One of the earliest teachings of Zerthimon, this incantation inspires your allies by  *knowing* that flesh yields to steel. 
+
+Party members within 60 feet gain a +1 bonus to hit and damage.^-~ 
+
+@4147 = ~Third Circle of Zerthimon~ 
+@4148 = ~THIRD CIRCLE OF ZERTHIMON 
+Teaches: Submerge the Will
+Weight: 1 
+Usable only by the Nameless One
+
+"Zerthimon labored many turnings for the *illithid* Arlathii Twice-Deceased and his partnership in the cavernous heavens of the False Worlds. His duties would have broken the backs of many others, but Zerthimon labored on, suffering torment and exhaustion."
+
+"It came to pass that the *illithid* Arlathii Twice-Deceased ordered Zerthimon before him in his many-veined galleria. He claimed that Zerthimon had committed slights of obstinance and cowardice against his partnership. The claim had no weight of truth, for Arlathii only wished to *know* if flames raged within Zerthimon's heart. He wished to *know* if Zerthimon's heart was one of a slave or of a rebel."
+
+"Zerthimon surrendered to the *illithid* punishment rather than reveal his new-found strength. He *knew* that were he to show the hatred in his heart, it would serve nothing, and it would harm others that felt as he. He chose to endure the punishment and was placed within the Pillars of Silence so he might suffer for a turning."
+
+"Lashed upon the Pillars, Zerthimon moved his mind to a place where pain could not reach, leaving his body behind. He lasted a turning, and when he was brought before Arlathii Twice-Deceased, he gave gratitude for his punishment to the *illithid* as was custom. In so doing, he proved himself a slave in the *illithid* eyes while his heart remained free."
+
+"By enduring and quenching the fires of his hatred, he allowed Arlathii Twice-Deceased to think him weak. When the time of the Rising came, Arlathii was the first of the *illithid* to *know* death by Zerthimon's hand and die a third death."
+
+^0xFFFFFF00SUBMERGE THE WILL 
+Modifies: Shield
+
+When the will is submerged, new strength is gained: the strength to endure and protect against adversity.
+
+The caster also gains a +2 bonus to Saving Throws.^-~ 
+
+@4149 = ~Fourth Circle of Zerthimon~ 
+@4150 = ~FOURTH CIRCLE OF ZERTHIMON 
+Teaches: Vilquar's Eye 
+Weight: 1 
+Usable only by the Nameless One
+
+"*Know* that the Rising of the People against the *illithid* was a thing built upon many ten-turnings of labor. Many of the People were gathered and taught in secret the ways of defeating their *illithid* masters. They were taught to shield their minds, and use them as weapons. They were taught the scripture of steel, and most importantly, they were given the *knowing* of freedom."
+
+"Some of the People learned the nature of freedom and took it into their hearts. The *knowing* gave them strength. Others feared freedom and kept silent. But there were those that *knew* freedom and *knew* slavery, and it was their choice that the People remain chained. One of these was Vilquar."
+
+"Vilquar saw no *freedom* in the Rising, but opportunity. He saw that the *illithid* had spawned across many of the False Worlds. Their Worlds numbered so many that their vision was turned only outwards, to all they did not already touch. Vilquar's eye saw that much took place that the *illithid* did not see. To the Rising, the *illithid* were blinded."
+
+"Vilquar came before his master, the *illithid* Zhijitaris, with the *knowing* of the Rising. Vilquar added to his chains and offered to be their eyes against the Rising. In exchange, Vilquar asked that he be rewarded for his service. The *illithid* agreed to his contract."
+
+"At the bonding of the contract, a dark time occurred. Many were the betrayals Vilquar committed and many were the People that the *illithids* fed upon to stem the Rising. It seemed that the Rising would die before it could occur, and the *illithid* were pleased with Vilquar's eye."
+
+"It was near the end of this dark time when Zerthimon came to *know* Vilquar's treacheries. In *knowing* Vilquar's eye, Zerthimon forced the Rising to silence itself, so that Vilquar might think at last his treacheries had succeeded, and the Rising had fallen. He *knew* that Vilquar's eye was filled only with the reward he had been promised. He would see what he wished to see."
+
+"With greed beating in his heart, Vilquar came upon the *illithid* Zhijitaris and spoke to his master of his success. He said that the Rising had fallen, and the *illithids* were safe to turn their eyes outwards once more. He praised their wisdom in using Vilquar's eye, and he asked them for his reward."
+
+"In his greed-blindness, Vilquar had forgotten the *knowing* of why the People had sought freedom. He had lost the *knowing* of what slavery meant. He had forgotten what his *illithid* masters saw when they looked upon him. And so Vilquar's betrayal of the People was ended with another betrayal. Vilquar came to *know* that when Vilquar's eye has nothing left to see, Vilquar's eye is useless."
+
+ "The *illithid* gave to Vilquar his reward, opening the cavity of his skull and devouring his brain. Vilquar's corpse was cast upon the Fields of Husks so its blood might water the poison-stemmed grasses."
+
+^0xFFFFFF00VILQUAR'S EYE 
+Modifies: Blindness
+
+Vilquar's Eye is branded upon the one who is foolish enough to cross the caster. Vilquar's shortsightedness becomes the target's vision, and soon the world is muddled and dark.
+
+The target suffers a -4 penalty to their saving throw.^-~ 
+
+@4151 = ~Fifth Circle of Zerthimon~ 
+@4152 = ~FIFTH CIRCLE OF ZERTHIMON 
+Teaches: Power of One 
+Weight: 1 
+Usable only by the Nameless One
+
+"*Know* that the Rising of the People against the *illithid* was a thing built upon many ten-turnings of labor. Many of the People were gathered and taught in secret the ways of defeating their *illithid* masters. They were taught to shield their minds, and use them as weapons. They were taught the scripture of steel, and most importantly, they were given the *knowing* of freedom."
+
+"Some of the People learned the nature of freedom and took it into their hearts. The *knowing* gave them strength. Others feared freedom and kept silent. But there were those that *knew* freedom and *knew* slavery, and it was their choice that the People remain chained. One of these was Vilquar."
+
+"Vilquar saw no *freedom* in the Rising, but opportunity. He saw that the *illithid* had spawned across many of the False Worlds. Their Worlds numbered so many that their vision was turned only outwards, to all they did not already touch. Vilquar's eye saw that much took place that the *illithid* did not see. To the Rising, the *illithid* were blinded."
+
+"Vilquar came before his master, the *illithid* Zhijitaris, with the *knowing* of the Rising. Vilquar added to his chains and offered to be their eyes against the Rising. In exchange, Vilquar asked that he be rewarded for his service. The *illithid* agreed to his contract."
+
+"At the bonding of the contract, a dark time occurred. Many were the betrayals Vilquar committed and many were the People that the *illithids* fed upon to stem the Rising. It seemed that the Rising would die before it could occur, and the *illithid* were pleased with Vilquar's eye."
+
+"It was near the end of this dark time when Zerthimon came to *know* Vilquar's treacheries. In *knowing* Vilquar's eye, Zerthimon forced the Rising to silence itself, so that Vilquar might think at last his treacheries had succeeded, and the Rising had fallen. He *knew* that Vilquar's eye was filled only with the reward he had been promised. He would see what he wished to see."
+
+"With greed beating in his heart, Vilquar came upon the *illithid* Zhijitaris and spoke to his master of his success. He said that the Rising had fallen, and the *illithids* were safe to turn their eyes outwards once more. He praised their wisdom in using Vilquar's eye, and he asked them for his reward."
+
+"In his greed-blindness, Vilquar had forgotten the *knowing* of why the People had sought freedom. He had lost the *knowing* of what slavery meant. He had forgotten what his *illithid* masters saw when they looked upon him. And so Vilquar's betrayal of the People was ended with another betrayal. Vilquar came to *know* that when Vilquar's eye has nothing left to see, Vilquar's eye is useless."
+
+ "The *illithid* gave to Vilquar his reward, opening the cavity of his skull and devouring his brain. Vilquar's corpse was cast upon the Fields of Husks so its blood might water the poison-stemmed grasses."
+
+^0xFFFFFF00POWER OF ONE 
+Modifies: Strength
+
+And from Gith, the warrior-queen, came the *knowing* of oneself. And from the *knowing,* came immense power.
+
+The target also gains a +4 bonus to Wisdom.^-~ 
+
+@4153 = ~Sixth Circle of Zerthimon~ 
+@4154 = ~SIXTH CIRCLE OF ZERTHIMON 
+Teaches: Balance in All Things 
+Weight: 1 
+Usable only by the Nameless One and Dak'kon
+
+"Upon the Blasted Plains, Zerthimon told Gith there cannot be two skies. In the wake of his words, came war."
+
+"So it came to pass that the People had achieved victory over their *illithid* masters. They *knew* freedom. Yet before the green fires had died from the battlefield, Gith spoke of continuing the war. Many, still filled with the bloodlust in their hearts, agreed with her. She spoke of not merely defeating the *illithids,* but destroying all *illithids* across the planes. After the *illithids* had been exterminated, they would bring war to all other races they encountered."
+
+"In Gith's heart, fires raged. She lived in war, and in war, she *knew* herself. All that her eyes saw, she wanted to conquer."
+
+"Zerthimon spoke the beginnings of that which was against Gith's will. He spoke that the People already *knew* freedom. Now they should *know* themselves again and mend the damage that had been done to the People. Behind his words were many other hearts of the People who were weary of the war against the *illithid.*"
+
+"*Know* that Gith's heart was not Zerthimon's heart on this matter. She said that the war would continue. The *illithid* would be destroyed. Their flesh would be no more. Then the People would claim the False Worlds as their own. Gith told Zerthimon that they would be under the same sky in this matter. The words were like bared steel."
+
+"From Zerthimon came the Pronouncement of Two Skies. In the wake of his words came war."
+
+^0xFFFFFF00BALANCE IN ALL THINGS
+Modifies: Pain Mirror
+
+From the Separation of the People, came the *knowing* of Two Skies. From the *knowing* of Two Skies came the realization that hurting others, hurts oneself.
+
+The caster also inflicts 1d6 crushing damage and 1d6 piercing damage on any creature who successfully hits with an attack.^-~ 
+
+@4155 = ~Seventh Circle of Zerthimon~ 
+@4156 = ~SEVENTH CIRCLE OF ZERTHIMON 
+Teaches: Missile of Patience
+Weight: 0 
+Usable only by the Nameless One and Dak'kon
+
+"*Know* that the Rising of the People against the *illithid* was a thing built upon many turnings. Many were the People who lived and died under time's blade while the Rising was shaped."
+
+"The Rising was shaped upon a slow foundation. Steel was gathered so that it might mark *illithid* flesh. A means of *knowing* the movements of the *illithids* were established, at first weak and confused, then stronger, like a child finding its voice. When the movements were *known,* then the *illithids* were observed. In observing them, their ways of the mind were *known.*"
+
+"When the ways of the *illithid* were *known,* many of the People were gathered and taught in secret the means to shield their minds, and the way to harness their will as weapons. They were taught the scripture of steel, and most importantly, they were given the *knowing* of freedom."
+
+"These things were not learned quickly. The *knowing* of much of the ways was slow, and in all these things, time's weight fell upon all. From the *knowing* of one's reflection in a steel blade, to the *knowing* of submerging the will, to the *knowing* of seeing itself. All of these things and more the People built upon. In time, they came to *know* the whole."~ 
+
+@4157 = ~Eighth Circle of Zerthimon~ 
+@4158 = ~EIGHTH CIRCLE OF ZERTHIMON 
+Teaches: Zerthimon's Focus
+Weight: 0 
+Usable only by the Nameless One and Dak'kon
+
+"*Know* that a mind divided divides the man. The will and the hand must be as one. In *knowing* the self, one becomes strong."
+
+"*Know* that if you *know* a course of action to be true in your heart, do not betray it because the path leads to hardship. *Know* that without suffering, the Rising would have never been, and the People would never have come to *know* themselves."
+
+"*Know* that there is nothing in all the Worlds that can stand against unity. When all *know* a single purpose, when all hands are guided by one will, and all act with the same intent, the planes themselves may be moved."
+
+"A divided mind is one that does not *know* itself. When it is divided, it cleaves the body in two. When one has a single purpose, the body is strengthened. In *knowing* the self, grow strong."~
+
+@5000 = ~Scroll of %spl_name%~ 
+@5001 = ~SCROLL OF %spl_name_upper% 
+Teaches or Invokes: %spl_name% 
+Weight: 0
+Usable only by Mages
+
+%spl_desc%~ 
+
+@5002 = ~SCROLL OF %spl_name_upper% 
+Invokes: %spl_name% 
+Weight: 0
+Usable only by Priests
+
+%spl_desc%~ 
+
+@5003 = ~Dustman Embalming Charm~ 
+@5004 = ~DUSTMAN EMBALMING CHARM
+Invokes: Embalm (3 uses)
+Weight: 0
+Usable only on Nameless One and Morte
+
+This strange metal bracelet has directions inscribed on the side of it. Judging from the crude text, it appears that the bracelet works by being held by a living creature, then while pronouncing a mantra to the 'True Death,' it is touched to the forehead of a zombie or skeleton. When this is done, the minor enchantment held within the item spreads through the corpse, strengthening their bones, killing traces of corpse rot and/or grave mold, and helping to seal minor tears in the skin.
+
+^NNOTE: This item will work on either you or Morte. Simply place it in your quick item slot, then use it from the quick menu on Morte (or have Morte use it on you) in order for it to take effect.~
+
+@5005 = ~Divine Censer~ 
+@5006 = ~DIVINE CENSER 
+Invokes: Raise Dead (3 uses)
+Weight: 3
+
+When lit, this censer has the power to entice the soul back of the recently departed. Unfortunately, there is only a limited amount of incense left in it.~
+
+@5007 = ~Whispering Flask~
+@5008 = ~WHISPERING FLASK
+Invokes: Aid
+Usable only by Githzerai
+
+This container holds a peculiar powder called "Whispering Motes" (loose translation of the gith expression), a form of healing powder commonly used by the githzerai on the Plane of Limbo. When the spice is removed from the flask and tossed in the air, it travels through allies' bodies, generating raw matter to fill up the "holes" in their physical form, no matter how small or large. In addition to its curative properties, the spice is also the element in several of their rites of passage... it is believed that the spice also fills in the "holes" in a person's psyche, removing doubts and giving them focus and purpose.~ 
+
+@5009 = ~%itm_desc% 
+
+^0xFFFFFF00%spl_desc%^-~ 
+
+@5010 = ~BLACK-BARBED SEED 
+Teaches or Invokes: Black-Barbed Curse
+Weight: 0
+Usable only by Mages
+
+These malevolent seeds contain a portion of the black-barbed maze within themselves. Their power is activated when the seed is hurled at the ground in front of an opponent - when the seed strikes the ground, it sprouts into black-barbed black branches that tear hungrily into the victim's body. Each seed contains only one such curse.~ 
+
+@5011 = ~RUNE OF LESSER WARDING
+Teaches or Invokes: Mage Armor
+Weight: 5
+Usable only by Mages
+
+Upon closer examination of the runes covering the surface of this breastplate, you think you might be able to unlock the rune's power and use it to invoke a primitive warding enchantment, similar to the one that protected the giant skeleton. Activating the rune will destroy the breastplate, however.~ 
+
+@5012 = ~RUNE OF ARMOR
+Teaches or Invokes: Mage Armor
+Weight: 5
+Usable only by Mages
+
+Upon closer examination of this breastplate, you realize you didn't mar the warding rune beyond recognition. In fact, unlike the other breastplates, the spell that maintained the integrity of the giant skeleton is mostly intact, so much so you could either cast the runes as a spell or copy them into a spell book and keep it as part of your arsenal. Either casting or copying the spell will destroy the breastplate, however.~ 
+
+@5013 = ~RUNE OF GREATER WARDING
+Teaches or Invokes: Shield
+Weight: 5
+Usable only by Mages
+
+Upon closer examination of the runes covering the surface of this breastplate, you think you might be able to unlock the rune's power and use it to invoke a primitive warding enchantment, similar to the one that protected the giant skeleton. Activating the rune will destroy the breastplate, however. ~ 
+
+
+@5014 = ~RUNE OF SHIELDING
+Teaches or Invokes: Shield
+Weight: 5
+Usable only by Mages
+
+Upon closer examination of this breastplate, you realize you didn't mar the warding rune beyond recognition. In fact, unlike the other breastplates, the spell that maintained the integrity of the giant skeleton is mostly intact, so much so you could either cast the runes as a spell or copy them into a spell book and keep it as part of your arsenal. Either casting or copying the spell will destroy the breastplate, however.~ 
+
+@5015 = ~TWISTED GEAR OF ENOLL EVA
+(Minor Artifact)
+Teaches: Enoll Eva's Duplication
+Weight: 2
+Usable only by Mages
+
+The heavy gear that lies in the middle of this twisted mass of junk holds the last algebraic ruminations of Enoll Eva, the recently disintegrated Creative Director of Rubikon. Inscribed upon this twisted gear is a complex mathematical equation the modron discovered while attempting to calculate the permutations of the Rubikon maze. It is likely the presence of Limbo had an impact on his thoughts, inspiring the narrow-minded modron to think of something both brilliant and extremely dangerous.
+
+Once "calculated" (cast), Enoll Eva's equation allows all subsequent actions to be doubled or duplicated. During confrontations, all physical or magical attacks are doubled - dealing twice the amount of damage.
+
+How it ended up inside Nordom's frame is unknown, but the rogue modron may have picked it up while gathering wayward items in the Rubikon maze.~ 
+
+@5016 = ~RECIPE: CHROMATIC ORB 
+Teaches: Chromatic Orb
+Weight: 0
+Usable only by Mages
+
+This tattered card has the recipe for the ingredients and the incantations necessary for the minor evocation, "Chromatic Orb."~ 
+
+@5017 = ~RECIPE: IDENTIFY
+Teaches: Identify
+Weight: 0
+Usable only by Mages
+
+This tattered card has the recipe for the ingredients and the incantations necessary for the minor divination spell, "Identify." This spell reveals the mysteries of an enchanted object, allowing you to know its exact abilities. ~ 
+
+@5018 = ~RECIPE: BLOOD BRIDGE
+Teaches: Blood Bridge
+Weight: 0
+Usable only by Mages
+
+This tattered card has the recipe for the ingredients and the incantations necessary for the necromantic spell, "Blood Bridge." This spell allows the caster to share a portion of his life with others, weakening himself but strengthening others. ~ 
+
+@5019 = ~CRUNCHITY CANDY
+Invokes: Mage Armor
 Weight: 0
 
-This is a roll of bandages, useful for stanching minor wounds. 
+This piece of chocolate is coated with a crisp, sugary shell. Eating it temporarily coats the devourer with a magically crisp, crunchy coating of their own.~ 
 
-^NNOTE: When used, bandages will heal a character for 5 hit points of damage. To use them, either select the 'Use' button below or place them in one of your quick slots and use them on the quick action menu on the world screen. 
-
-NOTE: Bandages are "stackable" items. When you pick them up, they automatically stack on top of one another in your inventory, freeing up slots for other items. <UNSTACK> You will then be given an option to divide the stack.^-~ 
-
-@5002 = ~Blood Charm~ 
-@5003 = ~BLOOD CHARM 
-Special: Heals User 18 Hit Points
-Weight: 0
-
-This glistening drop of blood is as hard and smooth as a pearl. When placed on the tongue, it dissolves instantly and spreads through the user's veins and heart.
-
-Like its younger cousin, the clot charm, the blood charm stimulates the user's blood into clotting and scabbing over existing wounds, healing damage the user may have suffered before consuming the charm. However, while the blood charm's initial healing effect is more powerful than the clot charm, it has no other lasting effects.~ 
-
-@5004 = ~Bloodfly Charm~
-@5005 = ~BLOODFLY CHARM 
-Special: User Regenerates 1 Hit Point per Second (60 seconds) 
-Weight: 0
-
-Blood flies are pests believed to have originated from one of the Lower Planes. In many ways, they resemble mosquitoes with an insatiable appetite - a cloud of blood flies can suck all the blood from a human body within minutes. Their stingers are capable of penetrating even the skin of fiends.
-
-Despite their vicious appetite and temperament, blood flies are used by healers to draw forth diseased blood from an individual or even drain blood from a dead body. On occasion, blood flies are used to siphon off rare types of blood and are then paralyzed with powders or spells and kept in storage for future use. 
-
-This particular blood fly charm seems to hold the blood of a lesser fiend, an abishai, in its food sac. When this paralyzed fly is consumed, the user gains the ability to regenerate health for a certain period of time. If the character is already able to regenerate, then the regeneration rate is increased.~ 
-
-@5006 = ~Bone Charm~ 
-@5007 = ~BONE CHARM 
-~ 
 
 @6000 = ~Tattoo of Warding~ 
 @6001 = ~TATTOO OF WARDING
@@ -3456,13 +3824,14 @@ Usable only by the Nameless One
 
 Some of Fall-from-Grace's presence must be rubbing off on you, for this tattoo allows you to steady your thoughts and take events from a calm perspective, allowing you to gain more experience from your encounters.
 
-^NNOTE: Due to the way the game handles Experience bonuses, removing this tattoo will also remove any bonus experience gained as a result of wearing it.^~ 
+^NNOTE: Due to the way the game handles Experience bonuses, removing this tattoo will also remove any bonus experience gained as a result of wearing it.~ 
    
 @6026 = ~Tattoo of Ignus~ 
 @6027 = ~TATTOO OF IGNUS 
 Special:
-   +50% Fire Damage
-   Immunity to fire and magical fire 
+   +25% Fire Damage
+   +50% Fire Resistance 
+   +50% Magic Fire Resistance 
 Weight: 0 
 Usable only by the Nameless One 
 
@@ -3474,7 +3843,9 @@ Special: +1 Luck
 Weight: 0 
 Usable only by the Nameless One 
 
-For all Morte's faults, having him as a companion makes you seem more capable and not so much of a stranger to Sigil's streets.~ 
+For all Morte's faults, having him as a companion makes you seem more capable and not so much of a stranger to Sigil's streets.
+
+^NNOTE: The main effects of luck are a bonus to hit, an increase in outgoing minimum damage, and a decrease in incoming maximum damage. Luck also offers smaller bonuses to certain Thief skills and initative rolls.~ 
 
 @6030 = ~Tattoo of Nordom~ 
 @6031 = ~TATTOO OF NORDOM 
@@ -3482,7 +3853,7 @@ Special:
    +2 to Intelligence
    -1 to Wisdom
 Weight: 0
-Usable only by Nameless One
+Usable only by the Nameless One
 
 Some of Nordom's presence must be rubbing off on you, for this tattoo allows you to tap into his (mostly) ordered and logical mind. Unfortunately, by doing so, your ability to comprehend the world around you takes a fall, making it more difficult to learn from your experiences.~ 
 
@@ -3492,7 +3863,7 @@ Special:
    +2 Weapon Damage against non-Lawful creatures 
    +4 Weapon Damage against Chaotic Creatures
 Weight: 0
-Usable only by Nameless One
+Usable only by the Nameless One
 
 Vhailor can be a difficult companion to travel with at times, but his presence provides you with the conviction to attack those you judge corrupt with increased fervor.~
 
@@ -3522,7 +3893,8 @@ Wearing this tattoo lets you channel the philosophy of the Dustmen by helping gu
 @6038 = ~Tattoo of the Godsmen~ 
 @6039 = ~TATTOO OF THE GODSMEN 
 Special: 
-   Blessed (+1 to hit and saves) 
+   +1 to THAC0 
+   +1 to Saving Throws
 Weight: 0
 Usable only by Godsmen  
 
@@ -3541,43 +3913,51 @@ This tattoo enhances the player's senses; as a side effect, the wearer can use t
 @6042 = ~Tattoo of the Xaositects~ 
 @6043 = ~TATTOO OF THE XAOSITECTS 
 Special: 
-   +2 to Armor Class and Saves against Lawful creatures 
+   Protection from Lawful creatures 
 Weight: 0 
 Usable only by Xaositects 
 
-This tattoo channels your belief in the philosophy of the Xaositects (most specifically, that chaos is the only way forward). As such, it protects you from any lawful beings who may attempt to interfere with the change you bring to the cosmos.~ 
+This tattoo channels your belief in the philosophy of the Xaositects (most specifically, that chaos is the only way forward). As such, it protects you from any lawful beings who may attempt to interfere with the change you bring to the cosmos.
+
+^NNOTE: Protection effects grant a +2 bonus to Armor Class and Saving Throws against the specified creatures. Protection effects do not stack.~ 
 
 @6044 = ~Razor Angel Ink~ 
 @6045 = ~RAZOR ANGEL INK 
 Special: 
-   +2 to Armor Class and Saves against Evil creatures 
+   Protection from Evil creatures 
 Weight: 0 
 Usable only by non-Evil characters
 Usable only by the Nameless One
 
-This tattoo is a reminder of the aid you gave to the Razor Angels in the Alley of Dangerous Angles. Your strike against the evil in the heart of the Alley now grants you some protection against those with spite in their hearts.~ 
+This tattoo is a reminder of the aid you gave to the Razor Angels in the Alley of Dangerous Angles. Your strike against the evil in the heart of the Alley now grants you some protection against those with spite in their hearts.
+
+^NNOTE: Protection effects grant a +2 bonus to Armor Class and Saving Throws against the specified creatures. Protection effects do not stack.~ 
 
 @6046 = ~Mark of the Dark Alley Shivs~ 
 @6047 = ~MARK OF THE DARK ALLEY SHIVS 
 Special: 
-   +2 to Armor Class and Saves against Good creatures 
+   Protection from Good creatures 
 Weight: 0 
 Usable only by non-Good characters
 Usable only by the Nameless One
 
-This tattoo is a reminder of the aid you gave to the Dark Alley Shivs in the Alley of Dangerous Angles. Your strike against the weak in the heart of the Alley now grants you some protection against those who let morality hold them back.~ 
+This tattoo is a reminder of the aid you gave to the Dark Alley Shivs in the Alley of Dangerous Angles. Your strike against the weak in the heart of the Alley now grants you some protection against those who let morality hold them back.
+
+^NNOTE: Protection effects grant a +2 bonus to Armor Class and Saving Throws against the specified creatures. Protection effects do not stack.~ 
 
 @6048 = ~Tattoo of the Black Rose~ 
 @6049 = ~TATTOO OF THE BLACK ROSE 
 Special: 
-   +2 to Armor Class and Saves against Lawful Good creatures 
-   +2 to Armor Class and Saves against Lawful Evil creatures 
-   +2 to Armor Class and Saves against Chaotic Good creatures 
-   +2 to Armor Class and Saves against Chaotic Evil creatures 
+   Protection from Lawful Good creatures 
+   Protection from Lawful Evil creatures 
+   Protection from Chaotic Good creatures 
+   Protection from Chaotic Evil creatures 
 Weight: 0 
 Usable only by the Nameless One
 
-This tattoo is a reminder of the aid you gave to Black Rose in the Alley of Dangerous Angles. Your efforts to maintain the balance in tenuous circumstances now grant you some protection against those with more extreme ideologies.~ 
+This tattoo is a reminder of the aid you gave to Black Rose in the Alley of Dangerous Angles. Your efforts to maintain the balance in tenuous circumstances now grant you some protection against those with more extreme ideologies.
+
+^NNOTE: Protection effects grant a +2 bonus to Armor Class and Saving Throws against the specified creatures. Protection effects do not stack.~ 
 
 @6050 = ~Tattoo of the Criers' Dreams~ 
 @6051 = ~TATTOO OF the CRIERS' DREAMS 
@@ -3681,22 +4061,26 @@ In activating the tattoo, some of the memories of living on Sigil's streets will
 @6068 = ~The Number of Ku'U Yin~ 
 @6069 = ~THE NUMBER OF KU'U YIN 
 Special: 
-   +2 to Armor Class and Saves against Chaotic creatures 
+   Protection from Chaotic creatures 
 Weight: 0 
 Usable only by non-Chaotic characters
 Usable only by the Nameless One
 
-This is a tattoo of a number, an intricate weaving of ink and flesh. It squirms when held, as if it sought out a host. It is the number of Ku'u Yin, a personal identifier that radiates Law. When applied, the tattoo works itself into the skin of its owner, protecting it against the depredations of strongly chaotic creatures. It cannot be used by someone of chaotic alignment.~ 
+This is a tattoo of a number, an intricate weaving of ink and flesh. It squirms when held, as if it sought out a host. It is the number of Ku'u Yin, a personal identifier that radiates Law. When applied, the tattoo works itself into the skin of its owner, protecting it against the depredations of strongly chaotic creatures. It cannot be used by someone of chaotic alignment.
+
+^NNOTE: Protection effects grant a +2 bonus to Armor Class and Saving Throws against the specified creatures. Protection effects do not stack.~ 
    
 @6070 = ~Tattoo of the Restless Dead~ 
 @6071 = ~TATTOO OF THE RESTLESS DEAD 
-Invokes: Bless (2/day)
+Invokes: Blessing (2/day) 
 Special: 
-   +2 to Armor Class and Saves against Undead creatures 
+   Protection from Undead
 Weight: 0 
 Usable only by the Nameless One
 
-This tattoo recognizes your efforts to calm the restless dead of the mausoleum. You may draw upon their gratitude to bless yourself or your companions, and the spirits also protect you from others of their kind who may cause you harm.~ 
+This tattoo recognizes your efforts to calm the restless dead of the mausoleum. You may draw upon their gratitude to bless yourself or your companions, and the spirits also protect you from others of their kind who may cause you harm.
+
+^NNOTE: Protection effects grant a +2 bonus to Armor Class and Saving Throws against the specified creatures. Protection effects do not stack.~ 
 
 @6072 = ~Tattoo of the Tenement Shadows~ 
 @6073 = ~TATTOO OF THE TENEMENT SHADOWS 
@@ -3731,11 +4115,20 @@ This tattoo recounts how you were given a box to deliver, and how you opened it 
 @6079 = ~TATTOO OF THE BANISHED FIEND 
 Special: 
    +2 to THAC0 against Fiends 
-   Fiends you critically hit are banished (slain; no save) 
+   Fiends you critically hit are "banished" (no save) 
 Weight: 0 
 Usable only by the Nameless One 
 
 This tattoo recounts how you were given a box to deliver, and upon delivery you found out that it contained a vile fiend, which was swiftly banished back to the Lower Planes. This experience has taught you a great deal about handling demons and devils, and you even learned a bit about banishing fiends back to where they came from.~ 
+
+@6080 = ~Tattoo of the Shadows~ 
+@6081 = ~TATTOO OF THE SHADOWS 
+Special: 
+   Upon entering combat, you become invisible (30 seconds)
+Weight: 0 
+Usable only by the Nameless One 
+
+This tattoo recognizes your mastery of stealth, marking you as a shadow against anything that seeks to harm you. When you sense conflict, you instinctively hide, allowing you to analyze the situation before reappearing from where your foes least expect.~ 
 
 @7000 = ~Tattoo of the Betrayer~ 
 @7001 = ~TATTOO OF THE BETRAYER
@@ -3765,7 +4158,7 @@ This tattoo represents the fact you have achieved the pinnacle of your skills in
 Special:
    +1 to Strength
    +1 to Charisma
-   Automatically detect evil 
+   Detect Evil (nearby evil creatures are periodically highlighted)
    +2 to THAC0 against Evil creatures 
    +2 to Damage against Evil creatures 
    Attacks are treated as +3 weapons against Evil creatures
@@ -3794,7 +4187,7 @@ When worn, the tattoo seems to bring out a survival instinct in you, making you 
 @7009 = ~TATTOO OF THE ARCHMAGE 
 Special:
    +2 to Intelligence
-   Each round, refresh an expended 1st level spell slot
+   Each round, refresh an expended 1st level arcane spell slot
 Weight: 0
 Usable only by the Nameless One
 
@@ -3821,7 +4214,7 @@ Usable only by the Nameless One
 
 This tattoo represents the fact you have achieved the pinnacle of your skills in the stealthy arts. This tattoo heightens your reflexes and your innate resourcefulness, allowing you to use any magic item.
 
-^NNOTE: This tattoo disables your ability to equip other chest tattoos. To equip a different one, first unequip this item.^~
+^NNOTE: This tattoo disables your ability to equip other chest tattoos. To equip a different one, first unequip this item.~
 
 @7014 = ~Tattoo of the Taleweaver~ 
 @7015 = ~TATTOO OF THE TALEWEAVER 
@@ -3840,8 +4233,8 @@ Ever since you've heard Yves' tales, you can use this tattoo to draw upon some o
 Special:
    +1 to Strength
    +1 to Wisdom 
-   +15% Critical Hit Chance
-   Scripture of Steel (you and nearby allies; +1 to hit, damage, and saves)
+   Zerthimon's Focus (+15% Critical Hit Chance)
+   Attacks are treated as +3 weapons
 Weight: 0
 Usable only by the Nameless One
 
@@ -3851,11 +4244,86 @@ This tattoo recognizes your knowledge of Zerthimon's teachings and marks you as 
 @7019 = ~TATTOO OF THE HIEROPHANT 
 Special:
    +2 to Wisdom
-   Each round, refresh an expended 1st level spell slot
+   Each round, refresh an expended 1st level divine spell slot
 Weight: 0
 Usable only by the Nameless One
 
 This tattoo symbolizes your extensive understanding of the power of belief. Your ability to use belief to shape reality is substantially improved, heightening your awareness and force of will considerably, and allowing you to continously invoke your most fundamental spells.~
+
+@7020 = ~Tattoo of the Planeswalker~ 
+@7021 = ~TATTOO OF THE PLANESWALKER 
+Invokes: Dimensional Hop (at will)
+Special:
+   +1 to Dexterity
+   +1 to Wisdom
+   +2 THAC0 against Outsiders
+   +2 Damage against Outsiders
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo recounts your travels across the planes after escaping Ravel's maze. You've experienced the tense balance of the gatetown of Curst, the scorching wastes of Avernus, the deserts of the Outlands, and the chaos of Carceri. Your travels have taught you about the nature of the multiverse and the denizens of the planes, and you can even draw upon your experience to teleport short distances, even within Sigil.~
+
+@7022 = ~Dimensional Hop~ 
+@7023 = ~DIMENSIONAL HOP 
+Range: 15 feet
+Speed: 5
+Area of Effect: 1 creature 
+
+You manifest a small portal to a nearby location that you can see, and then teleport to that point.~ 
+
+@7024 = ~Tattoo of the Consort~ 
+@7025 = ~TATTOO OF THE CONSORT 
+Special:
+   +1 to Constitution
+   +1 to Charisma
+   Immunity to fear 
+   Malicious Presence (nearby enemies; -2 penalty to THAC0 and saving throws) 
+Weight: 0
+Usable only by the Nameless One
+
+You have met a creature of legend, myth and mystery. Your lips have touched the night hag, Ravel, and there are few who have met her and lived, much less caused her to feel some emotion other than contempt and hatred. This tattoo is blood red, and reminds you of the blood that Ravel drew when your lips touched hers. This tattoo tells of your encounter with the mythological figure; merely wearing it marks you as someone to be respected... and feared. When inscribed on the skin, the tattoo steels the heart and body and unsettles nearby enemies.~ 
+
+@7026 = ~Tattoo of the Exile~ 
+@7027 = ~TATTOO OF THE EXILE 
+Special:
+   +1 to Dexterity
+   +1 to Intelligence
+   Immunity to hold, slow, and paralyze 
+   Escape Artist (while in the presence of an enemy, move 25% faster) 
+Weight: 0
+Usable only by the Nameless One
+
+Few people get banished to the Mazes, fewer still have escaped, and none of those who survived have been foolish enough to try to break into another one. This tattoo depicts your escape from the labyrinthine solitude of the Lady's Maze, your completion of the chaotically-infused Modron Maze, and your confrontation with Ravel within her Maze. While worn, this tattoo protects you from any effect that would impede your movement, and also allows you to run faster in combat (to better escape from your enemies).~ 
+
+@7028 = ~Tattoo of the Gallant~ 
+@7029 = ~TATTOO OF THE GALLANT 
+Special:
+   +2 to Charisma
+   Friends (+4 to Charisma)
+   Protection from Humans, Planetouched, and Gith 
+Weight: 0
+Usable only by the Nameless One
+
+You have met a creature of legend, myth and mystery, and there are few who can claim to have met the night hag Ravel and NOT met some horrible fate. In addition, your skills of speech and presence actually stirred Ravel's heart, marking you as a master of flattery. This tattoo grants you a supernatural force of personality, making everyone around you more receptive to your ideas (even when jink is involved).
+
+^NNOTE: Protection effects grant a +2 bonus to Armor Class and Saving Throws against the specified creatures. Protection effects do not stack.~
+
+@7030 = ~Tattoo of the Devourer~ 
+@7031 = ~TATTOO OF THE DEVOURER 
+Invokes: Regurgiate (release a creature you have swallowed)
+Special:
+   +1 to Constitution
+   +1 to Intelligence
+   Immunity to poison
+   10% chance on melee attacks to Swallow an enemy
+Weight: 0
+Usable only by the Nameless One
+
+This tattoo represents your inhumane appetite. The latent intelligence of the cranium rats on which you have gorged yourself has made you slightly smarter, and your digestive system has grown strong from the ordeal. Occasionally, you'll have thoughts about what *other* creatures taste like, and perhaps one day you'll find out.
+
+^NNOTE: The mechanical implications of Swallowing a creature are that they are removed from the game world. Swallowed creatures have a 25% chance each round to escape to a location near you, and will automatically escape if you Swallow another creature. Powerful creatures cannot be swallowed.~
+
+
 
 @8000 = ~Special Inventory: Argent Hammer~
 @8001 = ~When asked about this gleaming hammer inscribed with runes, Coaxmetal tells you that he will only sell it to a wielder of sufficient skill. 
@@ -3913,7 +4381,7 @@ This tattoo symbolizes your extensive understanding of the power of belief. Your
 ^NNOTE: This item will become available when someone in the party has manufactured these complicated bolts.~ 
 
 @8022 = ~Special Inventory: Anarchist Earrings~
-@8023 = ~When asked about this set of four earrings cut into the four Anarchist sigils, Conall tells you that these are only available to *true* Anarchists.
+@8023 = ~When asked about this set of earrings cut into the four Anarchist sigils, Conall tells you that these are only available to *true* Anarchists.
 
 ^NNOTE: This item is only available if the Nameless One is an Anarchist.~ 
 
@@ -3944,6 +4412,25 @@ You notice that some of the residue appears to be liquifying their alchemical gl
 
 ^NNOTE: These items is will become available when The Nameless One has someone in the party who would be able to wear it.~ 
 
+@8034 = ~Tome of Bone and Ash~ 
+@8035 = ~TOME OF BONE AND ASH
+Teaches: Dustman Embalming Techniques
+Weight: 5
+
+This worn, leather-bound tome lists diagrams and charts detailing several minor wards and enchantments. There are numerous drawings of skeletons, bones, and the manner by which they may be preserved over time. The book is much too complex for you to absorb all at once, but it looks as if you could refer to certain sections when the need arises. 
+
+One section is mysteriously labeled "guardians." Apparently, the Dustmen animate corpses of fallen giants to serve as guardians for the Mortuary. To make them even deadlier, armoring enchantments are woven into their breastplates to help shield them from attacks. 
+
+Another section of note describes the Dustmen's secret embalming techniques for preserving dead flesh. Apparently, with the right mix of chemicals and necromantic magic, the Dustmen can preserve a corpse for centuries.
+
+^0xFFFFFF00DUSTMEN EMBALMING TECHNIQUES
+Modifies: Embalm
+
+With the incorporation of complex necromantic rituals and a moderate leveraging of rigor mortis, the flesh and bones of the dead can be reinforced beyond even their mortal capabilities.
+
+The target also gains a +25% bonus to all Physical Resistances.^- 
+
+^NNOTE: Unlike most other items that teach spells or upgrades, this item will not be destroyed after using it to learn the Dustmen Embalming Techniques.~ 
 
 @9000 = ~Arm of the Wretched Incarnation~ 
 @9001 = ~ARM OF THE WRETCHED INCARNATION
@@ -3956,7 +4443,7 @@ Special:
 THAC0: +2
 Speed: 4
 Weight: 5
-Proficiency: Clubs
+Proficiency: Blunt
 Not usable by Mages
 
 This severed arm is as hard as a wooden club. It looks like it was severed cleanly at the shoulder (most likely by a scythe blade), and even though it looks many decades old, it is more petrified than rotted. It has an unhealthy gray pallor and is covered with scars. Intricate tattoos decorate its surface, spiraling up from the wrist all the way to the remains of the shoulder. 
@@ -4018,7 +4505,1034 @@ Special:
 THAC0: +1
 Speed: 9
 Weight: 10
-Proficiency: Hammers
+Proficiency: Blunt
 Usable only by Fighters
 
 A small rune of force is inscribed on the head of this silver hammer. When the hammer connects with its target, the rune glows bright and a wave of forces washes over the target, potentially knocking them back.~ 
+
+@10000 = ~Blessing~ 
+@10001 = ~BLESSING
+Speed: 1
+Range: Self
+Area of Effect: 60 foot radius
+Duration: 60 seconds
+Saving Throw: None
+
+A boon to one's companions, granting them strength when they are in need.
+
+All party members within the area of effect gain a +1 bonus to hit and damage.~ 
+
+@10002 = ~Cure Light Wounds~ 
+@10003 = ~CURE LIGHT WOUNDS
+Speed: 1
+Range: Touch
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: None
+
+This spell seals minor wounds on a target.
+
+The touched creature is healed for 1d8+1 hit points. (The creature's restored hit points cannot exceed its maximum hit points.)
+
+^0xFFFFAAAASupreme Healer: The touched creature is healed for 9 hit points instead.^-
+~ 
+
+@10004 = ~Curse~ 
+@10005 = ~CURSE
+Speed: 1
+Range: Self
+Area of Effect: 60 foot radius
+Duration: 60 seconds
+Saving Throw: None
+
+A bane to one's enemies, weakening them.
+
+All enemy targets within the area of effect suffer -1 penalty to hit and damage.~ 
+
+@10006 = ~Detect Evil~ 
+@10007 = ~DETECT EVIL
+Speed: 1
+Range: Self
+Duration: 8 hours
+Saving Throw: None
+
+This spell detects evil intent, revealing the inner nature of the target.
+
+Evil creatures that the caster can see are highlighted with a magenta aura.~ 
+
+@10008 = ~Halo of Lesser Revelation~ 
+@10009 = ~HALO OF LESSER REVELATION
+Speed: 1
+Range: 90 feet
+Area of Effect: 1 creature
+Duration: 60 seconds
+Saving Throw: None
+
+Lines a priest's enemies with a halo of light, making them easier to see and be hit.
+
+The target creature is outlined in a green light, causing them to suffer a -2 penalty to Armor Class and preventing them from becoming invisible.~ 
+
+@10010 = ~Protection~ 
+@10011 = ~PROTECTION
+Speed: 1
+Range: Touch
+Area of Effect: 1 creature
+Duration: 60 seconds
+Saving Throw: None
+
+This spell surrounds the caster with a circle of protection that helps protect him against attacks. 
+
+The touched creature becomes Protected, granting them a +2 bonus to saving throws and causing any creatures attacking them to suffer a -2 penalty to hit.
+
+^NNOTE: This effect does not stack with any other Protection effects.~ 
+
+@10012 = ~Aid~ 
+@10013 = ~AID
+Speed: 2
+Range: Self
+Area of Effect: 60 foot radius
+Duration: 8 hours
+Saving Throw: None
+
+Bolster allies' courage, giving them the ability to withstand more damage.
+
+All party members within the area of effect gain 2d4 temporary hit points. These hit points are lost first upon taking damage.
+
+^NNOTE: Casting this spell while already under its effects will remove any bonus hit points gained from a previous casting.~ 
+
+@10014 = ~Cure Moderate Wounds~ 
+@10015 = ~CURE MODERATE WOUNDS
+Speed: 2
+Range: Touch
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: None
+
+This spell seals moderate wounds on a target.
+
+The touched creature is healed for 3d8+3 hit points. (The creature's restored hit points cannot exceed its maximum hit points.)
+
+^0xFFFFAAAASupreme Healer: The touched creature is healed for 27 hit points instead.^-~ 
+
+@10016 = ~Spiritual Hammer~ 
+@10017 = ~SPIRITUAL HAMMER
+Speed: 2
+Range: Self
+Duration: 60 seconds
+Saving Throw: None
+
+This spell summons a hammer of spiritual energy to smite your foes.
+
+Each successful attack the caster makes will summon a spectral hammer to attack their foe, dealing 1d8+1 magic damage after a short delay.
+
+^NNOTE: A creature can only be attacked by a Spiritual Hammer once per round.~ 
+
+@10018 = ~Call Lightning~ 
+@10019 = ~CALL LIGHTNING
+Speed: 3
+Range: 90 feet 
+Area of Effect: 10 foot radius 
+Duration: Instant
+Saving Throw: Breath - 1 
+
+This spell summons nature's fury to strike your foes.
+
+Any enemy within the area of effect takes 5d12 electricity damage, or half as much damage with a successful saving throw.
+
+^0xFF155FFFPyromancy: This spell deals fire damage instead of electricity damage.^-~ 
+
+@10020 = ~Flamewalk~ 
+@10021 = ~FLAMEWALK
+Speed: 3
+Range: Touch
+Area of Effect: 1 creature
+Duration: 60 seconds
+Saving Throw: None
+
+This spell protects the recipient from the effects of flames... for a time.
+
+The touched creature becomes immune to fire and magical fire damage. These resistances cannot be modified by any effect for the duration of this spell.~ 
+
+@10022 = ~Prayer~ 
+@10023 = ~PRAYER
+Speed: 3
+Range: Self
+Area of Effect: 60 foot radius
+Duration: 60 seconds
+Saving Throw: None
+
+This spell aids allies and harms your foes.
+
+Party members within the area of effect gain a +2 bonus to luck and enemies within the area of effect suffer a -2 penalty to luck.
+
+^NNOTE: The main effects of luck are a bonus to hit, an increase in outgoing minimum damage, and a decrease in incoming maximum damage. Luck also offers smaller bonuses to certain Thief skills and initative rolls.~ 
+
+@10024 = ~Speak with Dead~ 
+@10025 = ~SPEAK WITH DEAD
+Speed: 3
+Range: Special
+Area of Effect: The Nameless One
+Duration: 8 hours
+Saving Throw: None
+
+This spell allows the Nameless One to initiate a dialogue with undead creatures and dead bodies.~ 
+
+@10026 = ~Remove Curse~ 
+@10027 = ~REMOVE CURSE
+Speed: 3
+Range: Touch
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: None
+
+Cursed items shall no longer afflict you when this spell is cast.
+
+The touched creature unequips all cursed items. This spell does not remove the curse from the actual items themselves.~ 
+
+@10028 = ~Cure Serious Wounds~ 
+@10029 = ~CURE SERIOUS WOUNDS
+Speed: 4
+Range: Touch
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: None
+
+This spell heals any serious wounds a target may have accrued.
+
+The touched creature is healed for 5d8+5 hit points. (The creature's restored hit points cannot exceed its maximum hit points.)
+
+^0xFFFFAAAASupreme Healer: The touched creature is healed for 45 hit points instead.^-~ 
+
+@10030 = ~Cure Critical Wounds~ 
+@10031 = ~CURE CRITICAL WOUNDS
+Speed: 5
+Range: Touch
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: None
+
+This spell heals any critical wounds a target may have accrued.
+
+The touched creature is healed for 7d8+7 hit points. (The creature's restored hit points cannot exceed its maximum hit points.)
+
+^0xFFFFAAAASupreme Healer: The touched creature is healed for 63 hit points instead.^-~ 
+
+@10032 = ~Raise Dead~ 
+@10033 = ~RAISE DEAD
+Speed: 5
+Range: 90 feet
+Area of Effect: 1 dead creature
+Duration: Instant
+Saving Throw: None
+
+The most precious gift is bestowed upon all who were lost to the living. 
+
+The target creature is restored to life with 10% of their hit points. 
+
+^NNOTE: This spell only works on party members.~ 
+
+@10034 = ~Heal~ 
+@10035 = ~HEAL
+Speed: 6
+Range: Touch
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: None
+
+This spell brings forth the ultimate power of healing. 
+
+The touched creature is healed to their maximum hit points. This spell also removes blindness, deafness, poison, disease, and confusion effects currently affecting the creature.~ 
+
+@10036 = ~Seeking Flames~ 
+@10037 = ~SEEKING FLAMES
+Speed: 1
+Range: Self
+Area of Effect: 60 foot radius
+Duration: 30 seconds
+Saving Throw: None
+
+As the maintainer of life, fire is a true blessing. Yet as it warms, it also burns. Its flames illuminate an enemy's body as the fire scorches their flesh. 
+
+All enemies within the area of effect are outlined in red flames, causing them to take 1 fire damage each round and preventing them from becoming invisible.~ 
+
+@10038 = ~Chromatic Orb~ 
+@10039 = ~CHROMATIC ORB
+Speed: 1
+Range: 90 feet 
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: None
+
+Long are the debates about the spectrum of color in the multiverse. "This Blue is better than Yellow!" "Pike it, berk! Of course White is the true color!" And while in the end, many generally agree that a color's greatness is in the eye of the beholder, this spell establishes the fact that some colors are deadlier than others. 
+
+A large, prismatic orb flies toward the target, inflicting 1d6 acid damage, 1d6 cold damage, 1d6 electricity damage, and 1d6 fire damage upon impact.
+
+^0xFF155FFFPyromancy: This spell deals fire damage instead of acid, cold, or electricity damage.^-~ 
+
+@10040 = ~Mage Armor~ 
+@10041 = ~MAGE ARMOR
+Speed: 1
+Range: Touch
+Area of Effect: 1 creature
+Duration: 8 hours
+Saving Throw: None
+
+Physical attacks shall be better thwarted as protection is granted to those who have none. 
+
+The target gains a base Armor Class of 4.
+
+^NNOTE: Creatures use the best base Armor Class from all items and effects. Further bonuses from Dexterity or other effects are then applied to this base Armor Class to determine the creature's actual Armor Class.~ 
+
+@10042 = ~Embalm~ 
+@10043 = ~EMBALM
+Speed: 1
+Range: Touch
+Area of Effect: 1 creature
+Duration: 8 hours
+Saving Throw: None
+
+Embalming preserves the flesh of the dead... as such, this spell can preserve the flesh of the Nameless One, mending tears, off-setting decay, and making your skin more resilient to damage.  
+
+The target gains a +1 bonus to Armor Class and 1d8 temporary hit points. These hit points are lost first upon taking damage.
+
+This spell only works on The Nameless One and undead creatures. 
+
+^0xFFA4B8BCDustmen Embalming Techniques: The target also gains a +25% bonus to all Physical Resistances.^- 
+~ 
+
+@10044 = ~Enchant Weapon~ 
+@10045 = ~ENCHANT WEAPON
+Speed: 1
+Range: Touch
+Area of Effect: 1 creature
+Duration: 60 seconds
+Saving Throw: None
+
+This spell shrouds the target's hands with a glowing silver aura, improving any melee weapons they wield. 
+
+The target gains a +2 bonus to hit and damage with melee weapons, and their attacks are treated like +2 weapons. 
+
+^0xFF93C5CFScripture of Steel: Party members within 60 feet gain a +1 bonus to hit and damage.^-~ 
+
+@10046 = ~Identify~ 
+@10047 = ~IDENTIFY
+Speed: 1
+Range: Touch
+Area of Effect: 1 inventory item
+Duration: Instant
+Saving Throw: None
+
+This spell reveals the mysteries of a single enchanted object, allowing you to know its exact abilities.~
+
+@10048 = ~Magic Missile~ 
+@10049 = ~MAGIC MISSILE
+Speed: 1
+Range: 90 feet
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: None
+
+This spell shapes arcane energies into unerring missiles. 
+
+Three missiles strike the target, each dealing 1d4+1 magic damage upon impact.~
+
+@10050 = ~Pacify~  
+@10051 = ~PACIFY
+Speed: 1
+Range: Self
+Area of Effect: 60 foot radius
+Duration: 30 seconds
+Saving Throw: Spell
+
+Violence is not always the best solution. This spell seeks to quell the boiling blood, the anger, and the malice through peaceful means.  
+
+All enemy targets within the area of effect fall asleep unless they make a successful saving throw. The spell's effects end immediately on any creature that takes damage. 
+
+This spell has no effect on undead creatures.~
+
+@10052 = ~Shield~ 
+@10053 = ~SHIELD
+Speed: 1
+Range: Self
+Area of Effect: 1 creature
+Duration: 60 seconds
+Saving Throw: None
+
+This spell summons a globe of force that protects the caster from physical attacks. 
+
+The caster gains a +2 bonus to Armor Class.
+
+^0xFF93C5CFSubmerge the Will: The caster also gains a +2 bonus to Saving Throws.^-~ 
+
+@10054 = ~Missile of Patience~ 
+@10055 = ~MISSILE OF PATIENCE
+Speed: 1
+Range: 90 feet
+Area of Effect: 1 creature
+Duration: 30 seconds
+Saving Throw: None
+
+"Could this spell be any more useless?!" cried Eelnek, mage of Amnar. The bane of mages everywhere, could this be the practical joke of an arch-mage, or living disproof of the old Prime Material axiom that "good things come to those who wait"?
+
+Nothing happens for the duration of this spell. At the end of the duration, if the targeted creature is still alive, a missile streaks through the air to hit them, dealing 3d12+3 piercing damage.~ 
+
+@10056 = ~Friends~ 
+@10057 = ~FRIENDS
+Speed: 1
+Range: Self
+Area of Effect: 1 creature
+Duration: 60 seconds
+Saving Throw: None
+
+One's charm, one's beauty and one's resolve are oftentimes the key to gaining the trust of strangers and creating new friends.
+
+The casters gains a +4 bonus to Charisma.~ 
+
+@10058 = ~Blindness~ 
+@10059 = ~BLINDNESS
+Speed: 1
+Range: 90 feet
+Area of Effect: 1 creature
+Duration: 30 seconds
+Saving Throw: Spell
+
+How frail is the body when it depends upon its eyes! When sight is removed, things become harder to hit, and the sufferer becomes an easier target.
+
+The target is blinded unless they make a successful saving throw, causing them to suffer a -4 penalty to hit and Armor Class.
+
+^0xFF93C5CFVilquar's Eye: The target suffers a -4 penalty to their saving throw.^-~ 
+
+@10060 = ~Adder's Kiss~ 
+@10061 = ~ADDER'S KISS
+Speed: 2
+Range: 90 feet
+Area of Effect: 1 creature
+Duration: 30 seconds
+Saving Throw: None 
+
+It is said an adder's kiss can scald even the most fearsome of fiends, with the adder's vile green acid dissolving anything it touches.
+
+A magical snake flies toward the target, inflicting 1d8 acid damage each round.
+
+^0xFF155FFFPyromancy: This spell deals fire damage instead of acid damage.^-~ 
+
+@10062 = ~Black-barbed Curse~ 
+@10063 = ~BLACK-BARBED CURSE
+Speed: 2
+Range: 90 feet
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: None 
+
+Ravel's maze seeks new fields in which to grow. This spell summons some of the barbed seeds from the maze to burrow inside the target's flesh. 
+
+Shadowy brambles burrow into the target, dealing 3d10 piercing damage.~ 
+
+@10064 = ~Blood Bridge~ 
+@10065 = ~BLOOD BRIDGE
+Speed: 2
+Range: Touch
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: None 
+
+Channeling necromantic energy through your hand, you transfer a fragment of your life force to your target.
+
+The caster takes 2d8 magic damage, and the target is healed for 2d8 hit points. (Restored hit points cannot exceed the target's maximum hit points.)~ 
+
+@10066 = ~Ice Knife~ 
+@10067 = ~ICE KNIFE
+Speed: 2
+Range: 90 feet 
+Area of Effect: 15 foot radius
+Duration: Instant
+Saving Throw: Breath - 1
+
+A dagger of ice that shatters into frost crystals upon impact. 
+
+Enemies within the area of effect take 3d4 cold damage, or half as much if they make a successful saving throw.
+
+^0xFF155FFFPyromancy: This spell deals fire damage instead of cold damage.^-~ 
+
+@10068 = ~Pain Mirror~ 
+@10069 = ~PAIN MIRROR
+Speed: 2
+Range: Self
+Area of Effect: 1 creature 
+Duration: 30 seconds
+Saving Throw: None 
+
+A near-forgotten legacy of an ancient empire, this spell reminds those who wish to harm the caster that they must be willing to suffer as well. 
+
+The caster inflicts 1d6 slashing damage on any creature who successfully hits with an attack. 
+
+^0xFF93C5CFBalance in All Things: The caster also inflicts 1d6 crushing damage and 1d6 piercing damage on any creature who successfully hits with an attack.^-~ 
+
+@10070 = ~Strength~ 
+@10071 = ~STRENGTH
+Speed: 2
+Range: Touch
+Area of Effect: 1 creature 
+Duration: 60 seconds
+Saving Throw: None 
+
+Grants immense strength to the weak - or greater strength to the strong.
+
+The touched creature gains a +4 bonus to Strength (and a +50% bonus to exceptional Strength).
+
+^0xFF93C5CFPower of One: The target also gains a +4 bonus to Wisdom.^-~ 
+
+@10072 = ~Swarm Curse~ 
+@10073 = ~SWARM CURSE
+Speed: 2
+Range: 90 feet
+Area of Effect: 1 creature
+Duration: 30 seconds
+Saving Throw: Breath - 1
+
+All that scuttles, creeps, and swarms shall be invited to dine... on a victim of your choosing. 
+
+Target creature suffers a -2 penalty to hit and Armor Class and becomes unable to cast spells, unless they make a successful saving throw.~ 
+
+
+@10074 = ~Horror~ 
+@10075 = ~HORROR
+Speed: 2
+Range: Self
+Area of Effect: 60 foot radius
+Duration: 30 seconds
+Saving Throw: Spell - 1
+
+Pure horror is perhaps the greatest equalizer in existence, causing both the weakest and the strongest to lose their courage and flee in cowardice.
+
+Enemies within the area of effect are terrified unless they make a successful saving throw, causing them to flee in terror and avoid combat.
+
+This spell has no effect on undead creatures.~ 
+
+
+@10076 = ~Luck~ 
+@10077 = ~LUCK
+Speed: 2
+Range: Touch
+Area of Effect: 1 creature
+Duration: 60 seconds
+Saving Throw: None 
+
+Fortune. Chance. Kismet. Whatever its name, this spell grants a boost in one's Luck for a short duration. 
+
+The touched creature gains a +3 bonus to luck.
+
+^NNOTE: The main effects of luck are a bonus to hit, an increase in outgoing minimum damage, and a decrease in incoming maximum damage. Luck also offers smaller bonuses to certain Thief skills and initative rolls.~ 
+
+
+@10078 = ~Knock~ 
+@10079 = ~KNOCK
+Speed: 2
+Range: Self
+Area of Effect: 70 foot radius
+Duration: Instant
+Saving Throw: None 
+
+The inaccessible, the locked, can be freed and within one's grasp with this incantation.
+
+All locks within the area of the effect are automatically unlocked. 
+
+^NNOTE: This spell has no effect on locks that cannot be opened via the Open Locks skill.~ 
+
+@10080 = ~Accelerate~ 
+@10081 = ~ACCELERATE
+Speed: 2
+Range: Touch
+Area of Effect: 1 creature
+Duration: 60 seconds
+Saving Throw: None 
+
+Time waits for no one.
+
+The touched creature gains a +2 bonus to attack, cast, and movement speed and +1/2 additional Attack per Round.~ 
+
+@10082 = ~Ball Lightning~ 
+@10083 = ~BALL LIGHTNING
+Speed: 3
+Range: 90 feet
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: Spell - 1
+
+Spheres of electrical force shoot forth and strike a nearby foe.  
+
+Two orbs of magical lightning strike the target. Each orb deals 3d12 electricity damage upon impact unless the target makes a successful saving throw.
+
+^0xFF155FFFPyromancy: This spell deals fire damage instead of electricity damage.^-~
+
+@10084 = ~Cloak of Warding~ 
+@10085 = ~CLOAK OF WARDING
+Speed: 3
+Range: Self
+Area of Effect: 1 creature
+Duration: 8 hours
+Saving Throw: None 
+
+This spell summons a magical cloak of force around your body that absorbs damage. 
+
+The next five successful attacks against the caster are negated.~
+
+@10086 = ~Elysium's Tears~ 
+@10087 = ~ELYSIUM'S TEARS
+Speed: 3
+Range: 90 feet
+Area of Effect: 10 foot radius
+Duration: Instant
+Saving Throw: None 
+
+The skies of the Upper Planes shed tears when evil is done. These tears can burn even the most armored of foes. 
+
+Three small, heavenly meteors fall towards the target, each dealing 1d4 fire damage and 1d4 magic damage upon impact to all enemies within the area of effect.~  
+
+@10088 = ~Hold Creature~ 
+@10089 = ~HOLD CREATURE
+Speed: 3
+Range: 90 feet
+Area of Effect: 1 creature
+Duration: 30 seconds
+Saving Throw: Spell - 1 
+
+Bind them, lest they control you. 
+
+Target creature is held, rendering them unable to move or act, unless they make a successful saving throw.~  
+
+@10090 = ~Tasha's' Derisive Laughter~ 
+@10091 = ~TASHA'S DERISIVE LAUGHTER
+Speed: 3
+Range: Self
+Area of Effect: 60 foot radius
+Duration: 60 seconds
+Saving Throw: Spell - 1 
+
+Fill the ears of your enemies with the derisive scorn of a woman's laughter. Their bodies shall become clumsy and foolish, easily struck, and confidence shall be leeched from their muscles, weakening their blows.
+
+Enemies within the area of effect suffer a -2 penalty to hit, damage, Armor Class, and Saving Throws unless they make a successful saving throw.~  
+
+@10092 = ~Vampiric Touch~ 
+@10093 = ~VAMPIRIC TOUCH
+Speed: 3
+Range: Touch
+Area of Effect: 1 creature
+Duration: Instant / 8 hours
+Saving Throw: None
+
+The touched creature takes 3d10 magic damage, and the caster gains 3d10 temporary hit points. These hit points are lost first upon taking damage.
+
+^NNOTE: Casting this spell while already under its effects will remove any bonus hit points gained from a previous casting.~  
+
+@10094 = ~Ax of Torment~ 
+@10095 = ~AX OF TORMENT
+Speed: 3
+Range: 90 feet
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: Wand - 1  
+
+As if from the depths of Baator, Torment shall be brought upon your enemies, and with time, its strength will only grow.
+
+A spiritual ax attacks the target repeatedly, inflicting 5 strikes. Each strike deals 1d8+1 slashing damage unless the target makes a successful saving throw. The ax then crashes down with a final blow, dealing 3d8+3 slashing damage.~  
+
+@10096 = ~Zerthimon's Focus~ 
+@10097 = ~ZERTHIMON'S FOCUS
+Speed: 3
+Range: Touch
+Area of Effect: 1 creature
+Duration: 60 seconds
+Saving Throw: None
+
+This enchantment helps the target remember Zerthimon's teachings, allowing them to channel their mental and physical focus during battle.
+
+The target gains a +15% chance to critically hit with all weapons.~  
+
+@10098 = ~Blacksphere~ 
+@10099 = ~BLACKSPHERE
+Speed: 4
+Range: 90 feet
+Area of Effect: 1 creature
+Duration: 30 seconds
+Saving Throw: Spell - 2
+
+Sometimes a cage is for the protection of those inside of it. 
+
+The target creature is sealed in a ball of force unless they make a successful saving throw, preventing them from acting but protecting them from all attacks and spells. 
+
+^NNOTE: If this spell is cast on an ally, it bypasses both magic resistance and the saving throw.~  
+
+@10100 = ~Confusion~ 
+@10101 = ~CONFUSION
+Speed: 4
+Range: Self
+Area of Effect: 60 foot radius
+Duration: 30 seconds
+Saving Throw: Spell - 2 
+
+Focus and purpose shall become undone.
+
+Enemies within the area of effect become confused unless they make a successful saving throw.
+
+^NNOTE: Confused creatures will perform one of the following actions each round: wander aimlessly, stand still, attack the nearest creature, or behave normally.~  
+
+@10102 = ~Force Missiles~ 
+@10103 = ~FORCE MISSILES
+Speed: 4
+Range: Self
+Area of Effect: 30 foot radius
+Duration: Instant 
+Saving Throw: Breath - 2 
+
+Orbs of force hunt down nearby enemies, launching them across the room.
+
+A missile of raw force strikes each enemy within the area of effect, each dealing 3d6 magic damage upon impact. Each missile will also push the target 20 feet away from the caster unless they make a successful saving throw.~  
+
+@10104 = ~Planar Transformation~ 
+@10105 = ~PLANAR TRANSFORMATION
+Speed: 4
+Range: Touch
+Area of Effect: 1 creature
+Duration: 60 seconds
+Saving Throw: None
+
+Superhuman capabilities can be yours. 
+
+The touched creature gains a +1 bonus to all ability scores, immunity to non-magical weapons and poison, and a +25% bonus to magic, fire, and cold resistances.~   
+
+@10106 = ~Shroud of Shadows~ 
+@10107 = ~SHROUD OF SHADOWS
+Speed: 4
+Range: Touch
+Area of Effect: 1 creature
+Duration: 30 seconds
+Saving Throw: None
+
+The shadows leap to your aid, enshrouding your target and hiding them from others. 
+
+The touched creature becomes invisible until they make an attack or cast a spell. Even after revealing themselves, they are still difficult to see, granting them a +4 bonus to Armor Class.~  
+
+@10108 = ~Remove Curse~ 
+@10109 = ~REMOVE CURSE
+Speed: 4
+Range: Touch
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: None
+
+Cursed items shall no longer afflict you when this spell is cast.
+
+The touched creature unequips all cursed items. This spell does not remove the curse from the actual items themselves.~  
+
+@10110 = ~Cloudkill~ 
+@10111 = ~CLOUDKILL
+Speed: 5
+Range: Self
+Area of Effect: 60 foot radius
+Duration: Instant
+Saving Throw: Death - 2
+
+Clouds of death stream forth from the caster and send those not strong enough on a free journey to their deserved plane of rest. 
+
+All enemies within the area of effect with less than 4 Hit Dice are slain instantly. Those with 4 to 6 Hit Dice are slain unless they make a successful saving throw. All surviving enemies in the area of effect then take 1d10 acid damage. 
+
+^0xFF155FFFPyromancy: This spell deals fire damage instead of acid damage.^-~
+
+@10112 = ~Cone of Cold~ 
+@10113 = ~CONE OF COLD
+Speed: 5
+Range: Self
+Area of Effect: 30 foot cone
+Duration: Instant
+Saving Throw: Breath - 2
+
+Extreme cold blasts forth and welcomes your enemies in its freezing embrace.
+
+All enemies within the area of effect take 9d6 cold damage, or half as much if they make a successful saving throw.
+
+^0xFF155FFFPyromancy: This spell deals fire damage instead of cold damage.^-~
+
+@10114 = ~Enoll Eva's Duplication~ 
+@10115 = ~ENOLL EVA'S DUPLICATION
+Speed: 5
+Range: Self
+Area of Effect: 1 creature
+Duration: 30 seconds
+Saving Throw: None
+
+The modron Enoll Eva discovered this complex mathematical equation entirely by accident. 
+
+The caster's Attacks per Round are doubled, and any spell they cast will immediately be duplicated on the same targets.~
+
+@10116 = ~Hellish Mirage~ 
+@10117 = ~HELLISH MIRAGE
+Speed: 5
+Range: Self
+Area of Effect: 50 foot radius
+Duration: Instant / 8 hours
+Saving Throw: Spell - 2
+
+Some say Hell is Baator. Others, the Abyss. The reality is that there is nothing worse than the endless dunes and the scorching heat of the desert. 
+
+All enemies in the area of effect suffer a -3 penalty to luck, attack speed, and cast speed for 8 hours unless they make a successful saving throw. Creatures that fail the initial saving throw must then make a series of five saving throws, taking 1d8 nonlethal fire damage for each failed saving throw. 
+
+^NNOTE: Nonlethal damage cannot reduce a target below 1 hit point. 
+
+^NNOTE: The main effects of luck are a bonus to hit, an increase in outgoing minimum damage, and a decrease in incoming maximum damage. Luck also offers smaller bonuses to certain Thief skills and initative rolls.~
+
+@10118 = ~Fire and Ice~ 
+@10119 = ~FIRE AND ICE 
+Speed: 5
+Range: 90 feet
+Area of Effect: 30 foot radius
+Duration: Instant
+Saving Throw: Breath - 2
+
+A red sphere of Fire and a blue sphere of Ice streak forth and quickly strike down the target of your choosing. 
+
+A sphere of fire explodes at the target, dealing 5d6 fire damage to all enemies within the area of effect, or half as much damage with a successful saving throw. Moments later, a sphere of ice explodes at the target, dealing 5d6 cold damage to all enemies within the area of effect, or half as much damage with a successful saving throw. 
+
+^0xFF155FFFPyromancy: This spell deals fire damage instead of cold damage.^-~ 
+
+@10120 = ~Antimagic Shell~ 
+@10121 = ~ANTIMAGIC SHELL
+Speed: 6
+Range: Self
+Area of Effect: 1 creature
+Duration: 30 seconds
+Saving Throw: None
+
+In an ironic twist, the mage becomes disconnected from all magic.  
+
+All dispellable effects on the caster are removed, and then they become immune to all magic (including friendly magic) but unable to cast spells.~
+
+@10122 = ~Globe of Invulnerability~ 
+@10123 = ~GLOBE OF INVULNERABILITY
+Speed: 6
+Range: Self
+Area of Effect: 10 foot radius
+Duration: 30 seconds
+Saving Throw: None
+
+Similar to its sister spell, Antimagic Shell, this enchantment restricts certain magic from entering its confines. Yet unlike its sibling, this spell allows magic to flow outward from within.   
+
+The caster summons a large globe of magical energy that moves with them. The caster, and all party members within 10 feet of them, becomes immune to all magic of 4th level and lower.
+
+^NNOTE: The magic immunity provided by this spell also affects friendly magic.~
+
+@10124 = ~Howl of Pandemonium~ 
+@10125 = ~HOWL OF PANDEMONIUM
+Speed: 6
+Range: Self
+Area of Effect: 60 foot radius
+Duration: 30 seconds
+Saving Throw: Spell - 3 
+
+The Madness from the Howling Land - Pandemonium's Noise screams forth and bathes everyone in its cacophony. 
+
+The Winds of Pandemonium shoot forth from the caster's body to towards all enemies within the area of effect. Each enemy becomes paralyzed unless they make a successful saving throw.~
+
+@10126 = ~Lightning Storm~ 
+@10127 = ~LIGHTNING STORM
+Speed: 6
+Range: Self 
+Area of Effect: 90 foot radius 
+Duration: Instant
+Saving Throw: Breath - 3 
+
+"As Man looked up and cried to the heavens, so it responded..." Judgement rains down from the skies when this spell is invoked. Giant Bolts which strike and chain shall comprise the Storm of death. 
+
+Any enemy within the area of effect takes 7d10 electricity damage, or half as much damage with a successful saving throw.
+
+^0xFF155FFFPyromancy: This spell deals fire damage instead of electricity damage.^-~ 
+
+@10128 = ~Acid Storm~ 
+@10129 = ~ACID STORM
+Speed: 7
+Range: Self 
+Area of Effect: 60 foot radius 
+Duration: 30 seconds
+Saving Throw: None 
+
+The tempest of acid may come and go, but its sting lingers much longer. 
+
+Any enemy within the area of effect is covered in acid, causing them to take 2d8 acid damage each round and suffer a -4 penalty to Armor Class.
+
+^0xFF155FFFPyromancy: This spell deals fire damage instead of acid damage.^-~ 
+
+@10130 = ~Bladestorm~ 
+@10131 = ~BLADESTORM
+Speed: 7
+Range: Self 
+Area of Effect: 60 foot radius 
+Duration: 30 seconds
+Saving Throw: Wand - 3  
+
+The blackest ice from the fourth layer of Acheron is summoned to cut, shear, and slice away all who oppose you. 
+
+A shard of razor sharp ice erupts from the ground, dealing 13d8 slashing damage to all enemies in the area of effect unless they make a successful saving throw.~ 
+
+@10132 = ~Guardian Mantle~ 
+@10133 = ~GUARDIAN MANTLE
+Speed: 7
+Range: Self 
+Area of Effect: 1 creature
+Duration: 30 seconds
+Saving Throw: None 
+
+Some mages need not fear the sword. 
+
+The caster becomes immune to all attacks. They can still attack and cast spells normally.~ 
+
+@10134 = ~Flash Freeze~ 
+@10135 = ~FLASH FREEZE 
+Speed: 7
+Range: Self 
+Area of Effect: 50 foot radius 
+Duration: 30 seconds
+Saving Throw: Polymorph - 3  
+
+All things grow cold. 
+
+Enemies within the area of effect are paralyzed unless they make a successful saving throw.~ 
+
+@10136 = ~Meteor Shower~ 
+@10137 = ~METEOR SHOWER 
+Speed: 8
+Range: 90 feet 
+Area of Effect: 50 foot radius 
+Duration: Instant
+Saving Throw: Breath - 4
+
+Meteors from across the multiverse are called to rain destruction upon all who oppose the caster. 
+
+Enemies within the area of effect take 12d10 crushing damage, or half as much if they make a successful saving throw.~ 
+
+@10138 = ~Deathbolt~ 
+@10139 = ~DEATHBOLT
+Speed: 8
+Range: 90 feet 
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: Death - 4
+
+Death comes in many forms, but none so painful as this. For even if you evade Death's Touch, it will always leave a mark.
+
+Target creature is slain unless they make a successful saving throw. Even if they survive, they take 10d6 magic damage.~ 
+
+@10140 = ~Ignus' Fury~ 
+@10141 = ~Ignus' Fury
+Speed: 8
+Range: 90 feet 
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: Death - 4
+
+[flavor text] 
+
+[description]~ 
+
+@10142 = ~Power Word: Blind~ 
+@10143 = ~POWER WORD: BLIND
+Speed: 8
+Range: Self
+Area of Effect: 60 foot radius
+Duration: 60 seconds
+Saving Throw: None
+
+The power of sight shall be removed, and darkness shall enter.
+
+All enemies in the area of effect are blinded, causing them to suffer a -4 penalty to hit and Armor Class.~ 
+
+@10144 = ~Mechanus Cannon~ 
+@10145 = ~MECHANUS CANNON
+Speed: 8
+Range: 90 feet 
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: None
+
+The true, logical justice of Primus shall be delivered unto the illogical, as pure energy descends from Mechanus. 
+
+The target creature is hit with a powerful blast from one of the largest cannons in the Planes, taking 10d10 electricity damage. 
+
+^0xFF155FFFPyromancy: This spell deals fire damage instead of electricity damage.^-~ 
+
+@10146 = ~Celestial Host~ 
+@10147 = ~CELESTIAL HOST
+Speed: 9
+Range: 90 feet 
+Area of Effect: 50 foot radius
+Duration: Instant
+Saving Throw: Spell - 4 
+
+While the various proxies and beings of the Celestial Planes are seen as the embodiment of kindness, compassion, and benevolence, their might easily rivals those of Baator or the Abyss. Woe to those who underestimate the power of the Upper Planes!
+
+All enemies in the area of effect are attacked by four illusory celestials, taking 5d6 crushing damage, 5d6 fire damage, 5d6 missile damage, and 5d6 magic damage. Each damage type requires a separate saving throw, with damage of that type being halved if a creature make a successful saving throw.
+
+^NNOTE: This spell cannot be cast indoors.~ 
+
+@10148 = ~Conflagration~ 
+@10149 = ~CONFLAGRATION
+Speed: 9
+Range: 90 feet 
+Area of Effect: 1 creature
+Duration: 60 seconds
+Saving Throw: None
+
+Burn, burn, burn. 
+
+Target creature takes 3d6 fire damage each round.~ 
+
+@10150 = ~Elysium's Fires~ 
+@10151 = ~ELYSIUM'S FIRES
+Speed: 9
+Range: 90 feet 
+Area of Effect: 50 foot radius
+Duration: Instant
+Saving Throw: Breath - 4 
+
+Holy fire splits the sky, raining streams of white flames down upon the earth. 
+
+Eight meteors fall within the area of effect. Each meteor deals 5d4 fire damage to all enemies within 15 feet of its impact, or half as much damage with a successful saving throw.~ 
+
+@10152 = ~Power Word: Kill~ 
+@10153 = ~POWER WORD: KILL
+Speed: 9
+Range: 90 feet 
+Area of Effect: 1 creature
+Duration: Instant
+Saving Throw: None
+
+With a single word, life's energies are snuffed out. 
+
+Target creature is slain if it has less than 120 hit points.~
+
+@10154 = ~Abyssal Fury~ 
+@10155 = ~ABYSSAL FURY
+Speed: 9
+Range: 90 feet 
+Area of Effect: 1 creature
+Duration: 30 seconds
+Saving Throw: Breath - 4 
+
+When compared to the tanar'ri, at least the baatezu are more civilized. There is, perhaps, nothing more horrific than the unbounded fury of the Abyss. By use of this spell, the ground shall split open and the victim dragged into the tanar'rian madness. Welcome to Hell.
+
+Target creature is cast through hell, disappearing from their location until the end of the spell unless they make a successful saving throw. At the end of the duration, the targeted creature returns to their original position and takes 10d10 fire damage.~
+
+@10156 = ~Rune of Torment~ 
+@10157 = ~RUNE OF TORMENT
+Speed: 9
+Range: Self
+Area of Effect: 50 foot radius
+Duration: Instant
+Saving Throw: None
+
+Pain, Agony, Suffering, Torment. When the Rune is invoked, even the earth shall resonate its anguish. Torment of the mind. Torment of the body. Torment of the soul. All will be made clear when the Circle is drawn.
+
+All enemies in the area of effect take 10d10 magic damage.~
+
+
+
+

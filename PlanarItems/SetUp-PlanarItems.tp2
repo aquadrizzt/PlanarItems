@@ -1,6 +1,6 @@
 BACKUP ~PlanarItems/backup~
 AUTHOR ~aquadrizzt@gmail.com~
-VERSION ~0.4~ 
+VERSION ~0.5~ 
 
 /* Language Settings */
 AUTO_TRA ~PlanarItems/tra/%s~
@@ -15,8 +15,8 @@ BEGIN @0
 
 COPY_EXISTING ~aclue.itm~ ~override/qd_planar_items_core.qd~ //check file for this component 
 
-//---------------------------------------------                                          
-//				NON ITEM CHANGES                                 
+//---------------------------------------------                                        
+//				BASE CHANGES                                 
 //---------------------------------------------
 //Small UI change to access item abilities from equipment 
 //Thanks kjeron! 
@@ -32,9 +32,16 @@ BUT_ONLY
 COPY_EXISTING ~charbase.cre~ ~override~ 
 	LPF ADD_CRE_EFFECT 
 		INT_VAR 
+			target = 1 
 			timing = 9
 			parameter1 = 2 
 	END 
+
+//Updated Grace's natural AC to 10 
+//This fixes an issue where the new armor gives her a base AC of -2 
+COPY_EXISTING ~grace.cre~ ~override~ 
+	WRITE_SHORT 0x46 10 
+	WRITE_SHORT 0x48 10 
 
 //Added the summoning limit 2da from SoD in order to allow invisible creature tricks 
 COPY ~PlanarItems/resources/SUMMLIMT.2da~ ~override~ 
@@ -43,17 +50,40 @@ COPY ~PlanarItems/resources/SUMMLIMT.2da~ ~override~
 COPY ~PlanarItems/items/PLUS1IM.itm~ ~override~ 
 	 ~PlanarItems/items/PLUS2IM.itm~ ~override~ 
 
-//Updated Grace's natural AC to 10 
-//This fixes an issue where the new armor gives her a base AC of -2 
-COPY_EXISTING ~grace.cre~ ~override~ 
-	WRITE_SHORT 0x46 10 
-	WRITE_SHORT 0x48 10 
-
 //Change default body "armour" sound to tattoo <this is for major tattoos>
 //Annah and Grace armor should be unaffected
 COPY_EXISTING ~itemtype.2da~ ~override~ 
 	SET_2DA_ENTRY 3 1 3 ~INT_12K~ 
  	SET_2DA_ENTRY 3 2 3 ~INT_12K1~ 	 
+
+// Change "Hammer" proficiency to now be "Blunt" proficiency
+// Change "Edged Weapon" proficiency to now be "Edged" proficiency
+COPY_EXISTING ~WEAPPROF.2da~ ~override~ 
+	SET_2DA_ENTRY 4 2 5 RESOLVE_STR_REF(@0100) 
+	SET_2DA_ENTRY 3 2 5 RESOLVE_STR_REF(@0101) 
+	PRETTY_PRINT_2DA
+
+// Replace references to club proficiency with hammer proficiency
+// [To-Do: Improved this later, e.g. removing unnecessary dialog states]
+COPY_EXISTING_REGEXP GLOB ~.+\.dlg~ ~override~
+	DECOMPILE_DLG_TO_D
+        REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~Protagonist,CLUB~ ~Protagonist,HAMMER~
+    COMPILE_D_TO_DLG
+    BUT_ONLY 
+
+//Add immunity to maze to the NO_CURSE.itm that bosses have (for Tattoo of the Devourer)
+//COPY ~PlanarItems/items/NO_CURSE.itm~ ~override~ 
+
+//Update PROJECTL.ids 
+COPY ~PlanarItems/resources/PROJECTL.ids~ ~override~ 
+
+//Aura Projectiles
+
+//Allies 60 Ft Radius (e.g. Blessing)  
+ADD_PROJECTILE ~PlanarItems/resources/qd60ftg.pro~ ~override~ //invisible, 60 ft radius, allies only <affects some select, random npcs>
+
+//Enemies 60 Ft Radius (e.g. Curse) 
+ADD_PROJECTILE ~PlanarItems/resources/qd60ftb.pro~ ~override~ //invisible, 60 ft radius, enemies only 
 
 //---------------------------------------------
 //                                             
@@ -200,7 +230,7 @@ COPY ~PlanarItems/items/splinter.itm~ ~override~
 //Porphatys Blade
 COPY ~PlanarItems/items/pdag.itm~ ~override~ 
 	SAY NAME1 @1234
-	SAY NAME2 @1225
+	SAY NAME2 @1235
 	SAY UNIDENTIFIED_DESC @1236
 	SAY IDENTIFIED_DESC @1237 
 
@@ -371,7 +401,6 @@ COPY ~PlanarItems/items/umei.itm~ ~override~
 //Resources (SPL/EFF) for Items 
 COPY ~PlanarItems/resources/qdbutch.spl~ ~override~ //Butcherer of Innocents: +1 hit, +1 damage for 30s	
 	 ~PlanarItems/resources/qdfoolsm.spl~ ~override~ //Foolsmiter: +8 damage 
-	 ~PlanarItems/resources/qdheavn.spl~ ~override~ //Heaven and Earth: holy weapon aura 
 	 ~PlanarItems/resources/qdrvldis.spl~ ~override~ //Ravel's Fingernail: disease 
 	 ~PlanarItems/resources/qdrvlfng.spl~ ~override~ //Ravel's Fingernail: black barbed curse 
 	 ~PlanarItems/resources/qdsplntr.eff~ ~override~ //Mad Splinter: curse eff
@@ -381,6 +410,12 @@ COPY ~PlanarItems/resources/qdbutch.spl~ ~override~ //Butcherer of Innocents: +1
 	 ~PlanarItems/resources/qdtpunch.eff~ ~override~ //PD of True Death: contingency eff 
 	 ~PlanarItems/resources/qdtpunch.spl~ ~override~ //PD of True Death: execute spell 
 	
+COPY ~PlanarItems/resources/qdheavn.spl~ ~override~ //Heaven and Earth: holy weapon aura 
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftg%~
+	END
+
 //Celestial Fire 
 COPY ~PlanarItems/items/celesti2.itm~ ~override~ 
 	SAY NAME1 @1700
@@ -498,6 +533,13 @@ COPY ~PlanarItems/items/mpunch.itm~ ~override~
 	SAY NAME2 @2063
 	SAY UNIDENTIFIED_DESC @2064
 	SAY IDENTIFIED_DESC @2065 
+
+//Enchanted Punch Daggers 
+COPY ~PlanarItems/items/epunch.itm~ ~override~ 
+	SAY NAME1 @2104
+	SAY NAME2 @2105
+	SAY UNIDENTIFIED_DESC @2106
+	SAY IDENTIFIED_DESC @2107
 	
 //Spiked Knuckles
 COPY ~PlanarItems/items/iron1.itm~ ~override~ 
@@ -779,7 +821,7 @@ COPY ~PlanarItems/items/pmace.itm~ ~override~
 	SAY IDENTIFIED_DESC @2100
 	
 //Fist
-COPY ~PlanarItems/items/mace.itm~ ~override~ 
+COPY ~PlanarItems/items/fist.itm~ ~override~ 
 	SAY NAME1 @2102
 	SAY NAME2 @2102
 	SAY UNIDENTIFIED_DESC @2103
@@ -1023,6 +1065,8 @@ COPY ~PlanarItems/items/shaman.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @3096
 	SAY IDENTIFIED_DESC @3097
 	
+COPY ~PlanarItems/resources/qdshaman.spl~ ~override~ 
+
 //Clasp of Embalming (Greater Dustman Charm of Embalming)
 COPY ~PlanarItems/items/embchrm2.itm~ ~override~ 
 	SAY NAME1 @3098
@@ -1160,7 +1204,56 @@ COPY ~PlanarItems/items/bkarach3.itm~ ~override~
 	SAY IDENTIFIED_DESC @4025 
 	
 COPY ~PlanarItems/resources/qdbkrch.spl~ ~override~ //kill (-4 death save) 
-	
+
+//Circle 2: Teaches the Scripture of Steel upgrade
+COPY ~PlanarItems/items/circle02.itm~ ~override~ 
+	SAY NAME1 @4145
+	SAY NAME2 @4145
+	SAY UNIDENTIFIED_DESC @4146
+	SAY IDENTIFIED_DESC @4146 
+
+//Circle 3: Teaches the Submerge the Will upgrade
+COPY ~PlanarItems/items/circle03.itm~ ~override~ 
+	SAY NAME1 @4147
+	SAY NAME2 @4147
+	SAY UNIDENTIFIED_DESC @4148
+	SAY IDENTIFIED_DESC @4148 
+
+//Circle 4: Teaches the Vilquar's Eye upgrade
+COPY ~PlanarItems/items/circle04.itm~ ~override~ 
+	SAY NAME1 @4149
+	SAY NAME2 @4149
+	SAY UNIDENTIFIED_DESC @4150
+	SAY IDENTIFIED_DESC @4150 
+
+//Circle 5: Teaches the Power of One upgrade
+COPY ~PlanarItems/items/circle05.itm~ ~override~ 
+	SAY NAME1 @4151
+	SAY NAME2 @4151
+	SAY UNIDENTIFIED_DESC @4152
+	SAY IDENTIFIED_DESC @4152 
+
+//Circle 6: Teaches the Power of One upgrade
+COPY ~PlanarItems/items/circle06.itm~ ~override~ 
+	SAY NAME1 @4153
+	SAY NAME2 @4153
+	SAY UNIDENTIFIED_DESC @4154
+	SAY IDENTIFIED_DESC @4154
+
+//Circle 7: Teaches the Missile of Patience spell
+COPY ~PlanarItems/items/circle07.itm~ ~override~ 
+	SAY NAME1 @4155
+	SAY NAME2 @4155
+	SAY UNIDENTIFIED_DESC @4156
+	SAY IDENTIFIED_DESC @4156 
+
+//Circle 8: Teaches the Zerthimon's Focus spell
+COPY ~PlanarItems/items/circle08.itm~ ~override~ 
+	SAY NAME1 @4157
+	SAY NAME2 @4157
+	SAY UNIDENTIFIED_DESC @4158
+	SAY IDENTIFIED_DESC @4158
+
 //Bell's Shield 
 COPY ~PlanarItems/items/bell.itm~ ~override~ 
 	SAY NAME1 @4026
@@ -1209,6 +1302,43 @@ COPY ~PlanarItems/items/ignusfi.itm~ ~override~
 	SAY NAME2 @4039
 	SAY UNIDENTIFIED_DESC @4040
 	SAY IDENTIFIED_DESC @4040 
+
+//Ignus' Charm
+COPY ~PlanarItems/items/ignus01.itm~ ~override~ 
+	SAY NAME1 @4137
+	SAY NAME2 @4137
+	SAY UNIDENTIFIED_DESC @4138
+	SAY IDENTIFIED_DESC @4138 
+
+//Ignus' Eye
+COPY ~PlanarItems/items/ignus02.itm~ ~override~ 
+	SAY NAME1 @4139
+	SAY NAME2 @4139
+	SAY UNIDENTIFIED_DESC @4140
+	SAY IDENTIFIED_DESC @4140 
+
+COPY ~PlanarItems/resources/qdignsi.spl~ ~override~  //-2 penalty to saves vs. spell
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftb%~
+	END
+
+//Ignus' Innards
+COPY ~PlanarItems/items/ignus03.itm~ ~override~ 
+	SAY NAME1 @4141
+	SAY NAME2 @4141
+	SAY UNIDENTIFIED_DESC @4142
+	SAY IDENTIFIED_DESC @4142 
+
+COPY ~PlanarItems/resources/qdigns3.spl~ ~override~  //10% damage, 5% fire res for 12 seconds
+
+
+//Ignus' Hand
+COPY ~PlanarItems/items/ignus04.itm~ ~override~ 
+	SAY NAME1 @4143
+	SAY NAME2 @4143
+	SAY UNIDENTIFIED_DESC @4144
+	SAY IDENTIFIED_DESC @4144 
 	
 //Morte's Bite 
 COPY ~PlanarItems/items/mbite.itm~ ~override~ 
@@ -1273,6 +1403,10 @@ COPY ~PlanarItems/items/bolt02.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @4065
 	SAY IDENTIFIED_DESC @4066 
 
+COPY ~PlanarItems/resources/qdbolt2.spl~ ~override~ //enrage
+ 	 ~PlanarItems/resources/qdbolt2a.eff~ ~override~ //shell effect (seeing double)
+ 	 ~PlanarItems/resources/qdbolt2a.spl~ ~override~ //shell spell (seeing double)
+
 //Bolts of Acheron
 COPY ~PlanarItems/items/bolt01.itm~ ~override~ 
 	SAY NAME1 @4067
@@ -1280,6 +1414,10 @@ COPY ~PlanarItems/items/bolt01.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @4069
 	SAY IDENTIFIED_DESC @4070 
 	
+COPY ~PlanarItems/resources/qdbolt1.spl~ ~override~ //enrage
+ 	 ~PlanarItems/resources/qdbolt1a.eff~ ~override~ //shell effect (seeing double)
+ 	 ~PlanarItems/resources/qdbolt1a.spl~ ~override~ //shell spell (seeing double)
+
 //Bolts of Kessek the Devourer
 COPY ~PlanarItems/items/bolt09.itm~ ~override~ 
 	SAY NAME1 @4071
@@ -1295,13 +1433,21 @@ COPY ~PlanarItems/resources/qdbolt9.spl~ ~override~  //summon invis creature on 
 	 ~PlanarItems/resources/qdbolt9_.eff~ ~override~ //2 stunning damage 
 	 ~PlanarItems/resources/qdbolt9.cre~ ~override~  //invisible creature for on death effect 
 
+COPY ~PlanarItems/resources/qdbolt9b.spl~ ~override~ //damage
+ 	 ~PlanarItems/resources/qdbolt9a.eff~ ~override~ //shell effect (seeing double)
+ 	 ~PlanarItems/resources/qdbolt9a.spl~ ~override~ //shell spell (seeing double)
+
 //Bolts of Whistling Doom 
 COPY ~PlanarItems/items/bolt05.itm~ ~override~ 
 	SAY NAME1 @4075
 	SAY NAME2 @4076
 	SAY UNIDENTIFIED_DESC @4077
 	SAY IDENTIFIED_DESC @4078 
-	
+
+COPY ~PlanarItems/resources/qdbolt5.spl~ ~override~ //damage/buffet
+ 	 ~PlanarItems/resources/qdbolt5a.eff~ ~override~ //shell effect (seeing double)
+ 	 ~PlanarItems/resources/qdbolt5a.spl~ ~override~ //shell spell (seeing double)
+
 //Bolts of Wincing
 COPY ~PlanarItems/items/bolt06.itm~ ~override~ 
 	SAY NAME1 @4079
@@ -1315,6 +1461,10 @@ COPY ~PlanarItems/items/bolt08.itm~ ~override~
 	SAY NAME2 @4083
 	SAY UNIDENTIFIED_DESC @4084
 	SAY IDENTIFIED_DESC @4084 
+
+COPY ~PlanarItems/resources/qdbolt8.spl~ ~override~ //damage
+ 	 ~PlanarItems/resources/qdbolt8a.eff~ ~override~ //shell effect (seeing double)
+ 	 ~PlanarItems/resources/qdbolt8a.spl~ ~override~ //shell spell (seeing double)
 
 //Winged Bolts
 COPY ~PlanarItems/items/bolt07.itm~ ~override~ 
@@ -1436,37 +1586,9 @@ COPY ~PlanarItems/items/lens13.itm~ ~override~
 //                                             
 //---------------------------------------------
 
-//Adder's Tear [ADDRTEAR] - unchanged 
-/*
-//Bandages
-COPY ~PlanarItems/items/bandage.itm~ ~override~ 
-	SAY NAME1 @5000
-	SAY NAME2 @5000
-	SAY UNIDENTIFIED_DESC @5001
-	SAY IDENTIFIED_DESC @5001
 
-//Blood Charm 
-COPY ~PlanarItems/items/bloochrm.itm~ ~override~ 
-	SAY NAME1 @5002
-	SAY NAME2 @5002
-	SAY UNIDENTIFIED_DESC @5003
-	SAY IDENTIFIED_DESC @5003
 
-//Bloodfly Charm 
-COPY ~PlanarItems/items/bloodfly.itm~ ~override~ 
-	SAY NAME1 @5004
-	SAY NAME2 @5004
-	SAY UNIDENTIFIED_DESC @5005
-	SAY IDENTIFIED_DESC @5005
-	
-//Bone Charm 
-COPY ~PlanarItems/items/bloochrm.itm~ ~override~ 
-	SAY NAME1 @5002
-	SAY NAME2 @5002
-	SAY UNIDENTIFIED_DESC @5003
-	SAY IDENTIFIED_DESC @5003
-*/
-	
+
 //---------------------------------------------
 //                                             
 //				RESTORED ITEMS                 
@@ -2167,6 +2289,14 @@ COPY ~PlanarItems/items/ttjoin.itm~ ~override~
 	SAY IDENTIFIED_DESC @6055
 	WRITE_LONG 0x34 1000 
 	
+COPY ~PlanarItems/resources/qdttjoi.eff~ ~override~ //subeffect 
+
+COPY ~PlanarItems/resources/qdttjoi.spl~ ~override~ //subeffect
+ 	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftg%~
+	END
+
 //Tattoo of Spite
 COPY ~PlanarItems/items/ttspite.itm~ ~override~ 
 	SAY NAME1 @6056
@@ -2174,7 +2304,9 @@ COPY ~PlanarItems/items/ttspite.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @6057
 	SAY IDENTIFIED_DESC @6057
 	WRITE_LONG 0x34 1000 
-	
+
+COPY ~PlanarItems/resources/qdttspt.spl~ ~override~ //-1 AC 
+
 //Tattoo of Grosuk's Demise
 COPY ~PlanarItems/items/ttgrosuk.itm~ ~override~ 
 	SAY NAME1 @6058
@@ -2266,9 +2398,21 @@ COPY ~PlanarItems/new/qdttban.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @6079
 	SAY IDENTIFIED_DESC @6079
 	WRITE_LONG 0x34 1000 
-	
+
 COPY ~PlanarItems/resources/qdttban.spl~ ~override~ //fiend check
 	 ~PlanarItems/resources/qdttban+.spl~ ~override~ //kill (on fiend) 
+
+// Tattoo of the Shadows
+COPY ~PlanarItems/items/ttshadow.itm~ ~override~ 
+	SAY NAME1 @6080
+	SAY NAME2 @6080
+	SAY UNIDENTIFIED_DESC @6081
+	SAY IDENTIFIED_DESC @6081
+	WRITE_LONG 0x34 1000 
+	
+COPY ~PlanarItems/resources/qdttshad.spl~ ~override~ //invis for 30s
+	 ~PlanarItems/resources/qdttshad.eff~ ~override~ //apply subspell
+	 ~PlanarItems/resources/qdttshd_.spl~ ~override~ //reset tattoo out of combat
 
 //---------------------------------------------
 //                                             
@@ -2352,6 +2496,10 @@ COPY ~PlanarItems/items/tttw.itm~ ~override~
 	WRITE_LONG 0x34 2500 
 
 COPY ~PlanarItems/resources/qdtttw.spl~ ~override~ //aura: +2 thaco, saves, imm: morale
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftg%~
+	END
 
 //Tattoo of the Philosopher 
 COPY ~PlanarItems/items/ttucirc.itm~ ~override~ 
@@ -2360,8 +2508,6 @@ COPY ~PlanarItems/items/ttucirc.itm~ ~override~
 	SAY UNIDENTIFIED_DESC @7017
 	SAY IDENTIFIED_DESC @7017 
 	WRITE_LONG 0x34 2500 
-
-COPY ~PlanarItems/resources/qdtucrc.spl~ ~override~ //aura: blessed
 
 //Tattoo of the Hierophant <Power of Belief>
 ACTION_IF (FILE_EXISTS_IN_GAME ~qdttpr2.itm~) THEN BEGIN 
@@ -2375,10 +2521,66 @@ ACTION_IF (FILE_EXISTS_IN_GAME ~qdttpr2.itm~) THEN BEGIN
 	COPY ~PlanarItems/resources/qdttpr.eff~ ~override~ //refresh L1 slot (mage)
 END 
 
+//Tattoo of the Planeswalker <Avernus>
+COPY ~PlanarItems/items/ttavern.itm~ ~override~ 
+	SAY NAME1 @7020
+	SAY NAME2 @7020
+	SAY UNIDENTIFIED_DESC @7021
+	SAY IDENTIFIED_DESC @7021 
+	WRITE_LONG 0x34 2500 
+
+COPY ~PlanarItems/resources/qdttpw.spl~ ~override~ //Dimensional Hop 
+	SAY NAME1 @7022
+	SAY UNIDENTIFIED_DESC @7023
+
+//Tattoo of the Consort <Ravel's Kiss> 
+COPY ~PlanarItems/items/ttrkiss.itm~ ~override~ 
+	SAY NAME1 @7024
+	SAY NAME2 @7024
+	SAY UNIDENTIFIED_DESC @7025
+	SAY IDENTIFIED_DESC @7025
+	WRITE_LONG 0x34 2500 
+
+COPY ~PlanarItems/resources/qdtthc.spl~ ~override~ //curse aura: -2 to save/thaco to nearby enemies
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftb%~
+	END
+
+//Tattoo of the Exile <Ravel>
+COPY ~PlanarItems/items/ttravel.itm~ ~override~ 
+	SAY NAME1 @7026
+	SAY NAME2 @7026
+	SAY UNIDENTIFIED_DESC @7027
+	SAY IDENTIFIED_DESC @7027
+	WRITE_LONG 0x34 2500 
+
+COPY ~PlanarItems/resources/qdttex.spl~ ~override~ //25% movement speed multiplier
+
+//Tattoo of the Gallant <Silver Tongue>
+COPY ~PlanarItems/items/ttsilver.itm~ ~override~ 
+	SAY NAME1 @7028
+	SAY NAME2 @7028
+	SAY UNIDENTIFIED_DESC @7029
+	SAY IDENTIFIED_DESC @7029
+	WRITE_LONG 0x34 2500 
+
+//Tattoo of the Devourer <Devouring Vermin>
+/*COPY ~PlanarItems/items/ttdv.itm~ ~override~ 
+	SAY NAME1 @7020
+	SAY NAME2 @7020
+	SAY UNIDENTIFIED_DESC @7021
+	SAY IDENTIFIED_DESC @7021 
+	WRITE_LONG 0x34 2500 
+
+COPY ~PlanarItems/resources/qdttpw.spl~ ~override~ //Dimensional Hop 
+	SAY NAME1 @7022
+	SAY UNIDENTIFIED_DESC @7023
+*/
+
 //Update Fell's shop with additional triggers
 COPY_EXISTING ~fell.sto~ ~override~ 
 	REMOVE_STORE_ITEM ~ttac2~ 
-	REMOVE_STORE_ITEM ~ttavern~ 
 	REMOVE_STORE_ITEM ~ttbbcall~ 
 	REMOVE_STORE_ITEM ~ttbbmaze~ 
 	REMOVE_STORE_ITEM ~ttbonesi~ 
@@ -2392,12 +2594,9 @@ COPY_EXISTING ~fell.sto~ ~override~
 	REMOVE_STORE_ITEM ~ttint2~ 
 	REMOVE_STORE_ITEM ~ttmage1~ 
 	REMOVE_STORE_ITEM ~ttmaxhp2~ 
-	REMOVE_STORE_ITEM ~ttravel~ 
-	REMOVE_STORE_ITEM ~ttrkiss~ 
 	REMOVE_STORE_ITEM ~ttsens2~ 
 	REMOVE_STORE_ITEM ~ttshadow~ 
 	REMOVE_STORE_ITEM ~ttshatlo~ 
-	REMOVE_STORE_ITEM ~ttsilver~ 
 	REMOVE_STORE_ITEM ~ttstr2~ 
 	REMOVE_STORE_ITEM ~ttthf1~ 
 	REMOVE_STORE_ITEM ~tttrist~ 
@@ -2412,6 +2611,7 @@ COPY_EXISTING ~fell.sto~ ~override~
 	ADD_STORE_ITEM ~qdttbrs~ #0 #0 #0 ~IDENTIFIED~ #1  
 	ADD_STORE_ITEM ~qdttbox~ #0 #0 #0 ~IDENTIFIED~ #1  
 	ADD_STORE_ITEM ~qdttban~ #0 #0 #0 ~IDENTIFIED~ #1  
+	ADD_STORE_ITEM ~ttshadow~ #0 #0 #0 ~IDENTIFIED~ #1
 	
 //handling the variable checks for special tattoos
 COPY_EXISTING ~fell.sto~ ~override~
@@ -2451,7 +2651,1025 @@ COPY_EXISTING ~fell.sto~ ~override~
 		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~qdttban~) BEGIN 
 			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~Global("FedEx","GLOBAL",10)~)
 		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~ttravel~) BEGIN 
+			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~GlobalGT("Ravel", "GLOBAL", 0) Global("AR1900_Visited","GLOBAL",1) Dead("CBoss")~)
+		END 
+		PATCH_IF (~%itmres%~ STRING_EQUAL_CASE ~ttucirc~) BEGIN 
+			WRITE_LONG (tt_off + 0x1c) RESOLVE_STR_REF(~GlobalGT("Dakkon_Teach","GLOBAL",18)~)
+		END 
 	END 
 
 
+//---------------------------------------------
+//                                             
+//	  			      SPELLS               
+//                                             
+//---------------------------------------------
+//BEGIN @1 
 
+//COPY_EXISTING ~aclue.itm~ ~override/qd_planar_items_spells.qd~ //check file for this component 
+
+//Spell Projectiles 
+
+//Call Lightning 
+ADD_PROJECTILE ~PlanarItems/resources/qdpr301.pro~ ~override~ //call lightning - enemies only
+
+//Chromatic Orb
+ADD_PROJECTILE ~PlanarItems/resources/qdwi101.pro~ ~override~ //chromatic orb - no attack roll
+
+//Missile of Patience
+ADD_PROJECTILE ~PlanarItems/resources/qdwi113.pro~ ~override~ //missile of patience
+
+//Seeking Flames
+ADD_PROJECTILE ~PlanarItems/resources/qdwi117.pro~ ~override~ //seeking flames 60 ft aoe
+
+//Ice Knife
+ADD_PROJECTILE ~PlanarItems/resources/qdwi207.pro~ ~override~ //icicle - 10 ft enemy AoE 
+
+//Ball Lightning (base)
+ADD_PROJECTILE ~PlanarItems/resources/qdwi301a.pro~ ~override~ //ball lightning, first projectile
+
+ADD_PROJECTILE ~PlanarItems/resources/qdwi301b.pro~ ~override~ //ball lightning, second projectile
+
+//Elysium's Tears
+ADD_PROJECTILE ~PlanarItems/resources/qdwi305.pro~ ~override~ //elysium's tears - 10 ft enemy AoE with comet 
+
+//Force Missiles (AoE)
+ADD_PROJECTILE ~PlanarItems/resources/qdwi405.pro~ ~override~ //force missiles - 30 feet radius enemy AoE 
+
+//Force Missiles (missile)
+ADD_PROJECTILE ~PlanarItems/resources/qdwi405a.pro~ ~override~ //force missiles - single missile
+
+//Updating Force Missiles to use the correct missile projectile
+COPY_EXISTING ~qdwi405.pro~ ~override~ 
+	WRITE_SHORT 0x21a ~%qdwi405a%~
+
+//Fire and Ice (Fire)
+ADD_PROJECTILE ~PlanarItems/resources/qdwi506f.pro~ ~override~ //fni - fireball
+
+//Fire and Ice (Ice)
+ADD_PROJECTILE ~PlanarItems/resources/qdwi506i.pro~ ~override~ //fni - iceball
+
+//Antimagic Shell
+ADD_PROJECTILE ~PlanarItems/resources/qd10ftg.pro~ ~override~ //10 ft party AoE 
+
+//Howl of Pandemonium (AoE)
+ADD_PROJECTILE ~PlanarItems/resources/qdwi603.pro~ ~override~ //howl of pandemonium - 60 feet radius enemy AoE 
+
+//Howl of Pandemonium (missile)
+ADD_PROJECTILE ~PlanarItems/resources/qdwi603a.pro~ ~override~ //howl of pandemonium - single missile
+
+//Updating Howl of Pandemonium to use the correct missile projectile
+COPY_EXISTING ~qdwi603.pro~ ~override~ 
+	WRITE_SHORT 0x21a ~%qdwi603a%~
+
+//Lightning Storm (AoE)
+ADD_PROJECTILE ~PlanarItems/resources/qdwi604.pro~ ~override~ //lightning storm - 90 ft radius
+
+
+
+//Blessing
+COPY ~PlanarItems/spells/sppr101.spl~ ~override~ 
+	SAY NAME1 @10000
+	SAY UNIDENTIFIED_DESC @10001
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftg%~
+	END
+
+//Cure Light Wounds
+COPY ~PlanarItems/spells/sppr102.spl~ ~override~ 
+	SAY NAME1 @10002
+	SAY UNIDENTIFIED_DESC @10003
+
+COPY ~PlanarItems/resources/qdpr102.spl~ ~override~ //default: 1d8+1 
+ 	 ~PlanarItems/resources/qdpr102a.eff~ ~override~ //shell effect for caster check
+ 	 ~PlanarItems/resources/qdpr102a.spl~ ~override~ //shell spell for caster check
+ 	 ~PlanarItems/resources/qdpr102h.spl~ ~override~ //healer: 9 
+
+//Curse
+COPY ~PlanarItems/spells/sppr103.spl~ ~override~ 
+	SAY NAME1 @10004
+	SAY UNIDENTIFIED_DESC @10005
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftb%~
+	END
+
+//Detect Evil
+COPY ~PlanarItems/spells/sppr104.spl~ ~override~ 
+	SAY NAME1 @10006
+	SAY UNIDENTIFIED_DESC @10007
+
+//Halo of Lesser Revelation
+COPY ~PlanarItems/spells/sppr105.spl~ ~override~ 
+	SAY NAME1 @10008
+	SAY UNIDENTIFIED_DESC @10009
+
+//Protection
+COPY ~PlanarItems/spells/sppr106.spl~ ~override~ 
+	SAY NAME1 @10010
+	SAY UNIDENTIFIED_DESC @10011
+
+//Aid
+COPY ~PlanarItems/spells/sppr201.spl~ ~override~ 
+	SAY NAME1 @10012
+	SAY UNIDENTIFIED_DESC @10013
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftg%~
+	END
+
+//Cure Moderate Wounds
+COPY ~PlanarItems/spells/sppr202.spl~ ~override~ 
+	SAY NAME1 @10014
+	SAY UNIDENTIFIED_DESC @10015
+
+COPY ~PlanarItems/resources/qdpr202.spl~ ~override~ //default: 3d8+3 
+ 	 ~PlanarItems/resources/qdpr202a.eff~ ~override~ //shell effect for caster check
+ 	 ~PlanarItems/resources/qdpr202a.spl~ ~override~ //shell spell for caster check
+ 	 ~PlanarItems/resources/qdpr202h.spl~ ~override~ //healer: 27
+
+//Spiritual Hammer
+COPY ~PlanarItems/spells/sppr204.spl~ ~override~ 
+	SAY NAME1 @10016
+	SAY UNIDENTIFIED_DESC @10017
+
+COPY ~PlanarItems/resources/qdpr204.eff~ ~override~ //apply qdpr204.spl
+	 ~PlanarItems/resources/qdpr204.spl~ ~override~ //animation and damage
+
+//Call Lightning
+COPY ~PlanarItems/spells/sppr301.spl~ ~override~ 
+	SAY NAME1 @10018
+	SAY UNIDENTIFIED_DESC @10019
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qdpr301%~
+	END
+
+COPY ~PlanarItems/resources/qdpr301.spl~ ~override~ //default: 5d12 lightning (save for half)
+ 	 ~PlanarItems/resources/qdpr301a.eff~ ~override~ //shell effect for caster check
+ 	 ~PlanarItems/resources/qdpr301a.spl~ ~override~ //shell spell for caster check
+ 	 ~PlanarItems/resources/qdpr301p.spl~ ~override~ //pyro: 5d12 fire damage (save for half)
+
+//Flamewalk
+COPY ~PlanarItems/spells/sppr302.spl~ ~override~ 
+	SAY NAME1 @10020
+	SAY UNIDENTIFIED_DESC @10021
+
+//Prayer
+COPY ~PlanarItems/spells/sppr303.spl~ ~override~ 
+	SAY NAME1 @10022
+	SAY UNIDENTIFIED_DESC @10023
+
+COPY ~PlanarItems/resources/qdpr303g.spl~ ~override~ //good prayer
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftg%~
+	END
+
+COPY ~PlanarItems/resources/qdpr303b.spl~ ~override~ //bad prayer
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftb%~
+	END
+
+//Speak with Dead
+COPY ~PlanarItems/spells/sppr304.spl~ ~override~ 
+	SAY NAME1 @10024
+	SAY UNIDENTIFIED_DESC @10025
+
+//Remove Curse
+COPY ~PlanarItems/spells/sppr307.spl~ ~override~ 
+	SAY NAME1 @10026
+	SAY UNIDENTIFIED_DESC @10027
+
+//Cure Serious Wounds
+COPY ~PlanarItems/spells/sppr401.spl~ ~override~ 
+	SAY NAME1 @10028
+	SAY UNIDENTIFIED_DESC @10029
+
+COPY ~PlanarItems/resources/qdpr401.spl~ ~override~ //default: 5d8+5
+ 	 ~PlanarItems/resources/qdpr401a.eff~ ~override~ //shell effect for caster check
+ 	 ~PlanarItems/resources/qdpr401a.spl~ ~override~ //shell spell for caster check
+ 	 ~PlanarItems/resources/qdpr401h.spl~ ~override~ //healer: 45 
+
+//Cure Critical Wounds
+COPY ~PlanarItems/spells/sppr501.spl~ ~override~ 
+	SAY NAME1 @10030
+	SAY UNIDENTIFIED_DESC @10031
+
+COPY ~PlanarItems/resources/qdpr401.spl~ ~override~ //default: 7d8+7
+ 	 ~PlanarItems/resources/qdpr401a.eff~ ~override~ //shell effect for caster check
+ 	 ~PlanarItems/resources/qdpr401a.spl~ ~override~ //shell spell for caster check
+ 	 ~PlanarItems/resources/qdpr401h.spl~ ~override~ //healer: 63 
+
+//Raise Dead
+COPY ~PlanarItems/spells/sppr502.spl~ ~override~ 
+	SAY NAME1 @10032
+	SAY UNIDENTIFIED_DESC @10033
+
+//Heal
+COPY ~PlanarItems/spells/sppr601.spl~ ~override~ 
+	SAY NAME1 @10034
+	SAY UNIDENTIFIED_DESC @10035
+
+//Chromatic Orb
+COPY ~PlanarItems/spells/spwi101.spl~ ~override~ 
+	SAY NAME1 @10038
+	SAY UNIDENTIFIED_DESC @10039
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qdwi101%~
+	END 
+
+COPY ~PlanarItems/resources/qdwi101.spl~ ~override~ //default: 1d6 a/c/e/f damage
+ 	 ~PlanarItems/resources/qdwi101a.eff~ ~override~ //shell effect for caster check
+ 	 ~PlanarItems/resources/qdwi101a.spl~ ~override~ //shell spell for caster check
+ 	 ~PlanarItems/resources/qdwi101p.spl~ ~override~ //pyro: 4d6 fire damage
+
+//Armor -> Mage Armor
+COPY ~PlanarItems/spells/spwi102.spl~ ~override~ 
+	SAY NAME1 @10040
+	SAY UNIDENTIFIED_DESC @10041
+
+//Minor Embalming -> Embalm
+COPY ~PlanarItems/spells/spwi103.spl~ ~override~ 
+	SAY NAME1 @10042
+	SAY UNIDENTIFIED_DESC @10043
+
+COPY ~PlanarItems/resources/qdwi103a.spl~ ~override~ //base effects
+	 ~PlanarItems/resources/qdwi103b.eff~ ~override~ //dustmen embalming check
+	 ~PlanarItems/resources/qdwi103b.spl~ ~override~ //phys resistance
+
+//Fist of Iron -> Enchant Weapon
+COPY ~PlanarItems/spells/spwi104.spl~ ~override~ 
+	SAY NAME1 @10044
+	SAY UNIDENTIFIED_DESC @10045
+
+COPY ~PlanarItems/resources/qdwi104a.eff~ ~override~ //Scripture of Steel check
+
+COPY ~PlanarItems/resources/qdwi104a.spl~ ~override~ //Scripture of Steel upgrade
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftg%~
+	END
+
+//Identify
+COPY ~PlanarItems/spells/spwi105.spl~ ~override~ 
+	SAY NAME1 @10046
+	SAY UNIDENTIFIED_DESC @10047
+
+//Magic Missile
+COPY ~PlanarItems/spells/spwi107.spl~ ~override~ 
+	SAY NAME1 @10048
+	SAY UNIDENTIFIED_DESC @10049
+
+//Pacify
+COPY ~PlanarItems/spells/spwi108.spl~ ~override~ 
+	SAY NAME1 @10050
+	SAY UNIDENTIFIED_DESC @10051
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftb%~
+	END
+
+COPY ~PlanarItems/resources/spwi108a.spl~ ~override~  //end spell on damage
+
+//Shield
+COPY ~PlanarItems/spells/spwi111.spl~ ~override~ 
+	SAY NAME1 @10052
+	SAY UNIDENTIFIED_DESC @10053
+
+COPY ~PlanarItems/resources/qdwi111a.eff~ ~override~ //Submerge the Will check
+	 ~PlanarItems/resources/qdwi111a.spl~ ~override~ //Submerge the Will upgrade
+
+//Missile of Patience
+COPY ~PlanarItems/spells/spwi113.spl~ ~override~ 
+	SAY NAME1 @10054
+	SAY UNIDENTIFIED_DESC @10055
+
+COPY ~PlanarItems/resources/qdwi113.spl~ ~override~ //actual spell
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qdwi113%~
+	END
+
+//Friends
+COPY ~PlanarItems/spells/spwi114.spl~ ~override~ 
+	SAY NAME1 @10056
+	SAY UNIDENTIFIED_DESC @10057
+
+//Blindness
+COPY ~PlanarItems/spells/spwi115.spl~ ~override~ 
+	SAY NAME1 @10058
+	SAY UNIDENTIFIED_DESC @10059
+
+COPY ~PlanarItems/resources/qdwi115a.eff~ ~override~ //Vilquar's Eye check
+	 ~PlanarItems/resources/qdwi115a.spl~ ~override~ //Vilquar's Eye upgrade
+
+//Seeking Flames
+COPY ~PlanarItems/spells/spwi117.spl~ ~override~ 
+	SAY NAME1 @10036
+	SAY UNIDENTIFIED_DESC @10037
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qdwi117%~
+	END
+
+COPY ~PlanarItems/resources/qdwi117.eff~ ~override~  //1d4 fire damage 
+
+//Adder's Kiss
+COPY ~PlanarItems/spells/spwi201.spl~ ~override~ 
+	SAY NAME1 @10060
+	SAY UNIDENTIFIED_DESC @10061
+
+COPY ~PlanarItems/resources/qdwi201.spl~ ~override~ //default: 1d8+1 acid damage
+ 	 ~PlanarItems/resources/qdwi201a.eff~ ~override~ //shell effect for caster check
+ 	 ~PlanarItems/resources/qdwi201a.spl~ ~override~ //shell spell for caster check
+ 	 ~PlanarItems/resources/qdwi201p.spl~ ~override~ //pyro: 1d8+1 fire damage
+
+//Black-barbed Curse
+COPY ~PlanarItems/spells/spwi202.spl~ ~override~ 
+	SAY NAME1 @10062
+	SAY UNIDENTIFIED_DESC @10063
+
+//Blood Bridge
+COPY ~PlanarItems/spells/spwi204.spl~ ~override~ 
+	SAY NAME1 @10064
+	SAY UNIDENTIFIED_DESC @10065
+
+//Ice Knife 
+COPY ~PlanarItems/spells/spwi207.spl~ ~override~ 
+	SAY NAME1 @10066
+	SAY UNIDENTIFIED_DESC @10067	
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qdwi207%~
+	END 
+
+COPY ~PlanarItems/resources/qdwi207.spl~ ~override~ //default: 3d4 cold damage
+ 	 ~PlanarItems/resources/qdwi207a.eff~ ~override~ //shell effect for caster check
+ 	 ~PlanarItems/resources/qdwi207a.spl~ ~override~ //shell spell for caster check
+ 	 ~PlanarItems/resources/qdwi207p.spl~ ~override~ //pyro: 3d4 fire damage
+
+//Pain Mirror
+COPY ~PlanarItems/spells/spwi209.spl~ ~override~ 
+	SAY NAME1 @10068
+	SAY UNIDENTIFIED_DESC @10069
+
+COPY ~PlanarItems/resources/qdwi209.spl~ ~override~  //BiAT check
+	 ~PlanarItems/resources/qdwi209a.spl~ ~override~  //1d6 s/c/p damage (Balance in All Things)
+	 ~PlanarItems/resources/qdwi209b.spl~ ~override~  //1d6 slashing damage
+
+//Strength
+COPY ~PlanarItems/spells/spwi211.spl~ ~override~ 
+	SAY NAME1 @10070
+	SAY UNIDENTIFIED_DESC @10071
+
+COPY ~PlanarItems/resources/qdwi211a.eff~ ~override~ //Power of One check
+	 ~PlanarItems/resources/qdwi211a.spl~ ~override~ //Power of One upgrade
+
+//Swarm Curse
+COPY ~PlanarItems/spells/spwi212.spl~ ~override~ 
+	SAY NAME1 @10072
+	SAY UNIDENTIFIED_DESC @10073
+
+//Horror
+COPY ~PlanarItems/spells/spwi213.spl~ ~override~ 
+	SAY NAME1 @10074
+	SAY UNIDENTIFIED_DESC @10075	
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftb%~
+	END
+
+//Luck
+COPY ~PlanarItems/spells/spwi214.spl~ ~override~ 
+	SAY NAME1 @10076
+	SAY UNIDENTIFIED_DESC @10077	
+
+//Knock
+COPY ~PlanarItems/spells/spwi215.spl~ ~override~ 
+	SAY NAME1 @10078
+	SAY UNIDENTIFIED_DESC @10079	
+
+//Blur -> Accelerate
+COPY ~PlanarItems/spells/spwi216.spl~ ~override~ 
+	SAY NAME1 @10080
+	SAY UNIDENTIFIED_DESC @10081	
+
+//Ball Lightning
+COPY ~PlanarItems/spells/spwi301.spl~ ~override~ 
+	SAY NAME1 @10082
+	SAY UNIDENTIFIED_DESC @10083
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qdwi301b%~
+	END	
+
+COPY ~PlanarItems/resources/qdwi301.spl~ ~override~ //default: 3d12 lightning damage
+ 	 ~PlanarItems/resources/qdwi301a.eff~ ~override~ //shell effect for caster check
+ 	 ~PlanarItems/resources/qdwi301a.spl~ ~override~ //shell spell for caster check
+ 	 ~PlanarItems/resources/qdwi301p.spl~ ~override~ //pyro: 3d12 fire damage
+
+//Cloak of Warding
+COPY ~PlanarItems/spells/spwi304.spl~ ~override~ 
+	SAY NAME1 @10084
+	SAY UNIDENTIFIED_DESC @10085	
+
+//Elysium's Tears
+COPY ~PlanarItems/spells/spwi305.spl~ ~override~ 
+	SAY NAME1 @10086
+	SAY UNIDENTIFIED_DESC @10087	
+
+COPY ~PlanarItems/resources/qdwi305b.spl~ ~override~ //subspell to call meteor
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qdwi305%~
+	END
+
+//Hold Undead -> Hold Creature
+COPY ~PlanarItems/spells/spwi307.spl~ ~override~ 
+	SAY NAME1 @10088
+	SAY UNIDENTIFIED_DESC @10089	
+
+//Tasha's Derisive Laughter
+COPY ~PlanarItems/spells/spwi308.spl~ ~override~ 
+	SAY NAME1 @10090
+	SAY UNIDENTIFIED_DESC @10091	
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftb%~
+	END
+
+//Vampiric Touch
+COPY ~PlanarItems/spells/spwi309.spl~ ~override~ 
+	SAY NAME1 @10092
+	SAY UNIDENTIFIED_DESC @10093
+
+//Ax of Torment
+COPY ~PlanarItems/spells/spwi310.spl~ ~override~ 
+	SAY NAME1 @10094
+	SAY UNIDENTIFIED_DESC @10095
+
+COPY ~PlanarItems/resources/qdwi310.spl~ ~override~ //1d8+1 slashing 
+ 	 ~PlanarItems/resources/qdwi310a.eff~ ~override~ //shell effect
+ 	 ~PlanarItems/resources/qdwi310a.spl~ ~override~ //shell spell for save
+
+//Zerthimon's Focus
+COPY ~PlanarItems/spells/spwi311.spl~ ~override~ 
+	SAY NAME1 @10096
+	SAY UNIDENTIFIED_DESC @10097
+
+//Blacksphere
+COPY ~PlanarItems/spells/spwi401.spl~ ~override~ 
+	SAY NAME1 @10098
+	SAY UNIDENTIFIED_DESC @10099	
+
+COPY ~PlanarItems/resources/qdwi401g.spl~ ~override~ //main effects
+ 	 ~PlanarItems/resources/qdwi401b.spl~ ~override~ //magic resist / save check
+
+//Confusion
+COPY ~PlanarItems/spells/spwi402.spl~ ~override~ 
+	SAY NAME1 @10100
+	SAY UNIDENTIFIED_DESC @10101	
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftb%~
+	END
+
+//Force Missiles
+COPY ~PlanarItems/spells/spwi405.spl~ ~override~ 
+	SAY NAME1 @10102
+	SAY UNIDENTIFIED_DESC @10103
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qdwi405%~
+	END	
+
+//Improved Strength -> Planar Transformation
+COPY ~PlanarItems/spells/spwi406.spl~ ~override~ 
+	SAY NAME1 @10104
+	SAY UNIDENTIFIED_DESC @10105	
+
+//Shroud of Shadows
+COPY ~PlanarItems/spells/spwi408.spl~ ~override~ 
+	SAY NAME1 @10106
+	SAY UNIDENTIFIED_DESC @10107	
+
+//Remove Curse
+COPY ~PlanarItems/spells/spwi409.spl~ ~override~ 
+	SAY NAME1 @10108
+	SAY UNIDENTIFIED_DESC @10109	
+
+//Cloudkill
+COPY ~PlanarItems/spells/spwi501.spl~ ~override~ 
+	SAY NAME1 @10110
+	SAY UNIDENTIFIED_DESC @10111
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftb%~
+	END	
+
+COPY ~PlanarItems/resources/qdwi501.spl~ ~override~ //slay / acid damage
+ 	 ~PlanarItems/resources/qdwi501a.eff~ ~override~ //shell effect
+ 	 ~PlanarItems/resources/qdwi501a.spl~ ~override~ //shell spell for save
+ 	 ~PlanarItems/resources/qdwi501p.spl~ ~override~ //slay / fire damage 
+
+//Cone of Cold
+COPY ~PlanarItems/spells/spwi502.spl~ ~override~ 
+	SAY NAME1 @10112
+	SAY UNIDENTIFIED_DESC @10113
+
+COPY ~PlanarItems/resources/qdwi502.spl~ ~override~ //cold damage
+ 	 ~PlanarItems/resources/qdwi502a.eff~ ~override~ //shell effect
+ 	 ~PlanarItems/resources/qdwi502a.spl~ ~override~ //shell spell for save
+ 	 ~PlanarItems/resources/qdwi502p.spl~ ~override~ //fire damage 
+
+//Enoll Eva's Duplication
+COPY ~PlanarItems/spells/spwi504.spl~ ~override~ 
+	SAY NAME1 @10114
+	SAY UNIDENTIFIED_DESC @10115
+
+//Desert Hell -> Hellish Mirage
+COPY ~PlanarItems/spells/spwi505.spl~ ~override~ 
+	SAY NAME1 @10116
+	SAY UNIDENTIFIED_DESC @10117
+
+COPY ~PlanarItems/resources/qdwi505.spl~ ~override~ //stunning damage
+ 	 ~PlanarItems/resources/qdwi505.eff~ ~override~ //shell effect
+ 	 ~PlanarItems/resources/qdwi505a.spl~ ~override~ //shell spell for save	
+
+//Fire and Ice
+COPY ~PlanarItems/spells/spwi506.spl~ ~override~ 
+	SAY NAME1 @10118
+	SAY UNIDENTIFIED_DESC @10119
+
+COPY ~PlanarItems/resources/qdwi506f.spl~ ~override~ //subspell for fireball
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qdwi506f%~
+	END
+
+COPY ~PlanarItems/resources/qdwi506i.spl~ ~override~ //subspell for iceball
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qdwi506i%~
+	END
+
+COPY ~PlanarItems/resources/qdwi506.spl~ ~override~ //cold damage for iceball
+ 	 ~PlanarItems/resources/qdwi506a.eff~ ~override~ //shell effect
+ 	 ~PlanarItems/resources/qdwi506a.spl~ ~override~ //shell spell for save
+ 	 ~PlanarItems/resources/qdwi506p.spl~ ~override~ //fire damage for iceball
+
+//Antimagic Shell
+COPY ~PlanarItems/spells/spwi601.spl~ ~override~ 
+	SAY NAME1 @10120
+	SAY UNIDENTIFIED_DESC @10121
+
+//Globe of Invulnerability
+COPY ~PlanarItems/spells/spwi602.spl~ ~override~ 
+	SAY NAME1 @10122
+	SAY UNIDENTIFIED_DESC @10123
+
+COPY ~PlanarItems/resources/qdwi602.bam~ ~override~ //overlay (taken from S062GLOB.bam)
+ 	 ~PlanarItems/resources/qdwi602.eff~ ~override~ //shell effect
+
+COPY ~PlanarItems/resources/qdwi602.spl~ ~override~ //subspell for globe protections
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd10ftg%~
+	END
+
+//Howl of Pandemonium
+COPY ~PlanarItems/spells/spwi603.spl~ ~override~ 
+	SAY NAME1 @10124
+	SAY UNIDENTIFIED_DESC @10125
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qdwi603%~
+	END
+
+//Chain Lightning Storm -> Lightning Storm
+COPY ~PlanarItems/spells/spwi604.spl~ ~override~ 
+	SAY NAME1 @10126
+	SAY UNIDENTIFIED_DESC @10127
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qdwi604%~
+	END
+
+COPY ~PlanarItems/resources/qdwi604.spl~ ~override~ //lightning damage
+ 	 ~PlanarItems/resources/qdwi604a.eff~ ~override~ //shell effect
+ 	 ~PlanarItems/resources/qdwi604a.spl~ ~override~ //shell spell for save
+ 	 ~PlanarItems/resources/qdwi604p.spl~ ~override~ //fire damage 
+
+//Acid Storm
+COPY ~PlanarItems/spells/spwi701.spl~ ~override~ 
+	SAY NAME1 @10128
+	SAY UNIDENTIFIED_DESC @10129
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftb%~
+	END
+
+COPY ~PlanarItems/resources/qdwi701.spl~ ~override~ //acid damage
+ 	 ~PlanarItems/resources/qdwi701a.eff~ ~override~ //shell effect
+ 	 ~PlanarItems/resources/qdwi701a.spl~ ~override~ //shell spell
+ 	 ~PlanarItems/resources/qdwi701p.spl~ ~override~ //fire damage 
+
+//Bladestorm
+COPY ~PlanarItems/spells/spwi702.spl~ ~override~ 
+	SAY NAME1 @10130
+	SAY UNIDENTIFIED_DESC @10131
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftb%~
+	END
+
+COPY ~PlanarItems/resources/qdwi702.eff~ ~override~ //13d8 slashing damage
+
+//Guardian Mantle
+COPY ~PlanarItems/spells/spwi704.spl~ ~override~ 
+	SAY NAME1 @10132
+	SAY UNIDENTIFIED_DESC @10133
+
+//Stygian Ice Storm -> Flash Freeze
+COPY ~PlanarItems/spells/spwi705.spl~ ~override~ 
+	SAY NAME1 @10134
+	SAY UNIDENTIFIED_DESC @10135
+
+//Meteor Storm Bombardment -> Meteor Shower 
+COPY ~PlanarItems/spells/spwi802.spl~ ~override~ 
+	SAY NAME1 @10136
+	SAY UNIDENTIFIED_DESC @10137
+
+//Deathbolt
+COPY ~PlanarItems/spells/spwi803.spl~ ~override~ 
+	SAY NAME1 @10138
+	SAY UNIDENTIFIED_DESC @10139
+
+//[To-Do: Ignus' Fury]
+/*
+COPY ~PlanarItems/spells/spwi804.spl~ ~override~ 
+	SAY NAME1 @10140
+	SAY UNIDENTIFIED_DESC @10141
+*/ 
+
+//Power Word: Blind
+COPY ~PlanarItems/spells/spwi805.spl~ ~override~ 
+	SAY NAME1 @10142
+	SAY UNIDENTIFIED_DESC @10143
+	LPF ALTER_SPELL_HEADER 
+		INT_VAR 
+			projectile = ~%qd60ftb%~
+	END
+
+//Mechanus Cannon
+COPY ~PlanarItems/spells/spwi807.spl~ ~override~ 
+	SAY NAME1 @10144
+	SAY UNIDENTIFIED_DESC @10145
+
+COPY ~PlanarItems/resources/qdwi807.spl~ ~override~ //electricity damage
+ 	 ~PlanarItems/resources/qdwi807a.eff~ ~override~ //shell effect
+ 	 ~PlanarItems/resources/qdwi807a.spl~ ~override~ //shell spell
+ 	 ~PlanarItems/resources/qdwi807p.spl~ ~override~ //fire damage 
+
+//Celestial Host
+COPY ~PlanarItems/spells/spwi901.spl~ ~override~ 
+	SAY NAME1 @10146
+	SAY UNIDENTIFIED_DESC @10147
+
+COPY ~PlanarItems/resources/qdwi901a.eff~ ~override~ //crushing damage
+ 	 ~PlanarItems/resources/qdwi901b.eff~ ~override~ //fire damage
+ 	 ~PlanarItems/resources/qdwi901c.eff~ ~override~ //missile damage
+ 	 ~PlanarItems/resources/qdwi901d.eff~ ~override~ //magic damage 
+
+//Conflagration
+COPY ~PlanarItems/spells/spwi902.spl~ ~override~ 
+	SAY NAME1 @10148
+	SAY UNIDENTIFIED_DESC @10149
+
+COPY ~PlanarItems/resources/qdwi902.eff~ ~override~ //fire damage
+
+//Elysium's Fires
+COPY ~PlanarItems/spells/spwi905.spl~ ~override~ 
+	SAY NAME1 @10150
+	SAY UNIDENTIFIED_DESC @10151
+
+//Power Word: Kill
+COPY ~PlanarItems/spells/spwi909.spl~ ~override~ 
+	SAY NAME1 @10152
+	SAY UNIDENTIFIED_DESC @10153
+
+//Abyssal Fury
+COPY ~PlanarItems/spells/spwi912.spl~ ~override~ 
+	SAY NAME1 @10154
+	SAY UNIDENTIFIED_DESC @10155
+
+COPY ~PlanarItems/resources/qdwi912.spl~ ~override~ //maze effect and delayed damage
+
+//Rune of Torment
+COPY ~PlanarItems/spells/spwi914.spl~ ~override~ 
+	SAY NAME1 @10156
+	SAY UNIDENTIFIED_DESC @10157
+
+// Removing Greater Embalming scrolls 
+COPY_EXISTING ~emoric.sto~ ~override~ 
+	REMOVE_STORE_ITEM ~spwi205~ 
+
+COPY_EXISTING ~AR0702.are~ ~override~ 
+	LPF REPLACE_AREA_ITEM
+		STR_VAR 
+			old_item = ~spwi205~
+			new_item = ~spwi103~ 
+	END 
+
+// Tome of Bone and Ash (Dustmen Embalming Techniques)
+COPY ~PlanarItems/items/tomeba.itm~ ~override~ 
+	SAY NAME1 @8034
+	SAY NAME2 @8034
+	SAY UNIDENTIFIED_DESC @8035
+	SAY IDENTIFIED_DESC @8035
+
+//Give Dak'kon his initial spell upgrades and replace reworked spells
+COPY_EXISTING ~dakkon.cre~ ~override~ 
+			  ~dakkoneg.cre~ ~override~ 
+			  ~dakkonf.cre~ ~override~ 
+	// submerge the will
+	LPF ADD_CRE_EFFECT 
+		INT_VAR 
+			opcode = 328 
+			target = 1 
+			timing = 9
+			parameter2 = 48 
+			special = 1 
+	END 
+	// scripture of steel
+	LPF ADD_CRE_EFFECT 
+		INT_VAR 
+			opcode = 328 
+			target = 1 
+			timing = 9
+			parameter2 = 49 
+			special = 1 
+	END 
+	// vilquar's eye 
+	LPF ADD_CRE_EFFECT 
+		INT_VAR 
+			opcode = 328 
+			target = 1 
+			timing = 9
+			parameter2 = 50 
+			special = 1 
+	END 
+	// power of one 
+	LPF ADD_CRE_EFFECT 
+		INT_VAR 
+			opcode = 328 
+			target = 1 
+			timing = 9
+			parameter2 = 51  
+			special = 1 
+	END 
+	// remove original spells 
+	REMOVE_KNOWN_SPELL ~spwi119~ ~spwi121~ ~spwi219~ ~spwi118~ ~spwi120~ 
+	REMOVE_MEMORIZED_SPELL ~spwi119~ ~spwi121~ ~spwi211~ ~spwi118~ ~spwi120~ 
+	ADD_KNOWN_SPELL ~spwi104~ #0 ~wizard~
+	ADD_KNOWN_SPELL ~spwi107~ #0 ~wizard~
+	ADD_KNOWN_SPELL ~spwi111~ #0 ~wizard~
+	ADD_KNOWN_SPELL ~spwi115~ #0 ~wizard~
+	ADD_KNOWN_SPELL ~spwi211~ #1 ~wizard~
+	ADD_MEMORIZED_SPELL ~spwi111~ #0 ~wizard~ (1) 
+	ADD_MEMORIZED_SPELL ~spwi107~ #0 ~wizard~ (1) 
+	ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ (2) 
+	
+COPY_EXISTING ~ignus.cre~ ~override~ 
+			  ~ignuseg.cre~ ~override~ 
+			  ~ignusf.cre~ ~override~ 
+	// pyromancer 
+	LPF ADD_CRE_EFFECT 
+		INT_VAR 
+			opcode = 328 
+			target = 1 
+			timing = 9
+			parameter2 = 47 
+			special = 1 
+	END 
+	REMOVE_KNOWN_SPELL ~spwi116~ ~spwi217~ ~spwi218~ ~spwi312~ ~spwi313~ ~spwi410~ 
+	REMOVE_MEMORIZED_SPELL ~spwi117~ ~spwi116~ ~spwi217~ ~spwi218~ ~spwi312~ ~spwi313~ ~spwi410~ 
+	ADD_KNOWN_SPELL ~spwi101~ #0 ~wizard~
+	ADD_KNOWN_SPELL ~spwi107~ #0 ~wizard~
+	ADD_KNOWN_SPELL ~spwi201~ #1 ~wizard~
+	ADD_KNOWN_SPELL ~spwi207~ #1 ~wizard~
+	ADD_KNOWN_SPELL ~spwi213~ #1 ~wizard~
+	ADD_KNOWN_SPELL ~spwi301~ #2 ~wizard~
+	ADD_KNOWN_SPELL ~spwi305~ #2 ~wizard~
+	ADD_KNOWN_SPELL ~spwi405~ #3 ~wizard~
+
+//joinable ignus
+COPY_EXISTING ~ignus.cre~ ~override~ 
+			  ~ignuseg.cre~ ~override~ 
+	ADD_MEMORIZED_SPELL ~spwi101~ #0 ~wizard~ (2) 
+	ADD_MEMORIZED_SPELL ~spwi107~ #0 ~wizard~ (1) 
+	ADD_MEMORIZED_SPELL ~spwi117~ #0 ~wizard~ (1)
+	ADD_MEMORIZED_SPELL ~spwi201~ #1 ~wizard~ (1)
+	ADD_MEMORIZED_SPELL ~spwi207~ #1 ~wizard~ (1)
+	ADD_MEMORIZED_SPELL ~spwi213~ #1 ~wizard~ (1)
+	ADD_MEMORIZED_SPELL ~spwi301~ #2 ~wizard~ (1)
+	ADD_MEMORIZED_SPELL ~spwi305~ #2 ~wizard~ (1)
+	ADD_MEMORIZED_SPELL ~spwi405~ #3 ~wizard~ (1)
+
+//reflection ignus 
+COPY_EXISTING ~ignusf.cre~ ~override~ 
+	ADD_MEMORIZED_SPELL ~spwi101~ #0 ~wizard~ (5) 
+	ADD_MEMORIZED_SPELL ~spwi107~ #0 ~wizard~ (5) 
+	ADD_MEMORIZED_SPELL ~spwi117~ #0 ~wizard~ (5)
+	ADD_MEMORIZED_SPELL ~spwi201~ #1 ~wizard~ (5)
+	ADD_MEMORIZED_SPELL ~spwi207~ #1 ~wizard~ (5)
+	ADD_MEMORIZED_SPELL ~spwi213~ #1 ~wizard~ (5)
+	ADD_MEMORIZED_SPELL ~spwi301~ #2 ~wizard~ (5)
+	ADD_MEMORIZED_SPELL ~spwi305~ #2 ~wizard~ (5)
+	ADD_MEMORIZED_SPELL ~spwi405~ #3 ~wizard~ (5)
+
+//Duplicating spells for script/cre purposes 
+COPY_EXISTING ~spwi107.spl~ ~override/spwi116.spl~ // tongues of flame -> magic missile 
+			  ~spwi107.spl~ ~override/spwi121.spl~ // reign of anger -> magic missile  
+			  ~spwi104.spl~ ~override/spwi118.spl~ // scripture of steel -> enchant weapon 
+			  ~spwi115.spl~ ~override/spwi120.spl~ // vilquar's eye -> blindness 
+			  ~spwi103.spl~ ~override/spwi205.spl~ // greater embalming -> embalm
+			  ~spwi213.spl~ ~override/spwi217.spl~ // ignus' terror -> horror 
+			  ~spwi101.spl~ ~override/spwi218.spl~ // infernal orb -> chromatic orb
+			  ~spwi211.spl~ ~override/spwi219.spl~ // power of one -> strength 
+			  ~spwi304.spl~ ~override/spwi312.spl~ // infernal shield -> claok of warding 
+			  ~spwi305.spl~ ~override/spwi313.spl~ // fiery rain -> elysium's tears 
+			  ~spwi209.spl~ ~override/spwi314.spl~ // balance in all things -> pain mirror 
+			  ~spwi405.spl~ ~override/spwi410.spl~ // elemental strike -> force missiles 
+
+// Script updates for changed spell targeting -> no significant issues at present time 
+
+// Updates to Consumables that cast spells 
+
+//Dustman Embalming Charm 
+COPY_EXISTING ~embchrm.itm~ ~override~ 
+	SAY IDENTIFIED_DESC @5004 
+	
+//Divine Censer 
+COPY_EXISTING ~imalive.itm~ ~override~ 
+	SAY IDENTIFIED_DESC @5006
+
+//Whispering FLask
+COPY ~PlanarItems/items/spice.itm~ ~override~ 
+	SAY NAME1 @5007
+	SAY NAME2 @5007
+	SAY UNIDENTIFIED_DESC @5008
+	SAY IDENTIFIED_DESC @5008
+
+//Black-barbed Seed
+COPY_EXISTING ~bbseed.itm~ ~override~ 
+	SAY IDENTIFIED_DESC @5010
+
+//Rune of Lesser Warding
+COPY_EXISTING ~breast1.itm~ ~override~ 
+	SAY IDENTIFIED_DESC @5011
+
+//Rune of Armor
+COPY_EXISTING ~breast2.itm~ ~override~ 
+	SAY IDENTIFIED_DESC @5012
+
+//Rune of Greater Warding
+COPY_EXISTING ~breast3.itm~ ~override~ 
+	SAY IDENTIFIED_DESC @5013
+
+//Rune of Shielding
+COPY_EXISTING ~breast4.itm~ ~override~ 
+	SAY IDENTIFIED_DESC @5014
+
+//Twisted Gear of Enoll Eva
+COPY ~PlanarItems/items/enoll.itm~ ~override~ 
+	SAY IDENTIFIED_DESC @5015
+
+//Recipe: Chromatic Orb
+COPY ~PlanarItems/items/recipe01.itm~ ~override~ 
+	SAY IDENTIFIED_DESC @5016
+
+//Recipe: Identify
+COPY ~PlanarItems/items/recipe02.itm~ ~override~ 
+	SAY IDENTIFIED_DESC @5017
+
+//Recipe: Blood Bridge
+COPY ~PlanarItems/items/recipe03.itm~ ~override~ 
+	SAY IDENTIFIED_DESC @5018
+
+//Crunchity Candy
+COPY_EXISTING ~c_2102.itm~ ~override~ 
+	SAY IDENTIFIED_DESC @5019
+
+//Update Scrolls and Invoke Items Targeting 
+// Update Descriptions 
+COPY_EXISTING_REGEXP GLOB ~.+\.itm~ ~override~
+	PATCH_IF (~%SOURCE_EXT%~ STRING_EQUAL_CASE ~itm~) BEGIN 
+		SPRINT item_res ~%SOURCE_RES%~ 
+		READ_SHORT 0x1c item_type 
+		READ_STRREF 0x54 itm_desc
+
+		READ_LONG  0x64 ofs_headers
+		READ_SHORT 0x68 num_headers 
+		READ_LONG  0x6a ofs_eff
+
+		SET teaches = 0 
+		SET invokes = 0 
+		
+		PATCH_IF (num_headers > 0) BEGIN 
+			// iterate over headers 
+			FOR (i=0; i < num_headers; ++i) BEGIN
+				READ_SHORT (ofs_headers + i*0x38 + 0x1e) num_eff 
+				READ_SHORT (ofs_headers + i*0x38 + 0x20) ind_eff 
+
+				//iterate over effects of each header 
+				FOR (j=ind_eff; j < ind_eff+num_eff; ++j) BEGIN
+					READ_SHORT (ofs_eff + j*0x30 + 0x00) eff_opcode 
+
+					// identify location of cast spell effects
+					PATCH_IF ((eff_opcode = 146) OR (eff_opcode = 148)) BEGIN
+						SET invokes = 1 
+						//identify spell that is being cast 
+						READ_ASCII (ofs_eff + j*0x30 + 0x14) spell 
+						PATCH_IF (FILE_EXISTS_IN_GAME ~%spell%.spl~) BEGIN 
+							INNER_ACTION BEGIN 	
+								COPY_EXISTING ~%spell%.spl~ ~override~ 
+									READ_STRREF 0x08 spl_name 
+									READ_STRREF 0x08 spl_name_upper
+									READ_SHORT  0x1c spl_type
+ 									TO_UPPER spl_name_upper 
+									READ_LONG 0x64 abil_offset
+									READ_BYTE	(abil_offset + 0xc) spl_target
+									READ_SHORT  (abil_offset + 0xe) spl_range
+									READ_SHORT  (abil_offset + 0x10) spl_cast_level
+									READ_STRREF 0x50 spl_desc
+								BUT_ONLY
+							END 
+						END 
+						//Update targeting and range 
+						WRITE_BYTE (ofs_headers + i*0x38 + 0x0c) spl_target
+						WRITE_SHORT (ofs_headers + i*0x38 + 0x0e) spl_range
+
+					
+						WRITE_LONG (ofs_eff + j*0x30 + 0x04) spl_cast_level 
+
+						//Update cast opcode for point vs. actor targeting
+						PATCH_IF (spl_target = 4) BEGIN 
+							WRITE_SHORT (ofs_eff + j*0x30 + 0x00) 148 
+							WRITE_SHORT (ofs_eff + j*0x30 + 0x02) 1 
+						END ELSE BEGIN 
+							WRITE_SHORT (ofs_eff + j*0x30 + 0x00) 146 
+							WRITE_SHORT (ofs_eff + j*0x30 + 0x02) 2
+						END 
+					END
+					PATCH_IF (eff_opcode = 147) BEGIN
+						SET teaches = 1  
+						//identify spell that is being taught 
+						READ_ASCII (ofs_eff + j*0x30 + 0x14) spell 
+						PATCH_IF (FILE_EXISTS_IN_GAME ~%spell%.spl~) BEGIN 
+							INNER_ACTION BEGIN 	
+								COPY_EXISTING ~%spell%.spl~ ~override~ 
+									READ_STRREF 0x08 spl_name 
+									READ_STRREF 0x08 spl_name_upper
+									READ_SHORT  0x1c spl_type
+ 									TO_UPPER spl_name_upper 
+									READ_LONG 0x64 abil_offset
+									READ_BYTE	(abil_offset + 0xc) spl_target
+									READ_SHORT  (abil_offset + 0xe) spl_range
+									READ_SHORT  (abil_offset + 0x10) spl_cast_level
+									READ_STRREF 0x50 spl_desc
+								BUT_ONLY
+							END 
+						END 
+					END 
+				END 
+			END 
+		END 
+
+		// Update Scroll Descriptions (matching itm/spl res and type 11)
+		PATCH_IF ((~%item_res%~ STRING_EQUAL_CASE ~%spell%~) AND (item_type = 11)) BEGIN 
+			//mage scrolls teach and invoke 
+			PATCH_IF (spl_type = 1) BEGIN 
+				SAY NAME2 @5000
+				SAY IDENTIFIED_DESC @5001
+			END
+			//priest scrolls don't teach
+			PATCH_IF (spl_type = 2) BEGIN 
+				SAY NAME2 @5000
+				SAY IDENTIFIED_DESC @5002 
+			END 
+		END ELSE BEGIN 
+			//Add spell info to other items 
+			//Updated items base descriptions prior to this function 
+			PATCH_IF ((teaches = 1) OR (invokes = 1)) BEGIN 
+				SAY IDENTIFIED_DESC @5009
+			END 
+		END  
+
+	END 
+BUT_ONLY

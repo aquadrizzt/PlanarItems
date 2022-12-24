@@ -1,0 +1,177 @@
+21  --	     // unused, instant hit (hardcoded)
+23  --	     // chromatic orb - used by spwi101.spl (hardcoded)
+24  --		 // do not use - crash (hardcoded)
+25  --		 // do not use - crash (hardcoded)
+38  --		 // adder's kiss - special spell hit (spwi201.spl) (hardcoded)
+44  -- 		 // unused, instant hit (hardcoded)
+59  ghost    // howl of pandemonium ghost - used by spwi603.spl
+61  stormbld // blade storm blade - used by spwi702.spl <unsure about this one>
+65  -- 		 // unused, instant hit (hardcoded)
+66  -- 		 // unused, instant hit (hardcoded)
+67  -- 		 // unused, instant hit (hardcoded)
+68  -- 		 // unused, instant hit (x2) (hardcoded)
+69  -- 		 // unused, instant hit (x3) (hardcoded)
+70  -- 		 // unused, instant hit (x4) (hardcoded)
+71  -- 		 // unused, instant hit (x5) (hardcoded)
+72  -- 		 // unused, instant hit (x6) (hardcoded)
+73  -- 		 // unused, instant hit (x7) (hardcoded)
+74  -- 		 // unused, instant hit (x8) (hardcoded)
+75  -- 		 // unused, instant hit (x9) (hardcoded)
+76 	-- 		 // unused, instant hit (x10) (hardcoded)
+77 	-- 		 // unused, instant hit (x11) (hardcoded)
+78  -- 		 // invisible traveling projectile (explosion projectile of sppr105.pro, spwi108.pro) (hardcoded)
+80  -- 		 // unused, instant hit, prevents save/rest (hardcoded)
+81  -- 		 // unused, instant hit, prevents save/rest (hardcoded)
+82  -- 		 // unused, instant hit, prevents save/rest (hardcoded)
+83  -- 		 // unused, instant hit, prevents save/rest (hardcoded)
+84  -- 		 // unused, instant hit, prevents save/rest (hardcoded)
+85  -- 		 // unused, instant hit, prevents save/rest (hardcoded)
+86  -- 		 // unused, instant hit, prevents save/rest (hardcoded)
+87  -- 		 // unused, instant hit, prevents save/rest (hardcoded)
+88  -- 		 // unused, instant hit, prevents save/rest (hardcoded)
+89  -- 		 // unused, instant hit, prevents save/rest (hardcoded)
+90  -- 		 // unused, instant hit, prevents save/rest (hardcoded)
+96  -- 		 // unused, instant hit, medium radius around target (hardcoded)
+109 -- 		 // unused, instant hit (hardcoded)
+118 -- 		 // unused, instant hit (hardcoded)
+119 -- 		 // unused, instant hit (hardcoded)
+120 -- 		 // unused, instant hit (hardcoded)
+121 -- 		 // unused, instant hit (hardcoded)
+122 -- 		 // unused, instant hit (hardcoded)
+123 -- 		 // unused, instant hit (hardcoded)
+124 -- 		 // unused, instant hit (hardcoded)
+125 -- 		 // unused, instant hit (hardcoded)
+126 -- 		 // unused, instant hit (hardcoded)
+127 -- 		 // unused, instant hit (hardcoded)
+128 -- 		 // unused, instant hit (hardcoded)
+129 -- 		 // unused, instant hit (hardcoded)
+130 -- 		 // unused, instant hit (hardcoded)
+131 -- 		 // unused, instant hit (hardcoded)
+132 -- 		 // unused, instant hit (hardcoded)
+133 -- 		 // unused, instant hit (hardcoded)
+134 -- 		 // unused, instant hit (hardcoded)
+135 -- 		 // unused, instant hit (hardcoded)
+136 -- 		 // unused, instant hit (hardcoded)
+137 -- 		 // unused, instant hit (hardcoded)
+138 -- 		 // unused, instant hit (hardcoded)
+139 -- 		 // unused, instant hit (hardcoded)
+140 -- 		 // unused, instant hit (hardcoded)
+141 -- 		 // unused, instant hit (hardcoded)
+142 -- 		 // unused, no ally/neutral hit, prevents save/rest (hardcoded)
+143 -- 		 // unused, no ally/neutral hit, prevents save/rest (hardcoded)
+144 -- 		 // unused, no ally/neutral hit, prevents save/rest (hardcoded)
+145 -- 		 // unused, instant hit (hardcoded)
+146 -- 		 // unused, instant hit (hardcoded)
+147 -- 		 // unused, instant hit (hardcoded)
+188 -- 		 // delayed hit, then hits everyone in area (hardcoded)
+189 ntoken   // hold person - used by ntoken.itm
+190 -- 		 // do not use - crash (hardcoded)
+194 -- 		 // unused, instant hit (hardcoded)
+195 -- 		 // unused, instant hit (hardcoded)
+196 -- 		 // unused, instant hit (hardcoded)
+197 -- 		 // unused, instant hit (hardcoded)
+198 -- 		 // unused, instant hit (hardcoded)
+199 -- 		 // unused, instant hit (hardcoded)
+200 -- 		 // unused, instant hit (hardcoded)
+201 -- 		 // unused, instant hit (hardcoded)
+202 -- 		 // unused, instant hit (hardcoded)
+203 --		 // litany of curses - used by spin101.spl (hardcoded)
+204 --		 // stories-bones-tell/speak with dead - used by spin103.spl, sppr304.spl (hardcoded)
+205 magicmis // magic missiles 1 - used by spwi107.spl
+206 spwi107  // magic missiles 2 - used by spwi107.spl
+207 spwi107  // magic missiles 3 - used by spwi107.spl
+208 spwi107  // magic missiles 4 - used by spwi107.spl
+209 spwi107  // magic missiles 5 - used by spwi107.spl
+210 spwi107  // magic missiles 6 - unused
+211 spwi107  // magic missiles 7 - unused
+212 spwi107  // magic missiles 8 - unused
+213 spwi107  // magic missiles 9 - unused
+214 spwi107  // magic missiles 10 - unused
+215 --		 // skull mob - used by spin102.spl (hardcoded)
+216 -- 		 // do not use - crash (hardcoded)
+217 --		 // swarm curse (spwi212), 9' radius (rest of series starts at 290) (hardcoded)
+218 --		 // swarm curse arrow - used by swarm curse (hardcoded)
+219 --       // originally adder's kiss, unused
+220 --		 // ice knife - used by spwi207.spl (hardcoded)
+221 --		 // pacify - used by spwi108.spl (hardcoded)
+222 --		 // strength - used by spwi211.spl (hardcoded)
+223 --		 // ball of lightning - used by spwi301 (hardcoded)
+224 --		 // ball of lightning sphere - used by spwi301 (hardcoded)
+225 --		 // blood bridge - used by spwi204.spl (hardcoded)
+226 --		 // force missiles - used by spwi405.spl (hardcoded)
+227 --		 // improved strength - used by spwi406.spl (hardcoded)
+228 --		 // shroud of shadows - used by spwi408.spl (hardcoded)
+229 --		 // cloudkill - used by spwi501.spl (hardcoded)
+230 --		 // howl of pandemonium - used by spwi603.spl (hardcoded)
+231 --		 // blade storm - used by spwi702.spl (hardcoded)
+232 --		 // elysium's fires - used by spwi905.spl (hardcoded)
+233 --		 // abyssal fury - used by spwi912.spl (hardcoded)
+234 --		 // horror - used by spwi213.spl (hardcoded)
+235 --		 // knock - used by spwi215.spl (hardcoded)
+236 --		 // hold undead - used by spwi307.spl (hardcoded)
+237 --		 // missile of patience - used by spwi113.spl (hardcoded)
+238 --		 // elysium's tears - used by spwi305.spl (hardcoded)
+239 --		 // tasha's unbearable derisive laughter - used by spwi308.spl (hardcoded)
+240 --		 // axe of torment - used by spwi310.spl (hardcoded)
+241 --		 // blacksphere - unused, originally used by spwi401.spl (hardcoded)
+242 --		 // cone of cold - used by spwi502.spl (hardcoded)
+243 --		 // desert hell - used by spwi505.spl (hardcoded)
+244 --		 // fire and ice - used by spwi506.spl (hardcoded)
+245 --		 // chain lightning storm - used by spwi604.spl (hardcoded)
+246 --		 // acid storm - used by spwi701.spl (hardcoded)
+247 --		 // stygian ice storm - used by spwi705.spl (hardcoded)
+248 --		 // meteor storm bombardment - used by spwi802.spl (hardcoded)
+249 --		 // deathbolt - used by spwi803.spl (hardcoded)
+250 --		 // ignus' fury - used by spwi804.spl (hardcoded)
+251 --		 // pw blind - used by spwi805.spl (hardcoded)
+252 --		 // mechanus' cannon - used by spwi807.spl (hardcoded)
+253 --		 // celestial host - used by spwi901.spl (hardcoded)
+254 --		 // rune of torment - unused, originally used by spwi914.spl (hardcoded)
+255 --	     // blessing - used by sppr101.spl, spwi118.spl (hardcoded)
+256 --		 // curse - used by sppr103.spl, spwi117.spl (hardcoded)
+257 --       // originally detect evil, unused
+258 --		 // halo of lesser revelation - used by sppr105.spl (hardcoded)
+259 --		 // spritual hammer - used by sppr204.spl (hardcoded)
+260 --		 // call lightning - used by sppr301.spl (hardcoded)
+261 --       // originally soul exodus, unused
+262 --		 // vampiric touch - used by spwi309.spl (hardcoded)
+263 --		 // confusion - used by spwi402.spl (hardcoded)
+264 --		 // pw kill - used by spwi909.spl (hardcoded)
+265 --		 // globe of invulnerability - used by spwi602.spl (hardcoded)
+266 bolt01   // nordom's crossbow bolts - used by bolt01.itm through bolt09.itm, nordbolt.itm
+267 --		 // raise dead - used by sppr502.spl, spin108.spl (hardcoded)
+268 --		 // aura of fear - used by spin106.spl (hardcoded)
+269 --		 // conflagration - used by spwi902.spl (hardcoded)
+270 spwi001  // special trap - used by spwi001.spl
+271 ignusfi  // ignus' fireball - used by ignusfi.itm
+272 imiss    // tongues of flame 1 - used by spwi116.spl
+273 spwi116  // tongues of flame 2 - used by spwi116.spl
+274 spwi116  // tongues of flame 3 - used by spwi116.spl
+275 spwi116  // tongues of flame 4 - used by spwi116.spl
+276 spwi116  // tongues of flame 5 - used by spwi116.spl
+277 --		 // ignus' terror - used by spwi217.spl (hardcoded)
+278 --		 // infernal orb - used by spwi218.spl (hardcoded)
+279 --		 // fiery rain - used by spwi313.spl (hardcoded)
+280 --		 // elemental strike - used by spwi410.spl (hardcoded)
+281 amiss    // reign of anger 1 - used by spwi121.spl
+282 spwi121  // reign of anger 2 - used by spwi121.spl
+283 spwi121  // reign of anger 3 - used by spwi121.spl
+284 spwi121  // reign of anger 4 - used by spwi121.spl
+285 spwi121  // reign of anger 5 - used by spwi121.spl
+286 --		 // power of one - used by spwi219.spl (hardcoded)
+287 --		 // kiss - used by spin107.spl (hardcoded)
+288 --		 // embalming - used by spwi103.spl, spwi205.spl (hardcoded)
+289 spwi305b // elysium tears meteor - used by spwi305
+290 spwi002  // special trap - used by spwi002.spl
+291 spwi003  // special trap - used by spwi003.spl
+292 spwi004  // special trap - used by spwi004.spl
+293 spwi005  // special trap - used by spwi005.spl
+294 spwi006  // special trap - used by spwi006.spl
+295 spwi007  // special trap - used by spwi007.spl
+296 spwi008  // special trap - used by spwi008.spl
+297 spwi009  // special trap - used by spwi009.spl
+298 spwi010  // special trap - used by spwi010.spl
+299 --		 // rune of torment - used by spwi914.spl (hardcoded)
+300 --		 // blacksphere - used by spwi401.spl (hardcoded)
+455 --		 // prayer - used by sppr303.spl (via prayerg.spl)
+456 --		 // prayer - used by sppr303.spl (via prayerb.spl)
