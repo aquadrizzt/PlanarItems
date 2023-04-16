@@ -1,6 +1,6 @@
 BACKUP ~PlanarItems/backup~
 AUTHOR ~aquadrizzt@gmail.com~
-VERSION ~0.6~ 
+VERSION ~0.4~ 
 
 /* Language Settings */
 AUTO_TRA ~PlanarItems/tra/%s~
@@ -1053,26 +1053,26 @@ END
 
 //Black-barbed Wand
 COPY ~PlanarItems/items/bbwand.itm~ ~override~ 
-	SAY NAME1 @3090
-	SAY NAME2 @3091
-	SAY UNIDENTIFIED_DESC @3092
-	SAY IDENTIFIED_DESC @3093
+	SAY NAME1 @3095
+	SAY NAME2 @3096
+	SAY UNIDENTIFIED_DESC @3097
+	SAY IDENTIFIED_DESC @3098
 	
 //Shamanic Rod
 COPY ~PlanarItems/items/shaman.itm~ ~override~ 
-	SAY NAME1 @3094
-	SAY NAME2 @3095
-	SAY UNIDENTIFIED_DESC @3096
-	SAY IDENTIFIED_DESC @3097
+	SAY NAME1 @3099
+	SAY NAME2 @3100
+	SAY UNIDENTIFIED_DESC @3101
+	SAY IDENTIFIED_DESC @3102
 	
 COPY ~PlanarItems/resources/qdshaman.spl~ ~override~ 
 
 //Clasp of Embalming (Greater Dustman Charm of Embalming)
 COPY ~PlanarItems/items/embchrm2.itm~ ~override~ 
-	SAY NAME1 @3098
-	SAY NAME2 @3098
-	SAY UNIDENTIFIED_DESC @3099
-	SAY IDENTIFIED_DESC @3099
+	SAY NAME1 @3103
+	SAY NAME2 @3103
+	SAY UNIDENTIFIED_DESC @3104
+	SAY IDENTIFIED_DESC @3104
 
 //---------------------------------------------
 //                                             
