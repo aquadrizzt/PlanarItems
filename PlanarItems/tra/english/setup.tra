@@ -1,4 +1,4 @@
-@0000= ~Spell and Items Revisions for PSTEE~ 
+@0000= ~Revised Items~ 
 @0001 = ~Revised Spells~ 
 @0100 = ~Blunt~ 
 @0101 = ~Edged~ 
@@ -2442,14 +2442,14 @@ This ivory ring was part of Deionarra's legacy, and through some unknown means, 
 
 Among the many secrets of the Society of Sensation is the ability to shape a peculiar stone from Elysium, dubbed "soulstone." While this stone is not as powerful as the sensory stones, the soul stone is said to carry an imprint of the shaper's feelings. These rings are often used in Sensate marriage ceremonies, each ring inscribed with the feelings of the other. This ring was obviously intended for you.~ 
 
-@3090 = ~Black-Barbed Branch~ 
-@3091 = ~Black-Barbed Wand~ 
-@3092 = ~BLACK-BARBED BRANCH 
+@3095 = ~Black-Barbed Branch~ 
+@3096 = ~Black-Barbed Wand~ 
+@3097 = ~BLACK-BARBED BRANCH 
 Weight: 1
 
 This twisted branch is actually composed of three black branches that have grown tightly around each other. The branches look much like the ones in Ravel's maze, but the branches have none of the black barbs that covered the trees in her maze.~ 
 
-@3093 = ~BLACK-BARBED WAND 
+@3098 = ~BLACK-BARBED WAND 
 Damage: 2-8 Piercing 
 Enchanted: +3
 Special: 
@@ -2465,13 +2465,13 @@ This twisted branch is actually composed of three black branches that have grown
 
 This black-barbed branch is a wand forged from the trees in Ravel's maze and endowed with a fraction of her magical power. By calling on the power within the wand, the wielder may cause a series of black brambles to rip from the earth around a target and enfold them in their constricting embrace.~ 
 
-@3094 = ~Claw~ 
-@3095 = ~Shamanic Rod~ 
-@3096 = ~CLAW
+@3099 = ~Claw~ 
+@3100 = ~Shamanic Rod~ 
+@3101 = ~CLAW
 Weight: 1
 
 This is the foot of some large bird. More than likely this was discarded from someone's dinner.~
-@3097 = ~SHAMANIC ROD 
+@3102 = ~SHAMANIC ROD 
 Damage: 2-5 Magic 
 Enchanted: +3
 Special: 
@@ -2484,8 +2484,8 @@ Usable only by Mages
 
 This is the severed foot of some large bird. For whatever reason, someone has enchanted it, making it capable of casting a minor variant of the spell "Magic Missile".~
 
-@3098 = ~Clasp of Embalming~ 
-@3099 = ~CLASP OF EMBALMING 
+@3103 = ~Clasp of Embalming~ 
+@3104 = ~CLASP OF EMBALMING 
 Special: 
    +1 to Armor Class
    +8 Maximum Hit Points
@@ -2834,7 +2834,7 @@ These are Fall-from-Grace's earrings. They give her a slight amount of protectio
 @4037 = ~Fall-from-Grace's Touch~ 
 @4038 = ~FALL-FROM-GRACE'S TOUCH 
 Damage: None (see below) 
-Enchanted: +1
+Enchanted: +3
 Special: 
    No Strength Bonus to Damage
    Transfers 1d3 Hit Points of Damage
