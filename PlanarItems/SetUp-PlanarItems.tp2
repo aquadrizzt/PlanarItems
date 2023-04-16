@@ -2965,8 +2965,9 @@ COPY ~PlanarItems/spells/spwi115.spl~ ~override~
 	SAY NAME1 @10058
 	SAY UNIDENTIFIED_DESC @10059
 
-COPY ~PlanarItems/resources/qdwi115a.eff~ ~override~ //Vilquar's Eye check
-	 ~PlanarItems/resources/qdwi115a.spl~ ~override~ //Vilquar's Eye upgrade
+COPY ~PlanarItems/resources/qdwi115a.eff~ ~override~ //Vilquar's Eye check eff
+	 ~PlanarItems/resources/qdwi115a.spl~ ~override~ //Vilquar's Eye check spl
+	 ~PlanarItems/resources/qdwi115b.spl~ ~override~ //Vilquar's Eye upgrade
 
 //Seeking Flames
 COPY ~PlanarItems/spells/spwi117.spl~ ~override~ 
@@ -3027,8 +3028,9 @@ COPY ~PlanarItems/spells/spwi211.spl~ ~override~
 	SAY NAME1 @10070
 	SAY UNIDENTIFIED_DESC @10071
 
-COPY ~PlanarItems/resources/qdwi211a.eff~ ~override~ //Power of One check
-	 ~PlanarItems/resources/qdwi211a.spl~ ~override~ //Power of One upgrade
+COPY ~PlanarItems/resources/qdwi211a.eff~ ~override~ //Power of One check eff
+	 ~PlanarItems/resources/qdwi211a.spl~ ~override~ //Power of One check spl
+	 ~PlanarItems/resources/qdwi211b.spl~ ~override~ //Power of One upgrade
 
 //Swarm Curse
 COPY ~PlanarItems/spells/spwi212.spl~ ~override~ 
